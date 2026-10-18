@@ -1,0 +1,2031 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unit 5 Revision | Prep 2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Fredoka:wght@400;600&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--primary:#ff9f43;--secondary:#00b894;--accent:#54a0ff;--dark:#222f3e;--bg:#f7f1e3;--danger:#ff6b6b}
+*{box-sizing:border-box;margin:0;padding:0;font-family:'Nunito','Cairo',sans-serif}body{background:var(--bg);background-image:radial-gradient(#00d2d3 1px,transparent 1px);background-size:20px 20px;color:var(--dark);min-height:100vh;display:flex;flex-direction:column;align-items:center}header{background:#fff;width:100%;padding:20px;text-align:center;box-shadow:0 4px 15px #0001;border-bottom:5px solid var(--primary)}h1{color:#00a8a8;font-family:Fredoka,sans-serif;font-size:2.2rem;text-shadow:2px 2px 0 #222f3e;margin-bottom:5px}h2{color:var(--primary);font-size:1.1rem}.container{width:95%;max-width:850px;margin:20px auto;background:white;border-radius:20px;box-shadow:0 10px 25px #0001;padding:20px;border:3px solid #00d2d3;flex:1}.screen{display:none;animation:fadeIn .4s ease-in-out}.screen.active{display:block}.input-group{margin:20px 0;text-align:center}label{display:block;font-size:1.2rem;margin-bottom:10px;font-weight:bold}input[type=text],input[type=number]{width:80%;padding:14px;font-size:1.1rem;border:3px solid #00d2d3;border-radius:50px;outline:none;text-align:center;background:#f9f9f9}input:focus{border-color:var(--primary);box-shadow:0 0 15px #ff9f434d}.btn{background:var(--primary);color:white;border:0;padding:14px 34px;font-size:1.1rem;border-radius:50px;cursor:pointer;font-weight:bold;box-shadow:0 5px 0 #e58e26;transition:.2s;margin-top:18px;width:100%;max-width:300px}.btn:active{transform:translateY(5px);box-shadow:none}.btn-blue{background:var(--accent);box-shadow:0 5px 0 #2e86de}.btn-whatsapp{background:#25d366;box-shadow:0 5px 0 #128c7e}.nav-tabs{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:20px;padding-top:15px;border-top:2px dashed #eee}.tab-btn{background:#f1f2f6;border:2px solid #dfe4ea;padding:12px 20px;border-radius:15px;cursor:pointer;font-weight:bold;font-size:1.05rem;color:#747d8c;min-width:120px}.tab-btn:hover{background:#fff;border-color:var(--primary);color:var(--primary);transform:translateY(-2px)}.question-card{background:#fff;border:2px solid #f1f2f6;border-left:5px solid var(--accent);padding:18px;margin-bottom:16px;border-radius:15px}.question-text{font-size:1.12rem;font-weight:700;margin-bottom:13px;line-height:1.5}.reading-passage{background:#eef7ff;border:2px solid #b9ddff;border-radius:12px;padding:12px 14px;margin-bottom:12px;color:#24527a;font-size:1rem;line-height:1.65;font-weight:600}.reading-question{background:#fff8e8;border-left:4px solid #ff9f43;border-radius:8px;padding:10px 12px;margin-bottom:13px;color:#9a5b00;font-size:1.08rem;font-weight:700;line-height:1.5}.options-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.option-label{display:flex;align-items:center;background:#f8f9fa;padding:11px;border-radius:10px;border:2px solid #eee;cursor:pointer;font-size:1rem}.option-label:hover{border-color:var(--accent);background:#eef5ff}input[type=radio]{margin-right:10px;width:19px;height:19px;accent-color:var(--primary)}.progress{background:#eee;border-radius:20px;height:12px;margin:10px 0 20px;overflow:hidden}.progress-bar{height:100%;background:var(--secondary);width:0;transition:.3s}.score-circle{width:160px;height:160px;border-radius:50%;background:var(--secondary);color:#fff;display:flex;justify-content:center;align-items:center;font-size:3rem;font-weight:bold;margin:20px auto;border:6px solid #fff;box-shadow:0 0 0 6px var(--secondary)}.message{text-align:center;font-size:1.35rem;color:var(--primary);margin-bottom:25px;font-weight:bold}.report-section{background:#f1f2f6;padding:20px;border-radius:15px;margin-top:20px;text-align:center}.summary{text-align:center;font-weight:bold;color:#555;margin-bottom:8px}.mistakes-section{margin:15px 0;padding:15px;background:#fff5f5;border:2px solid #ffd0d0;border-radius:15px}.mistakes-title{color:#d63031;text-align:center;font-weight:bold;margin-bottom:10px;font-family:Cairo}.mistake-item{padding:9px 0;border-bottom:1px solid #ffdede;line-height:1.5}.mistake-item:last-child{border-bottom:0}.mistake-q{font-weight:bold}.wrong-answer{color:#d63031}.correct-answer{color:#168f62}footer{padding:20px;font-size:1rem;color:#666;text-align:center;font-weight:bold;background:#fff;width:100%;margin-top:20px;border-top:1px solid #eee}.heart{color:red}@keyframes fadeIn{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}@media(max-width:600px){.options-grid{grid-template-columns:1fr}h1{font-size:1.8rem}.score-circle{width:130px;height:130px;font-size:2.5rem}.container{width:100%;border:none;border-radius:0}.tab-btn{width:45%}}
+
+/* ---- additions ---- */
+input[type=tel]{width:80%;padding:14px;font-size:1.1rem;border:3px solid #00d2d3;border-radius:50px;outline:none;text-align:center;background:#f9f9f9}
+.option-label:focus-within{border-color:var(--accent);background:#eef5ff}
+.option-label.selected{border-color:var(--primary);background:#fff4e6}
+.skills-title{text-align:center;font-family:Cairo,sans-serif;font-weight:bold;color:#555;margin:16px 0 8px}
+.skills{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:18px}
+.skill-chip{border:2px solid #dfe4ea;background:#f1f2f6;border-radius:14px;padding:8px 16px;min-width:120px;text-align:center;font-weight:bold}
+.skill-chip small{display:block;font-size:1.05rem;margin-top:2px}
+.skill-chip.good{border-color:#2ed573;background:#eafaf1;color:#168f62}
+.skill-chip.mid{border-color:#ffa502;background:#fff6e5;color:#b36b00}
+.skill-chip.low{border-color:#ff6b6b;background:#fff0f0;color:#d63031}
+.actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:15px}
+.actions .btn{margin-top:0}
+.mistake-item bdi{font-weight:bold}
+@media(prefers-reduced-motion:reduce){.screen{animation:none}.btn,.tab-btn,.progress-bar{transition:none}}
+
+/* ---- additions ---- */
+.options-grid label:last-child:nth-child(odd){grid-column:1/-1}
+/* ---- contact bar ---- */
+.contact-bar{width:100%;background:var(--dark);color:#fff;border-bottom:4px solid var(--primary);padding:10px 12px;display:flex;flex-wrap:wrap;gap:8px 14px;justify-content:center;align-items:center;font-family:'Cairo','Nunito',sans-serif}
+.contact-bar .cb-name{font-family:Fredoka,'Cairo',sans-serif;font-weight:600;font-size:1.05rem;letter-spacing:.3px}
+.contact-bar .cb-links{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.contact-bar a{color:#fff;text-decoration:none;font-weight:bold;font-size:.95rem;padding:6px 16px;border-radius:50px;background:rgba(255,255,255,.14);transition:.2s}
+.contact-bar a:hover{transform:translateY(-2px)}
+.contact-bar a.wa{background:#25d366}
+.contact-bar a.call{background:var(--accent)}
+</style>
+</head>
+<body>
+<div class="contact-bar">
+  <span class="cb-name">Mrs. Eman Koriem</span>
+  <span class="cb-links">
+    <a class="call" href="tel:+201023990505">📞 01023990505</a>
+    <a class="wa" href="https://wa.me/201023990505" target="_blank" rel="noopener" lang="ar" dir="rtl">💬 تواصل عبر الواتس</a>
+  </span>
+</div>
+
+<header><h1>Unit 5 Revision - Prep 2</h1><h2>Vocabulary</h2></header>
+<div class="container">
+
+<section id="welcome-screen" class="screen active">
+  <div class="input-group">
+    <div style="font-size:3rem;margin-bottom:10px">👋</div>
+    <h3 lang="ar" dir="rtl" style="margin-bottom:20px;font-family:Cairo">أهلاً بك يا بطل!</h3>
+    <label for="studentName">Enter Student Name:</label>
+    <input type="text" id="studentName" placeholder="e.g., Ahmed Ali" autocomplete="off">
+  </div>
+  <p lang="ar" dir="rtl" style="text-align:center;color:var(--dark);font-weight:bold;font-family:Cairo;font-size:1.15rem">اختر الموديول لتبدأ الاختبار</p>
+  <div class="nav-tabs" id="model-tabs"></div>
+</section>
+
+<section id="quiz-screen" class="screen">
+  <div style="text-align:center;margin-bottom:15px">
+    <h3 id="model-title" style="color:var(--primary)"></h3>
+    <div id="question-counter" class="summary"></div>
+  </div>
+  <div class="progress"><div id="progress-bar" class="progress-bar"></div></div>
+  <div id="quiz-content"></div>
+  <div style="text-align:center;padding-bottom:20px"><button class="btn" onclick="submitQuiz()">Submit Answers ✅</button></div>
+</section>
+
+<section id="result-screen" class="screen">
+  <div class="score-circle" id="score-display">0/30</div>
+  <div class="message" id="encouragement-msg"></div>
+  <div class="summary" id="result-summary"></div>
+  <div class="skills-title" lang="ar" dir="rtl">مستواك في كل مهارة</div>
+  <div class="skills" id="skills-box"></div>
+  <div id="mistakes-section" class="mistakes-section"></div>
+  <div class="report-section">
+    <h3 lang="ar" dir="rtl" style="margin-bottom:15px;font-family:Cairo">أرسل التقرير للمستر</h3>
+    <div id="teacher-phone-group">
+      <label for="teacherPhone" style="font-size:1rem">Teacher's WhatsApp Number:</label>
+      <input type="tel" id="teacherPhone" placeholder="01xxxxxxxxx" inputmode="numeric" autocomplete="off">
+    </div>
+    <button class="btn btn-whatsapp" onclick="sendWhatsApp()">Send via WhatsApp 💬</button>
+  </div>
+  <div class="actions">
+    <button class="btn" onclick="retryModule()">Retry This Module 🔁</button>
+    <button class="btn btn-blue" onclick="backToModules()">Try Another Module 🔄</button>
+  </div>
+</section>
+
+</div>
+<footer>Made with Love by Mr. Ameen Sharqawy <span class="heart">❤</span></footer>
+
+<script>
+// ============================================================
+//  Settings (تقدر تعدلهم بسهولة)
+// ============================================================
+// Put the teacher's number here (e.g. '01012345678') to hide the phone box from students.
+// Leave it empty '' and the student types it once (it is remembered on that device).
+const TEACHER_PHONE = '';
+const SHUFFLE_QUESTIONS = true;   // random question order every attempt
+const SHUFFLE_OPTIONS   = true;   // random answer order every attempt
+const MAX_MISTAKES_IN_REPORT = 10;
+
+// ============================================================
+//  Questions  (tag = Vocabulary | Grammar | Reading)
+// ============================================================
+const allModels = {
+  "1": [
+    {
+      "q": "A/An “...............” is a group of countries on one large land area.",
+      "options": [
+        "continent",
+        "country",
+        "city",
+        "town"
+      ],
+      "a": "continent",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A “...............” is a cover for the face, often used in celebrations, shows, or for protection.",
+      "options": [
+        "nose",
+        "mask",
+        "tree",
+        "star"
+      ],
+      "a": "mask",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” means something strange or unknown that makes you curious.",
+      "options": [
+        "Small",
+        "Mysterious",
+        "Smart",
+        "Clever"
+      ],
+      "a": "Mysterious",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” is a collection of valuable things like gold, silver, or jewels.",
+      "options": [
+        "Team",
+        "Tea",
+        "Water",
+        "Treasure"
+      ],
+      "a": "Treasure",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” are dead bodies that have been preserved for a long time, especially in ancient Egypt.",
+      "options": [
+        "Pants",
+        "Plants",
+        "Mummies",
+        "Birds"
+      ],
+      "a": "Mummies",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” are small things people buy or keep to remember a place or trip.",
+      "options": [
+        "Chairs",
+        "Tasks",
+        "Desks",
+        "Souvenirs"
+      ],
+      "a": "Souvenirs",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A “...............” is a custom that people do regularly.",
+      "options": [
+        "chair",
+        "tradition",
+        "courage",
+        "bravery"
+      ],
+      "a": "tradition",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” is the number of people living in a place.",
+      "options": [
+        "Color",
+        "Violence",
+        "Population",
+        "Pollution"
+      ],
+      "a": "Population",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A “...............” is a famous place or building people visit.",
+      "options": [
+        "watch",
+        "face",
+        "landmark",
+        "moon"
+      ],
+      "a": "landmark",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” is the main city of a country.",
+      "options": [
+        "Continent",
+        "Capital",
+        "Landmark",
+        "Population"
+      ],
+      "a": "Capital",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We ............... the old city and took many photos.",
+      "options": [
+        "watered",
+        "explored",
+        "ate",
+        "drank"
+      ],
+      "a": "explored",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Cairo has a large ............... of over 20 million people.",
+      "options": [
+        "imagination",
+        "gallery",
+        "pollution",
+        "population"
+      ],
+      "a": "population",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Egyptian ............... includes ancient history, music, and food.",
+      "options": [
+        "imagination",
+        "gallery",
+        "culture",
+        "material"
+      ],
+      "a": "culture",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The trip to Cairo was ............... because I saw the Pyramids.",
+      "options": [
+        "imagination",
+        "unforgettable",
+        "culture",
+        "material"
+      ],
+      "a": "unforgettable",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We watched a traditional ............... during the festival.",
+      "options": [
+        "imagination",
+        "gallery",
+        "ceremony",
+        "materials"
+      ],
+      "a": "ceremony",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I can't ............... out the answer to this math problem.",
+      "options": [
+        "write",
+        "figure",
+        "call",
+        "leave"
+      ],
+      "a": "figure",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Asia and Africa are two different ............... .",
+      "options": [
+        "countries",
+        "cities",
+        "capitals",
+        "continents"
+      ],
+      "a": "continents",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The Pyramids are the most famous ............... in Egypt.",
+      "options": [
+        "landmark",
+        "population",
+        "tradition",
+        "culture"
+      ],
+      "a": "landmark",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A wedding is a type of ............... that is celebrated in many cultures.",
+      "options": [
+        "population",
+        "landmark",
+        "ceremony",
+        "souvenir"
+      ],
+      "a": "ceremony",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The people of Tokyo are described as polite and ............... .",
+      "options": [
+        "lazy",
+        "noisy",
+        "disrespectful",
+        "respectful"
+      ],
+      "a": "respectful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Giving gifts at Eid is an important ............... in many countries.",
+      "options": [
+        "center",
+        "tradition",
+        "capital",
+        "landmark"
+      ],
+      "a": "tradition",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The old castle ‫ القلعة‬was full of ............... passages ‫ ممرات‬and hidden rooms.",
+      "options": [
+        "modern",
+        "mysterious",
+        "clear",
+        "open"
+      ],
+      "a": "mysterious",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is someone whose job is to show visitors a place or an area.",
+      "options": [
+        "tour guide",
+        "driver",
+        "visitor",
+        "blogger"
+      ],
+      "a": "tour guide",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "She brought back a small statue as a ............... from her trip to Luxor.",
+      "options": [
+        "mummy",
+        "treasure",
+        "souvenir",
+        "mask"
+      ],
+      "a": "souvenir",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The king was buried with all his ............... including gold and jewels.",
+      "options": [
+        "mummy",
+        "treasures",
+        "clothes",
+        "souvenirs"
+      ],
+      "a": "treasures",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The ............... of China is more than one billion people.",
+      "options": [
+        "continent",
+        "population",
+        "culture",
+        "tradition"
+      ],
+      "a": "population",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Cairo is the ............... city of Egypt.",
+      "options": [
+        "tiny",
+        "capital",
+        "small",
+        "terrible"
+      ],
+      "a": "capital",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Asia is the largest ............... in the world.",
+      "options": [
+        "city",
+        "country",
+        "continent",
+        "town"
+      ],
+      "a": "continent",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We want to ............... different countries and cultures.",
+      "options": [
+        "explore",
+        "drink",
+        "wash",
+        "eat"
+      ],
+      "a": "explore",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To get the opposite of the word “polite”, we add the prefix ............... .",
+      "options": [
+        "dis-",
+        "il-",
+        "un-",
+        "im-"
+      ],
+      "a": "im-",
+      "tag": "Vocabulary"
+    }
+  ],
+  "2": [
+    {
+      "q": "The word “ancient” is the antonym of “...............”.",
+      "options": [
+        "old",
+        "historic",
+        "modern",
+        "traditional"
+      ],
+      "a": "modern",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“Polite” and “respectful” are ............... .",
+      "options": [
+        "opposites",
+        "antonyms",
+        "verbs",
+        "synonyms"
+      ],
+      "a": "synonyms",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To turn the verb “organize” into an adjective, we add “...............”.",
+      "options": [
+        "-ence",
+        "-ion",
+        "-al",
+        "-d"
+      ],
+      "a": "-al",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“Lazy” and “energetic” are ............... .",
+      "options": [
+        "synonyms",
+        "antonyms",
+        "nouns",
+        "adverbs"
+      ],
+      "a": "antonyms",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Europe and America are two different ............... .",
+      "options": [
+        "countries",
+        "villages",
+        "continents",
+        "cities"
+      ],
+      "a": "continents",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "What are your ............... experiences in Egypt?",
+      "options": [
+        "kindness",
+        "unkindness",
+        "calmness",
+        "unforgettable"
+      ],
+      "a": "unforgettable",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The Pyramids in Giza are more ............... than anything I have visited before.",
+      "options": [
+        "bad",
+        "impressive",
+        "ugly",
+        "curious"
+      ],
+      "a": "impressive",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The Egyptian ............... is getting higher every year.",
+      "options": [
+        "people",
+        "landmark",
+        "population",
+        "culture"
+      ],
+      "a": "population",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "You can join our tea ............... tomorrow in our house.",
+      "options": [
+        "ceremony",
+        "journey",
+        "culture",
+        "country"
+      ],
+      "a": "ceremony",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The ............... has the body of a lion and the head of a king.",
+      "options": [
+        "pyramid",
+        "mummy",
+        "man",
+        "Sphinx"
+      ],
+      "a": "Sphinx",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The Grand Egyptian Museum has many ancient ............... .",
+      "options": [
+        "bazaar",
+        "treasures",
+        "celebrations",
+        "shows"
+      ],
+      "a": "treasures",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The Sphinx looks ............... for many people around the world.",
+      "options": [
+        "invaluable",
+        "frightening",
+        "mysterious",
+        "known"
+      ],
+      "a": "mysterious",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "You can buy ............... and bargain at Khan El Khalili Bazaar.",
+      "options": [
+        "mummies",
+        "treasures",
+        "souvenirs",
+        "bodies"
+      ],
+      "a": "souvenirs",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The ............... in Tokyo is large, and the people are polite.",
+      "options": [
+        "population",
+        "country",
+        "continent",
+        "pollution"
+      ],
+      "a": "population",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Each country has its own ............... and culture.",
+      "options": [
+        "souvenirs",
+        "wonders",
+        "treasures",
+        "traditions"
+      ],
+      "a": "traditions",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The trip to Ras Mohamed was a/an ............... experience.",
+      "options": [
+        "forgettable",
+        "geothermal",
+        "peaceful",
+        "unforgettable"
+      ],
+      "a": "unforgettable",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The postcards are so ............... with pictures of the temple at sunset.",
+      "options": [
+        "colorful",
+        "local",
+        "terrible",
+        "calm"
+      ],
+      "a": "colorful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "She bought an ............... necklace from Khan El Khalili.",
+      "options": [
+        "bad",
+        "noisy",
+        "curious",
+        "impressive"
+      ],
+      "a": "impressive",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Paris is the ............... city of France.",
+      "options": [
+        "citadel",
+        "castle",
+        "capital",
+        "local"
+      ],
+      "a": "capital",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Egypt’s historical ............... is so incredible.",
+      "options": [
+        "culture",
+        "mummies",
+        "souvenirs",
+        "continents"
+      ],
+      "a": "culture",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I bought a small statue of Horus as a ............... .",
+      "options": [
+        "treasure",
+        "stone",
+        "souvenir",
+        "mummy"
+      ],
+      "a": "souvenir",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My holiday in Maldives is an ............... experience for me.",
+      "options": [
+        "unnecessary",
+        "unforgettable",
+        "unhappy",
+        "unpleasant"
+      ],
+      "a": "unforgettable",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Mount Fuji is a very famous ............... in Japan.",
+      "options": [
+        "city",
+        "landmark",
+        "village",
+        "town"
+      ],
+      "a": "landmark",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The antonym of the word “small” is ............... .",
+      "options": [
+        "clear",
+        "short",
+        "tiny",
+        "big"
+      ],
+      "a": "big",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The prefix “...............” gets the antonym of “forgettable”.",
+      "options": [
+        "im-",
+        "il-",
+        "dis-",
+        "un-"
+      ],
+      "a": "un-",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The noun \" tradition\" can be an adjective by adding the suffix \"............... \".",
+      "options": [
+        "-ness",
+        "-less",
+        "-ful",
+        "-al"
+      ],
+      "a": "-al",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "When people travel, they learn about new ............... and traditions in different countries.",
+      "options": [
+        "technology",
+        "cultures",
+        "pollution",
+        "factories"
+      ],
+      "a": "cultures",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Life in a city is usually very ............... because of the many cars and people.",
+      "options": [
+        "slow",
+        "quiet",
+        "fast",
+        "green"
+      ],
+      "a": "fast",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We went to Khan El-Khalili Bazaar and bought some ............... .",
+      "options": [
+        "souvenirs",
+        "landmarks",
+        "towns",
+        "cities"
+      ],
+      "a": "souvenirs",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The antonym of the word “organized” is ............... .",
+      "options": [
+        "tidy",
+        "orderly",
+        "messy",
+        "neat"
+      ],
+      "a": "messy",
+      "tag": "Vocabulary"
+    }
+  ],
+  "3": [
+    {
+      "q": "Unforgettable and memorable are ............... .",
+      "options": [
+        "antonyms",
+        "opposites",
+        "nouns",
+        "synonyms"
+      ],
+      "a": "synonyms",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” is a path or way for walking.",
+      "options": [
+        "Continent",
+        "Country",
+        "City",
+        "Trail"
+      ],
+      "a": "Trail",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” is a special beauty or attraction.",
+      "options": [
+        "Charm",
+        "Weight",
+        "Height",
+        "Honesty"
+      ],
+      "a": "Charm",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A “...............” is a large mass of ice that moves slowly.",
+      "options": [
+        "heart",
+        "mystery",
+        "team",
+        "glacier"
+      ],
+      "a": "glacier",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A “...............” is a small lake near the sea.",
+      "options": [
+        "team",
+        "tea",
+        "lagoon",
+        "treasure"
+      ],
+      "a": "lagoon",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Ramy saw the street filled ............... cars when school was finished.",
+      "options": [
+        "over",
+        "at",
+        "upon",
+        "with"
+      ],
+      "a": "with",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Amina said the beach was the best ............... for their summer trip.",
+      "options": [
+        "synonyms",
+        "verbs",
+        "situation",
+        "destination"
+      ],
+      "a": "destination",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "It is a very ............... game that most of my friends play.",
+      "options": [
+        "bad",
+        "sad",
+        "popular",
+        "lost"
+      ],
+      "a": "popular",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Petra is an ancient city that was ............... into red rocks.",
+      "options": [
+        "hiked",
+        "visited",
+        "carved",
+        "painted"
+      ],
+      "a": "carved",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We'll go on a tour to four amazing ............... .",
+      "options": [
+        "rocks",
+        "destinations",
+        "charms",
+        "memories"
+      ],
+      "a": "destinations",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Paris and Tokyo are popular travel ............... for tourists around the world.",
+      "options": [
+        "locations",
+        "destinations",
+        "mountains",
+        "deals"
+      ],
+      "a": "destinations",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My trip to the mountains gave me great ............... that I will never forget.",
+      "options": [
+        "memories",
+        "objects",
+        "lagoons",
+        "destinations"
+      ],
+      "a": "memories",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Tourists enjoy the Blue ............... in Iceland.",
+      "options": [
+        "Pool",
+        "Lagoon",
+        "Trade",
+        "Memory"
+      ],
+      "a": "Lagoon",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The ancient statue was ............... from a single piece of stone.",
+      "options": [
+        "dug",
+        "dealt",
+        "carved",
+        "deleted"
+      ],
+      "a": "carved",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Farida looked everywhere for her ............... book, but she could not find it.",
+      "options": [
+        "lost",
+        "awesome",
+        "popular",
+        "happy"
+      ],
+      "a": "lost",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The birthday party gave us ............... that we will never forget.",
+      "options": [
+        "lagoons",
+        "memories",
+        "rocks",
+        "clouds"
+      ],
+      "a": "memories",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The boy ran fast to ............... his mother who was waiting at the door.",
+      "options": [
+        "climb",
+        "reach",
+        "kick",
+        "jump"
+      ],
+      "a": "reach",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “-ness” in “happiness” turns the adjective into a/an ............... .",
+      "options": [
+        "verb",
+        "adverb",
+        "noun",
+        "preposition"
+      ],
+      "a": "noun",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “awesome” is a synonym for “...............”.",
+      "options": [
+        "terrible",
+        "boring",
+        "amazing",
+        "awful"
+      ],
+      "a": "amazing",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “peace” can be an adjective by adding “...............”.",
+      "options": [
+        "-al",
+        "-ed",
+        "-ful",
+        "-able"
+      ],
+      "a": "-ful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Luxor and Aswan are popular travel ............... for tourists around the world.",
+      "options": [
+        "Facts",
+        "traditions",
+        "paths",
+        "destinations"
+      ],
+      "a": "destinations",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Most of our ancient statues were ............... from stones.",
+      "options": [
+        "believed",
+        "carved",
+        "moved",
+        "visited"
+      ],
+      "a": "carved",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means a special beauty or attraction.",
+      "options": [
+        "Peace",
+        "Hiking",
+        "Memory",
+        "Charm"
+      ],
+      "a": "Charm",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "You can visit the Blue ............... in Iceland.",
+      "options": [
+        "trail",
+        "painting",
+        "Lagoon",
+        "city"
+      ],
+      "a": "Lagoon",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I still have unforgettable ............... about my last visit to Luxor.",
+      "options": [
+        "memories",
+        "glaciers",
+        "destinations",
+        "mountains"
+      ],
+      "a": "memories",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Dubai has become a famous ............... city.",
+      "options": [
+        "painting",
+        "hiking",
+        "trading",
+        "wedding"
+      ],
+      "a": "trading",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Aswan is a special place full of ............... and culture.",
+      "options": [
+        "amazing",
+        "charm",
+        "exciting",
+        "surprising"
+      ],
+      "a": "charm",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "He told me about his amazing ............... after climbing the mountains.",
+      "options": [
+        "paintings",
+        "adventures",
+        "statues",
+        "mummies"
+      ],
+      "a": "adventures",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The Pyramids in Giza were one of the ancient seven ............... .",
+      "options": [
+        "cities",
+        "countries",
+        "mountains",
+        "wonders"
+      ],
+      "a": "wonders",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "When I was in Europe, I saw ............... plants I have never seen before.",
+      "options": [
+        "ugly",
+        "safe",
+        "strange",
+        "quiet"
+      ],
+      "a": "strange",
+      "tag": "Vocabulary"
+    }
+  ],
+  "4": [
+    {
+      "q": "You can enjoy the ............... in Al Fayoum, and the beautiful weather.",
+      "options": [
+        "stadium",
+        "highway",
+        "bridge",
+        "waterfall"
+      ],
+      "a": "waterfall",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We can ............... into pairs and explore the city.",
+      "options": [
+        "cut",
+        "split",
+        "dream",
+        "believe"
+      ],
+      "a": "split",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The story about how the pharaohs built the pyramids is still ............... .",
+      "options": [
+        "known",
+        "curious",
+        "mysterious",
+        "famous"
+      ],
+      "a": "mysterious",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "They want to collect ............... stones from the beach.",
+      "options": [
+        "shiny",
+        "ugly",
+        "bad",
+        "noisy"
+      ],
+      "a": "shiny",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Petra, Jordan was once a very rich ............... city.",
+      "options": [
+        "trade",
+        "trades",
+        "trading",
+        "trader"
+      ],
+      "a": "trading",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... is a hot spring from the Earth's heat.",
+      "options": [
+        "Geology",
+        "Geography",
+        "Geologist",
+        "Geothermal"
+      ],
+      "a": "Geothermal",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I had a sense of ............... . It was so calm and quiet inside.",
+      "options": [
+        "history",
+        "art",
+        "peace",
+        "piece"
+      ],
+      "a": "peace",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The prefix “...............” changes the word “forgettable” into the antonym.",
+      "options": [
+        "dis-",
+        "re-",
+        "un-",
+        "im-"
+      ],
+      "a": "un-",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The antonym of the word “popular” is ............... .",
+      "options": [
+        "nearby",
+        "known",
+        "various",
+        "unknown"
+      ],
+      "a": "unknown",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A “...............” is a piece of jewelry worn around the neck.",
+      "options": [
+        "necklace",
+        "ring",
+        "watch",
+        "shoe"
+      ],
+      "a": "necklace",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The museum is full of ............... treasures from the country's past.",
+      "options": [
+        "modern",
+        "historical",
+        "curious",
+        "organized"
+      ],
+      "a": "historical",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We watched several traditional ............... during the festival.",
+      "options": [
+        "souvenirs",
+        "ceremonies",
+        "landmarks",
+        "treasures"
+      ],
+      "a": "ceremonies",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The citadel was built in 1176 to protect Egypt from ............... .",
+      "options": [
+        "continents",
+        "attacks",
+        "history",
+        "treasures"
+      ],
+      "a": "attacks",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The ............... is huge and it has beautifully carved statues of ancient Egyptian kings.",
+      "options": [
+        "temple",
+        "Nile",
+        "artist",
+        "sunset"
+      ],
+      "a": "temple",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” means very surprising or making you have a feeling of admiration.",
+      "options": [
+        "Local",
+        "Historical",
+        "Impressive",
+        "Curious"
+      ],
+      "a": "Impressive",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” means relating to the past.",
+      "options": [
+        "Traditional",
+        "Historical",
+        "Impressive",
+        "Local"
+      ],
+      "a": "Historical",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The Great Pyramids are an ............... example of ancient architecture and continue to amaze visitors.",
+      "options": [
+        "hidden",
+        "curious",
+        "impressive",
+        "biomedical"
+      ],
+      "a": "impressive",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The film was impressive. The antonym of “impressive” is “...............”.",
+      "options": [
+        "amazing",
+        "lovely",
+        "ordinary",
+        "unusual"
+      ],
+      "a": "ordinary",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The synonym of “huge” is “...............”.",
+      "options": [
+        "international",
+        "foreign",
+        "native",
+        "enormous"
+      ],
+      "a": "enormous",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To get the noun from the verb “build”, we add the suffix “...............”.",
+      "options": [
+        "-ly",
+        "-ing",
+        "-ed",
+        "-cal"
+      ],
+      "a": "-ing",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The antonym of the word “beautiful” is “...............”.",
+      "options": [
+        "historical",
+        "impressive",
+        "lovely",
+        "ugly"
+      ],
+      "a": "ugly",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The prefix we add to “credible” to get its opposite is “...............”.",
+      "options": [
+        "dis-",
+        "im-",
+        "in-",
+        "un-"
+      ],
+      "a": "in-",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Did you buy any ............... for your mother when you were in London?",
+      "options": [
+        "memories",
+        "treasures",
+        "mummies",
+        "souvenirs"
+      ],
+      "a": "souvenirs",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Salah El Din's ............... was built to protect Cairo.",
+      "options": [
+        "school",
+        "hospital",
+        "Citadel",
+        "waterfall"
+      ],
+      "a": "Citadel",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Some people are afraid of sharks' ............... when they go swimming in the sea.",
+      "options": [
+        "stones",
+        "attacks",
+        "rocks",
+        "mummies"
+      ],
+      "a": "attacks",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The tourists go around the world to explore different traditions and ............... .",
+      "options": [
+        "cultures",
+        "souvenirs",
+        "objects",
+        "perfumes"
+      ],
+      "a": "cultures",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Traveling makes you see famous ............... and hear new languages.",
+      "options": [
+        "houses",
+        "landmarks",
+        "trips",
+        "homes"
+      ],
+      "a": "landmarks",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The Sphinx is a/an ............... example of ancient Egyptian greatness.",
+      "options": [
+        "medical",
+        "agricultural",
+        "impressive",
+        "ordinary"
+      ],
+      "a": "impressive",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The antonym of the word “quiet” is ............... .",
+      "options": [
+        "respectful",
+        "peaceful",
+        "noisy",
+        "active"
+      ],
+      "a": "noisy",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To get the noun of the verb “build”, we add the suffix “...............”.",
+      "options": [
+        "-ly",
+        "-ing",
+        "-ed",
+        "-ment"
+      ],
+      "a": "-ing",
+      "tag": "Vocabulary"
+    }
+  ],
+  "5": [
+    {
+      "q": "Adel is polite. The word “...............” has the same meaning as polite.",
+      "options": [
+        "amazing",
+        "ancient",
+        "respectful",
+        "huge"
+      ],
+      "a": "respectful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A “...............” is a piece of jewelry worn around the neck.",
+      "options": [
+        "necklace",
+        "ring",
+        "watch",
+        "shoe"
+      ],
+      "a": "necklace",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The ............... of China is more than one billion people.",
+      "options": [
+        "continent",
+        "population",
+        "culture",
+        "tradition"
+      ],
+      "a": "population",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Cairo is the ............... city of Egypt.",
+      "options": [
+        "tiny",
+        "capital",
+        "small",
+        "terrible"
+      ],
+      "a": "capital",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Aswan is a special place full of ............... and culture.",
+      "options": [
+        "amazing",
+        "charm",
+        "exciting",
+        "surprising"
+      ],
+      "a": "charm",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The citadel was built in 1176 to protect Egypt from ............... .",
+      "options": [
+        "continents",
+        "attacks",
+        "history",
+        "treasures"
+      ],
+      "a": "attacks",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Some people are afraid of sharks' ............... when they go swimming in the sea.",
+      "options": [
+        "stones",
+        "attacks",
+        "rocks",
+        "mummies"
+      ],
+      "a": "attacks",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I still have unforgettable ............... about my last visit to Luxor.",
+      "options": [
+        "memories",
+        "glaciers",
+        "destinations",
+        "mountains"
+      ],
+      "a": "memories",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I had a sense of ............... . It was so calm and quiet inside.",
+      "options": [
+        "history",
+        "art",
+        "peace",
+        "piece"
+      ],
+      "a": "peace",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The prefix “...............” changes the word “forgettable” into the antonym.",
+      "options": [
+        "dis-",
+        "re-",
+        "un-",
+        "im-"
+      ],
+      "a": "un-",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Farida looked everywhere for her ............... book, but she could not find it.",
+      "options": [
+        "lost",
+        "awesome",
+        "popular",
+        "happy"
+      ],
+      "a": "lost",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "They want to collect ............... stones from the beach.",
+      "options": [
+        "shiny",
+        "ugly",
+        "bad",
+        "noisy"
+      ],
+      "a": "shiny",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” is the main city of a country.",
+      "options": [
+        "Continent",
+        "Capital",
+        "Landmark",
+        "Population"
+      ],
+      "a": "Capital",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I can't ............... out the answer to this math problem.",
+      "options": [
+        "write",
+        "figure",
+        "call",
+        "leave"
+      ],
+      "a": "figure",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My trip to the mountains gave me great ............... that I will never forget.",
+      "options": [
+        "memories",
+        "objects",
+        "lagoons",
+        "destinations"
+      ],
+      "a": "memories",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Unforgettable and memorable are ............... .",
+      "options": [
+        "antonyms",
+        "opposites",
+        "nouns",
+        "synonyms"
+      ],
+      "a": "synonyms",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The Great Pyramids are an ............... example of ancient architecture and continue to amaze visitors.",
+      "options": [
+        "hidden",
+        "curious",
+        "impressive",
+        "biomedical"
+      ],
+      "a": "impressive",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Egypt’s historical ............... is so incredible.",
+      "options": [
+        "culture",
+        "mummies",
+        "souvenirs",
+        "continents"
+      ],
+      "a": "culture",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The antonym of the word “quiet” is ............... .",
+      "options": [
+        "respectful",
+        "peaceful",
+        "noisy",
+        "active"
+      ],
+      "a": "noisy",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The ............... in Tokyo is large, and the people are polite.",
+      "options": [
+        "population",
+        "country",
+        "continent",
+        "pollution"
+      ],
+      "a": "population",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A wedding is a type of ............... that is celebrated in many cultures.",
+      "options": [
+        "population",
+        "landmark",
+        "ceremony",
+        "souvenir"
+      ],
+      "a": "ceremony",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Petra is an ancient city that was ............... into red rocks.",
+      "options": [
+        "hiked",
+        "visited",
+        "carved",
+        "painted"
+      ],
+      "a": "carved",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Mount Fuji is a very famous ............... in Japan.",
+      "options": [
+        "city",
+        "landmark",
+        "village",
+        "town"
+      ],
+      "a": "landmark",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The Egyptian ............... is getting higher every year.",
+      "options": [
+        "people",
+        "landmark",
+        "population",
+        "culture"
+      ],
+      "a": "population",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The postcards are so ............... with pictures of the temple at sunset.",
+      "options": [
+        "colorful",
+        "local",
+        "terrible",
+        "calm"
+      ],
+      "a": "colorful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Life in a city is usually very ............... because of the many cars and people.",
+      "options": [
+        "slow",
+        "quiet",
+        "fast",
+        "green"
+      ],
+      "a": "fast",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A “...............” is a small lake near the sea.",
+      "options": [
+        "team",
+        "tea",
+        "lagoon",
+        "treasure"
+      ],
+      "a": "lagoon",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The ............... is huge and it has beautifully carved statues of ancient Egyptian kings.",
+      "options": [
+        "temple",
+        "Nile",
+        "artist",
+        "sunset"
+      ],
+      "a": "temple",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The Grand Egyptian Museum has many ancient ............... .",
+      "options": [
+        "bazaar",
+        "treasures",
+        "celebrations",
+        "shows"
+      ],
+      "a": "treasures",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” is a special beauty or attraction.",
+      "options": [
+        "Charm",
+        "Weight",
+        "Height",
+        "Honesty"
+      ],
+      "a": "Charm",
+      "tag": "Vocabulary"
+    }
+  ]
+};
+
+// ============================================================
+//  App
+// ============================================================
+let currentModel = 1;
+let studentName = '';
+let quiz = [];              // questions of the current attempt (after shuffling)
+let wrongAnswersLog = [];
+let skillStats = {};
+const SKILL_ORDER = ['Vocabulary', 'Grammar', 'Reading', 'Phonics'];
+const skillKeys = () => SKILL_ORDER.filter(k => skillStats[k]).concat(Object.keys(skillStats).filter(k => SKILL_ORDER.indexOf(k) < 0));
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const t = a[i]; a[i] = a[j]; a[j] = t;
+  }
+  return a;
+}
+
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  $(id).classList.add('active');
+  window.scrollTo(0, 0);
+}
+
+window.onload = () => {
+  const tabs = $('model-tabs');
+  for (let i = 1; i <= 5; i++) {
+    const b = document.createElement('button');
+    b.className = 'tab-btn';
+    b.innerText = `Module ${i}`;
+    b.onclick = () => startApp(i);
+    tabs.appendChild(b);
+  }
+  if (TEACHER_PHONE) {
+    $('teacher-phone-group').style.display = 'none';
+  } else {
+    try { $('teacherPhone').value = localStorage.getItem('teacherPhone') || ''; } catch (e) { /* storage not available */ }
+  }
+};
+
+function startApp(id) {
+  const n = $('studentName');
+  if (!n.value.trim()) {
+    alert('Please enter your name first!\nمن فضلك اكتب اسمك يا بطل');
+    n.focus();
+    return;
+  }
+  studentName = n.value.trim();
+  loadModel(id);
+  showScreen('quiz-screen');
+}
+
+function updateProgress() {
+  const done = document.querySelectorAll('#quiz-content input[type=radio]:checked').length;
+  $('progress-bar').style.width = `${done / quiz.length * 100}%`;
+}
+
+function loadModel(id) {
+  currentModel = id;
+  const base = allModels[String(id)].map(x => ({
+    q: x.q, a: x.a, tag: x.tag,
+    options: SHUFFLE_OPTIONS ? shuffle(x.options) : x.options.slice()
+  }));
+  quiz = SHUFFLE_QUESTIONS ? shuffle(base) : base;
+
+  $('model-title').innerText = `📝 Prep 2 - Unit 5 - Module ${id}`;
+  $('question-counter').innerText = `${quiz.length} multiple-choice questions`;
+  $('progress-bar').style.width = '0%';
+
+  const c = $('quiz-content');
+  c.innerHTML = '';
+  quiz.forEach((x, i) => {
+    const card = document.createElement('div');
+    card.className = 'question-card';
+
+    const readingMatch = x.tag === 'Reading' ? x.q.match(/^Read:\s*[“\"]([\s\S]*?)[”\"]\s*(.*)$/) : null;
+    if (readingMatch) {
+      const passage = document.createElement('div');
+      passage.className = 'reading-passage';
+      passage.innerText = `📖 ${readingMatch[1]}`;
+      card.appendChild(passage);
+      const q = document.createElement('div');
+      q.className = 'reading-question';
+      q.innerText = `${i + 1}. ${readingMatch[2]}`;
+      card.appendChild(q);
+    } else {
+      const q = document.createElement('div');
+      q.className = 'question-text';
+      q.innerText = `${i + 1}. ${x.q}`;
+      card.appendChild(q);
+    }
+
+    const g = document.createElement('div');
+    g.className = 'options-grid';
+    x.options.forEach(o => {
+      const l = document.createElement('label');
+      l.className = 'option-label';
+      const r = document.createElement('input');
+      r.type = 'radio';
+      r.name = `q${i}`;
+      r.value = o;
+      r.onchange = () => {
+        g.querySelectorAll('.option-label').forEach(el => el.classList.remove('selected'));
+        l.classList.add('selected');
+        updateProgress();
+      };
+      l.appendChild(r);
+      l.appendChild(document.createTextNode(o));
+      g.appendChild(l);
+    });
+    card.appendChild(g);
+    c.appendChild(card);
+  });
+}
+
+function submitQuiz() {
+  const answered = quiz.filter((_, i) => document.querySelector(`input[name=q${i}]:checked`)).length;
+  const ok = answered < quiz.length
+    ? confirm(`You answered ${answered} of ${quiz.length}. Finish anyway?`)
+    : confirm('Are you sure you want to finish the quiz?');
+  if (ok) gradeQuiz();
+}
+
+function gradeQuiz() {
+  let score = 0;
+  wrongAnswersLog = [];
+  skillStats = {};
+  quiz.forEach((x, i) => {
+    if (!skillStats[x.tag]) skillStats[x.tag] = { correct: 0, total: 0 };
+    const st = skillStats[x.tag];
+    st.total++;
+    const sel = document.querySelector(`input[name=q${i}]:checked`);
+    if (sel && sel.value === x.a) {
+      score++;
+      st.correct++;
+    } else {
+      wrongAnswersLog.push({ n: i + 1, q: x.q, user: sel ? sel.value : 'No Answer', correct: x.a, tag: x.tag });
+    }
+  });
+  showResults(score, quiz.length);
+}
+
+function showResults(score, total) {
+  showScreen('result-screen');
+
+  const s = $('score-display');
+  s.innerText = `${score}/${total}`;
+  const noAnswer = wrongAnswersLog.filter(x => x.user === 'No Answer').length;
+  $('result-summary').innerText = `Answered: ${total - noAnswer}/${total} | Mistakes: ${wrongAnswersLog.length}`;
+
+  // per-skill chips
+  $('skills-box').innerHTML = skillKeys().map(k => {
+    const st = skillStats[k];
+    const p = st.correct / st.total;
+    const cls = p >= 0.8 ? 'good' : p >= 0.5 ? 'mid' : 'low';
+    return `<div class="skill-chip ${cls}">${esc(k)}<small>${st.correct}/${st.total}</small></div>`;
+  }).join('');
+
+  // mistakes review
+  const box = $('mistakes-section');
+  if (wrongAnswersLog.length) {
+    box.innerHTML = '<div class="mistakes-title" lang="ar" dir="rtl">مراجعة الأخطاء</div>' +
+      wrongAnswersLog.map(x => {
+        const user = x.user === 'No Answer' ? 'لم تجب' : x.user;
+        return `<div class="mistake-item">
+          <div class="mistake-q">${x.n}. ${esc(x.q)}</div>
+          <div class="wrong-answer" lang="ar" dir="rtl">❌ إجابتك: <bdi>${esc(user)}</bdi></div>
+          <div class="correct-answer" lang="ar" dir="rtl">✅ الإجابة الصحيحة: <bdi>${esc(x.correct)}</bdi></div>
+        </div>`;
+      }).join('');
+  } else {
+    box.innerHTML = '<div class="mistakes-title" lang="ar" dir="rtl" style="color:#168f62">ممتاز! لا توجد أخطاء 🎉</div>';
+  }
+
+  // encouragement (Arabic, name isolated so it never scrambles the sentence)
+  const p = score / total * 100;
+  const m = $('encouragement-msg');
+  const nm = `<bdi>${esc(studentName)}</bdi>`;
+  m.lang = 'ar'; m.dir = 'rtl';
+  if (p === 100)      { s.style.background = '#2ed573'; m.innerHTML = `ممتاز يا ${nm}! 🏆`; }
+  else if (p >= 80)   { s.style.background = '#1e90ff'; m.innerHTML = `رائع يا ${nm}! 💪`; }
+  else if (p >= 50)   { s.style.background = '#ffa502'; m.innerHTML = `جيد يا ${nm}، راجع أخطاءك 👍`; }
+  else                { s.style.background = '#ff4757'; m.innerHTML = `لا تيأس يا ${nm}، حاول مرة أخرى ❤️`; }
+}
+
+function retryModule() {
+  loadModel(currentModel);
+  showScreen('quiz-screen');
+}
+
+function backToModules() {
+  showScreen('welcome-screen');   // the student name stays filled in
+}
+
+// ---------- WhatsApp report ----------
+function normalizePhone(v) {
+  let d = String(v).replace(/\D/g, '');
+  if (d.indexOf('0020') === 0) d = d.slice(4);                          // 0020 1xx...
+  else if (d.indexOf('20') === 0 && d.length >= 12) d = d.slice(2);     // +20 1xx...
+  if (d.charAt(0) === '0') d = d.slice(1);                              // 01xx...
+  return (d.length === 10 && d.charAt(0) === '1') ? '20' + d : null;
+}
+
+function getTeacherPhone() {
+  const input = TEACHER_PHONE || $('teacherPhone').value;
+  const phone = normalizePhone(input);
+  if (!phone) {
+    alert('Please enter a valid Egyptian mobile number, e.g. 01xxxxxxxxx\nمن فضلك اكتب رقم موبايل مصري صحيح');
+    return null;
+  }
+  if (!TEACHER_PHONE) {
+    try { localStorage.setItem('teacherPhone', $('teacherPhone').value.trim()); } catch (e) { /* ignore */ }
+  }
+  return phone;
+}
+
+// For reading questions, drop the passage and keep only the question itself
+function shortQuestion(q) {
+  const i = q.lastIndexOf('”');
+  return (q.indexOf('Read:') === 0 && i > -1) ? q.slice(i + 1).trim() : q;
+}
+
+function sendWhatsApp() {
+  const phone = getTeacherPhone();
+  if (!phone) return;
+
+  const skills = skillKeys().map(k => `${k} ${skillStats[k].correct}/${skillStats[k].total}`).join(' | ');
+  let msg = `*Unit 5 Revision - Prep 2*\n--------------------\n` +
+            `👤 *Student:* ${studentName}\n` +
+            `📝 *Module:* ${currentModel}\n` +
+            `📊 *Score:* ${$('score-display').innerText}\n` +
+            `🧩 *Skills:* ${skills}\n`;
+
+  if (wrongAnswersLog.length) {
+    msg += `\n*Mistakes (${wrongAnswersLog.length}):*\n`;
+    wrongAnswersLog.slice(0, MAX_MISTAKES_IN_REPORT).forEach(x => {
+      msg += `• [${x.tag}] ${shortQuestion(x.q)} → ${x.user} ✗ (correct: ${x.correct})\n`;
+    });
+    if (wrongAnswersLog.length > MAX_MISTAKES_IN_REPORT) {
+      msg += `… and ${wrongAnswersLog.length - MAX_MISTAKES_IN_REPORT} more\n`;
+    }
+  } else {
+    msg += '🎉 *Perfect score!*';
+  }
+
+  window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`, '_blank');
+}
+
+</script>
+</body>
+</html>

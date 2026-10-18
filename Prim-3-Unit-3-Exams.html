@@ -1,0 +1,1687 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unit 3 Revision | Grade 3</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Fredoka:wght@400;600&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--primary:#ff9f43;--secondary:#00b894;--accent:#54a0ff;--dark:#222f3e;--bg:#f7f1e3;--danger:#ff6b6b}
+*{box-sizing:border-box;margin:0;padding:0;font-family:'Nunito','Cairo',sans-serif}body{background:var(--bg);background-image:radial-gradient(#00d2d3 1px,transparent 1px);background-size:20px 20px;color:var(--dark);min-height:100vh;display:flex;flex-direction:column;align-items:center}header{background:#fff;width:100%;padding:20px;text-align:center;box-shadow:0 4px 15px #0001;border-bottom:5px solid var(--primary)}h1{color:#00a8a8;font-family:Fredoka,sans-serif;font-size:2.2rem;text-shadow:2px 2px 0 #222f3e;margin-bottom:5px}h2{color:var(--primary);font-size:1.1rem}.container{width:95%;max-width:850px;margin:20px auto;background:white;border-radius:20px;box-shadow:0 10px 25px #0001;padding:20px;border:3px solid #00d2d3;flex:1}.screen{display:none;animation:fadeIn .4s ease-in-out}.screen.active{display:block}.input-group{margin:20px 0;text-align:center}label{display:block;font-size:1.2rem;margin-bottom:10px;font-weight:bold}input[type=text],input[type=number]{width:80%;padding:14px;font-size:1.1rem;border:3px solid #00d2d3;border-radius:50px;outline:none;text-align:center;background:#f9f9f9}input:focus{border-color:var(--primary);box-shadow:0 0 15px #ff9f434d}.btn{background:var(--primary);color:white;border:0;padding:14px 34px;font-size:1.1rem;border-radius:50px;cursor:pointer;font-weight:bold;box-shadow:0 5px 0 #e58e26;transition:.2s;margin-top:18px;width:100%;max-width:300px}.btn:active{transform:translateY(5px);box-shadow:none}.btn-blue{background:var(--accent);box-shadow:0 5px 0 #2e86de}.btn-whatsapp{background:#25d366;box-shadow:0 5px 0 #128c7e}.nav-tabs{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:20px;padding-top:15px;border-top:2px dashed #eee}.tab-btn{background:#f1f2f6;border:2px solid #dfe4ea;padding:12px 20px;border-radius:15px;cursor:pointer;font-weight:bold;font-size:1.05rem;color:#747d8c;min-width:120px}.tab-btn:hover{background:#fff;border-color:var(--primary);color:var(--primary);transform:translateY(-2px)}.question-card{background:#fff;border:2px solid #f1f2f6;border-left:5px solid var(--accent);padding:18px;margin-bottom:16px;border-radius:15px}.question-text{font-size:1.12rem;font-weight:700;margin-bottom:13px;line-height:1.5}.reading-passage{background:#eef7ff;border:2px solid #b9ddff;border-radius:12px;padding:12px 14px;margin-bottom:12px;color:#24527a;font-size:1rem;line-height:1.65;font-weight:600}.reading-question{background:#fff8e8;border-left:4px solid #ff9f43;border-radius:8px;padding:10px 12px;margin-bottom:13px;color:#9a5b00;font-size:1.08rem;font-weight:700;line-height:1.5}.options-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.option-label{display:flex;align-items:center;background:#f8f9fa;padding:11px;border-radius:10px;border:2px solid #eee;cursor:pointer;font-size:1rem}.option-label:hover{border-color:var(--accent);background:#eef5ff}input[type=radio]{margin-right:10px;width:19px;height:19px;accent-color:var(--primary)}.progress{background:#eee;border-radius:20px;height:12px;margin:10px 0 20px;overflow:hidden}.progress-bar{height:100%;background:var(--secondary);width:0;transition:.3s}.score-circle{width:160px;height:160px;border-radius:50%;background:var(--secondary);color:#fff;display:flex;justify-content:center;align-items:center;font-size:3rem;font-weight:bold;margin:20px auto;border:6px solid #fff;box-shadow:0 0 0 6px var(--secondary)}.message{text-align:center;font-size:1.35rem;color:var(--primary);margin-bottom:25px;font-weight:bold}.report-section{background:#f1f2f6;padding:20px;border-radius:15px;margin-top:20px;text-align:center}.summary{text-align:center;font-weight:bold;color:#555;margin-bottom:8px}.mistakes-section{margin:15px 0;padding:15px;background:#fff5f5;border:2px solid #ffd0d0;border-radius:15px}.mistakes-title{color:#d63031;text-align:center;font-weight:bold;margin-bottom:10px;font-family:Cairo}.mistake-item{padding:9px 0;border-bottom:1px solid #ffdede;line-height:1.5}.mistake-item:last-child{border-bottom:0}.mistake-q{font-weight:bold}.wrong-answer{color:#d63031}.correct-answer{color:#168f62}footer{padding:20px;font-size:1rem;color:#666;text-align:center;font-weight:bold;background:#fff;width:100%;margin-top:20px;border-top:1px solid #eee}.heart{color:red}@keyframes fadeIn{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}@media(max-width:600px){.options-grid{grid-template-columns:1fr}h1{font-size:1.8rem}.score-circle{width:130px;height:130px;font-size:2.5rem}.container{width:100%;border:none;border-radius:0}.tab-btn{width:45%}}
+
+/* ---- additions ---- */
+input[type=tel]{width:80%;padding:14px;font-size:1.1rem;border:3px solid #00d2d3;border-radius:50px;outline:none;text-align:center;background:#f9f9f9}
+.option-label:focus-within{border-color:var(--accent);background:#eef5ff}
+.option-label.selected{border-color:var(--primary);background:#fff4e6}
+.skills-title{text-align:center;font-family:Cairo,sans-serif;font-weight:bold;color:#555;margin:16px 0 8px}
+.skills{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:18px}
+.skill-chip{border:2px solid #dfe4ea;background:#f1f2f6;border-radius:14px;padding:8px 16px;min-width:120px;text-align:center;font-weight:bold}
+.skill-chip small{display:block;font-size:1.05rem;margin-top:2px}
+.skill-chip.good{border-color:#2ed573;background:#eafaf1;color:#168f62}
+.skill-chip.mid{border-color:#ffa502;background:#fff6e5;color:#b36b00}
+.skill-chip.low{border-color:#ff6b6b;background:#fff0f0;color:#d63031}
+.actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:15px}
+.actions .btn{margin-top:0}
+.mistake-item bdi{font-weight:bold}
+@media(prefers-reduced-motion:reduce){.screen{animation:none}.btn,.tab-btn,.progress-bar{transition:none}}
+
+/* ---- additions ---- */
+.options-grid label:last-child:nth-child(odd){grid-column:1/-1}
+/* ---- contact bar ---- */
+.contact-bar{width:100%;background:var(--dark);color:#fff;border-bottom:4px solid var(--primary);padding:10px 12px;display:flex;flex-wrap:wrap;gap:8px 14px;justify-content:center;align-items:center;font-family:'Cairo','Nunito',sans-serif}
+.contact-bar .cb-name{font-family:Fredoka,'Cairo',sans-serif;font-weight:600;font-size:1.05rem;letter-spacing:.3px}
+.contact-bar .cb-links{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.contact-bar a{color:#fff;text-decoration:none;font-weight:bold;font-size:.95rem;padding:6px 16px;border-radius:50px;background:rgba(255,255,255,.14);transition:.2s}
+.contact-bar a:hover{transform:translateY(-2px)}
+.contact-bar a.wa{background:#25d366}
+.contact-bar a.call{background:var(--accent)}
+</style>
+</head>
+<body>
+<div class="contact-bar">
+  <span class="cb-name">Mrs. Eman Koriem</span>
+  <span class="cb-links">
+    <a class="call" href="tel:+201023990505">📞 01023990505</a>
+    <a class="wa" href="https://wa.me/201023990505" target="_blank" rel="noopener" lang="ar" dir="rtl">💬 تواصل عبر الواتس</a>
+  </span>
+</div>
+
+<header><h1>Unit 3 Revision - Grade 3</h1><h2>Vocabulary • Grammar • Reading • Phonics</h2></header>
+<div class="container">
+
+<section id="welcome-screen" class="screen active">
+  <div class="input-group">
+    <div style="font-size:3rem;margin-bottom:10px">👋</div>
+    <h3 lang="ar" dir="rtl" style="margin-bottom:20px;font-family:Cairo">أهلاً بك يا بطل!</h3>
+    <label for="studentName">Enter Student Name:</label>
+    <input type="text" id="studentName" placeholder="e.g., Ahmed Ali" autocomplete="off">
+  </div>
+  <p lang="ar" dir="rtl" style="text-align:center;color:var(--dark);font-weight:bold;font-family:Cairo;font-size:1.15rem">اختر الموديول لتبدأ الاختبار</p>
+  <div class="nav-tabs" id="model-tabs"></div>
+</section>
+
+<section id="quiz-screen" class="screen">
+  <div style="text-align:center;margin-bottom:15px">
+    <h3 id="model-title" style="color:var(--primary)"></h3>
+    <div id="question-counter" class="summary"></div>
+  </div>
+  <div class="progress"><div id="progress-bar" class="progress-bar"></div></div>
+  <div id="quiz-content"></div>
+  <div style="text-align:center;padding-bottom:20px"><button class="btn" onclick="submitQuiz()">Submit Answers ✅</button></div>
+</section>
+
+<section id="result-screen" class="screen">
+  <div class="score-circle" id="score-display">0/30</div>
+  <div class="message" id="encouragement-msg"></div>
+  <div class="summary" id="result-summary"></div>
+  <div class="skills-title" lang="ar" dir="rtl">مستواك في كل مهارة</div>
+  <div class="skills" id="skills-box"></div>
+  <div id="mistakes-section" class="mistakes-section"></div>
+  <div class="report-section">
+    <h3 lang="ar" dir="rtl" style="margin-bottom:15px;font-family:Cairo">أرسل التقرير للمستر</h3>
+    <div id="teacher-phone-group">
+      <label for="teacherPhone" style="font-size:1rem">Teacher's WhatsApp Number:</label>
+      <input type="tel" id="teacherPhone" placeholder="01xxxxxxxxx" inputmode="numeric" autocomplete="off">
+    </div>
+    <button class="btn btn-whatsapp" onclick="sendWhatsApp()">Send via WhatsApp 💬</button>
+  </div>
+  <div class="actions">
+    <button class="btn" onclick="retryModule()">Retry This Module 🔁</button>
+    <button class="btn btn-blue" onclick="backToModules()">Try Another Module 🔄</button>
+  </div>
+</section>
+
+</div>
+<footer>Made with Love by Mr. Ameen Sharqawy <span class="heart">❤</span></footer>
+
+<script>
+// ============================================================
+//  Settings (تقدر تعدلهم بسهولة)
+// ============================================================
+// Put the teacher's number here (e.g. '01012345678') to hide the phone box from students.
+// Leave it empty '' and the student types it once (it is remembered on that device).
+const TEACHER_PHONE = '';
+const SHUFFLE_QUESTIONS = true;   // random question order every attempt
+const SHUFFLE_OPTIONS   = true;   // random answer order every attempt
+const MAX_MISTAKES_IN_REPORT = 10;
+
+// ============================================================
+//  Questions  (tag = Vocabulary | Grammar | Reading)
+// ============================================================
+const allModels = {
+  "1": [
+    {
+      "q": "We go to the ___ to read books.",
+      "options": [
+        "library",
+        "museum",
+        "station",
+        "park"
+      ],
+      "a": "library",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We buy food at the ___.",
+      "options": [
+        "library",
+        "school",
+        "museum",
+        "supermarket"
+      ],
+      "a": "supermarket",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I play with my friends at the ___.",
+      "options": [
+        "supermarket",
+        "library",
+        "park",
+        "station"
+      ],
+      "a": "park",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "There are lots of trains at the ___.",
+      "options": [
+        "hospital",
+        "train station",
+        "museum",
+        "park"
+      ],
+      "a": "train station",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We go to the ___ when we are sick.",
+      "options": [
+        "hospital",
+        "library",
+        "museum",
+        "park"
+      ],
+      "a": "hospital",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Cairo ___ is a very tall building.",
+      "options": [
+        "Street",
+        "Picture",
+        "Station",
+        "Tower"
+      ],
+      "a": "Tower",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We visited ___ of Giza.",
+      "options": [
+        "the garden",
+        "the station",
+        "the Pyramids",
+        "Alexandria Library"
+      ],
+      "a": "the Pyramids",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "They ___ with their friends yesterday.",
+      "options": [
+        "played",
+        "play",
+        "playing",
+        "plays"
+      ],
+      "a": "played",
+      "tag": "Grammar"
+    },
+    {
+      "q": "I ___ my grandma last Friday.",
+      "options": [
+        "visit",
+        "visits",
+        "visiting",
+        "visited"
+      ],
+      "a": "visited",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Mohamed ___ English last night.",
+      "options": [
+        "studies",
+        "studying",
+        "studied",
+        "study"
+      ],
+      "a": "studied",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Mom ___ a nice meal two hours ago.",
+      "options": [
+        "cook",
+        "cooked",
+        "cooking",
+        "cooks"
+      ],
+      "a": "cooked",
+      "tag": "Grammar"
+    },
+    {
+      "q": "I ___ my homework before dinner yesterday.",
+      "options": [
+        "finished",
+        "finish",
+        "finishes",
+        "finishing"
+      ],
+      "a": "finished",
+      "tag": "Grammar"
+    },
+    {
+      "q": "We ___ our hands before eating yesterday.",
+      "options": [
+        "cleans",
+        "cleaning",
+        "clean",
+        "cleaned"
+      ],
+      "a": "cleaned",
+      "tag": "Grammar"
+    },
+    {
+      "q": "My cousin ___ in Aswan two years ago.",
+      "options": [
+        "live",
+        "living",
+        "lived",
+        "lives"
+      ],
+      "a": "lived",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Noor ___ to school two days ago.",
+      "options": [
+        "walks",
+        "walked",
+        "walk",
+        "walking"
+      ],
+      "a": "walked",
+      "tag": "Grammar"
+    },
+    {
+      "q": "They ___ the tree yesterday.",
+      "options": [
+        "climbed",
+        "climbs",
+        "climbing",
+        "climb"
+      ],
+      "a": "climbed",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Zaki ___ football yesterday.",
+      "options": [
+        "play",
+        "playing",
+        "plays",
+        "played"
+      ],
+      "a": "played",
+      "tag": "Grammar"
+    },
+    {
+      "q": "The lamp is ___ the table.",
+      "options": [
+        "on",
+        "in",
+        "next"
+      ],
+      "a": "on",
+      "tag": "Grammar"
+    },
+    {
+      "q": "The pen is ___ the desk.",
+      "options": [
+        "between",
+        "under",
+        "on"
+      ],
+      "a": "on",
+      "tag": "Grammar"
+    },
+    {
+      "q": "The ball is ___ the box.",
+      "options": [
+        "between",
+        "in",
+        "next"
+      ],
+      "a": "in",
+      "tag": "Grammar"
+    },
+    {
+      "q": "He sits in ___ of the TV.",
+      "options": [
+        "front",
+        "next",
+        "under"
+      ],
+      "a": "front",
+      "tag": "Grammar"
+    },
+    {
+      "q": "The dog is ___ the box.",
+      "options": [
+        "next",
+        "to",
+        "under"
+      ],
+      "a": "under",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Read: “Youssef left his house early in the morning. First, he went to the library to read a book. Then, he and his mom went shopping at the supermarket. In the afternoon, he played at the park.” Where did Youssef go first?",
+      "options": [
+        "the library",
+        "the park",
+        "the supermarket",
+        "the station"
+      ],
+      "a": "the library",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “Youssef left his house early in the morning. First, he went to the library to read a book. Then, he and his mom went shopping at the supermarket. In the afternoon, he played at the park.” Where did Youssef go with his mom?",
+      "options": [
+        "the library",
+        "the zoo",
+        "the museum",
+        "the supermarket"
+      ],
+      "a": "the supermarket",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “Youssef left his house early in the morning. First, he went to the library to read a book. Then, he and his mom went shopping at the supermarket. In the afternoon, he played at the park.” When did he play at the park?",
+      "options": [
+        "at night",
+        "at noon",
+        "in the afternoon",
+        "in the morning"
+      ],
+      "a": "in the afternoon",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “Last Monday, Grade three students went on a trip to the zoo. They went by bus. At the zoo, they saw lions, monkeys, and elephants. The ticket was 20 pounds.” How did they go?",
+      "options": [
+        "on foot",
+        "by bus",
+        "by train",
+        "by car"
+      ],
+      "a": "by bus",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “Last Monday, Grade three students went on a trip to the zoo. They went by bus. At the zoo, they saw lions, monkeys, and elephants. The ticket was 20 pounds.” What animals did they see?",
+      "options": [
+        "lions, monkeys, and elephants",
+        "cats and dogs",
+        "camels and horses",
+        "ducks and cows"
+      ],
+      "a": "lions, monkeys, and elephants",
+      "tag": "Reading"
+    },
+    {
+      "q": "Choose the correctly ordered sentence.",
+      "options": [
+        "They went to the zoo by bus.",
+        "Went they zoo to the bus by.",
+        "The zoo they by went bus.",
+        "By bus went they zoo to."
+      ],
+      "a": "They went to the zoo by bus.",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Choose the correctly ordered sentence.",
+      "options": [
+        "Visited we year the Pyramids last.",
+        "Last Pyramids visited we year.",
+        "The Pyramids we year visited.",
+        "We visited the Pyramids last year."
+      ],
+      "a": "We visited the Pyramids last year.",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Choose the word with the /k/ sound.",
+      "options": [
+        "duck",
+        "rain",
+        "pen",
+        "man"
+      ],
+      "a": "duck",
+      "tag": "Phonics"
+    }
+  ],
+  "2": [
+    {
+      "q": "I take a ___ when I travel by bus.",
+      "options": [
+        "lunch",
+        "book",
+        "chair",
+        "ticket"
+      ],
+      "a": "ticket",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We went on a ___ to the zoo.",
+      "options": [
+        "juice",
+        "room",
+        "trip",
+        "lunch"
+      ],
+      "a": "trip",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My favorite animals are ___.",
+      "options": [
+        "buses",
+        "lions",
+        "flowers",
+        "trees"
+      ],
+      "a": "lions",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "At the zoo, we can see ___.",
+      "options": [
+        "monkeys",
+        "libraries",
+        "tickets",
+        "stations"
+      ],
+      "a": "monkeys",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We eat ___ at lunchtime.",
+      "options": [
+        "curtains",
+        "tickets",
+        "sticks",
+        "sandwiches"
+      ],
+      "a": "sandwiches",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My favorite drink is orange ___.",
+      "options": [
+        "fruit",
+        "lunch",
+        "juice",
+        "cake"
+      ],
+      "a": "juice",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The children ate sandwiches and ___.",
+      "options": [
+        "rooms",
+        "chips",
+        "tickets",
+        "books"
+      ],
+      "a": "chips",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "He ___ his room yesterday.",
+      "options": [
+        "clean",
+        "cleans",
+        "cleaning",
+        "cleaned"
+      ],
+      "a": "cleaned",
+      "tag": "Grammar"
+    },
+    {
+      "q": "We ___ to the zoo by bus last Monday.",
+      "options": [
+        "goes",
+        "going",
+        "went",
+        "go"
+      ],
+      "a": "went",
+      "tag": "Grammar"
+    },
+    {
+      "q": "The girl ___ with her ball last week.",
+      "options": [
+        "plays",
+        "played",
+        "play",
+        "playing"
+      ],
+      "a": "played",
+      "tag": "Grammar"
+    },
+    {
+      "q": "They ___ lions and monkeys at the zoo yesterday.",
+      "options": [
+        "saw",
+        "see",
+        "sees",
+        "seeing"
+      ],
+      "a": "saw",
+      "tag": "Grammar"
+    },
+    {
+      "q": "The children ___ orange juice yesterday.",
+      "options": [
+        "drink",
+        "drinks",
+        "drinking",
+        "drank"
+      ],
+      "a": "drank",
+      "tag": "Grammar"
+    },
+    {
+      "q": "She ___ a trip to the Pyramids last week.",
+      "options": [
+        "have",
+        "having",
+        "had",
+        "has"
+      ],
+      "a": "had",
+      "tag": "Grammar"
+    },
+    {
+      "q": "I ___ a book at the library yesterday.",
+      "options": [
+        "readed",
+        "read",
+        "reads",
+        "reading"
+      ],
+      "a": "read",
+      "tag": "Grammar"
+    },
+    {
+      "q": "He ___ a ticket for the zoo yesterday.",
+      "options": [
+        "bought",
+        "buys",
+        "buy",
+        "buying"
+      ],
+      "a": "bought",
+      "tag": "Grammar"
+    },
+    {
+      "q": "We ___ sandwiches for lunch yesterday.",
+      "options": [
+        "eat",
+        "eats",
+        "eating",
+        "ate"
+      ],
+      "a": "ate",
+      "tag": "Grammar"
+    },
+    {
+      "q": "The bus ___ at the station yesterday.",
+      "options": [
+        "stops",
+        "stopping",
+        "stopped",
+        "stop"
+      ],
+      "a": "stopped",
+      "tag": "Grammar"
+    },
+    {
+      "q": "The cat is ___ two chairs.",
+      "options": [
+        "on",
+        "under",
+        "between"
+      ],
+      "a": "between",
+      "tag": "Grammar"
+    },
+    {
+      "q": "The car is in ___ of the school.",
+      "options": [
+        "under",
+        "front",
+        "between"
+      ],
+      "a": "front",
+      "tag": "Grammar"
+    },
+    {
+      "q": "The book is ___ the bag.",
+      "options": [
+        "in",
+        "on",
+        "between"
+      ],
+      "a": "in",
+      "tag": "Grammar"
+    },
+    {
+      "q": "The supermarket is ___ to my house.",
+      "options": [
+        "under",
+        "between",
+        "next"
+      ],
+      "a": "next",
+      "tag": "Grammar"
+    },
+    {
+      "q": "The hospital is ___ the school and the bank.",
+      "options": [
+        "in",
+        "between",
+        "on"
+      ],
+      "a": "between",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Read: “Last Sunday, Grade six students went on a trip to the Pyramids in Giza. They went by bus. At the Pyramids, they saw camels and horses. They rode a horse and took photos.” What animal did they ride?",
+      "options": [
+        "a camel",
+        "a bus",
+        "a train",
+        "a horse"
+      ],
+      "a": "a horse",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “Last Sunday, Grade six students went on a trip to the Pyramids in Giza. They went by bus. At the Pyramids, they saw camels and horses. They rode a horse and took photos.” What did they take?",
+      "options": [
+        "books",
+        "lunch",
+        "photos",
+        "tickets"
+      ],
+      "a": "photos",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “Ayla visited the Cairo Tower with her family. They took nice pictures and saw the whole city. Then, they travelled to Alexandria. At the Alexandria Library, she read fun books.” What did Ayla visit first?",
+      "options": [
+        "the supermarket",
+        "Cairo Tower",
+        "the Pyramids",
+        "the zoo"
+      ],
+      "a": "Cairo Tower",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “Ayla visited the Cairo Tower with her family. They took nice pictures and saw the whole city. Then, they travelled to Alexandria. At the Alexandria Library, she read fun books.” Where did they travel?",
+      "options": [
+        "Alexandria",
+        "Luxor",
+        "Cairo",
+        "Aswan"
+      ],
+      "a": "Alexandria",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “Ayla visited the Cairo Tower with her family. They took nice pictures and saw the whole city. Then, they travelled to Alexandria. At the Alexandria Library, she read fun books.” What did Ayla do at the library?",
+      "options": [
+        "played football",
+        "ate lunch",
+        "saw animals",
+        "read fun books"
+      ],
+      "a": "read fun books",
+      "tag": "Reading"
+    },
+    {
+      "q": "Choose the correctly ordered sentence.",
+      "options": [
+        "Saw they monkeys and lions.",
+        "Lions they saw and monkeys.",
+        "And monkeys saw they lions.",
+        "They saw lions and monkeys."
+      ],
+      "a": "They saw lions and monkeys.",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Choose the correctly ordered sentence.",
+      "options": [
+        "A school she went trip on.",
+        "Trip went she on school a.",
+        "She went on a school trip.",
+        "Went she trip school a on."
+      ],
+      "a": "She went on a school trip.",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Choose the word with the /k/ sound.",
+      "options": [
+        "rain",
+        "pen",
+        "sing",
+        "lock"
+      ],
+      "a": "lock",
+      "tag": "Phonics"
+    }
+  ],
+  "3": [
+    {
+      "q": "I have a big bed in my ___.",
+      "options": [
+        "curtain",
+        "station",
+        "room",
+        "table"
+      ],
+      "a": "room",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I sit on the ___.",
+      "options": [
+        "ticket",
+        "couch",
+        "hair",
+        "toy"
+      ],
+      "a": "couch",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "There is a nice ___ on the window.",
+      "options": [
+        "curtain",
+        "chair",
+        "couch",
+        "table"
+      ],
+      "a": "curtain",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The streets are busy and the cars are ___.",
+      "options": [
+        "run",
+        "pulled",
+        "happy",
+        "stuck"
+      ],
+      "a": "stuck",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Samy used a ___ to pull out the toy car.",
+      "options": [
+        "pencil",
+        "book",
+        "stick",
+        "pen"
+      ],
+      "a": "stick",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Samy put the toy car on the ___.",
+      "options": [
+        "floor",
+        "table",
+        "couch",
+        "curtain"
+      ],
+      "a": "table",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We went to Alexandria by ___.",
+      "options": [
+        "train",
+        "park",
+        "library",
+        "ticket"
+      ],
+      "a": "train",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "They ___ to Alexandria by train last week.",
+      "options": [
+        "travels",
+        "travelling",
+        "travelled",
+        "travel"
+      ],
+      "a": "travelled",
+      "tag": "Grammar"
+    },
+    {
+      "q": "He ___ the movie on TV last night.",
+      "options": [
+        "watching",
+        "watched",
+        "watch",
+        "watches"
+      ],
+      "a": "watched",
+      "tag": "Grammar"
+    },
+    {
+      "q": "We ___ a good day at the zoo last Monday.",
+      "options": [
+        "had",
+        "have",
+        "has",
+        "having"
+      ],
+      "a": "had",
+      "tag": "Grammar"
+    },
+    {
+      "q": "The toy car ___ under the couch yesterday.",
+      "options": [
+        "roll",
+        "rolls",
+        "rolling",
+        "rolled"
+      ],
+      "a": "rolled",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Samy ___ for the toy behind the TV yesterday.",
+      "options": [
+        "looks",
+        "looking",
+        "looked",
+        "look"
+      ],
+      "a": "looked",
+      "tag": "Grammar"
+    },
+    {
+      "q": "His sister ___ him yesterday.",
+      "options": [
+        "helping",
+        "helped",
+        "help",
+        "helps"
+      ],
+      "a": "helped",
+      "tag": "Grammar"
+    },
+    {
+      "q": "He ___ the toy car between the chairs yesterday.",
+      "options": [
+        "checked",
+        "check",
+        "checks",
+        "checking"
+      ],
+      "a": "checked",
+      "tag": "Grammar"
+    },
+    {
+      "q": "The car was ___.",
+      "options": [
+        "stick",
+        "sticks",
+        "sticking",
+        "stuck"
+      ],
+      "a": "stuck",
+      "tag": "Grammar"
+    },
+    {
+      "q": "The girl ___ her room yesterday.",
+      "options": [
+        "cleans",
+        "cleaning",
+        "cleaned",
+        "clean"
+      ],
+      "a": "cleaned",
+      "tag": "Grammar"
+    },
+    {
+      "q": "My mother ___ dinner last night.",
+      "options": [
+        "cooking",
+        "cooked",
+        "cook",
+        "cooks"
+      ],
+      "a": "cooked",
+      "tag": "Grammar"
+    },
+    {
+      "q": "The TV is ___ the chair and the couch.",
+      "options": [
+        "from",
+        "between",
+        "on"
+      ],
+      "a": "between",
+      "tag": "Grammar"
+    },
+    {
+      "q": "The toy is ___ the table.",
+      "options": [
+        "under",
+        "between",
+        "in"
+      ],
+      "a": "under",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Read: “One day, Samy was playing in his room when his toy car rolled under the couch. He looked for it behind the curtain and in front of the TV. His sister used a stick to pull it out.” What did Samy’s sister use?",
+      "options": [
+        "a pencil",
+        "a book",
+        "a stick",
+        "a pen"
+      ],
+      "a": "a stick",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “My name is Tarek. I visit many places every year. I visit Cairo Tower with my family and take pictures. We can see the whole city from there. We can also see the Pyramids of Giza.” What does Tarek take?",
+      "options": [
+        "sandwiches",
+        "pictures",
+        "tickets",
+        "books"
+      ],
+      "a": "pictures",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “My name is Tarek. I visit many places every year. I visit Cairo Tower with my family and take pictures. We can see the whole city from there. We can also see the Pyramids of Giza.” What can they see from Cairo Tower?",
+      "options": [
+        "the whole city",
+        "the zoo only",
+        "the supermarket",
+        "the station"
+      ],
+      "a": "the whole city",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “My name is Tarek. I visit many places every year. I visit Cairo Tower with my family and take pictures. We can see the whole city from there. We can also see the Pyramids of Giza.” What places does Tarek visit?",
+      "options": [
+        "the hospital and school",
+        "the park and station",
+        "the supermarket and zoo",
+        "Cairo Tower and the Pyramids"
+      ],
+      "a": "Cairo Tower and the Pyramids",
+      "tag": "Reading"
+    },
+    {
+      "q": "Choose the correct punctuation.",
+      "options": [
+        "what animals did they see?",
+        "What Animals Did They See",
+        "What animals did they see?",
+        "What animals did they see."
+      ],
+      "a": "What animals did they see?",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Choose the correct punctuation.",
+      "options": [
+        "Grandma Baked A Nice Cake",
+        "Grandma baked a nice cake.",
+        "Grandma baked a nice cake?",
+        "grandma baked a nice cake."
+      ],
+      "a": "Grandma baked a nice cake.",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Choose the correct ending: sti__.",
+      "options": [
+        "ch",
+        "sh",
+        "ck",
+        "sk"
+      ],
+      "a": "ck",
+      "tag": "Phonics"
+    },
+    {
+      "q": "A place with many animals is a ___.",
+      "options": [
+        "supermarket",
+        "zoo",
+        "library",
+        "station"
+      ],
+      "a": "zoo",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The Pyramids are very ___.",
+      "options": [
+        "big",
+        "small",
+        "stuck",
+        "busy"
+      ],
+      "a": "big",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We go to the ___ to buy food.",
+      "options": [
+        "museum",
+        "park",
+        "tower",
+        "supermarket"
+      ],
+      "a": "supermarket",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Friday is a ___.",
+      "options": [
+        "busy room",
+        "station",
+        "holiday",
+        "school day"
+      ],
+      "a": "holiday",
+      "tag": "Vocabulary"
+    }
+  ],
+  "4": [
+    {
+      "q": "A person who travels goes on a ___.",
+      "options": [
+        "chair",
+        "trip",
+        "table",
+        "curtain"
+      ],
+      "a": "trip",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We can read books in a ___.",
+      "options": [
+        "library",
+        "zoo",
+        "station",
+        "hospital"
+      ],
+      "a": "library",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We can see old things in a ___.",
+      "options": [
+        "supermarket",
+        "park",
+        "room",
+        "museum"
+      ],
+      "a": "museum",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I ___ a movie yesterday.",
+      "options": [
+        "watching",
+        "watched",
+        "watch",
+        "watches"
+      ],
+      "a": "watched",
+      "tag": "Grammar"
+    },
+    {
+      "q": "He ___ a new camera last month.",
+      "options": [
+        "bought",
+        "buy",
+        "buys",
+        "buying"
+      ],
+      "a": "bought",
+      "tag": "Grammar"
+    },
+    {
+      "q": "The students ___ to the zoo last Monday.",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "went"
+      ],
+      "a": "went",
+      "tag": "Grammar"
+    },
+    {
+      "q": "She ___ orange juice at lunch yesterday.",
+      "options": [
+        "drinks",
+        "drinking",
+        "drank",
+        "drink"
+      ],
+      "a": "drank",
+      "tag": "Grammar"
+    },
+    {
+      "q": "We ___ camels at the zoo last Monday.",
+      "options": [
+        "seeing",
+        "saw",
+        "see",
+        "sees"
+      ],
+      "a": "saw",
+      "tag": "Grammar"
+    },
+    {
+      "q": "The children ___ a good day yesterday.",
+      "options": [
+        "had",
+        "have",
+        "has",
+        "having"
+      ],
+      "a": "had",
+      "tag": "Grammar"
+    },
+    {
+      "q": "My family ___ the Pyramids last year.",
+      "options": [
+        "visit",
+        "visits",
+        "visiting",
+        "visited"
+      ],
+      "a": "visited",
+      "tag": "Grammar"
+    },
+    {
+      "q": "I ___ my book at home yesterday.",
+      "options": [
+        "leaves",
+        "leaving",
+        "left",
+        "leave"
+      ],
+      "a": "left",
+      "tag": "Grammar"
+    },
+    {
+      "q": "He ___ the door and went inside.",
+      "options": [
+        "opening",
+        "opened",
+        "open",
+        "opens"
+      ],
+      "a": "opened",
+      "tag": "Grammar"
+    },
+    {
+      "q": "They ___ a train ticket yesterday.",
+      "options": [
+        "bought",
+        "buy",
+        "buys",
+        "buying"
+      ],
+      "a": "bought",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Read: “Last Monday, Grade three students went on a trip to the zoo. They went by bus. At the zoo, they saw lions, monkeys, and elephants. The ticket was 20 pounds.” How much was the ticket?",
+      "options": [
+        "10 pounds",
+        "30 pounds",
+        "5 pounds",
+        "20 pounds"
+      ],
+      "a": "20 pounds",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “Last Sunday, Grade six students went on a trip to the Pyramids in Giza. They went by bus. At the Pyramids, they saw camels and horses. They rode a horse and took photos.” Where did they go?",
+      "options": [
+        "the library",
+        "Cairo Tower",
+        "the Pyramids",
+        "the zoo"
+      ],
+      "a": "the Pyramids",
+      "tag": "Reading"
+    },
+    {
+      "q": "Which word has the /k/ sound at the end?",
+      "options": [
+        "dog",
+        "sock",
+        "rain",
+        "pen"
+      ],
+      "a": "sock",
+      "tag": "Phonics"
+    },
+    {
+      "q": "Animals such as elephants live in the ___.",
+      "options": [
+        "zoo",
+        "library",
+        "station",
+        "supermarket"
+      ],
+      "a": "zoo",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We use a camera to take ___.",
+      "options": [
+        "tickets",
+        "trains",
+        "lunch",
+        "pictures"
+      ],
+      "a": "pictures",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A train stops at a ___.",
+      "options": [
+        "room",
+        "museum",
+        "station",
+        "park"
+      ],
+      "a": "station",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I eat rice and chicken for ___.",
+      "options": [
+        "ticket",
+        "lunch",
+        "run",
+        "pound"
+      ],
+      "a": "lunch",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We visited the Cairo ___.",
+      "options": [
+        "Tower",
+        "Library",
+        "Station",
+        "Garden"
+      ],
+      "a": "Tower",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I ___ my friends at the park yesterday.",
+      "options": [
+        "played with",
+        "play with",
+        "plays with",
+        "playing with"
+      ],
+      "a": "played with",
+      "tag": "Grammar"
+    },
+    {
+      "q": "The dog ___ under the box yesterday.",
+      "options": [
+        "roll",
+        "rolls",
+        "rolling",
+        "rolled"
+      ],
+      "a": "rolled",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Read: “One day, Samy was playing in his room when his toy car rolled under the couch. He looked for it behind the curtain and in front of the TV. His sister used a stick to pull it out.” Where did the toy car roll?",
+      "options": [
+        "in the garden",
+        "next to the TV",
+        "under the couch",
+        "on the table"
+      ],
+      "a": "under the couch",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “One day, Samy was playing in his room when his toy car rolled under the couch. He looked for it behind the curtain and in front of the TV. His sister used a stick to pull it out.” Who helped Samy?",
+      "options": [
+        "his teacher",
+        "his sister",
+        "his mother",
+        "his friend"
+      ],
+      "a": "his sister",
+      "tag": "Reading"
+    },
+    {
+      "q": "At the ___, we read fun books.",
+      "options": [
+        "Alexandria Library",
+        "Pyramids",
+        "Cairo Tower",
+        "Zoo"
+      ],
+      "a": "Alexandria Library",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We want to ___ the new city.",
+      "options": [
+        "write",
+        "do",
+        "sleep",
+        "explore"
+      ],
+      "a": "explore",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My dad ___ me with my homework last week.",
+      "options": [
+        "help",
+        "helps",
+        "helping",
+        "helped"
+      ],
+      "a": "helped",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Sara ___ to the park yesterday.",
+      "options": [
+        "go",
+        "going",
+        "went",
+        "goes"
+      ],
+      "a": "went",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Friday is a ___.",
+      "options": [
+        "busy room",
+        "station",
+        "holiday",
+        "school day"
+      ],
+      "a": "holiday",
+      "tag": "Vocabulary"
+    }
+  ]
+};
+
+// ============================================================
+//  App
+// ============================================================
+let currentModel = 1;
+let studentName = '';
+let quiz = [];              // questions of the current attempt (after shuffling)
+let wrongAnswersLog = [];
+let skillStats = {};
+const SKILL_ORDER = ['Vocabulary', 'Grammar', 'Reading', 'Phonics'];
+const skillKeys = () => SKILL_ORDER.filter(k => skillStats[k]).concat(Object.keys(skillStats).filter(k => SKILL_ORDER.indexOf(k) < 0));
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const t = a[i]; a[i] = a[j]; a[j] = t;
+  }
+  return a;
+}
+
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  $(id).classList.add('active');
+  window.scrollTo(0, 0);
+}
+
+window.onload = () => {
+  const tabs = $('model-tabs');
+  for (let i = 1; i <= 4; i++) {
+    const b = document.createElement('button');
+    b.className = 'tab-btn';
+    b.innerText = `Module ${i}`;
+    b.onclick = () => startApp(i);
+    tabs.appendChild(b);
+  }
+  if (TEACHER_PHONE) {
+    $('teacher-phone-group').style.display = 'none';
+  } else {
+    try { $('teacherPhone').value = localStorage.getItem('teacherPhone') || ''; } catch (e) { /* storage not available */ }
+  }
+};
+
+function startApp(id) {
+  const n = $('studentName');
+  if (!n.value.trim()) {
+    alert('Please enter your name first!\nمن فضلك اكتب اسمك يا بطل');
+    n.focus();
+    return;
+  }
+  studentName = n.value.trim();
+  loadModel(id);
+  showScreen('quiz-screen');
+}
+
+function updateProgress() {
+  const done = document.querySelectorAll('#quiz-content input[type=radio]:checked').length;
+  $('progress-bar').style.width = `${done / quiz.length * 100}%`;
+}
+
+function loadModel(id) {
+  currentModel = id;
+  const base = allModels[String(id)].map(x => ({
+    q: x.q, a: x.a, tag: x.tag,
+    options: SHUFFLE_OPTIONS ? shuffle(x.options) : x.options.slice()
+  }));
+  quiz = SHUFFLE_QUESTIONS ? shuffle(base) : base;
+
+  $('model-title').innerText = `📝 Grade 3 - Unit 3 - Module ${id}`;
+  $('question-counter').innerText = `${quiz.length} multiple-choice questions`;
+  $('progress-bar').style.width = '0%';
+
+  const c = $('quiz-content');
+  c.innerHTML = '';
+  quiz.forEach((x, i) => {
+    const card = document.createElement('div');
+    card.className = 'question-card';
+
+    const readingMatch = x.tag === 'Reading' ? x.q.match(/^Read:\s*[“\"]([\s\S]*?)[”\"]\s*(.*)$/) : null;
+    if (readingMatch) {
+      const passage = document.createElement('div');
+      passage.className = 'reading-passage';
+      passage.innerText = `📖 ${readingMatch[1]}`;
+      card.appendChild(passage);
+      const q = document.createElement('div');
+      q.className = 'reading-question';
+      q.innerText = `${i + 1}. ${readingMatch[2]}`;
+      card.appendChild(q);
+    } else {
+      const q = document.createElement('div');
+      q.className = 'question-text';
+      q.innerText = `${i + 1}. ${x.q}`;
+      card.appendChild(q);
+    }
+
+    const g = document.createElement('div');
+    g.className = 'options-grid';
+    x.options.forEach(o => {
+      const l = document.createElement('label');
+      l.className = 'option-label';
+      const r = document.createElement('input');
+      r.type = 'radio';
+      r.name = `q${i}`;
+      r.value = o;
+      r.onchange = () => {
+        g.querySelectorAll('.option-label').forEach(el => el.classList.remove('selected'));
+        l.classList.add('selected');
+        updateProgress();
+      };
+      l.appendChild(r);
+      l.appendChild(document.createTextNode(o));
+      g.appendChild(l);
+    });
+    card.appendChild(g);
+    c.appendChild(card);
+  });
+}
+
+function submitQuiz() {
+  const answered = quiz.filter((_, i) => document.querySelector(`input[name=q${i}]:checked`)).length;
+  const ok = answered < quiz.length
+    ? confirm(`You answered ${answered} of ${quiz.length}. Finish anyway?`)
+    : confirm('Are you sure you want to finish the quiz?');
+  if (ok) gradeQuiz();
+}
+
+function gradeQuiz() {
+  let score = 0;
+  wrongAnswersLog = [];
+  skillStats = {};
+  quiz.forEach((x, i) => {
+    if (!skillStats[x.tag]) skillStats[x.tag] = { correct: 0, total: 0 };
+    const st = skillStats[x.tag];
+    st.total++;
+    const sel = document.querySelector(`input[name=q${i}]:checked`);
+    if (sel && sel.value === x.a) {
+      score++;
+      st.correct++;
+    } else {
+      wrongAnswersLog.push({ n: i + 1, q: x.q, user: sel ? sel.value : 'No Answer', correct: x.a, tag: x.tag });
+    }
+  });
+  showResults(score, quiz.length);
+}
+
+function showResults(score, total) {
+  showScreen('result-screen');
+
+  const s = $('score-display');
+  s.innerText = `${score}/${total}`;
+  const noAnswer = wrongAnswersLog.filter(x => x.user === 'No Answer').length;
+  $('result-summary').innerText = `Answered: ${total - noAnswer}/${total} | Mistakes: ${wrongAnswersLog.length}`;
+
+  // per-skill chips
+  $('skills-box').innerHTML = skillKeys().map(k => {
+    const st = skillStats[k];
+    const p = st.correct / st.total;
+    const cls = p >= 0.8 ? 'good' : p >= 0.5 ? 'mid' : 'low';
+    return `<div class="skill-chip ${cls}">${esc(k)}<small>${st.correct}/${st.total}</small></div>`;
+  }).join('');
+
+  // mistakes review
+  const box = $('mistakes-section');
+  if (wrongAnswersLog.length) {
+    box.innerHTML = '<div class="mistakes-title" lang="ar" dir="rtl">مراجعة الأخطاء</div>' +
+      wrongAnswersLog.map(x => {
+        const user = x.user === 'No Answer' ? 'لم تجب' : x.user;
+        return `<div class="mistake-item">
+          <div class="mistake-q">${x.n}. ${esc(x.q)}</div>
+          <div class="wrong-answer" lang="ar" dir="rtl">❌ إجابتك: <bdi>${esc(user)}</bdi></div>
+          <div class="correct-answer" lang="ar" dir="rtl">✅ الإجابة الصحيحة: <bdi>${esc(x.correct)}</bdi></div>
+        </div>`;
+      }).join('');
+  } else {
+    box.innerHTML = '<div class="mistakes-title" lang="ar" dir="rtl" style="color:#168f62">ممتاز! لا توجد أخطاء 🎉</div>';
+  }
+
+  // encouragement (Arabic, name isolated so it never scrambles the sentence)
+  const p = score / total * 100;
+  const m = $('encouragement-msg');
+  const nm = `<bdi>${esc(studentName)}</bdi>`;
+  m.lang = 'ar'; m.dir = 'rtl';
+  if (p === 100)      { s.style.background = '#2ed573'; m.innerHTML = `ممتاز يا ${nm}! 🏆`; }
+  else if (p >= 80)   { s.style.background = '#1e90ff'; m.innerHTML = `رائع يا ${nm}! 💪`; }
+  else if (p >= 50)   { s.style.background = '#ffa502'; m.innerHTML = `جيد يا ${nm}، راجع أخطاءك 👍`; }
+  else                { s.style.background = '#ff4757'; m.innerHTML = `لا تيأس يا ${nm}، حاول مرة أخرى ❤️`; }
+}
+
+function retryModule() {
+  loadModel(currentModel);
+  showScreen('quiz-screen');
+}
+
+function backToModules() {
+  showScreen('welcome-screen');   // the student name stays filled in
+}
+
+// ---------- WhatsApp report ----------
+function normalizePhone(v) {
+  let d = String(v).replace(/\D/g, '');
+  if (d.indexOf('0020') === 0) d = d.slice(4);                          // 0020 1xx...
+  else if (d.indexOf('20') === 0 && d.length >= 12) d = d.slice(2);     // +20 1xx...
+  if (d.charAt(0) === '0') d = d.slice(1);                              // 01xx...
+  return (d.length === 10 && d.charAt(0) === '1') ? '20' + d : null;
+}
+
+function getTeacherPhone() {
+  const input = TEACHER_PHONE || $('teacherPhone').value;
+  const phone = normalizePhone(input);
+  if (!phone) {
+    alert('Please enter a valid Egyptian mobile number, e.g. 01xxxxxxxxx\nمن فضلك اكتب رقم موبايل مصري صحيح');
+    return null;
+  }
+  if (!TEACHER_PHONE) {
+    try { localStorage.setItem('teacherPhone', $('teacherPhone').value.trim()); } catch (e) { /* ignore */ }
+  }
+  return phone;
+}
+
+// For reading questions, drop the passage and keep only the question itself
+function shortQuestion(q) {
+  const i = q.lastIndexOf('”');
+  return (q.indexOf('Read:') === 0 && i > -1) ? q.slice(i + 1).trim() : q;
+}
+
+function sendWhatsApp() {
+  const phone = getTeacherPhone();
+  if (!phone) return;
+
+  const skills = skillKeys().map(k => `${k} ${skillStats[k].correct}/${skillStats[k].total}`).join(' | ');
+  let msg = `*Unit 3 Revision - Grade 3*\n--------------------\n` +
+            `👤 *Student:* ${studentName}\n` +
+            `📝 *Module:* ${currentModel}\n` +
+            `📊 *Score:* ${$('score-display').innerText}\n` +
+            `🧩 *Skills:* ${skills}\n`;
+
+  if (wrongAnswersLog.length) {
+    msg += `\n*Mistakes (${wrongAnswersLog.length}):*\n`;
+    wrongAnswersLog.slice(0, MAX_MISTAKES_IN_REPORT).forEach(x => {
+      msg += `• [${x.tag}] ${shortQuestion(x.q)} → ${x.user} ✗ (correct: ${x.correct})\n`;
+    });
+    if (wrongAnswersLog.length > MAX_MISTAKES_IN_REPORT) {
+      msg += `… and ${wrongAnswersLog.length - MAX_MISTAKES_IN_REPORT} more\n`;
+    }
+  } else {
+    msg += '🎉 *Perfect score!*';
+  }
+
+  window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`, '_blank');
+}
+
+</script>
+</body>
+</html>

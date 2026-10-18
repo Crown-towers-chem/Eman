@@ -1,0 +1,4023 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Units 1-4 Revision | Prep 3</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Fredoka:wght@400;600&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--primary:#ff9f43;--secondary:#00b894;--accent:#54a0ff;--dark:#222f3e;--bg:#f7f1e3;--danger:#ff6b6b}
+*{box-sizing:border-box;margin:0;padding:0;font-family:'Nunito','Cairo',sans-serif}body{background:var(--bg);background-image:radial-gradient(#00d2d3 1px,transparent 1px);background-size:20px 20px;color:var(--dark);min-height:100vh;display:flex;flex-direction:column;align-items:center}header{background:#fff;width:100%;padding:20px;text-align:center;box-shadow:0 4px 15px #0001;border-bottom:5px solid var(--primary)}h1{color:#00a8a8;font-family:Fredoka,sans-serif;font-size:2.2rem;text-shadow:2px 2px 0 #222f3e;margin-bottom:5px}h2{color:var(--primary);font-size:1.1rem}.container{width:95%;max-width:850px;margin:20px auto;background:white;border-radius:20px;box-shadow:0 10px 25px #0001;padding:20px;border:3px solid #00d2d3;flex:1}.screen{display:none;animation:fadeIn .4s ease-in-out}.screen.active{display:block}.input-group{margin:20px 0;text-align:center}label{display:block;font-size:1.2rem;margin-bottom:10px;font-weight:bold}input[type=text],input[type=number]{width:80%;padding:14px;font-size:1.1rem;border:3px solid #00d2d3;border-radius:50px;outline:none;text-align:center;background:#f9f9f9}input:focus{border-color:var(--primary);box-shadow:0 0 15px #ff9f434d}.btn{background:var(--primary);color:white;border:0;padding:14px 34px;font-size:1.1rem;border-radius:50px;cursor:pointer;font-weight:bold;box-shadow:0 5px 0 #e58e26;transition:.2s;margin-top:18px;width:100%;max-width:300px}.btn:active{transform:translateY(5px);box-shadow:none}.btn-blue{background:var(--accent);box-shadow:0 5px 0 #2e86de}.btn-whatsapp{background:#25d366;box-shadow:0 5px 0 #128c7e}.nav-tabs{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:20px;padding-top:15px;border-top:2px dashed #eee}.tab-btn{background:#f1f2f6;border:2px solid #dfe4ea;padding:12px 20px;border-radius:15px;cursor:pointer;font-weight:bold;font-size:1.05rem;color:#747d8c;min-width:120px}.tab-btn:hover{background:#fff;border-color:var(--primary);color:var(--primary);transform:translateY(-2px)}.question-card{background:#fff;border:2px solid #f1f2f6;border-left:5px solid var(--accent);padding:18px;margin-bottom:16px;border-radius:15px}.question-text{font-size:1.12rem;font-weight:700;margin-bottom:13px;line-height:1.5}.reading-passage{background:#eef7ff;border:2px solid #b9ddff;border-radius:12px;padding:12px 14px;margin-bottom:12px;color:#24527a;font-size:1rem;line-height:1.65;font-weight:600}.reading-question{background:#fff8e8;border-left:4px solid #ff9f43;border-radius:8px;padding:10px 12px;margin-bottom:13px;color:#9a5b00;font-size:1.08rem;font-weight:700;line-height:1.5}.options-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.option-label{display:flex;align-items:center;background:#f8f9fa;padding:11px;border-radius:10px;border:2px solid #eee;cursor:pointer;font-size:1rem}.option-label:hover{border-color:var(--accent);background:#eef5ff}input[type=radio]{margin-right:10px;width:19px;height:19px;accent-color:var(--primary)}.progress{background:#eee;border-radius:20px;height:12px;margin:10px 0 20px;overflow:hidden}.progress-bar{height:100%;background:var(--secondary);width:0;transition:.3s}.score-circle{width:160px;height:160px;border-radius:50%;background:var(--secondary);color:#fff;display:flex;justify-content:center;align-items:center;font-size:3rem;font-weight:bold;margin:20px auto;border:6px solid #fff;box-shadow:0 0 0 6px var(--secondary)}.message{text-align:center;font-size:1.35rem;color:var(--primary);margin-bottom:25px;font-weight:bold}.report-section{background:#f1f2f6;padding:20px;border-radius:15px;margin-top:20px;text-align:center}.summary{text-align:center;font-weight:bold;color:#555;margin-bottom:8px}.mistakes-section{margin:15px 0;padding:15px;background:#fff5f5;border:2px solid #ffd0d0;border-radius:15px}.mistakes-title{color:#d63031;text-align:center;font-weight:bold;margin-bottom:10px;font-family:Cairo}.mistake-item{padding:9px 0;border-bottom:1px solid #ffdede;line-height:1.5}.mistake-item:last-child{border-bottom:0}.mistake-q{font-weight:bold}.wrong-answer{color:#d63031}.correct-answer{color:#168f62}footer{padding:20px;font-size:1rem;color:#666;text-align:center;font-weight:bold;background:#fff;width:100%;margin-top:20px;border-top:1px solid #eee}.heart{color:red}@keyframes fadeIn{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}@media(max-width:600px){.options-grid{grid-template-columns:1fr}h1{font-size:1.8rem}.score-circle{width:130px;height:130px;font-size:2.5rem}.container{width:100%;border:none;border-radius:0}.tab-btn{width:45%}}
+
+/* ---- additions ---- */
+input[type=tel]{width:80%;padding:14px;font-size:1.1rem;border:3px solid #00d2d3;border-radius:50px;outline:none;text-align:center;background:#f9f9f9}
+.option-label:focus-within{border-color:var(--accent);background:#eef5ff}
+.option-label.selected{border-color:var(--primary);background:#fff4e6}
+.skills-title{text-align:center;font-family:Cairo,sans-serif;font-weight:bold;color:#555;margin:16px 0 8px}
+.skills{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:18px}
+.skill-chip{border:2px solid #dfe4ea;background:#f1f2f6;border-radius:14px;padding:8px 16px;min-width:120px;text-align:center;font-weight:bold}
+.skill-chip small{display:block;font-size:1.05rem;margin-top:2px}
+.skill-chip.good{border-color:#2ed573;background:#eafaf1;color:#168f62}
+.skill-chip.mid{border-color:#ffa502;background:#fff6e5;color:#b36b00}
+.skill-chip.low{border-color:#ff6b6b;background:#fff0f0;color:#d63031}
+.actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:15px}
+.actions .btn{margin-top:0}
+.mistake-item bdi{font-weight:bold}
+@media(prefers-reduced-motion:reduce){.screen{animation:none}.btn,.tab-btn,.progress-bar{transition:none}}
+
+/* ---- additions ---- */
+.options-grid label:last-child:nth-child(odd){grid-column:1/-1}
+/* ---- contact bar ---- */
+.contact-bar{width:100%;background:var(--dark);color:#fff;border-bottom:4px solid var(--primary);padding:10px 12px;display:flex;flex-wrap:wrap;gap:8px 14px;justify-content:center;align-items:center;font-family:'Cairo','Nunito',sans-serif}
+.contact-bar .cb-name{font-family:Fredoka,'Cairo',sans-serif;font-weight:600;font-size:1.05rem;letter-spacing:.3px}
+.contact-bar .cb-links{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.contact-bar a{color:#fff;text-decoration:none;font-weight:bold;font-size:.95rem;padding:6px 16px;border-radius:50px;background:rgba(255,255,255,.14);transition:.2s}
+.contact-bar a:hover{transform:translateY(-2px)}
+.contact-bar a.wa{background:#25d366}
+.contact-bar a.call{background:var(--accent)}
+</style>
+</head>
+<body>
+<div class="contact-bar">
+  <span class="cb-name">Mrs. Eman Koriem</span>
+  <span class="cb-links">
+    <a class="call" href="tel:+201023990505">📞 01023990505</a>
+    <a class="wa" href="https://wa.me/201023990505" target="_blank" rel="noopener" lang="ar" dir="rtl">💬 تواصل عبر الواتس</a>
+  </span>
+</div>
+
+<header><h1>Units 1-4 Revision - Prep 3</h1><h2>Vocabulary</h2></header>
+<div class="container">
+
+<section id="welcome-screen" class="screen active">
+  <div class="input-group">
+    <div style="font-size:3rem;margin-bottom:10px">👋</div>
+    <h3 lang="ar" dir="rtl" style="margin-bottom:20px;font-family:Cairo">أهلاً بك يا بطل!</h3>
+    <label for="studentName">Enter Student Name:</label>
+    <input type="text" id="studentName" placeholder="e.g., Ahmed Ali" autocomplete="off">
+  </div>
+  <p lang="ar" dir="rtl" style="text-align:center;color:var(--dark);font-weight:bold;font-family:Cairo;font-size:1.15rem">اختر الموديول لتبدأ الاختبار</p>
+  <div class="nav-tabs" id="model-tabs"></div>
+</section>
+
+<section id="quiz-screen" class="screen">
+  <div style="text-align:center;margin-bottom:15px">
+    <h3 id="model-title" style="color:var(--primary)"></h3>
+    <div id="question-counter" class="summary"></div>
+  </div>
+  <div class="progress"><div id="progress-bar" class="progress-bar"></div></div>
+  <div id="quiz-content"></div>
+  <div style="text-align:center;padding-bottom:20px"><button class="btn" onclick="submitQuiz()">Submit Answers ✅</button></div>
+</section>
+
+<section id="result-screen" class="screen">
+  <div class="score-circle" id="score-display">0/30</div>
+  <div class="message" id="encouragement-msg"></div>
+  <div class="summary" id="result-summary"></div>
+  <div class="skills-title" lang="ar" dir="rtl">مستواك في كل مهارة</div>
+  <div class="skills" id="skills-box"></div>
+  <div id="mistakes-section" class="mistakes-section"></div>
+  <div class="report-section">
+    <h3 lang="ar" dir="rtl" style="margin-bottom:15px;font-family:Cairo">أرسل التقرير للمستر</h3>
+    <div id="teacher-phone-group">
+      <label for="teacherPhone" style="font-size:1rem">Teacher's WhatsApp Number:</label>
+      <input type="tel" id="teacherPhone" placeholder="01xxxxxxxxx" inputmode="numeric" autocomplete="off">
+    </div>
+    <button class="btn btn-whatsapp" onclick="sendWhatsApp()">Send via WhatsApp 💬</button>
+  </div>
+  <div class="actions">
+    <button class="btn" onclick="retryModule()">Retry This Module 🔁</button>
+    <button class="btn btn-blue" onclick="backToModules()">Try Another Module 🔄</button>
+  </div>
+</section>
+
+</div>
+<footer>Made with Love by Mr. Ameen Sharqawy <span class="heart">❤</span></footer>
+
+<script>
+// ============================================================
+//  Settings (تقدر تعدلهم بسهولة)
+// ============================================================
+// Put the teacher's number here (e.g. '01012345678') to hide the phone box from students.
+// Leave it empty '' and the student types it once (it is remembered on that device).
+const TEACHER_PHONE = '';
+const SHUFFLE_QUESTIONS = true;   // random question order every attempt
+const SHUFFLE_OPTIONS   = true;   // random answer order every attempt
+const MAX_MISTAKES_IN_REPORT = 10;
+
+// ============================================================
+//  Questions  (tag = Vocabulary | Grammar | Reading)
+// ============================================================
+const allModels = {
+  "1": [
+    {
+      "q": "............... means learning more about who you are.",
+      "options": [
+        "Self - discovery",
+        "Curiosity",
+        "Resilience",
+        "Popularity"
+      ],
+      "a": "Self - discovery",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... mean feelings like happiness, sadness, anger, or fear.",
+      "options": [
+        "Emotions",
+        "Streets",
+        "Hospitals",
+        "Dresses"
+      ],
+      "a": "Emotions",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Things that are related to the body are called ............... .",
+      "options": [
+        "physical",
+        "social",
+        "mental",
+        "emotional"
+      ],
+      "a": "physical",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... is a movement or action that shows emotion.",
+      "options": [
+        "Gesture",
+        "Courage",
+        "Bravery",
+        "Energy"
+      ],
+      "a": "Gesture",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... means to have a high opinion of someone or something.",
+      "options": [
+        "study",
+        "watch",
+        "value",
+        "read"
+      ],
+      "a": "value",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... is fun activities like games or watching TV.",
+      "options": [
+        "Resilience",
+        "Confidence",
+        "Cowardice",
+        "Entertainment"
+      ],
+      "a": "Entertainment",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... is the way someone or something acts or responds.",
+      "options": [
+        "Stair",
+        "Road",
+        "Behavior",
+        "Individuality"
+      ],
+      "a": "Behavior",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A/An ............... means where someone comes from.",
+      "options": [
+        "underground",
+        "background",
+        "foreground",
+        "ground"
+      ],
+      "a": "background",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A/An ............... is a person who knows a lot about something.",
+      "options": [
+        "expert",
+        "cowardice",
+        "courage",
+        "strength"
+      ],
+      "a": "expert",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means very modern, developed, or complex, not basic.",
+      "options": [
+        "Stressed",
+        "Smart",
+        "Advanced",
+        "Horrible"
+      ],
+      "a": "Advanced",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means who a person is.",
+      "options": [
+        "Reading",
+        "Love",
+        "Identity",
+        "Courage"
+      ],
+      "a": "Identity",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means feeling annoyed or upset.",
+      "options": [
+        "Frustrated",
+        "Lazy",
+        "Strong",
+        "Brave"
+      ],
+      "a": "Frustrated",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... means to keep things equal or in the right amount.",
+      "options": [
+        "imagine",
+        "limit",
+        "balance",
+        "make"
+      ],
+      "a": "balance",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... helps you overcome life's challenges.",
+      "options": [
+        "Strength",
+        "Weakness",
+        "Poverty",
+        "Sadness"
+      ],
+      "a": "Strength",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A/An ............... is the point where something stops or cannot go further.",
+      "options": [
+        "merit",
+        "limit",
+        "benefit",
+        "advantage"
+      ],
+      "a": "limit",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means having purpose or deep importance.",
+      "options": [
+        "Energetic",
+        "Active",
+        "Lazy",
+        "Meaningful"
+      ],
+      "a": "Meaningful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... mean jobs or actions that need to be done.",
+      "options": [
+        "Stops",
+        "Tasks",
+        "Spiders",
+        "Stairs"
+      ],
+      "a": "Tasks",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means helpful for learning or work.",
+      "options": [
+        "Useful",
+        "Unusual",
+        "Quick",
+        "Usual"
+      ],
+      "a": "Useful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "So much homework usually makes students feel ............... .",
+      "options": [
+        "fat",
+        "tall",
+        "short",
+        "stressed"
+      ],
+      "a": "stressed",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... mean people; men, women, and children.",
+      "options": [
+        "Humans",
+        "Ants",
+        "Webs",
+        "Drops"
+      ],
+      "a": "Humans",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means not easily distracted.",
+      "options": [
+        "Useful",
+        "Focused",
+        "Kind",
+        "Unkind"
+      ],
+      "a": "Focused",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... is the absence of sound.",
+      "options": [
+        "Bravery",
+        "Silence",
+        "Determination",
+        "Agreement"
+      ],
+      "a": "Silence",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "His ............... grew after he scored three goals in the final match.",
+      "options": [
+        "sadness",
+        "cowardice",
+        "confidence",
+        "hate"
+      ],
+      "a": "confidence",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... is the time spent looking at a screen.",
+      "options": [
+        "Monorail",
+        "Screen time",
+        "Bus",
+        "Train"
+      ],
+      "a": "Screen time",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "People usually ............... those who do something useful like scientists.",
+      "options": [
+        "hurt",
+        "damage",
+        "value",
+        "pollute"
+      ],
+      "a": "value",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means imaginative.",
+      "options": [
+        "Stupid",
+        "Innovative",
+        "Expensive",
+        "Cheap"
+      ],
+      "a": "Innovative",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means invention and improvement.",
+      "options": [
+        "Happiness",
+        "Sadness",
+        "Pleasure",
+        "Innovation"
+      ],
+      "a": "Innovation",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means something that takes attention away.",
+      "options": [
+        "Production",
+        "Help",
+        "Distraction",
+        "Kindness"
+      ],
+      "a": "Distraction",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "What ............... do you think Leila faced?",
+      "options": [
+        "colors",
+        "challenges",
+        "confidence",
+        "shapes"
+      ],
+      "a": "challenges",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... is to create or produce.",
+      "options": [
+        "smell",
+        "taste",
+        "compose",
+        "eat"
+      ],
+      "a": "compose",
+      "tag": "Vocabulary"
+    }
+  ],
+  "2": [
+    {
+      "q": "My background is simple. “Simple” here is similar in meaning to ............... .",
+      "options": [
+        "hard",
+        "heavy",
+        "clear",
+        "ordinary"
+      ],
+      "a": "ordinary",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means to build a relationship again after distance.",
+      "options": [
+        "Rearrange",
+        "Rewrite",
+        "Reconnect",
+        "Reread"
+      ],
+      "a": "Reconnect",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means something new and advanced.",
+      "options": [
+        "Old",
+        "Modern",
+        "Kind",
+        "Unkind"
+      ],
+      "a": "Modern",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Teenagers often ............... through social media on their phones.",
+      "options": [
+        "weigh",
+        "scroll",
+        "type",
+        "study"
+      ],
+      "a": "scroll",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “unique” means being “...............”.",
+      "options": [
+        "the same as",
+        "popular",
+        "one of a kind",
+        "strange"
+      ],
+      "a": "one of a kind",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... is something that stops you from paying attention.",
+      "options": [
+        "Distraction",
+        "Agreement",
+        "Determination",
+        "Poverty"
+      ],
+      "a": "Distraction",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "AI is used in hospitals to bring ............... to patients.",
+      "options": [
+        "food",
+        "books",
+        "medicine",
+        "flowers"
+      ],
+      "a": "medicine",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "AI can create pictures, songs, and even ............... .",
+      "options": [
+        "robots",
+        "stories",
+        "humans",
+        "schools"
+      ],
+      "a": "stories",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Spending too much screen time can make you feel ............... .",
+      "options": [
+        "relaxed",
+        "happy",
+        "stressed",
+        "pleased"
+      ],
+      "a": "stressed",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I may not be the loudest person, but I believe listening is one of my ............... .",
+      "options": [
+        "story",
+        "strange",
+        "length",
+        "strengths"
+      ],
+      "a": "strengths",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Not giving up until achieving something means ............... .",
+      "options": [
+        "respect",
+        "hate",
+        "determination",
+        "love"
+      ],
+      "a": "determination",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The young people are the ............... of Egypt.",
+      "options": [
+        "past",
+        "school",
+        "history",
+        "future"
+      ],
+      "a": "future",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "His ............... helped him overcome many difficulties.",
+      "options": [
+        "distraction",
+        "strength",
+        "emotion",
+        "donation"
+      ],
+      "a": "strength",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "One benefit of AI is that it reduces human ............... .",
+      "options": [
+        "intelligence",
+        "creativity",
+        "work",
+        "errors"
+      ],
+      "a": "errors",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Egypt is working on smart ............... like the Monorail.",
+      "options": [
+        "problems",
+        "projects",
+        "schools",
+        "farms"
+      ],
+      "a": "projects",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The ............... of this new app is that it can adapt to each user's needs.",
+      "options": [
+        "background",
+        "distraction",
+        "strength",
+        "curiosity"
+      ],
+      "a": "strength",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "This TV is very “expensive”. The opposite of “expensive” is “...............”.",
+      "options": [
+        "costly",
+        "valuable",
+        "cheap",
+        "high-priced"
+      ],
+      "a": "cheap",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A synonym for “let” or “allow” is “...............”.",
+      "options": [
+        "prevent",
+        "stop",
+        "permit",
+        "block"
+      ],
+      "a": "permit",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “- ence” in “confidence” changes the word into a/an “...............”.",
+      "options": [
+        "verb",
+        "adverb",
+        "adjective",
+        "noun"
+      ],
+      "a": "noun",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “useful” is the synonym for “...............”.",
+      "options": [
+        "lazy",
+        "useless",
+        "helpful",
+        "slow"
+      ],
+      "a": "helpful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“Stressed” can have the same meaning of “...............”.",
+      "options": [
+        "weak",
+        "sure",
+        "worried",
+        "relaxed"
+      ],
+      "a": "worried",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The words “focused” and “...............” have the same meaning.",
+      "options": [
+        "distracted",
+        "concentrated",
+        "bored",
+        "inattentive"
+      ],
+      "a": "concentrated",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Omar's family dinners used to be filled with ............... . They laughed together.",
+      "options": [
+        "arguments",
+        "silence",
+        "laughter",
+        "stress"
+      ],
+      "a": "laughter",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "He can “compose” beautiful music. The word “compose” is similar to ............... .",
+      "options": [
+        "destroy",
+        "create",
+        "listen",
+        "break"
+      ],
+      "a": "create",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The synonym of “cutting-edge” is “...............”.",
+      "options": [
+        "outdated",
+        "old",
+        "traditional",
+        "advanced"
+      ],
+      "a": "advanced",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Communication in Omar's family had almost disappeared due to school stress and phone ............... .",
+      "options": [
+        "silence",
+        "subjects",
+        "distractions",
+        "gestures"
+      ],
+      "a": "distractions",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The prefix “self-” in “self-respect” means related to “...............”.",
+      "options": [
+        "others",
+        "thinking",
+        "people",
+        "oneself"
+      ],
+      "a": "oneself",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The synonym of “smart” is “...............”.",
+      "options": [
+        "stupid",
+        "intelligent",
+        "simple",
+        "basic"
+      ],
+      "a": "intelligent",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “...............” forms the noun from the adjective “kind”.",
+      "options": [
+        "-ness",
+        "-less",
+        "-ity",
+        "-ence"
+      ],
+      "a": "-ness",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “...............” changes the noun “health” into an adjective.",
+      "options": [
+        "-ful",
+        "-able",
+        "-less",
+        "-y"
+      ],
+      "a": "-y",
+      "tag": "Vocabulary"
+    }
+  ],
+  "3": [
+    {
+      "q": "The words “advanced” and “...............” have the same meaning.",
+      "options": [
+        "basic",
+        "simple",
+        "modern",
+        "old"
+      ],
+      "a": "modern",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "His greatest strength is his ability to keep calm. “Strength” is opposite in meaning to ............... .",
+      "options": [
+        "power",
+        "weakness",
+        "stressed",
+        "strong"
+      ],
+      "a": "weakness",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “...............” changes the word “mental” into an adverb.",
+      "options": [
+        "-y",
+        "-ly",
+        "-ness",
+        "-ment"
+      ],
+      "a": "-ly",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “creative” is the opposite of “...............”.",
+      "options": [
+        "artistic",
+        "innovative",
+        "new",
+        "unimaginative"
+      ],
+      "a": "unimaginative",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“Strange” is similar in meaning to ............... .",
+      "options": [
+        "unusual",
+        "usual",
+        "normal",
+        "familiar"
+      ],
+      "a": "unusual",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The story teaches us that a small act of ............... can help people reconnect.",
+      "options": [
+        "silence",
+        "communication",
+        "eating",
+        "shouting"
+      ],
+      "a": "communication",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We can form a noun from the verb “distract” by adding the suffix “...............”.",
+      "options": [
+        "-er",
+        "-ment",
+        "-ion",
+        "-ing"
+      ],
+      "a": "-ion",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The opposite of “expensive” can be formed with the prefix “...............”.",
+      "options": [
+        "un-",
+        "im-",
+        "in-",
+        "dis-"
+      ],
+      "a": "in-",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The opposite of the word “kindness” is ............... .",
+      "options": [
+        "goodness",
+        "gentleness",
+        "cruelty",
+        "helpfulness"
+      ],
+      "a": "cruelty",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “silence” is the antonym of “...............”.",
+      "options": [
+        "peace",
+        "calm",
+        "noise",
+        "quiet"
+      ],
+      "a": "noise",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We can form the noun from the adjective “sad” by adding the suffix “...............”.",
+      "options": [
+        "-ment",
+        "-ness",
+        "-tion",
+        "-er"
+      ],
+      "a": "-ness",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... is the noun from the adjective “strong”.",
+      "options": [
+        "Width",
+        "Height",
+        "Strength",
+        "Strongest"
+      ],
+      "a": "Strength",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Screen time means the total time a person spends looking at ............... .",
+      "options": [
+        "stones",
+        "screens",
+        "walls",
+        "activities"
+      ],
+      "a": "screens",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "It is important for us to ............... screen use with physical activity.",
+      "options": [
+        "limit",
+        "end",
+        "balance",
+        "watch"
+      ],
+      "a": "balance",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To change the adjective “happy” into a noun, we add the suffix “...............”.",
+      "options": [
+        "-ment",
+        "-tion",
+        "-ness",
+        "-ition"
+      ],
+      "a": "-ness",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "This is a simple question. It’s ............... .",
+      "options": [
+        "complex",
+        "easy",
+        "negative",
+        "delicious"
+      ],
+      "a": "easy",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "It’s Ahmed’s first day in a new school and he can’t fit ............... easily.",
+      "options": [
+        "on",
+        "at",
+        "in",
+        "for"
+      ],
+      "a": "in",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The verb “replace” can be changed into a noun by adding the suffix “...............”.",
+      "options": [
+        "-ment",
+        "-ion",
+        "-ness",
+        "-ition"
+      ],
+      "a": "-ment",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “-ance” turns the adjective “important” into a/an ............... .",
+      "options": [
+        "noun",
+        "adjective",
+        "adverb",
+        "verb"
+      ],
+      "a": "noun",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Our government works hard to ............... air pollution by encouraging people to use public transportation.",
+      "options": [
+        "reduce",
+        "spread",
+        "create",
+        "grow"
+      ],
+      "a": "reduce",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To get the antonym of the word “credible”, we add the prefix “...............”.",
+      "options": [
+        "in-",
+        "im-",
+        "ir-",
+        "un-"
+      ],
+      "a": "in-",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "When I spoke in public, it helped me build ............... in my abilities.",
+      "options": [
+        "confidence",
+        "confident",
+        "confidently",
+        "confide"
+      ],
+      "a": "confidence",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "You should ............... useful activities away from screens.",
+      "options": [
+        "take",
+        "meet",
+        "do",
+        "make"
+      ],
+      "a": "do",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “-ity” gives the ............... .",
+      "options": [
+        "noun",
+        "verb",
+        "adjective",
+        "adverb"
+      ],
+      "a": "noun",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The antonym of the word “interesting” is ............... .",
+      "options": [
+        "wonderful",
+        "exciting",
+        "boring",
+        "enjoyable"
+      ],
+      "a": "boring",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The new phone is very ............... since it can be connected to the internet, take photos, and translate languages.",
+      "options": [
+        "bold",
+        "smart",
+        "useless",
+        "broken"
+      ],
+      "a": "smart",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I think the text is not meaningful. It's ............... .",
+      "options": [
+        "easy",
+        "pleasant",
+        "meaningless",
+        "significant"
+      ],
+      "a": "meaningless",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My teacher gave me a difficult ............... to finish today.",
+      "options": [
+        "game",
+        "task",
+        "song",
+        "meal"
+      ],
+      "a": "task",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Sara joined an ............... English class because she speaks very well.",
+      "options": [
+        "easy",
+        "simple",
+        "advanced",
+        "basic"
+      ],
+      "a": "advanced",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "He looked at himself in the ............... before going out of the house.",
+      "options": [
+        "sketchbook",
+        "mirror",
+        "glasses",
+        "wood"
+      ],
+      "a": "mirror",
+      "tag": "Vocabulary"
+    }
+  ],
+  "4": [
+    {
+      "q": "Factories must be careful not to ............... water because many countries already suffer from water shortage.",
+      "options": [
+        "pollute",
+        "protect",
+        "collect",
+        "clean"
+      ],
+      "a": "pollute",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Yasser is very outgoing and loves meeting new people. “Outgoing” is an antonym for ............... .",
+      "options": [
+        "bored",
+        "happy",
+        "outstanding",
+        "shy"
+      ],
+      "a": "shy",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We should not cross the speed ............... on the road.",
+      "options": [
+        "limits",
+        "books",
+        "colors",
+        "flowers"
+      ],
+      "a": "limits",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The synonym of “awkward” is ............... .",
+      "options": [
+        "satisfied",
+        "uncomfortable",
+        "easy",
+        "comfortable"
+      ],
+      "a": "uncomfortable",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "People consider him ............... because he uses his knowledge to help others instead of showing off.",
+      "options": [
+        "smart",
+        "rude",
+        "selfish",
+        "careless"
+      ],
+      "a": "smart",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The girl is ............... the front row.",
+      "options": [
+        "in",
+        "under",
+        "off",
+        "over"
+      ],
+      "a": "in",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "These beliefs ............... my character and help me know what’s right.",
+      "options": [
+        "share",
+        "shade",
+        "chop",
+        "shape"
+      ],
+      "a": "shape",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The film made everyone cry because it showed strong ............... .",
+      "options": [
+        "houses",
+        "cars",
+        "emotions",
+        "trees"
+      ],
+      "a": "emotions",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Many people now prefer to shop ............... because it saves time and offers many choices.",
+      "options": [
+        "online",
+        "loudly",
+        "slowly",
+        "outside"
+      ],
+      "a": "online",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "When I lost touch with my friends, I ............... with them again.",
+      "options": [
+        "reconnected",
+        "delivered",
+        "expected",
+        "leave"
+      ],
+      "a": "reconnected",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The new phone is a great ............... in technology.",
+      "options": [
+        "problem",
+        "innovation",
+        "mistake",
+        "toy"
+      ],
+      "a": "innovation",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Students shouldn’t ............... their energy arguing with teachers; they should focus on studying instead.",
+      "options": [
+        "gain",
+        "invest",
+        "improve",
+        "waste"
+      ],
+      "a": "waste",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Ali is very ............... ; he paints and designs new things.",
+      "options": [
+        "lazy",
+        "tired",
+        "creative",
+        "weak"
+      ],
+      "a": "creative",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The new app is very ............... because it helps people finish tasks more quickly.",
+      "options": [
+        "harmful",
+        "useless",
+        "useful",
+        "boring"
+      ],
+      "a": "useful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To be ............... , you should read many books, ask questions, and learn from different experiences.",
+      "options": [
+        "bad",
+        "smart",
+        "noisy",
+        "tired"
+      ],
+      "a": "smart",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We add the suffix “...............” to the verb “use” to get the adjective.",
+      "options": [
+        "-er",
+        "-ity",
+        "-ful",
+        "-ly"
+      ],
+      "a": "-ful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "She can ............... a beautiful song on the piano.",
+      "options": [
+        "read",
+        "compose",
+        "eat",
+        "drive"
+      ],
+      "a": "compose",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "There are a lot of ............... in the room. I need to focus on my task.",
+      "options": [
+        "disagreement",
+        "spaces",
+        "distractions",
+        "pleasure"
+      ],
+      "a": "distractions",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "So much work makes people feel ............... .",
+      "options": [
+        "happy",
+        "proud",
+        "stressed",
+        "funny"
+      ],
+      "a": "stressed",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Students can learn new skills ............... by attending virtual classes from anywhere in the world.",
+      "options": [
+        "offline",
+        "badly",
+        "online",
+        "abroad"
+      ],
+      "a": "online",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The prefix “...............” gives the opposite of the word “appear”.",
+      "options": [
+        "dis-",
+        "im-",
+        "in-",
+        "mis-"
+      ],
+      "a": "dis-",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The teacher gave me a helpful ............... on my homework.",
+      "options": [
+        "food",
+        "feedback",
+        "picture",
+        "holiday"
+      ],
+      "a": "feedback",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The antonym of “stressed” is ............... .",
+      "options": [
+        "relaxed",
+        "worried",
+        "shocked",
+        "angry"
+      ],
+      "a": "relaxed",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Artificial Intelligence allows the robot to ............... decisions.",
+      "options": [
+        "do",
+        "make",
+        "read",
+        "put"
+      ],
+      "a": "make",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Drivers must ............... their speed on crowded roads to avoid accidents.",
+      "options": [
+        "lose",
+        "break",
+        "control",
+        "miss"
+      ],
+      "a": "control",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Which word is the closest synonym of “stressed”?",
+      "options": [
+        "Relaxed",
+        "Worried",
+        "Calm",
+        "Cheerful"
+      ],
+      "a": "Worried",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Parents should ............... the time their children spend online to protect them from harmful content.",
+      "options": [
+        "control",
+        "waste",
+        "forget",
+        "allow"
+      ],
+      "a": "control",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Soha had the strength to win the gold medal. The antonym of the word “strength” is “...............”.",
+      "options": [
+        "energy",
+        "confidence",
+        "weakness",
+        "activity"
+      ],
+      "a": "weakness",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We add the prefix ............... to give the opposite of “abled”.",
+      "options": [
+        "im-",
+        "in-",
+        "ir-",
+        "dis-"
+      ],
+      "a": "dis-",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Students should keep a good ............... between studying, relaxing, and exercising to stay healthy and successful.",
+      "options": [
+        "fear",
+        "problem",
+        "mistake",
+        "balance"
+      ],
+      "a": "balance",
+      "tag": "Vocabulary"
+    }
+  ],
+  "5": [
+    {
+      "q": "Rodaina soon became well-known in the world of digital technology. “Well-known” is the same meaning as ............... .",
+      "options": [
+        "lazy",
+        "popular",
+        "active",
+        "clever"
+      ],
+      "a": "popular",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To get the opposite from “comfortable”, we add the prefix “...............”.",
+      "options": [
+        "ir-",
+        "im-",
+        "un-",
+        "mis-"
+      ],
+      "a": "un-",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A truly ............... student always thinks carefully before answering and uses knowledge to solve problems.",
+      "options": [
+        "clever",
+        "noisy",
+        "tired",
+        "careless"
+      ],
+      "a": "clever",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "AI and robots are not ............... . They are different.",
+      "options": [
+        "bad",
+        "useful",
+        "good",
+        "the same"
+      ],
+      "a": "the same",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“Abnormal” is the antonym of ............... .",
+      "options": [
+        "unusual",
+        "strange",
+        "odd",
+        "normal"
+      ],
+      "a": "normal",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” means interested in discovering new things.",
+      "options": [
+        "Small",
+        "Slow",
+        "Curious",
+        "Fast"
+      ],
+      "a": "Curious",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To get the adjective from the word “meaning” we add the suffix “...............”.",
+      "options": [
+        "-tion",
+        "-ness",
+        "-ly",
+        "-ful"
+      ],
+      "a": "-ful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Reading books is very ............... because it helps you gain knowledge and understand different cultures.",
+      "options": [
+        "dangerous",
+        "boring",
+        "useful",
+        "noisy"
+      ],
+      "a": "useful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The synonym of “kind” is ............... .",
+      "options": [
+        "cruel",
+        "unkind",
+        "bad",
+        "friendly"
+      ],
+      "a": "friendly",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” means feeling sure about your abilities, qualities or decisions.",
+      "options": [
+        "Confident",
+        "Famous",
+        "Curious",
+        "Personal"
+      ],
+      "a": "Confident",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” are the beliefs and principles that guide how we live.",
+      "options": [
+        "Vans",
+        "Books",
+        "Values",
+        "Skirts"
+      ],
+      "a": "Values",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "You should not ............... your time playing games and watching TV.",
+      "options": [
+        "save",
+        "get",
+        "stop",
+        "spend"
+      ],
+      "a": "spend",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“Creative” and “imaginative” are ............... .",
+      "options": [
+        "synonyms",
+        "antonyms",
+        "different",
+        "opposite"
+      ],
+      "a": "synonyms",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A quiet room is full of ............... .",
+      "options": [
+        "noise",
+        "laughter",
+        "silence",
+        "music"
+      ],
+      "a": "silence",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Spending too much time on screens can make it harder to ............... .",
+      "options": [
+        "eat",
+        "drink",
+        "focus",
+        "play"
+      ],
+      "a": "focus",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” means changing something a little to make it better.",
+      "options": [
+        "Sleeping",
+        "Adjusting",
+        "Meeting",
+        "Eating"
+      ],
+      "a": "Adjusting",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Artificial intelligence can ............... music and write poetry.",
+      "options": [
+        "compose",
+        "do",
+        "feel",
+        "make"
+      ],
+      "a": "compose",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The child was ............... about how the toy works.",
+      "options": [
+        "curious",
+        "spoiled",
+        "valuable",
+        "angry"
+      ],
+      "a": "curious",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The opposite of the word “stressed” is “...............”.",
+      "options": [
+        "worried",
+        "relaxed",
+        "angry",
+        "nervous"
+      ],
+      "a": "relaxed",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is a machine that can move and do tasks.",
+      "options": [
+        "human",
+        "robot",
+        "program",
+        "limit"
+      ],
+      "a": "robot",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A “journal” is a type of ............... where you write your thoughts and experiences.",
+      "options": [
+        "report",
+        "newspaper",
+        "diary",
+        "message"
+      ],
+      "a": "diary",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "After failing the exam, she stayed ............... and studied harder.",
+      "options": [
+        "strong",
+        "disappointed",
+        "angry",
+        "confused"
+      ],
+      "a": "disappointed",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We add the suffix “...............” to form the noun of “disagree”.",
+      "options": [
+        "-tion",
+        "-ness",
+        "-ly",
+        "-ment"
+      ],
+      "a": "-ment",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "New students should ............... to their new school quickly.",
+      "options": [
+        "avoid",
+        "identify",
+        "adjust",
+        "guide"
+      ],
+      "a": "adjust",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The synonym of the word “errors” is ............... .",
+      "options": [
+        "problems",
+        "acts",
+        "mistakes",
+        "ideas"
+      ],
+      "a": "mistakes",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means emotionally or physically not close.",
+      "options": [
+        "Close",
+        "Distant",
+        "Near",
+        "Click"
+      ],
+      "a": "Distant",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means feeling very surprised and upset.",
+      "options": [
+        "Calm",
+        "Relaxed",
+        "Shocked",
+        "Happy"
+      ],
+      "a": "Shocked",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Without any need of technology, our ............... intelligence can solve our problems.",
+      "options": [
+        "robot",
+        "human",
+        "artificial",
+        "computer"
+      ],
+      "a": "human",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“Realize” is a synonym for “...............”.",
+      "options": [
+        "ignore",
+        "misunderstand",
+        "understand",
+        "forget"
+      ],
+      "a": "understand",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Colorful and ............... have the same meaning.",
+      "options": [
+        "plain",
+        "bright",
+        "noisy",
+        "helpful"
+      ],
+      "a": "bright",
+      "tag": "Vocabulary"
+    }
+  ],
+  "6": [
+    {
+      "q": "The word “perfect” means “...............”.",
+      "options": [
+        "ideal",
+        "sociable",
+        "quiet",
+        "peaceful"
+      ],
+      "a": "ideal",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... is to see or become aware of something.",
+      "options": [
+        "sleep",
+        "dream",
+        "get",
+        "notice"
+      ],
+      "a": "notice",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We add the ............... “in” to “appropriate” to change it to the antonym.",
+      "options": [
+        "prefix",
+        "prep",
+        "adjective",
+        "suffix"
+      ],
+      "a": "prefix",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“Adjust” and “adapt” are ............... .",
+      "options": [
+        "synonyms",
+        "antonyms",
+        "prefixes",
+        "suffixes"
+      ],
+      "a": "synonyms",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... is to become better than before.",
+      "options": [
+        "worsen",
+        "decline",
+        "improve",
+        "stop"
+      ],
+      "a": "improve",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “shocked” is close in meaning to the word “...............”.",
+      "options": [
+        "calm",
+        "pleased",
+        "surprised",
+        "bored"
+      ],
+      "a": "surprised",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means feeling unsure or puzzled.",
+      "options": [
+        "Intelligent",
+        "Clever",
+        "Smart",
+        "Confused"
+      ],
+      "a": "Confused",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The adverb form of “emotional,” meaning “in an emotional way,” is “...............”.",
+      "options": [
+        "unemotional",
+        "emotion",
+        "emotionless",
+        "emotionally"
+      ],
+      "a": "emotionally",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means without any delay.",
+      "options": [
+        "Emotionally",
+        "Instantly",
+        "Slowly",
+        "Lazily"
+      ],
+      "a": "Instantly",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The antonym of “stressed” is “...............”.",
+      "options": [
+        "worried",
+        "anxious",
+        "nervous",
+        "relaxed"
+      ],
+      "a": "relaxed",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The synonym of the word “curious” is “...............”.",
+      "options": [
+        "bored",
+        "uninterested",
+        "interested",
+        "angry"
+      ],
+      "a": "interested",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... is a link between people, things, or ideas.",
+      "options": [
+        "Stair",
+        "Road",
+        "Behavior",
+        "Connection"
+      ],
+      "a": "Connection",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We can turn the verb “stress” into an adjective by adding the suffix “...............”.",
+      "options": [
+        "-ive",
+        "-al",
+        "-ion",
+        "-ed"
+      ],
+      "a": "-ed",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I felt ............... of myself when I introduced my project well.",
+      "options": [
+        "ashamed",
+        "proud",
+        "angry",
+        "amazed"
+      ],
+      "a": "proud",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... is to change something to make it the way you want.",
+      "options": [
+        "study",
+        "sweep",
+        "clean",
+        "customize"
+      ],
+      "a": "customize",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "What does Nour like to do in her ............... time? - She likes drawing.",
+      "options": [
+        "free",
+        "busy",
+        "story",
+        "balanced"
+      ],
+      "a": "free",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The film was full of ............... , so it made everyone cry.",
+      "options": [
+        "trees",
+        "cars",
+        "houses",
+        "emotions"
+      ],
+      "a": "emotions",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "She has always been ............... about new technology. She always wants to learn more.",
+      "options": [
+        "frustrated",
+        "curious",
+        "disappointed",
+        "confusing"
+      ],
+      "a": "curious",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “-tion” in the word “notification” turns it into a/an “...............”.",
+      "options": [
+        "noun",
+        "verb",
+        "preposition",
+        "adverb"
+      ],
+      "a": "noun",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The robot teacher didn’t ............... when students were sad or tired.",
+      "options": [
+        "notice",
+        "help",
+        "smile",
+        "eat"
+      ],
+      "a": "notice",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "There are many ............... cities in Egypt.",
+      "options": [
+        "stones",
+        "screens",
+        "walls",
+        "smart"
+      ],
+      "a": "smart",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means made to suit a particular person’s needs.",
+      "options": [
+        "Customized",
+        "Helped",
+        "Watched",
+        "Read"
+      ],
+      "a": "Customized",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To change the word “color” into an adjective we add the suffix “...............”.",
+      "options": [
+        "-ly",
+        "-er",
+        "-ful",
+        "-ence"
+      ],
+      "a": "-ful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "She finally ............... her dream of becoming a doctor after many years.",
+      "options": [
+        "achieved",
+        "forgot",
+        "failed",
+        "missed"
+      ],
+      "a": "achieved",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To change the word “create” into an adjective we omit “e” and add ............... .",
+      "options": [
+        "-ful",
+        "-ly",
+        "-ence",
+        "-ive"
+      ],
+      "a": "-ive",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... is related to the body.",
+      "options": [
+        "Social",
+        "Physical",
+        "Musical",
+        "Technological"
+      ],
+      "a": "Physical",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "She felt ............... when she couldn't understand the advanced mathematics.",
+      "options": [
+        "curious",
+        "confident",
+        "creative",
+        "confused"
+      ],
+      "a": "confused",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The synonym of “fit in” is ............... .",
+      "options": [
+        "stand out",
+        "stand up",
+        "blend in",
+        "take out"
+      ],
+      "a": "blend in",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Great projects are ............... out in Egypt now.",
+      "options": [
+        "carried",
+        "screens",
+        "do",
+        "smart"
+      ],
+      "a": "carried",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... is a sign or action that shows feeling or intent.",
+      "options": [
+        "School",
+        "Hospital",
+        "Poverty",
+        "Gesture"
+      ],
+      "a": "Gesture",
+      "tag": "Vocabulary"
+    }
+  ],
+  "7": [
+    {
+      "q": "The prefix “dis -” in “disappointed” means “...............”.",
+      "options": [
+        "again",
+        "not",
+        "very",
+        "together"
+      ],
+      "a": "not",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Scientists try to ............... dangerous diseases by developing vaccines and spreading health awareness among people.",
+      "options": [
+        "grow",
+        "create",
+        "spread",
+        "control"
+      ],
+      "a": "control",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I panicked when I saw smoke come from the kitchen. The antonym of “panicked” here is ............... .",
+      "options": [
+        "relaxed",
+        "scared",
+        "frightened",
+        "feared"
+      ],
+      "a": "relaxed",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“Creative” is similar in meaning to ............... .",
+      "options": [
+        "unimaginative",
+        "dull",
+        "uninspired",
+        "imaginative"
+      ],
+      "a": "imaginative",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means feeling upset due to difficulty.",
+      "options": [
+        "Pleased",
+        "Happy",
+        "Brave",
+        "Frustrated"
+      ],
+      "a": "Frustrated",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The robot teacher's appearance was surprising. A synonym for “surprising” is “...............”.",
+      "options": [
+        "Normal",
+        "expected",
+        "amazing",
+        "boring"
+      ],
+      "a": "amazing",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Doctors advise people to ............... sugar in their diets to stay healthy and avoid serious diseases.",
+      "options": [
+        "double",
+        "raise",
+        "reduce",
+        "add"
+      ],
+      "a": "reduce",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The students were confused at first. The antonym of “confused” is “...............”.",
+      "options": [
+        "puzzled",
+        "mixed-up",
+        "organized",
+        "worried"
+      ],
+      "a": "organized",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Drivers must ............... their speed on crowded roads to avoid accidents and keep everyone safe.",
+      "options": [
+        "control",
+        "lose",
+        "break",
+        "miss"
+      ],
+      "a": "control",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My brother is a/an ............... artist. He draws amazing portraits.",
+      "options": [
+        "bored",
+        "ugly",
+        "creative",
+        "strange"
+      ],
+      "a": "creative",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The robot checked homework instantly. The opposite of “instantly” is “...............”.",
+      "options": [
+        "immediately",
+        "gradually",
+        "quickly",
+        "soon"
+      ],
+      "a": "gradually",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "This drawing is ............... . It's not taken by a camera.",
+      "options": [
+        "hand-written",
+        "hand-drawn",
+        "hand-blended",
+        "hand-cooked"
+      ],
+      "a": "hand-drawn",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Some people who ............... food away forget that many poor families around the world are still hungry.",
+      "options": [
+        "throw",
+        "share",
+        "cook",
+        "need"
+      ],
+      "a": "throw",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means emotionally uncomfortable or strange.",
+      "options": [
+        "Awesome",
+        "Pleased",
+        "Happy",
+        "Awkward"
+      ],
+      "a": "Awkward",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The lessons will be customized for each student. The word “customized” means “...............”.",
+      "options": [
+        "generalized",
+        "personalized",
+        "simplified",
+        "clarified"
+      ],
+      "a": "personalized",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The artist painted a beautiful ............... of the queen.",
+      "options": [
+        "forest",
+        "journey",
+        "machine",
+        "portrait"
+      ],
+      "a": "portrait",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Governments are working to ............... air pollution by encouraging people to use public transportation.",
+      "options": [
+        "create",
+        "spread",
+        "reduce",
+        "grow"
+      ],
+      "a": "reduce",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The antonym of the verb “realize” is “...............”.",
+      "options": [
+        "misunderstand",
+        "understand",
+        "know",
+        "blame"
+      ],
+      "a": "misunderstand",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Technology cannot replace a human teacher. The synonym of “replace” is “...............”.",
+      "options": [
+        "substitute",
+        "change",
+        "keep",
+        "remove"
+      ],
+      "a": "substitute",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Honesty has a great ............... in our lives.",
+      "options": [
+        "value",
+        "color",
+        "weather",
+        "noise"
+      ],
+      "a": "value",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The human connection was missing. The word “connection” is similar to “...............”.",
+      "options": [
+        "link",
+        "distance",
+        "problem",
+        "lesson"
+      ],
+      "a": "link",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Ahmed showed his teacher some quick ............... of animals.",
+      "options": [
+        "games",
+        "bags",
+        "sketches",
+        "maps"
+      ],
+      "a": "sketches",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means to build a relationship again.",
+      "options": [
+        "Reconnect",
+        "Write",
+        "Read",
+        "Wait"
+      ],
+      "a": "Reconnect",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is a person who guides or is in charge of a group.",
+      "options": [
+        "mechanic",
+        "gardener",
+        "cleaner",
+        "leader"
+      ],
+      "a": "leader",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The little boy was ............... to know what was inside the box.",
+      "options": [
+        "curious",
+        "hungry",
+        "sleepy",
+        "tired"
+      ],
+      "a": "curious",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means full of importance or feeling.",
+      "options": [
+        "Pleased",
+        "Meaningful",
+        "Brave",
+        "Awkward"
+      ],
+      "a": "Meaningful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means advanced.",
+      "options": [
+        "Quick",
+        "Slow",
+        "Healthy",
+        "Modern"
+      ],
+      "a": "Modern",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To form the adverb from the adjective “instant”, we add the suffix “...............”.",
+      "options": [
+        "-y",
+        "-ly",
+        "-al",
+        "-tion"
+      ],
+      "a": "-ly",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Ibrahim stood in front of the mirror, ............... his clothes for the fifth time.",
+      "options": [
+        "adjusting",
+        "cutting",
+        "buying",
+        "speaking"
+      ],
+      "a": "adjusting",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means using or doing wisely.",
+      "options": [
+        "Helpful",
+        "Focused",
+        "Eco-friendly",
+        "Smart"
+      ],
+      "a": "Smart",
+      "tag": "Vocabulary"
+    }
+  ],
+  "8": [
+    {
+      "q": "We get the verb from the noun “custom” by adding the suffix “...............”.",
+      "options": [
+        "-sion",
+        "-ize",
+        "-ment",
+        "-ly"
+      ],
+      "a": "-ize",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We add the prefix ............... to give the opposite of “patient”.",
+      "options": [
+        "in-",
+        "il-",
+        "im-",
+        "un-"
+      ],
+      "a": "im-",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “dark” is the antonym of the word “...............”.",
+      "options": [
+        "dim",
+        "instant",
+        "aware",
+        "shiny"
+      ],
+      "a": "shiny",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... is to keep things in the right amount.",
+      "options": [
+        "stress",
+        "blame",
+        "wash",
+        "balance"
+      ],
+      "a": "balance",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "If they had communicated better, they wouldn’t have ............... .",
+      "options": [
+        "talked",
+        "laughed",
+        "argued",
+        "met"
+      ],
+      "a": "argued",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Today we can send a/an ............... message by phone.",
+      "options": [
+        "instant",
+        "slow",
+        "late",
+        "cold"
+      ],
+      "a": "instant",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Emad is a curious student. He is interested in ............... new things.",
+      "options": [
+        "discovering",
+        "ignoring",
+        "avoiding",
+        "wasting"
+      ],
+      "a": "discovering",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Too much ............... time can affect sleep and mood.",
+      "options": [
+        "production",
+        "help",
+        "screen",
+        "kindness"
+      ],
+      "a": "screen",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "She stood in front of the mirror ............... her dress for the wedding.",
+      "options": [
+        "adjusting",
+        "cutting",
+        "buying",
+        "selling"
+      ],
+      "a": "adjusting",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The internet ............... was very weak yesterday.",
+      "options": [
+        "connection",
+        "table",
+        "animal",
+        "story"
+      ],
+      "a": "connection",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“I totally get that”. This sentence means you ............... completely.",
+      "options": [
+        "disagree",
+        "understand",
+        "forget",
+        "like"
+      ],
+      "a": "understand",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Ahmed is very ............... . He always finds new ideas to solve problems.",
+      "options": [
+        "lazy",
+        "creative",
+        "rude",
+        "stupid"
+      ],
+      "a": "creative",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Staying ............... during class helps us learn more.",
+      "options": [
+        "harmful",
+        "chemical",
+        "focused",
+        "distracted"
+      ],
+      "a": "focused",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Omar showed great ............... when he started the project alone.",
+      "options": [
+        "initiative",
+        "chair",
+        "sport",
+        "holiday"
+      ],
+      "a": "initiative",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Good habits make our minds and bodies ............... .",
+      "options": [
+        "natural",
+        "proud",
+        "eco-friendly",
+        "healthy"
+      ],
+      "a": "healthy",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My friend Nour is interested in discovering new things. This means that Nour is ............... .",
+      "options": [
+        "frustrated",
+        "curious",
+        "strong",
+        "honest"
+      ],
+      "a": "curious",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The charity asked for a ............... to help poor families.",
+      "options": [
+        "gift",
+        "donation",
+        "picture",
+        "toy"
+      ],
+      "a": "donation",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A journalist needs to be ............... to look for new news.",
+      "options": [
+        "indifferent",
+        "kind",
+        "curious",
+        "lazy"
+      ],
+      "a": "curious",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Young people are the ............... of Egypt.",
+      "options": [
+        "enemy",
+        "future",
+        "water",
+        "juice"
+      ],
+      "a": "future",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The team became stronger because everyone tried to be helpful during difficult times. The synonym of the word “helpful” is ............... .",
+      "options": [
+        "competitive",
+        "supportive",
+        "impatient",
+        "unfriendly"
+      ],
+      "a": "supportive",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "If we had been supportive, we could have ............... our problems.",
+      "options": [
+        "created",
+        "started",
+        "resolved",
+        "ignored"
+      ],
+      "a": "resolved",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Sama’s ............... helps her overcome different situations.",
+      "options": [
+        "weakness",
+        "curiosity",
+        "strength",
+        "popularity"
+      ],
+      "a": "strength",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Sama faces problems and ............... solutions.",
+      "options": [
+        "finds",
+        "solves",
+        "resolves",
+        "takes"
+      ],
+      "a": "finds",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The building has fallen down. We need to ............... it.",
+      "options": [
+        "reconnect",
+        "rebuild",
+        "revise",
+        "retreat"
+      ],
+      "a": "rebuild",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Being a talented programmer, Rodina soon became ............... in the world of digital technology.",
+      "options": [
+        "self-respect",
+        "unpopular",
+        "unknown",
+        "popular"
+      ],
+      "a": "popular",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The synonym of the word “confused” is ............... .",
+      "options": [
+        "interested",
+        "disappointed",
+        "designed",
+        "puzzled"
+      ],
+      "a": "puzzled",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Screens can be a big ............... if you are not careful.",
+      "options": [
+        "help",
+        "benefit",
+        "distraction",
+        "focus"
+      ],
+      "a": "distraction",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “...............” means the point where something stops or cannot go further.",
+      "options": [
+        "limit",
+        "smart",
+        "clever",
+        "intelligent"
+      ],
+      "a": "limit",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "People who have faced ............... in a positive way have shown a lot of strength.",
+      "options": [
+        "confidence",
+        "challenges",
+        "games",
+        "differences"
+      ],
+      "a": "challenges",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Nader wants to ............... his screen time to learn about the Egyptian history.",
+      "options": [
+        "increase",
+        "reduce",
+        "waste",
+        "stop"
+      ],
+      "a": "reduce",
+      "tag": "Vocabulary"
+    }
+  ],
+  "9": [
+    {
+      "q": "“Fix” and “repair” are ............... .",
+      "options": [
+        "nouns",
+        "opposites",
+        "antonyms",
+        "synonyms"
+      ],
+      "a": "synonyms",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Robots can't truly understand ............... .",
+      "options": [
+        "music",
+        "technology",
+        "orders",
+        "emotions"
+      ],
+      "a": "emotions",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... personal identity means understanding that we all have different experiences.",
+      "options": [
+        "Damaging",
+        "Polluting",
+        "Respecting",
+        "Hurting"
+      ],
+      "a": "Respecting",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The child suggests turning off the ............... , so they don’t get distracted.",
+      "options": [
+        "fridge",
+        "lights",
+        "notifications",
+        "oven"
+      ],
+      "a": "notifications",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "AI can ............... music and write poetry.",
+      "options": [
+        "compose",
+        "imagine",
+        "feel",
+        "do"
+      ],
+      "a": "compose",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means helpful for doing or achieving something.",
+      "options": [
+        "Useless",
+        "Harmful",
+        "Useful",
+        "Wasteful"
+      ],
+      "a": "Useful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I should ............... on my strengths and accept my weaknesses.",
+      "options": [
+        "try",
+        "focus",
+        "hold",
+        "run"
+      ],
+      "a": "focus",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Showing respect and being caring have helped me build ............... with others.",
+      "options": [
+        "dishonesty",
+        "shyness",
+        "trust",
+        "happiness"
+      ],
+      "a": "trust",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “-ful” turns the word “meaning” into a/an ............... .",
+      "options": [
+        "verb",
+        "adjective",
+        "adverb",
+        "noun"
+      ],
+      "a": "adjective",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Even though AI is powerful, it will be ............... by humans.",
+      "options": [
+        "destroyed",
+        "copied",
+        "replayed",
+        "controlled"
+      ],
+      "a": "controlled",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... means to make something smaller in amount or size.",
+      "options": [
+        "develop",
+        "reduce",
+        "control",
+        "plan"
+      ],
+      "a": "reduce",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The synonym of “supportive” is “...............”.",
+      "options": [
+        "distant",
+        "encouraging",
+        "weak",
+        "missing"
+      ],
+      "a": "encouraging",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Eman believes that the future with all the new technology sounds ............... and wonderful.",
+      "options": [
+        "scary",
+        "boring",
+        "amazing",
+        "difficult"
+      ],
+      "a": "amazing",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Salma isn't pleased with her exam results. She is ............... .",
+      "options": [
+        "glad",
+        "happy",
+        "upset",
+        "delighted"
+      ],
+      "a": "upset",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The process of moving down a page on a screen is called ............... .",
+      "options": [
+        "clicking",
+        "typing",
+        "scrolling",
+        "tapping"
+      ],
+      "a": "scrolling",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The antonym of “accept” is “...............”.",
+      "options": [
+        "receive",
+        "welcome",
+        "reject",
+        "agree"
+      ],
+      "a": "reject",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “useful” is a synonym for “...............”.",
+      "options": [
+        "pointless",
+        "worthless",
+        "helpful",
+        "difficult"
+      ],
+      "a": "helpful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Smart robots will be used to ............... in homes and schools.",
+      "options": [
+        "walk",
+        "fly",
+        "help",
+        "cut"
+      ],
+      "a": "help",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Ahmed was ............... from school. He was not present.",
+      "options": [
+        "absent",
+        "attendant",
+        "rejected",
+        "accepted"
+      ],
+      "a": "absent",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The future with AI sounds “exciting”. The synonym of “exciting” is “...............”.",
+      "options": [
+        "boring",
+        "ordinary",
+        "interesting",
+        "terrible"
+      ],
+      "a": "interesting",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The synonym of “reduce” is “...............”.",
+      "options": [
+        "increase",
+        "delete",
+        "pack",
+        "decrease"
+      ],
+      "a": "decrease",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I don't want you to describe the situation ............... . I want it in detail.",
+      "options": [
+        "definitely",
+        "pointlessly",
+        "briefly",
+        "probably"
+      ],
+      "a": "briefly",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “-ive” in the word “supportive” makes it a/an “...............”.",
+      "options": [
+        "adjective",
+        "noun",
+        "adverb",
+        "verb"
+      ],
+      "a": "adjective",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The antonym of “powerful” is “...............”.",
+      "options": [
+        "small",
+        "strong",
+        "weak",
+        "giant"
+      ],
+      "a": "weak",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Susan sat on a chair close to the window. The synonym of “close” is ............... .",
+      "options": [
+        "near",
+        "different",
+        "distant",
+        "far"
+      ],
+      "a": "near",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The opposite of “clear” is “...............”.",
+      "options": [
+        "open",
+        "hidden",
+        "weak",
+        "fast"
+      ],
+      "a": "hidden",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "He didn't refuse to attend my wedding party. He ............... .",
+      "options": [
+        "accepted",
+        "harmed",
+        "took",
+        "shaped"
+      ],
+      "a": "accepted",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "He did not have the courage to tell the truth. The antonym of “courage” is ............... .",
+      "options": [
+        "bravery",
+        "difference",
+        "cowardice",
+        "kindness"
+      ],
+      "a": "cowardice",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “-ing” forms the ............... from the verb “annoy”.",
+      "options": [
+        "adjective",
+        "verb",
+        "noun",
+        "preposition"
+      ],
+      "a": "adjective",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The synonym of the word “teach” is ............... .",
+      "options": [
+        "learn",
+        "educate",
+        "make",
+        "escape"
+      ],
+      "a": "educate",
+      "tag": "Vocabulary"
+    }
+  ],
+  "10": [
+    {
+      "q": "We add the suffix “-ity” to the adjective “creative” to turn it into a/an “...............”.",
+      "options": [
+        "noun",
+        "adjective",
+        "adverb",
+        "verb"
+      ],
+      "a": "noun",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "She is supportive. The opposite of the word “supportive” is ............... .",
+      "options": [
+        "helpful",
+        "caring",
+        "encouraging",
+        "discouraging"
+      ],
+      "a": "discouraging",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "It wasn't ............... of you to shout at her. You were rude.",
+      "options": [
+        "polite",
+        "impolite",
+        "wrong",
+        "bad"
+      ],
+      "a": "polite",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Honestly, it's a true story. The antonym of “true” is ............... .",
+      "options": [
+        "right",
+        "fact",
+        "away",
+        "false"
+      ],
+      "a": "false",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To turn the adjective “kind” into a noun we add the suffix ............... .",
+      "options": [
+        "-ly",
+        "-er",
+        "-ing",
+        "-ness"
+      ],
+      "a": "-ness",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To get the adjective from the word “power”, we add the suffix “...............”.",
+      "options": [
+        "-y",
+        "-ful",
+        "-ly",
+        "-al"
+      ],
+      "a": "-ful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To feel less stressed, he plans to spend more time ............... . He likes open places.",
+      "options": [
+        "outside",
+        "working",
+        "inside",
+        "online"
+      ],
+      "a": "outside",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “-ly” changes the adjective “definite” into a/an ............... .",
+      "options": [
+        "noun",
+        "verb",
+        "adverb",
+        "pronoun"
+      ],
+      "a": "adverb",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We add the suffix “...............” to change the verb “discover” into a noun.",
+      "options": [
+        "-y",
+        "-ful",
+        "-ly",
+        "-ment"
+      ],
+      "a": "-y",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means outside, in the open air.",
+      "options": [
+        "At home",
+        "Outdoors",
+        "Online",
+        "Indoors"
+      ],
+      "a": "Outdoors",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "When we add the suffix “-ence” to the verb “differ”, it changes into a/an ............... .",
+      "options": [
+        "adjective",
+        "noun",
+        "adverb",
+        "pronoun"
+      ],
+      "a": "noun",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The opposite of the word “exciting” is ............... .",
+      "options": [
+        "boring",
+        "powerless",
+        "creative",
+        "effective"
+      ],
+      "a": "boring",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Every student should set a clear ............... in life to stay focused and work hard.",
+      "options": [
+        "problem",
+        "mistake",
+        "goal",
+        "worry"
+      ],
+      "a": "goal",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “...............” gives the adjective of the word “support”.",
+      "options": [
+        "-tion",
+        "-ness",
+        "-ive",
+        "-ful"
+      ],
+      "a": "-ive",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "He stands for honesty and kindness. This means he ............... honesty and kindness.",
+      "options": [
+        "dislikes",
+        "supports",
+        "hates",
+        "refuses"
+      ],
+      "a": "supports",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “helpful” is similar in meaning to ............... .",
+      "options": [
+        "useful",
+        "useless",
+        "unhelpful",
+        "powerless"
+      ],
+      "a": "useful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Every ............... has the right to vote and the duty to respect their country’s laws.",
+      "options": [
+        "citizen",
+        "tourist",
+        "visitor",
+        "stranger"
+      ],
+      "a": "citizen",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "She felt ............... when she failed the exam.",
+      "options": [
+        "happy",
+        "disappointed",
+        "excited",
+        "strong"
+      ],
+      "a": "disappointed",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Being yourself is more important than trying to ............... others.",
+      "options": [
+        "book",
+        "copy",
+        "paste",
+        "kill"
+      ],
+      "a": "copy",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The prefix “...............” gives the meaning of “doing something again”.",
+      "options": [
+        "ir-",
+        "re-",
+        "un-",
+        "mis-"
+      ],
+      "a": "re-",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Achieving a difficult ............... requires patience, practice, and strong belief in yourself.",
+      "options": [
+        "goal",
+        "danger",
+        "trouble",
+        "fear"
+      ],
+      "a": "goal",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "What values do you stand ...............?",
+      "options": [
+        "up",
+        "out",
+        "down",
+        "for"
+      ],
+      "a": "for",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Egypt has a warm and sunny ............... most of the year.",
+      "options": [
+        "climate",
+        "desk",
+        "food",
+        "game"
+      ],
+      "a": "climate",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Scientists work hard to ............... new medicines that can help cure dangerous diseases worldwide.",
+      "options": [
+        "develop",
+        "damage",
+        "refuse",
+        "come"
+      ],
+      "a": "develop",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I didn’t ............... my friend because she changed her hairstyle.",
+      "options": [
+        "recognize",
+        "open",
+        "build",
+        "fix"
+      ],
+      "a": "recognize",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Nada is very outgoing and loves meeting new people. “Outgoing” is a synonym for ............... .",
+      "options": [
+        "Introvert",
+        "extrovert",
+        "outstanding",
+        "shy"
+      ],
+      "a": "extrovert",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "He is very ............... . He can’t lift the heavy weight.",
+      "options": [
+        "smart",
+        "lazy",
+        "weak",
+        "slow"
+      ],
+      "a": "weak",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To get the adverb from the word “absolute” we add the suffix “...............”.",
+      "options": [
+        "-tion",
+        "-ness",
+        "-ly",
+        "-ful"
+      ],
+      "a": "-ly",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "He was very delighted after the match. The antonym of “delighted” is ............... .",
+      "options": [
+        "happy",
+        "depressed",
+        "glad",
+        "pleased"
+      ],
+      "a": "depressed",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... one hand, technology helps us. On the other hand, it causes distractions.",
+      "options": [
+        "On",
+        "In",
+        "At",
+        "Of"
+      ],
+      "a": "On",
+      "tag": "Vocabulary"
+    }
+  ],
+  "11": [
+    {
+      "q": "The storm was very ............... and destroyed many houses.",
+      "options": [
+        "small",
+        "weak",
+        "powerful",
+        "quiet"
+      ],
+      "a": "powerful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Students who show great ............... can overcome difficult challenges.",
+      "options": [
+        "dishonesty",
+        "determination",
+        "irresponsibility",
+        "greed"
+      ],
+      "a": "determination",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Have you ever tried to ............... a change in your school or community?",
+      "options": [
+        "let",
+        "take",
+        "make",
+        "drink"
+      ],
+      "a": "make",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We live in a ............... world where technology develops quickly and changes our daily lives.",
+      "options": [
+        "modern",
+        "lazy",
+        "weak",
+        "old"
+      ],
+      "a": "modern",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We add the suffix ............... to the word “honest” to change it to a noun.",
+      "options": [
+        "-ion",
+        "-ence",
+        "-y",
+        "-less"
+      ],
+      "a": "-y",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means the ability to make new ideas.",
+      "options": [
+        "Comfort",
+        "Determination",
+        "Stylish",
+        "Creativity"
+      ],
+      "a": "Creativity",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To get the adjective from the verb “respect”, we add the suffix “...............”.",
+      "options": [
+        "-ion",
+        "-ment",
+        "-en",
+        "-ful"
+      ],
+      "a": "-ful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Many ............... believe that technology can improve education.",
+      "options": [
+        "experts",
+        "projects",
+        "notifications",
+        "perspectives"
+      ],
+      "a": "experts",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Remas can ............... music and write poetry.",
+      "options": [
+        "doing",
+        "feels",
+        "imagined",
+        "compose"
+      ],
+      "a": "compose",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "You feel ............... when you are unsure or puzzled.",
+      "options": [
+        "customized",
+        "confused",
+        "connected",
+        "stressed"
+      ],
+      "a": "confused",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “...............” means always telling the truth.",
+      "options": [
+        "curious",
+        "honest",
+        "shy",
+        "nervous"
+      ],
+      "a": "honest",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "If he ............... for help, we would have helped him.",
+      "options": [
+        "asked",
+        "asks",
+        "had asked",
+        "ask"
+      ],
+      "a": "had asked",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Something that takes your attention away is called a ............... .",
+      "options": [
+        "focus",
+        "help",
+        "distraction",
+        "project"
+      ],
+      "a": "distraction",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My best friend is always ............... when I have a problem.",
+      "options": [
+        "lazy",
+        "careless",
+        "silent",
+        "supportive"
+      ],
+      "a": "supportive",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "If he ............... his limits, he wouldn't have got injured.",
+      "options": [
+        "knew",
+        "had known",
+        "knows",
+        "has known"
+      ],
+      "a": "had known",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The message ............... to everyone next week.",
+      "options": [
+        "will send",
+        "will be sent",
+        "has sent",
+        "sent"
+      ],
+      "a": "will be sent",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "You ............... follow the safety rules. It is an obligation.",
+      "options": [
+        "mustn't",
+        "should",
+        "must",
+        "can"
+      ],
+      "a": "must",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We add ............... to “responsible” to get the noun.",
+      "options": [
+        "-ive",
+        "-ion",
+        "-ation",
+        "-ity"
+      ],
+      "a": "-ity",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Students ............... come to school on time.",
+      "options": [
+        "shouldn't",
+        "mustn't",
+        "must",
+        "oughtn't"
+      ],
+      "a": "must",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A new bridge will ............... in our city next year.",
+      "options": [
+        "build",
+        "be built",
+        "built",
+        "building"
+      ],
+      "a": "be built",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Screen time means the total time a person spends looking at ............... .",
+      "options": [
+        "stones",
+        "screens",
+        "walls",
+        "activities"
+      ],
+      "a": "screens",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "When I spoke in public, it helped me build ............... in my abilities.",
+      "options": [
+        "confidence",
+        "confident",
+        "confidently",
+        "confide"
+      ],
+      "a": "confidence",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We get the verb from the noun “custom” by adding the suffix “...............”.",
+      "options": [
+        "-sion",
+        "-ize",
+        "-ment",
+        "-ly"
+      ],
+      "a": "-ize",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The synonym of the word “curious” is “...............”.",
+      "options": [
+        "bored",
+        "uninterested",
+        "interested",
+        "angry"
+      ],
+      "a": "interested",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “helpful” is similar in meaning to ............... .",
+      "options": [
+        "useful",
+        "useless",
+        "unhelpful",
+        "powerless"
+      ],
+      "a": "useful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A quiet room is full of ............... .",
+      "options": [
+        "noise",
+        "laughter",
+        "silence",
+        "music"
+      ],
+      "a": "silence",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The prefix “dis -” in “disappointed” means “...............”.",
+      "options": [
+        "again",
+        "not",
+        "very",
+        "together"
+      ],
+      "a": "not",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The human connection was missing. The word “connection” is similar to “...............”.",
+      "options": [
+        "link",
+        "distance",
+        "problem",
+        "lesson"
+      ],
+      "a": "link",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To get the adjective from the word “power”, we add the suffix “...............”.",
+      "options": [
+        "-y",
+        "-ful",
+        "-ly",
+        "-al"
+      ],
+      "a": "-ful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “...............” changes the noun “health” into an adjective.",
+      "options": [
+        "-ful",
+        "-able",
+        "-less",
+        "-y"
+      ],
+      "a": "-y",
+      "tag": "Vocabulary"
+    }
+  ]
+};
+
+// ============================================================
+//  App
+// ============================================================
+let currentModel = 1;
+let studentName = '';
+let quiz = [];              // questions of the current attempt (after shuffling)
+let wrongAnswersLog = [];
+let skillStats = {};
+const SKILL_ORDER = ['Vocabulary', 'Grammar', 'Reading', 'Phonics'];
+const skillKeys = () => SKILL_ORDER.filter(k => skillStats[k]).concat(Object.keys(skillStats).filter(k => SKILL_ORDER.indexOf(k) < 0));
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const t = a[i]; a[i] = a[j]; a[j] = t;
+  }
+  return a;
+}
+
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  $(id).classList.add('active');
+  window.scrollTo(0, 0);
+}
+
+window.onload = () => {
+  const tabs = $('model-tabs');
+  for (let i = 1; i <= 11; i++) {
+    const b = document.createElement('button');
+    b.className = 'tab-btn';
+    b.innerText = `Module ${i}`;
+    b.onclick = () => startApp(i);
+    tabs.appendChild(b);
+  }
+  if (TEACHER_PHONE) {
+    $('teacher-phone-group').style.display = 'none';
+  } else {
+    try { $('teacherPhone').value = localStorage.getItem('teacherPhone') || ''; } catch (e) { /* storage not available */ }
+  }
+};
+
+function startApp(id) {
+  const n = $('studentName');
+  if (!n.value.trim()) {
+    alert('Please enter your name first!\nمن فضلك اكتب اسمك يا بطل');
+    n.focus();
+    return;
+  }
+  studentName = n.value.trim();
+  loadModel(id);
+  showScreen('quiz-screen');
+}
+
+function updateProgress() {
+  const done = document.querySelectorAll('#quiz-content input[type=radio]:checked').length;
+  $('progress-bar').style.width = `${done / quiz.length * 100}%`;
+}
+
+function loadModel(id) {
+  currentModel = id;
+  const base = allModels[String(id)].map(x => ({
+    q: x.q, a: x.a, tag: x.tag,
+    options: SHUFFLE_OPTIONS ? shuffle(x.options) : x.options.slice()
+  }));
+  quiz = SHUFFLE_QUESTIONS ? shuffle(base) : base;
+
+  $('model-title').innerText = `📝 Prep 3 - Units 1-4 - Module ${id}`;
+  $('question-counter').innerText = `${quiz.length} multiple-choice questions`;
+  $('progress-bar').style.width = '0%';
+
+  const c = $('quiz-content');
+  c.innerHTML = '';
+  quiz.forEach((x, i) => {
+    const card = document.createElement('div');
+    card.className = 'question-card';
+
+    const readingMatch = x.tag === 'Reading' ? x.q.match(/^Read:\s*[“\"]([\s\S]*?)[”\"]\s*(.*)$/) : null;
+    if (readingMatch) {
+      const passage = document.createElement('div');
+      passage.className = 'reading-passage';
+      passage.innerText = `📖 ${readingMatch[1]}`;
+      card.appendChild(passage);
+      const q = document.createElement('div');
+      q.className = 'reading-question';
+      q.innerText = `${i + 1}. ${readingMatch[2]}`;
+      card.appendChild(q);
+    } else {
+      const q = document.createElement('div');
+      q.className = 'question-text';
+      q.innerText = `${i + 1}. ${x.q}`;
+      card.appendChild(q);
+    }
+
+    const g = document.createElement('div');
+    g.className = 'options-grid';
+    x.options.forEach(o => {
+      const l = document.createElement('label');
+      l.className = 'option-label';
+      const r = document.createElement('input');
+      r.type = 'radio';
+      r.name = `q${i}`;
+      r.value = o;
+      r.onchange = () => {
+        g.querySelectorAll('.option-label').forEach(el => el.classList.remove('selected'));
+        l.classList.add('selected');
+        updateProgress();
+      };
+      l.appendChild(r);
+      l.appendChild(document.createTextNode(o));
+      g.appendChild(l);
+    });
+    card.appendChild(g);
+    c.appendChild(card);
+  });
+}
+
+function submitQuiz() {
+  const answered = quiz.filter((_, i) => document.querySelector(`input[name=q${i}]:checked`)).length;
+  const ok = answered < quiz.length
+    ? confirm(`You answered ${answered} of ${quiz.length}. Finish anyway?`)
+    : confirm('Are you sure you want to finish the quiz?');
+  if (ok) gradeQuiz();
+}
+
+function gradeQuiz() {
+  let score = 0;
+  wrongAnswersLog = [];
+  skillStats = {};
+  quiz.forEach((x, i) => {
+    if (!skillStats[x.tag]) skillStats[x.tag] = { correct: 0, total: 0 };
+    const st = skillStats[x.tag];
+    st.total++;
+    const sel = document.querySelector(`input[name=q${i}]:checked`);
+    if (sel && sel.value === x.a) {
+      score++;
+      st.correct++;
+    } else {
+      wrongAnswersLog.push({ n: i + 1, q: x.q, user: sel ? sel.value : 'No Answer', correct: x.a, tag: x.tag });
+    }
+  });
+  showResults(score, quiz.length);
+}
+
+function showResults(score, total) {
+  showScreen('result-screen');
+
+  const s = $('score-display');
+  s.innerText = `${score}/${total}`;
+  const noAnswer = wrongAnswersLog.filter(x => x.user === 'No Answer').length;
+  $('result-summary').innerText = `Answered: ${total - noAnswer}/${total} | Mistakes: ${wrongAnswersLog.length}`;
+
+  // per-skill chips
+  $('skills-box').innerHTML = skillKeys().map(k => {
+    const st = skillStats[k];
+    const p = st.correct / st.total;
+    const cls = p >= 0.8 ? 'good' : p >= 0.5 ? 'mid' : 'low';
+    return `<div class="skill-chip ${cls}">${esc(k)}<small>${st.correct}/${st.total}</small></div>`;
+  }).join('');
+
+  // mistakes review
+  const box = $('mistakes-section');
+  if (wrongAnswersLog.length) {
+    box.innerHTML = '<div class="mistakes-title" lang="ar" dir="rtl">مراجعة الأخطاء</div>' +
+      wrongAnswersLog.map(x => {
+        const user = x.user === 'No Answer' ? 'لم تجب' : x.user;
+        return `<div class="mistake-item">
+          <div class="mistake-q">${x.n}. ${esc(x.q)}</div>
+          <div class="wrong-answer" lang="ar" dir="rtl">❌ إجابتك: <bdi>${esc(user)}</bdi></div>
+          <div class="correct-answer" lang="ar" dir="rtl">✅ الإجابة الصحيحة: <bdi>${esc(x.correct)}</bdi></div>
+        </div>`;
+      }).join('');
+  } else {
+    box.innerHTML = '<div class="mistakes-title" lang="ar" dir="rtl" style="color:#168f62">ممتاز! لا توجد أخطاء 🎉</div>';
+  }
+
+  // encouragement (Arabic, name isolated so it never scrambles the sentence)
+  const p = score / total * 100;
+  const m = $('encouragement-msg');
+  const nm = `<bdi>${esc(studentName)}</bdi>`;
+  m.lang = 'ar'; m.dir = 'rtl';
+  if (p === 100)      { s.style.background = '#2ed573'; m.innerHTML = `ممتاز يا ${nm}! 🏆`; }
+  else if (p >= 80)   { s.style.background = '#1e90ff'; m.innerHTML = `رائع يا ${nm}! 💪`; }
+  else if (p >= 50)   { s.style.background = '#ffa502'; m.innerHTML = `جيد يا ${nm}، راجع أخطاءك 👍`; }
+  else                { s.style.background = '#ff4757'; m.innerHTML = `لا تيأس يا ${nm}، حاول مرة أخرى ❤️`; }
+}
+
+function retryModule() {
+  loadModel(currentModel);
+  showScreen('quiz-screen');
+}
+
+function backToModules() {
+  showScreen('welcome-screen');   // the student name stays filled in
+}
+
+// ---------- WhatsApp report ----------
+function normalizePhone(v) {
+  let d = String(v).replace(/\D/g, '');
+  if (d.indexOf('0020') === 0) d = d.slice(4);                          // 0020 1xx...
+  else if (d.indexOf('20') === 0 && d.length >= 12) d = d.slice(2);     // +20 1xx...
+  if (d.charAt(0) === '0') d = d.slice(1);                              // 01xx...
+  return (d.length === 10 && d.charAt(0) === '1') ? '20' + d : null;
+}
+
+function getTeacherPhone() {
+  const input = TEACHER_PHONE || $('teacherPhone').value;
+  const phone = normalizePhone(input);
+  if (!phone) {
+    alert('Please enter a valid Egyptian mobile number, e.g. 01xxxxxxxxx\nمن فضلك اكتب رقم موبايل مصري صحيح');
+    return null;
+  }
+  if (!TEACHER_PHONE) {
+    try { localStorage.setItem('teacherPhone', $('teacherPhone').value.trim()); } catch (e) { /* ignore */ }
+  }
+  return phone;
+}
+
+// For reading questions, drop the passage and keep only the question itself
+function shortQuestion(q) {
+  const i = q.lastIndexOf('”');
+  return (q.indexOf('Read:') === 0 && i > -1) ? q.slice(i + 1).trim() : q;
+}
+
+function sendWhatsApp() {
+  const phone = getTeacherPhone();
+  if (!phone) return;
+
+  const skills = skillKeys().map(k => `${k} ${skillStats[k].correct}/${skillStats[k].total}`).join(' | ');
+  let msg = `*Units 1-4 Revision - Prep 3*\n--------------------\n` +
+            `👤 *Student:* ${studentName}\n` +
+            `📝 *Module:* ${currentModel}\n` +
+            `📊 *Score:* ${$('score-display').innerText}\n` +
+            `🧩 *Skills:* ${skills}\n`;
+
+  if (wrongAnswersLog.length) {
+    msg += `\n*Mistakes (${wrongAnswersLog.length}):*\n`;
+    wrongAnswersLog.slice(0, MAX_MISTAKES_IN_REPORT).forEach(x => {
+      msg += `• [${x.tag}] ${shortQuestion(x.q)} → ${x.user} ✗ (correct: ${x.correct})\n`;
+    });
+    if (wrongAnswersLog.length > MAX_MISTAKES_IN_REPORT) {
+      msg += `… and ${wrongAnswersLog.length - MAX_MISTAKES_IN_REPORT} more\n`;
+    }
+  } else {
+    msg += '🎉 *Perfect score!*';
+  }
+
+  window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`, '_blank');
+}
+
+</script>
+</body>
+</html>

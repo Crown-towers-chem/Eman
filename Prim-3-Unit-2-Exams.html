@@ -1,0 +1,2031 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unit 2 Revision | Grade 3</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Fredoka:wght@400;600&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--primary:#ff9f43;--secondary:#00b894;--accent:#54a0ff;--dark:#222f3e;--bg:#f7f1e3;--danger:#ff6b6b}
+*{box-sizing:border-box;margin:0;padding:0;font-family:'Nunito','Cairo',sans-serif}body{background:var(--bg);background-image:radial-gradient(#00d2d3 1px,transparent 1px);background-size:20px 20px;color:var(--dark);min-height:100vh;display:flex;flex-direction:column;align-items:center}header{background:#fff;width:100%;padding:20px;text-align:center;box-shadow:0 4px 15px #0001;border-bottom:5px solid var(--primary)}h1{color:#00a8a8;font-family:Fredoka,sans-serif;font-size:2.2rem;text-shadow:2px 2px 0 #222f3e;margin-bottom:5px}h2{color:var(--primary);font-size:1.1rem}.container{width:95%;max-width:850px;margin:20px auto;background:white;border-radius:20px;box-shadow:0 10px 25px #0001;padding:20px;border:3px solid #00d2d3;flex:1}.screen{display:none;animation:fadeIn .4s ease-in-out}.screen.active{display:block}.input-group{margin:20px 0;text-align:center}label{display:block;font-size:1.2rem;margin-bottom:10px;font-weight:bold}input[type=text],input[type=number]{width:80%;padding:14px;font-size:1.1rem;border:3px solid #00d2d3;border-radius:50px;outline:none;text-align:center;background:#f9f9f9}input:focus{border-color:var(--primary);box-shadow:0 0 15px #ff9f434d}.btn{background:var(--primary);color:white;border:0;padding:14px 34px;font-size:1.1rem;border-radius:50px;cursor:pointer;font-weight:bold;box-shadow:0 5px 0 #e58e26;transition:.2s;margin-top:18px;width:100%;max-width:300px}.btn:active{transform:translateY(5px);box-shadow:none}.btn-blue{background:var(--accent);box-shadow:0 5px 0 #2e86de}.btn-whatsapp{background:#25d366;box-shadow:0 5px 0 #128c7e}.nav-tabs{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:20px;padding-top:15px;border-top:2px dashed #eee}.tab-btn{background:#f1f2f6;border:2px solid #dfe4ea;padding:12px 20px;border-radius:15px;cursor:pointer;font-weight:bold;font-size:1.05rem;color:#747d8c;min-width:120px}.tab-btn:hover{background:#fff;border-color:var(--primary);color:var(--primary);transform:translateY(-2px)}.question-card{background:#fff;border:2px solid #f1f2f6;border-left:5px solid var(--accent);padding:18px;margin-bottom:16px;border-radius:15px}.question-text{font-size:1.12rem;font-weight:700;margin-bottom:13px;line-height:1.5}.reading-passage{background:#eef7ff;border:2px solid #b9ddff;border-radius:12px;padding:12px 14px;margin-bottom:12px;color:#24527a;font-size:1rem;line-height:1.65;font-weight:600}.reading-question{background:#fff8e8;border-left:4px solid #ff9f43;border-radius:8px;padding:10px 12px;margin-bottom:13px;color:#9a5b00;font-size:1.08rem;font-weight:700;line-height:1.5}.options-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.option-label{display:flex;align-items:center;background:#f8f9fa;padding:11px;border-radius:10px;border:2px solid #eee;cursor:pointer;font-size:1rem}.option-label:hover{border-color:var(--accent);background:#eef5ff}input[type=radio]{margin-right:10px;width:19px;height:19px;accent-color:var(--primary)}.progress{background:#eee;border-radius:20px;height:12px;margin:10px 0 20px;overflow:hidden}.progress-bar{height:100%;background:var(--secondary);width:0;transition:.3s}.score-circle{width:160px;height:160px;border-radius:50%;background:var(--secondary);color:#fff;display:flex;justify-content:center;align-items:center;font-size:3rem;font-weight:bold;margin:20px auto;border:6px solid #fff;box-shadow:0 0 0 6px var(--secondary)}.message{text-align:center;font-size:1.35rem;color:var(--primary);margin-bottom:25px;font-weight:bold}.report-section{background:#f1f2f6;padding:20px;border-radius:15px;margin-top:20px;text-align:center}.summary{text-align:center;font-weight:bold;color:#555;margin-bottom:8px}.mistakes-section{margin:15px 0;padding:15px;background:#fff5f5;border:2px solid #ffd0d0;border-radius:15px}.mistakes-title{color:#d63031;text-align:center;font-weight:bold;margin-bottom:10px;font-family:Cairo}.mistake-item{padding:9px 0;border-bottom:1px solid #ffdede;line-height:1.5}.mistake-item:last-child{border-bottom:0}.mistake-q{font-weight:bold}.wrong-answer{color:#d63031}.correct-answer{color:#168f62}footer{padding:20px;font-size:1rem;color:#666;text-align:center;font-weight:bold;background:#fff;width:100%;margin-top:20px;border-top:1px solid #eee}.heart{color:red}@keyframes fadeIn{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}@media(max-width:600px){.options-grid{grid-template-columns:1fr}h1{font-size:1.8rem}.score-circle{width:130px;height:130px;font-size:2.5rem}.container{width:100%;border:none;border-radius:0}.tab-btn{width:45%}}
+
+/* ---- additions ---- */
+input[type=tel]{width:80%;padding:14px;font-size:1.1rem;border:3px solid #00d2d3;border-radius:50px;outline:none;text-align:center;background:#f9f9f9}
+.option-label:focus-within{border-color:var(--accent);background:#eef5ff}
+.option-label.selected{border-color:var(--primary);background:#fff4e6}
+.skills-title{text-align:center;font-family:Cairo,sans-serif;font-weight:bold;color:#555;margin:16px 0 8px}
+.skills{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:18px}
+.skill-chip{border:2px solid #dfe4ea;background:#f1f2f6;border-radius:14px;padding:8px 16px;min-width:120px;text-align:center;font-weight:bold}
+.skill-chip small{display:block;font-size:1.05rem;margin-top:2px}
+.skill-chip.good{border-color:#2ed573;background:#eafaf1;color:#168f62}
+.skill-chip.mid{border-color:#ffa502;background:#fff6e5;color:#b36b00}
+.skill-chip.low{border-color:#ff6b6b;background:#fff0f0;color:#d63031}
+.actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:15px}
+.actions .btn{margin-top:0}
+.mistake-item bdi{font-weight:bold}
+@media(prefers-reduced-motion:reduce){.screen{animation:none}.btn,.tab-btn,.progress-bar{transition:none}}
+
+/* ---- additions ---- */
+.options-grid label:last-child:nth-child(odd){grid-column:1/-1}
+/* ---- contact bar ---- */
+.contact-bar{width:100%;background:var(--dark);color:#fff;border-bottom:4px solid var(--primary);padding:10px 12px;display:flex;flex-wrap:wrap;gap:8px 14px;justify-content:center;align-items:center;font-family:'Cairo','Nunito',sans-serif}
+.contact-bar .cb-name{font-family:Fredoka,'Cairo',sans-serif;font-weight:600;font-size:1.05rem;letter-spacing:.3px}
+.contact-bar .cb-links{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.contact-bar a{color:#fff;text-decoration:none;font-weight:bold;font-size:.95rem;padding:6px 16px;border-radius:50px;background:rgba(255,255,255,.14);transition:.2s}
+.contact-bar a:hover{transform:translateY(-2px)}
+.contact-bar a.wa{background:#25d366}
+.contact-bar a.call{background:var(--accent)}
+</style>
+</head>
+<body>
+<div class="contact-bar">
+  <span class="cb-name">Mrs. Eman Koriem</span>
+  <span class="cb-links">
+    <a class="call" href="tel:+201023990505">📞 01023990505</a>
+    <a class="wa" href="https://wa.me/201023990505" target="_blank" rel="noopener" lang="ar" dir="rtl">💬 تواصل عبر الواتس</a>
+  </span>
+</div>
+
+<header><h1>Unit 2 Revision - Grade 3</h1><h2>Vocabulary • Grammar • Reading • Phonics</h2></header>
+<div class="container">
+
+<section id="welcome-screen" class="screen active">
+  <div class="input-group">
+    <div style="font-size:3rem;margin-bottom:10px">👋</div>
+    <h3 lang="ar" dir="rtl" style="margin-bottom:20px;font-family:Cairo">أهلاً بك يا بطل!</h3>
+    <label for="studentName">Enter Student Name:</label>
+    <input type="text" id="studentName" placeholder="e.g., Ahmed Ali" autocomplete="off">
+  </div>
+  <p lang="ar" dir="rtl" style="text-align:center;color:var(--dark);font-weight:bold;font-family:Cairo;font-size:1.15rem">اختر الموديول لتبدأ الاختبار</p>
+  <div class="nav-tabs" id="model-tabs"></div>
+</section>
+
+<section id="quiz-screen" class="screen">
+  <div style="text-align:center;margin-bottom:15px">
+    <h3 id="model-title" style="color:var(--primary)"></h3>
+    <div id="question-counter" class="summary"></div>
+  </div>
+  <div class="progress"><div id="progress-bar" class="progress-bar"></div></div>
+  <div id="quiz-content"></div>
+  <div style="text-align:center;padding-bottom:20px"><button class="btn" onclick="submitQuiz()">Submit Answers ✅</button></div>
+</section>
+
+<section id="result-screen" class="screen">
+  <div class="score-circle" id="score-display">0/30</div>
+  <div class="message" id="encouragement-msg"></div>
+  <div class="summary" id="result-summary"></div>
+  <div class="skills-title" lang="ar" dir="rtl">مستواك في كل مهارة</div>
+  <div class="skills" id="skills-box"></div>
+  <div id="mistakes-section" class="mistakes-section"></div>
+  <div class="report-section">
+    <h3 lang="ar" dir="rtl" style="margin-bottom:15px;font-family:Cairo">أرسل التقرير للمستر</h3>
+    <div id="teacher-phone-group">
+      <label for="teacherPhone" style="font-size:1rem">Teacher's WhatsApp Number:</label>
+      <input type="tel" id="teacherPhone" placeholder="01xxxxxxxxx" inputmode="numeric" autocomplete="off">
+    </div>
+    <button class="btn btn-whatsapp" onclick="sendWhatsApp()">Send via WhatsApp 💬</button>
+  </div>
+  <div class="actions">
+    <button class="btn" onclick="retryModule()">Retry This Module 🔁</button>
+    <button class="btn btn-blue" onclick="backToModules()">Try Another Module 🔄</button>
+  </div>
+</section>
+
+</div>
+<footer>Made with Love by Mr. Ameen Sharqawy <span class="heart">❤</span></footer>
+
+<script>
+// ============================================================
+//  Settings (تقدر تعدلهم بسهولة)
+// ============================================================
+// Put the teacher's number here (e.g. '01012345678') to hide the phone box from students.
+// Leave it empty '' and the student types it once (it is remembered on that device).
+const TEACHER_PHONE = '';
+const SHUFFLE_QUESTIONS = true;   // random question order every attempt
+const SHUFFLE_OPTIONS   = true;   // random answer order every attempt
+const MAX_MISTAKES_IN_REPORT = 10;
+
+// ============================================================
+//  Questions  (tag = Vocabulary | Grammar | Reading)
+// ============================================================
+const allModels = {
+  "1": [
+    {
+      "q": "My grandmother ___ delicious food.",
+      "options": [
+        "cooks",
+        "visits",
+        "helps",
+        "reads"
+      ],
+      "a": "cooks",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I ___ a story about birds.",
+      "options": [
+        "play",
+        "talk",
+        "grow",
+        "read"
+      ],
+      "a": "read",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My family helps me ___ to be good and kind.",
+      "options": [
+        "bake",
+        "go",
+        "grow",
+        "take"
+      ],
+      "a": "grow",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Who ___ you to school in the morning? - My mother.",
+      "options": [
+        "reads",
+        "takes",
+        "brushes",
+        "studies"
+      ],
+      "a": "takes",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My brother ___ me do my homework.",
+      "options": [
+        "helps",
+        "cooks",
+        "reads",
+        "visits"
+      ],
+      "a": "helps",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My grandmother reads me a ___.",
+      "options": [
+        "bus",
+        "food",
+        "farm",
+        "story"
+      ],
+      "a": "story",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I ___ a big family.",
+      "options": [
+        "have",
+        "has",
+        "am",
+        "is"
+      ],
+      "a": "have",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "She ___ a baby brother.",
+      "options": [
+        "have",
+        "is",
+        "are",
+        "has"
+      ],
+      "a": "has",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "He ___ his teeth every day.",
+      "options": [
+        "brushing",
+        "brushed",
+        "brushes",
+        "brush"
+      ],
+      "a": "brushes",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "They ___ to school in the morning.",
+      "options": [
+        "gone",
+        "go",
+        "goes",
+        "going"
+      ],
+      "a": "go",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My mother ___ delicious food.",
+      "options": [
+        "cooks",
+        "cook",
+        "cooking",
+        "cooked"
+      ],
+      "a": "cooks",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We ___ our grandparents every Friday.",
+      "options": [
+        "visits",
+        "visiting",
+        "visited",
+        "visit"
+      ],
+      "a": "visit",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My father ___ me with my homework.",
+      "options": [
+        "helping",
+        "helped",
+        "helps",
+        "help"
+      ],
+      "a": "helps",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I ___ stories to my little sister.",
+      "options": [
+        "readed",
+        "read",
+        "reads",
+        "reading"
+      ],
+      "a": "read",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My brother ___ football after school.",
+      "options": [
+        "plays",
+        "play",
+        "playing",
+        "played"
+      ],
+      "a": "plays",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The children ___ in the garden.",
+      "options": [
+        "plays",
+        "playing",
+        "played",
+        "play"
+      ],
+      "a": "play",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Choose the correctly ordered sentence.",
+      "options": [
+        "My favorite celebration is Eid Al-Fitr.",
+        "Celebration my favorite is Eid Al-Fitr.",
+        "Is my favorite celebration Eid Al-Fitr.",
+        "Eid Al-Fitr is favorite my celebration."
+      ],
+      "a": "My favorite celebration is Eid Al-Fitr.",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Choose the correctly ordered sentence.",
+      "options": [
+        "Helps my brother me.",
+        "Me helps my brother.",
+        "Brother my me helps.",
+        "My brother helps me."
+      ],
+      "a": "My brother helps me.",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Choose the correctly ordered sentence.",
+      "options": [
+        "Laila her name is.",
+        "Is Laila her name.",
+        "Her name is Laila.",
+        "Name her is Laila."
+      ],
+      "a": "Her name is Laila.",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Choose the correctly ordered sentence.",
+      "options": [
+        "Sister my is baby cute.",
+        "My baby sister is cute.",
+        "Baby my sister cute is.",
+        "Is cute my baby sister."
+      ],
+      "a": "My baby sister is cute.",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Choose the correctly ordered sentence.",
+      "options": [
+        "My grandfather has a farm.",
+        "Has my farm a grandfather.",
+        "A farm grandfather has my.",
+        "Grandfather my a farm has."
+      ],
+      "a": "My grandfather has a farm.",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Read: “My name is Fares. I live in Cairo. Fridays are my favorite days. On Fridays, I visit my grandfather’s farm. My grandfather lives with my grandmother in a big house.” What is Fares’s favorite day?",
+      "options": [
+        "Friday",
+        "Sunday",
+        "Monday",
+        "Tuesday"
+      ],
+      "a": "Friday",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “My name is Fares. I live in Cairo. Fridays are my favorite days. On Fridays, I visit my grandfather’s farm. My grandfather lives with my grandmother in a big house.” Where does Fares go on Fridays?",
+      "options": [
+        "his school",
+        "a hospital",
+        "a garden",
+        "his grandfather’s farm"
+      ],
+      "a": "his grandfather’s farm",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “My name is Fares. I live in Cairo. Fridays are my favorite days. On Fridays, I visit my grandfather’s farm. My grandfather lives with my grandmother in a big house.” Who lives with Fares’s grandfather?",
+      "options": [
+        "his cousin",
+        "his sister",
+        "his grandmother",
+        "his aunt"
+      ],
+      "a": "his grandmother",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “They have many animals on their farm. I love to play with their dog in the garden. My sister Rehab likes to watch the ducks swimming.” What do they have on the farm?",
+      "options": [
+        "many cakes",
+        "many animals",
+        "many schools",
+        "many doctors"
+      ],
+      "a": "many animals",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “They have many animals on their farm. I love to play with their dog in the garden. My sister Rehab likes to watch the ducks swimming.” What does Fares play with?",
+      "options": [
+        "the dog",
+        "the ducks",
+        "the horses",
+        "the cats"
+      ],
+      "a": "the dog",
+      "tag": "Reading"
+    },
+    {
+      "q": "Choose the correct punctuation.",
+      "options": [
+        "Who is this?",
+        "Who is this.",
+        "who is this?",
+        "Who Is This"
+      ],
+      "a": "Who is this?",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Choose the correct punctuation.",
+      "options": [
+        "She is my baby cousin?",
+        "she is my baby cousin.",
+        "She Is My Baby Cousin",
+        "She is my baby cousin."
+      ],
+      "a": "She is my baby cousin.",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Choose the word that begins with “ex”.",
+      "options": [
+        "exit",
+        "family",
+        "garden",
+        "doctor"
+      ],
+      "a": "exit",
+      "tag": "Phonics"
+    },
+    {
+      "q": "Choose the word that begins with “ex”.",
+      "options": [
+        "mother",
+        "farm",
+        "happy",
+        "exam"
+      ],
+      "a": "exam",
+      "tag": "Phonics"
+    }
+  ],
+  "2": [
+    {
+      "q": "My family has many ___.",
+      "options": [
+        "celebrations",
+        "gardens",
+        "jobs",
+        "members"
+      ],
+      "a": "members",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My grandfather lives on a ___.",
+      "options": [
+        "hospital",
+        "garden",
+        "farm",
+        "school"
+      ],
+      "a": "farm",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A person who works in a hospital can be a ___.",
+      "options": [
+        "pilot",
+        "doctor",
+        "farmer",
+        "baker"
+      ],
+      "a": "doctor",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A person who grows plants and food is a ___.",
+      "options": [
+        "farmer",
+        "doctor",
+        "pilot",
+        "teacher"
+      ],
+      "a": "farmer",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A person who flies a plane is a ___.",
+      "options": [
+        "baker",
+        "doctor",
+        "soldier",
+        "pilot"
+      ],
+      "a": "pilot",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A person who makes bread and cakes is a ___.",
+      "options": [
+        "teacher",
+        "doctor",
+        "baker",
+        "farmer"
+      ],
+      "a": "baker",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "He ___ a doctor.",
+      "options": [
+        "are",
+        "am",
+        "has",
+        "is"
+      ],
+      "a": "is",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "They ___ happy at the celebration.",
+      "options": [
+        "am",
+        "has",
+        "are",
+        "is"
+      ],
+      "a": "are",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I ___ nine years old.",
+      "options": [
+        "have",
+        "am",
+        "is",
+        "are"
+      ],
+      "a": "am",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My uncle ___ a pilot.",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "have"
+      ],
+      "a": "is",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "___ you have a big family?",
+      "options": [
+        "Does",
+        "Are",
+        "Is",
+        "Do"
+      ],
+      "a": "Do",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "___ she visit her grandmother?",
+      "options": [
+        "Is",
+        "Are",
+        "Does",
+        "Do"
+      ],
+      "a": "Does",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "___ they play in the garden?",
+      "options": [
+        "Am",
+        "Do",
+        "Does",
+        "Is"
+      ],
+      "a": "Do",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "___ he help his mother?",
+      "options": [
+        "Does",
+        "Do",
+        "Is",
+        "Are"
+      ],
+      "a": "Does",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I ___ not eat fish.",
+      "options": [
+        "does",
+        "am",
+        "is",
+        "do"
+      ],
+      "a": "do",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "She ___ not play football.",
+      "options": [
+        "is",
+        "are",
+        "does",
+        "do"
+      ],
+      "a": "does",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Choose the correct punctuation.",
+      "options": [
+        "what is your favorite celebration?",
+        "What Is Your Favorite Celebration",
+        "What is your favorite celebration?",
+        "What is your favorite celebration."
+      ],
+      "a": "What is your favorite celebration?",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Choose the correct punctuation.",
+      "options": [
+        "My Mother Is A Teacher",
+        "My mother is a teacher.",
+        "My mother is a teacher?",
+        "my mother is a teacher."
+      ],
+      "a": "My mother is a teacher.",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Which sentence introduces a person?",
+      "options": [
+        "This is my uncle.",
+        "My uncle cooks.",
+        "I visit my uncle.",
+        "His job is great."
+      ],
+      "a": "This is my uncle.",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Which sentence is correct?",
+      "options": [
+        "He name is Fady.",
+        "Him name is Fady.",
+        "His is name Fady.",
+        "His name is Fady."
+      ],
+      "a": "His name is Fady.",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Read: “Mother’s Day is on 21st March. Every year, we buy a present for our mother and make a color card for her. Mothers feel happy when we give them presents to say thank you.” When is Mother’s Day?",
+      "options": [
+        "6th October",
+        "1st January",
+        "25th December",
+        "21st March"
+      ],
+      "a": "21st March",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “Mother’s Day is on 21st March. Every year, we buy a present for our mother and make a color card for her. Mothers feel happy when we give them presents to say thank you.” What do children buy?",
+      "options": [
+        "a pet",
+        "a job",
+        "a present",
+        "a farm"
+      ],
+      "a": "a present",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “Mother’s Day is on 21st March. Every year, we buy a present for our mother and make a color card for her. Mothers feel happy when we give them presents to say thank you.” How do mothers feel?",
+      "options": [
+        "angry",
+        "happy",
+        "sad",
+        "weak"
+      ],
+      "a": "happy",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “Mother’s Day is on 21st March. Every year, we buy a present for our mother and make a color card for her. Mothers feel happy when we give them presents to say thank you.” What is the main idea?",
+      "options": [
+        "Mother’s Day",
+        "Sham El-Nessim",
+        "Eid Al-Fitr",
+        "The farm"
+      ],
+      "a": "Mother’s Day",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “Mona lives in a big house with her family. She helps her friend do his homework. She helps her father clean his car. Her mother cooks delicious food.” Who does Mona help with homework?",
+      "options": [
+        "her mother",
+        "her grandfather",
+        "her cousin",
+        "her friend"
+      ],
+      "a": "her friend",
+      "tag": "Reading"
+    },
+    {
+      "q": "Choose the correct punctuation.",
+      "options": [
+        "this is my uncle.",
+        "This Is My Uncle",
+        "This is my uncle.",
+        "This is my uncle?"
+      ],
+      "a": "This is my uncle.",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Choose the word that begins with “ex”.",
+      "options": [
+        "brother",
+        "celebration",
+        "salty",
+        "exist"
+      ],
+      "a": "exist",
+      "tag": "Phonics"
+    },
+    {
+      "q": "Which word has the /gz/ sound?",
+      "options": [
+        "garden",
+        "mother",
+        "exam",
+        "family"
+      ],
+      "a": "exam",
+      "tag": "Phonics"
+    },
+    {
+      "q": "My mother cooks food in the ___.",
+      "options": [
+        "school",
+        "garden",
+        "kitchen",
+        "farm"
+      ],
+      "a": "kitchen",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We visit our grandfather on his ___.",
+      "options": [
+        "housework",
+        "farm",
+        "hospital",
+        "school"
+      ],
+      "a": "farm",
+      "tag": "Vocabulary"
+    }
+  ],
+  "3": [
+    {
+      "q": "We eat ___ fish on Sham El-Nessim.",
+      "options": [
+        "salted",
+        "brave",
+        "favorite",
+        "healthy"
+      ],
+      "a": "salted",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Eid Al-Fitr is a ___.",
+      "options": [
+        "garden",
+        "soldier",
+        "member",
+        "celebration"
+      ],
+      "a": "celebration",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Egyptian soldiers are very ___.",
+      "options": [
+        "bad",
+        "sad",
+        "brave",
+        "weak"
+      ],
+      "a": "brave",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My favorite celebration is ___.",
+      "options": [
+        "doctor",
+        "Eid Al-Fitr",
+        "Monday",
+        "school"
+      ],
+      "a": "Eid Al-Fitr",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "He ___ not read the story.",
+      "options": [
+        "is",
+        "are",
+        "does",
+        "do"
+      ],
+      "a": "does",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "This is ___ father.",
+      "options": [
+        "he",
+        "my",
+        "his",
+        "her"
+      ],
+      "a": "my",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "This is Ali. ___ father is a doctor.",
+      "options": [
+        "His",
+        "Her",
+        "My",
+        "He"
+      ],
+      "a": "His",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "This is Mona. ___ mother is a teacher.",
+      "options": [
+        "His",
+        "My",
+        "She",
+        "Her"
+      ],
+      "a": "Her",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I have a cat. ___ cat is cute.",
+      "options": [
+        "Her",
+        "He",
+        "My",
+        "His"
+      ],
+      "a": "My",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Hassan is a doctor. ___ job is great.",
+      "options": [
+        "My",
+        "His",
+        "Her",
+        "He"
+      ],
+      "a": "His",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Noura has a blue dress. ___ dress is beautiful.",
+      "options": [
+        "Her",
+        "His",
+        "She",
+        "My"
+      ],
+      "a": "Her",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My grandfather has a farm. ___ farm is big.",
+      "options": [
+        "Her",
+        "My",
+        "He",
+        "His"
+      ],
+      "a": "His",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "That is Adam. ___ book is blue.",
+      "options": [
+        "He",
+        "My",
+        "His",
+        "Her"
+      ],
+      "a": "His",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Eman brushes ___ teeth every morning.",
+      "options": [
+        "she",
+        "her",
+        "his",
+        "my"
+      ],
+      "a": "her",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Which sentence is about a celebration?",
+      "options": [
+        "My sister reads a book.",
+        "My uncle has a farm.",
+        "We eat salted fish on Sham El-Nessim.",
+        "My father is a doctor."
+      ],
+      "a": "We eat salted fish on Sham El-Nessim.",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Which sentence is about a job?",
+      "options": [
+        "My aunt is kind.",
+        "My aunt is a teacher.",
+        "My aunt has a pet.",
+        "My aunt likes fish."
+      ],
+      "a": "My aunt is a teacher.",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Which sentence is about a family member?",
+      "options": [
+        "My cousin is kind.",
+        "My cousin is a celebration.",
+        "My cousin cooks a farm.",
+        "My cousin is a job."
+      ],
+      "a": "My cousin is kind.",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Choose the word that means “a special day or event.”",
+      "options": [
+        "member",
+        "farm",
+        "job",
+        "celebration"
+      ],
+      "a": "celebration",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Choose the word that means “a person in a family.”",
+      "options": [
+        "soldier",
+        "favorite",
+        "member",
+        "garden"
+      ],
+      "a": "member",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Read: “Mona lives in a big house with her family. She helps her friend do his homework. She helps her father clean his car. Her mother cooks delicious food.” Who cooks delicious food?",
+      "options": [
+        "her father",
+        "her friend",
+        "her mother",
+        "her sister"
+      ],
+      "a": "her mother",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “My family is small. I have a mother, a father and one sister. My father is a doctor. My mother is a teacher. My sister is six years old.” How many sisters does the child have?",
+      "options": [
+        "four",
+        "one",
+        "two",
+        "three"
+      ],
+      "a": "one",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “My family is small. I have a mother, a father and one sister. My father is a doctor. My mother is a teacher. My sister is six years old.” What is the father’s job?",
+      "options": [
+        "doctor",
+        "teacher",
+        "farmer",
+        "pilot"
+      ],
+      "a": "doctor",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “My family is small. I have a mother, a father and one sister. My father is a doctor. My mother is a teacher. My sister is six years old.” How old is the sister?",
+      "options": [
+        "seven",
+        "eight",
+        "nine",
+        "six"
+      ],
+      "a": "six",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “On Sham El-Nessim, my family goes to the garden. We eat salted fish and eggs. We play games and feel happy.” Where does the family go?",
+      "options": [
+        "the school",
+        "the farm",
+        "the garden",
+        "the hospital"
+      ],
+      "a": "the garden",
+      "tag": "Reading"
+    },
+    {
+      "q": "Which word has the /gz/ sound?",
+      "options": [
+        "garden",
+        "happy",
+        "examine",
+        "sister"
+      ],
+      "a": "examine",
+      "tag": "Phonics"
+    },
+    {
+      "q": "Which word has the /gz/ sound?",
+      "options": [
+        "farm",
+        "exist",
+        "father",
+        "baker"
+      ],
+      "a": "exist",
+      "tag": "Phonics"
+    },
+    {
+      "q": "Mother’s Day is an important ___.",
+      "options": [
+        "member",
+        "day",
+        "job",
+        "animal"
+      ],
+      "a": "day",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We give our mothers ___ on Mother’s Day.",
+      "options": [
+        "presents",
+        "riddles",
+        "soldiers",
+        "farms"
+      ],
+      "a": "presents",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A family pet can be a dog or a ___.",
+      "options": [
+        "doctor",
+        "pilot",
+        "baker",
+        "cat"
+      ],
+      "a": "cat",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My sister has a cute ___.",
+      "options": [
+        "celebration",
+        "farm",
+        "pet",
+        "job"
+      ],
+      "a": "pet",
+      "tag": "Vocabulary"
+    }
+  ],
+  "4": [
+    {
+      "q": "My uncle’s ___ is a doctor.",
+      "options": [
+        "garden",
+        "job",
+        "family",
+        "food"
+      ],
+      "a": "job",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My cousin is my family ___.",
+      "options": [
+        "member",
+        "soldier",
+        "celebration",
+        "farmer"
+      ],
+      "a": "member",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My brother helps ___ with my homework.",
+      "options": [
+        "her",
+        "me",
+        "my",
+        "his"
+      ],
+      "a": "me",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "___ is my sister.",
+      "options": [
+        "This",
+        "These",
+        "They",
+        "He"
+      ],
+      "a": "This",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "This ___ my cousin.",
+      "options": [
+        "are",
+        "am",
+        "has",
+        "is"
+      ],
+      "a": "is",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "This is my aunt. ___ name is Hala.",
+      "options": [
+        "My",
+        "She",
+        "Her",
+        "His"
+      ],
+      "a": "Her",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "This is my uncle. ___ name is Omar.",
+      "options": [
+        "He",
+        "His",
+        "Her",
+        "My"
+      ],
+      "a": "His",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My family ___ me every day.",
+      "options": [
+        "helps",
+        "help",
+        "helping",
+        "helped"
+      ],
+      "a": "helps",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My grandparents ___ in a big house.",
+      "options": [
+        "lives",
+        "living",
+        "lived",
+        "live"
+      ],
+      "a": "live",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My sister ___ pictures.",
+      "options": [
+        "drawing",
+        "drew",
+        "draws",
+        "draw"
+      ],
+      "a": "draws",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We ___ our mother on Mother’s Day.",
+      "options": [
+        "helped",
+        "help",
+        "helps",
+        "helping"
+      ],
+      "a": "help",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The baby ___ a lot.",
+      "options": [
+        "cries",
+        "cry",
+        "crying",
+        "cried"
+      ],
+      "a": "cries",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Choose the correct answer: My favorite food is ___.",
+      "options": [
+        "garden",
+        "chicken",
+        "doctor",
+        "family"
+      ],
+      "a": "chicken",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Choose the correct answer: We go to the ___ to play.",
+      "options": [
+        "garden",
+        "hospital",
+        "job",
+        "soldier"
+      ],
+      "a": "garden",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Choose the correct answer: A baby boy is a baby ___.",
+      "options": [
+        "aunt",
+        "cousin",
+        "grandmother",
+        "brother"
+      ],
+      "a": "brother",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Choose the correct answer: My father’s mother is my ___.",
+      "options": [
+        "cousin",
+        "sister",
+        "grandmother",
+        "aunt"
+      ],
+      "a": "grandmother",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Choose the correct answer: My mother’s father is my ___.",
+      "options": [
+        "brother",
+        "grandfather",
+        "uncle",
+        "cousin"
+      ],
+      "a": "grandfather",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Read: “On Sham El-Nessim, my family goes to the garden. We eat salted fish and eggs. We play games and feel happy.” How do they feel?",
+      "options": [
+        "tired",
+        "happy",
+        "sad",
+        "angry"
+      ],
+      "a": "happy",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “Ali has a pet dog. His dog is small and friendly. Ali gives it food and plays with it every day.” What pet does Ali have?",
+      "options": [
+        "a dog",
+        "a cat",
+        "a rabbit",
+        "a bird"
+      ],
+      "a": "a dog",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “Ali has a pet dog. His dog is small and friendly. Ali gives it food and plays with it every day.” What is the dog like?",
+      "options": [
+        "big and angry",
+        "old and weak",
+        "sad and lazy",
+        "small and friendly"
+      ],
+      "a": "small and friendly",
+      "tag": "Reading"
+    },
+    {
+      "q": "Read: “Ali has a pet dog. His dog is small and friendly. Ali gives it food and plays with it every day.” What does Ali do every day?",
+      "options": [
+        "reads it a story",
+        "cooks its dinner",
+        "gives it food and plays with it",
+        "takes it to school"
+      ],
+      "a": "gives it food and plays with it",
+      "tag": "Reading"
+    },
+    {
+      "q": "Choose the word with the missing letters: e__am.",
+      "options": [
+        "th",
+        "x",
+        "sh",
+        "ch"
+      ],
+      "a": "x",
+      "tag": "Phonics"
+    },
+    {
+      "q": "Choose the word with the missing letters: e__amine.",
+      "options": [
+        "x",
+        "sh",
+        "ch",
+        "th"
+      ],
+      "a": "x",
+      "tag": "Phonics"
+    },
+    {
+      "q": "My father helps me ___ my bike.",
+      "options": [
+        "clean",
+        "cleans",
+        "cleaning",
+        "cleaned"
+      ],
+      "a": "clean",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We watch the ducks ___.",
+      "options": [
+        "brave",
+        "favorite",
+        "cooking",
+        "swimming"
+      ],
+      "a": "swimming",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My grandfather has many animals on his ___.",
+      "options": [
+        "hospital",
+        "kitchen",
+        "farm",
+        "school"
+      ],
+      "a": "farm",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The opposite of “sad” is ___.",
+      "options": [
+        "favorite",
+        "happy",
+        "brave",
+        "salty"
+      ],
+      "a": "happy",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The opposite of “weak” is ___.",
+      "options": [
+        "strong",
+        "sad",
+        "small",
+        "kind"
+      ],
+      "a": "strong",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A baby girl in my family is my baby ___.",
+      "options": [
+        "uncle",
+        "grandfather",
+        "cousin",
+        "sister"
+      ],
+      "a": "sister",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My aunt ___ cakes.",
+      "options": [
+        "bakes",
+        "bake",
+        "baking",
+        "baked"
+      ],
+      "a": "bakes",
+      "tag": "Vocabulary"
+    }
+  ],
+  "5": [
+    {
+      "q": "My parents ___ kind.",
+      "options": [
+        "is",
+        "am",
+        "has",
+        "are"
+      ],
+      "a": "are",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The dog ___ my family.",
+      "options": [
+        "loving",
+        "loved",
+        "loves",
+        "love"
+      ],
+      "a": "loves",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I ___ my room every day.",
+      "options": [
+        "cleaned",
+        "clean",
+        "cleans",
+        "cleaning"
+      ],
+      "a": "clean",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My father ___ his car.",
+      "options": [
+        "cleans",
+        "clean",
+        "cleaning",
+        "cleaned"
+      ],
+      "a": "cleans",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The farmer ___ animals.",
+      "options": [
+        "feed",
+        "feeding",
+        "fed",
+        "feeds"
+      ],
+      "a": "feeds",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We ___ stories together.",
+      "options": [
+        "reading",
+        "readed",
+        "read",
+        "reads"
+      ],
+      "a": "read",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My mother ___ breakfast.",
+      "options": [
+        "made",
+        "makes",
+        "make",
+        "making"
+      ],
+      "a": "makes",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Choose the correct answer: A person who makes bread is a ___.",
+      "options": [
+        "baker",
+        "doctor",
+        "pilot",
+        "soldier"
+      ],
+      "a": "baker",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Read: “They have many animals on their farm. I love to play with their dog in the garden. My sister Rehab likes to watch the ducks swimming.” What does Rehab watch?",
+      "options": [
+        "the farmer working",
+        "the ducks swimming",
+        "the dog running",
+        "the horses eating"
+      ],
+      "a": "the ducks swimming",
+      "tag": "Reading"
+    },
+    {
+      "q": "My mother’s sister is my ___.",
+      "options": [
+        "uncle",
+        "cousin",
+        "grandfather",
+        "aunt"
+      ],
+      "a": "aunt",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My aunt’s son is my ___.",
+      "options": [
+        "father",
+        "brother",
+        "cousin",
+        "uncle"
+      ],
+      "a": "cousin",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We say “thank you” when someone gives us a ___.",
+      "options": [
+        "pet",
+        "present",
+        "farm",
+        "job"
+      ],
+      "a": "present",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A place where animals and plants grow is a ___.",
+      "options": [
+        "farm",
+        "hospital",
+        "school",
+        "kitchen"
+      ],
+      "a": "farm",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We can ___ stories to children.",
+      "options": [
+        "reads",
+        "reading",
+        "readed",
+        "read"
+      ],
+      "a": "read",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My family is very ___ and kind.",
+      "options": [
+        "brave",
+        "favorite",
+        "helpful",
+        "salted"
+      ],
+      "a": "helpful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "She ___ to the farm with her family.",
+      "options": [
+        "goes",
+        "go",
+        "going",
+        "gone"
+      ],
+      "a": "goes",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Read: “Mona lives in a big house with her family. She helps her friend do his homework. She helps her father clean his car. Her mother cooks delicious food.” What does Mona help her father clean?",
+      "options": [
+        "his car",
+        "the farm",
+        "the kitchen",
+        "the garden"
+      ],
+      "a": "his car",
+      "tag": "Reading"
+    },
+    {
+      "q": "My grandfather lives on a ___.",
+      "options": [
+        "hospital",
+        "garden",
+        "farm",
+        "school"
+      ],
+      "a": "farm",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Read: “On Sham El-Nessim, my family goes to the garden. We eat salted fish and eggs. We play games and feel happy.” How do they feel?",
+      "options": [
+        "tired",
+        "happy",
+        "sad",
+        "angry"
+      ],
+      "a": "happy",
+      "tag": "Reading"
+    },
+    {
+      "q": "He ___ not read the story.",
+      "options": [
+        "is",
+        "are",
+        "does",
+        "do"
+      ],
+      "a": "does",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Noura has a blue dress. ___ dress is beautiful.",
+      "options": [
+        "Her",
+        "His",
+        "She",
+        "My"
+      ],
+      "a": "Her",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Choose the correctly ordered sentence.",
+      "options": [
+        "My grandfather has a farm.",
+        "Has my farm a grandfather.",
+        "A farm grandfather has my.",
+        "Grandfather my a farm has."
+      ],
+      "a": "My grandfather has a farm.",
+      "tag": "Grammar"
+    },
+    {
+      "q": "Choose the correct answer: My father’s mother is my ___.",
+      "options": [
+        "cousin",
+        "sister",
+        "grandmother",
+        "aunt"
+      ],
+      "a": "grandmother",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Choose the word that begins with “ex”.",
+      "options": [
+        "mother",
+        "farm",
+        "happy",
+        "exam"
+      ],
+      "a": "exam",
+      "tag": "Phonics"
+    },
+    {
+      "q": "Choose the correct answer: My mother’s father is my ___.",
+      "options": [
+        "brother",
+        "grandfather",
+        "uncle",
+        "cousin"
+      ],
+      "a": "grandfather",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A person who works in a hospital can be a ___.",
+      "options": [
+        "pilot",
+        "doctor",
+        "farmer",
+        "baker"
+      ],
+      "a": "doctor",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A baby girl in my family is my baby ___.",
+      "options": [
+        "uncle",
+        "grandfather",
+        "cousin",
+        "sister"
+      ],
+      "a": "sister",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Choose the word with the missing letters: e__am.",
+      "options": [
+        "th",
+        "x",
+        "sh",
+        "ch"
+      ],
+      "a": "x",
+      "tag": "Phonics"
+    },
+    {
+      "q": "Read: “Mother’s Day is on 21st March. Every year, we buy a present for our mother and make a color card for her. Mothers feel happy when we give them presents to say thank you.” When is Mother’s Day?",
+      "options": [
+        "6th October",
+        "1st January",
+        "25th December",
+        "21st March"
+      ],
+      "a": "21st March",
+      "tag": "Reading"
+    },
+    {
+      "q": "We visit our grandfather on his ___.",
+      "options": [
+        "housework",
+        "farm",
+        "hospital",
+        "school"
+      ],
+      "a": "farm",
+      "tag": "Vocabulary"
+    }
+  ]
+};
+
+// ============================================================
+//  App
+// ============================================================
+let currentModel = 1;
+let studentName = '';
+let quiz = [];              // questions of the current attempt (after shuffling)
+let wrongAnswersLog = [];
+let skillStats = {};
+const SKILL_ORDER = ['Vocabulary', 'Grammar', 'Reading', 'Phonics'];
+const skillKeys = () => SKILL_ORDER.filter(k => skillStats[k]).concat(Object.keys(skillStats).filter(k => SKILL_ORDER.indexOf(k) < 0));
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const t = a[i]; a[i] = a[j]; a[j] = t;
+  }
+  return a;
+}
+
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  $(id).classList.add('active');
+  window.scrollTo(0, 0);
+}
+
+window.onload = () => {
+  const tabs = $('model-tabs');
+  for (let i = 1; i <= 5; i++) {
+    const b = document.createElement('button');
+    b.className = 'tab-btn';
+    b.innerText = `Module ${i}`;
+    b.onclick = () => startApp(i);
+    tabs.appendChild(b);
+  }
+  if (TEACHER_PHONE) {
+    $('teacher-phone-group').style.display = 'none';
+  } else {
+    try { $('teacherPhone').value = localStorage.getItem('teacherPhone') || ''; } catch (e) { /* storage not available */ }
+  }
+};
+
+function startApp(id) {
+  const n = $('studentName');
+  if (!n.value.trim()) {
+    alert('Please enter your name first!\nمن فضلك اكتب اسمك يا بطل');
+    n.focus();
+    return;
+  }
+  studentName = n.value.trim();
+  loadModel(id);
+  showScreen('quiz-screen');
+}
+
+function updateProgress() {
+  const done = document.querySelectorAll('#quiz-content input[type=radio]:checked').length;
+  $('progress-bar').style.width = `${done / quiz.length * 100}%`;
+}
+
+function loadModel(id) {
+  currentModel = id;
+  const base = allModels[String(id)].map(x => ({
+    q: x.q, a: x.a, tag: x.tag,
+    options: SHUFFLE_OPTIONS ? shuffle(x.options) : x.options.slice()
+  }));
+  quiz = SHUFFLE_QUESTIONS ? shuffle(base) : base;
+
+  $('model-title').innerText = `📝 Grade 3 - Unit 2 - Module ${id}`;
+  $('question-counter').innerText = `${quiz.length} multiple-choice questions`;
+  $('progress-bar').style.width = '0%';
+
+  const c = $('quiz-content');
+  c.innerHTML = '';
+  quiz.forEach((x, i) => {
+    const card = document.createElement('div');
+    card.className = 'question-card';
+
+    const readingMatch = x.tag === 'Reading' ? x.q.match(/^Read:\s*[“\"]([\s\S]*?)[”\"]\s*(.*)$/) : null;
+    if (readingMatch) {
+      const passage = document.createElement('div');
+      passage.className = 'reading-passage';
+      passage.innerText = `📖 ${readingMatch[1]}`;
+      card.appendChild(passage);
+      const q = document.createElement('div');
+      q.className = 'reading-question';
+      q.innerText = `${i + 1}. ${readingMatch[2]}`;
+      card.appendChild(q);
+    } else {
+      const q = document.createElement('div');
+      q.className = 'question-text';
+      q.innerText = `${i + 1}. ${x.q}`;
+      card.appendChild(q);
+    }
+
+    const g = document.createElement('div');
+    g.className = 'options-grid';
+    x.options.forEach(o => {
+      const l = document.createElement('label');
+      l.className = 'option-label';
+      const r = document.createElement('input');
+      r.type = 'radio';
+      r.name = `q${i}`;
+      r.value = o;
+      r.onchange = () => {
+        g.querySelectorAll('.option-label').forEach(el => el.classList.remove('selected'));
+        l.classList.add('selected');
+        updateProgress();
+      };
+      l.appendChild(r);
+      l.appendChild(document.createTextNode(o));
+      g.appendChild(l);
+    });
+    card.appendChild(g);
+    c.appendChild(card);
+  });
+}
+
+function submitQuiz() {
+  const answered = quiz.filter((_, i) => document.querySelector(`input[name=q${i}]:checked`)).length;
+  const ok = answered < quiz.length
+    ? confirm(`You answered ${answered} of ${quiz.length}. Finish anyway?`)
+    : confirm('Are you sure you want to finish the quiz?');
+  if (ok) gradeQuiz();
+}
+
+function gradeQuiz() {
+  let score = 0;
+  wrongAnswersLog = [];
+  skillStats = {};
+  quiz.forEach((x, i) => {
+    if (!skillStats[x.tag]) skillStats[x.tag] = { correct: 0, total: 0 };
+    const st = skillStats[x.tag];
+    st.total++;
+    const sel = document.querySelector(`input[name=q${i}]:checked`);
+    if (sel && sel.value === x.a) {
+      score++;
+      st.correct++;
+    } else {
+      wrongAnswersLog.push({ n: i + 1, q: x.q, user: sel ? sel.value : 'No Answer', correct: x.a, tag: x.tag });
+    }
+  });
+  showResults(score, quiz.length);
+}
+
+function showResults(score, total) {
+  showScreen('result-screen');
+
+  const s = $('score-display');
+  s.innerText = `${score}/${total}`;
+  const noAnswer = wrongAnswersLog.filter(x => x.user === 'No Answer').length;
+  $('result-summary').innerText = `Answered: ${total - noAnswer}/${total} | Mistakes: ${wrongAnswersLog.length}`;
+
+  // per-skill chips
+  $('skills-box').innerHTML = skillKeys().map(k => {
+    const st = skillStats[k];
+    const p = st.correct / st.total;
+    const cls = p >= 0.8 ? 'good' : p >= 0.5 ? 'mid' : 'low';
+    return `<div class="skill-chip ${cls}">${esc(k)}<small>${st.correct}/${st.total}</small></div>`;
+  }).join('');
+
+  // mistakes review
+  const box = $('mistakes-section');
+  if (wrongAnswersLog.length) {
+    box.innerHTML = '<div class="mistakes-title" lang="ar" dir="rtl">مراجعة الأخطاء</div>' +
+      wrongAnswersLog.map(x => {
+        const user = x.user === 'No Answer' ? 'لم تجب' : x.user;
+        return `<div class="mistake-item">
+          <div class="mistake-q">${x.n}. ${esc(x.q)}</div>
+          <div class="wrong-answer" lang="ar" dir="rtl">❌ إجابتك: <bdi>${esc(user)}</bdi></div>
+          <div class="correct-answer" lang="ar" dir="rtl">✅ الإجابة الصحيحة: <bdi>${esc(x.correct)}</bdi></div>
+        </div>`;
+      }).join('');
+  } else {
+    box.innerHTML = '<div class="mistakes-title" lang="ar" dir="rtl" style="color:#168f62">ممتاز! لا توجد أخطاء 🎉</div>';
+  }
+
+  // encouragement (Arabic, name isolated so it never scrambles the sentence)
+  const p = score / total * 100;
+  const m = $('encouragement-msg');
+  const nm = `<bdi>${esc(studentName)}</bdi>`;
+  m.lang = 'ar'; m.dir = 'rtl';
+  if (p === 100)      { s.style.background = '#2ed573'; m.innerHTML = `ممتاز يا ${nm}! 🏆`; }
+  else if (p >= 80)   { s.style.background = '#1e90ff'; m.innerHTML = `رائع يا ${nm}! 💪`; }
+  else if (p >= 50)   { s.style.background = '#ffa502'; m.innerHTML = `جيد يا ${nm}، راجع أخطاءك 👍`; }
+  else                { s.style.background = '#ff4757'; m.innerHTML = `لا تيأس يا ${nm}، حاول مرة أخرى ❤️`; }
+}
+
+function retryModule() {
+  loadModel(currentModel);
+  showScreen('quiz-screen');
+}
+
+function backToModules() {
+  showScreen('welcome-screen');   // the student name stays filled in
+}
+
+// ---------- WhatsApp report ----------
+function normalizePhone(v) {
+  let d = String(v).replace(/\D/g, '');
+  if (d.indexOf('0020') === 0) d = d.slice(4);                          // 0020 1xx...
+  else if (d.indexOf('20') === 0 && d.length >= 12) d = d.slice(2);     // +20 1xx...
+  if (d.charAt(0) === '0') d = d.slice(1);                              // 01xx...
+  return (d.length === 10 && d.charAt(0) === '1') ? '20' + d : null;
+}
+
+function getTeacherPhone() {
+  const input = TEACHER_PHONE || $('teacherPhone').value;
+  const phone = normalizePhone(input);
+  if (!phone) {
+    alert('Please enter a valid Egyptian mobile number, e.g. 01xxxxxxxxx\nمن فضلك اكتب رقم موبايل مصري صحيح');
+    return null;
+  }
+  if (!TEACHER_PHONE) {
+    try { localStorage.setItem('teacherPhone', $('teacherPhone').value.trim()); } catch (e) { /* ignore */ }
+  }
+  return phone;
+}
+
+// For reading questions, drop the passage and keep only the question itself
+function shortQuestion(q) {
+  const i = q.lastIndexOf('”');
+  return (q.indexOf('Read:') === 0 && i > -1) ? q.slice(i + 1).trim() : q;
+}
+
+function sendWhatsApp() {
+  const phone = getTeacherPhone();
+  if (!phone) return;
+
+  const skills = skillKeys().map(k => `${k} ${skillStats[k].correct}/${skillStats[k].total}`).join(' | ');
+  let msg = `*Unit 2 Revision - Grade 3*\n--------------------\n` +
+            `👤 *Student:* ${studentName}\n` +
+            `📝 *Module:* ${currentModel}\n` +
+            `📊 *Score:* ${$('score-display').innerText}\n` +
+            `🧩 *Skills:* ${skills}\n`;
+
+  if (wrongAnswersLog.length) {
+    msg += `\n*Mistakes (${wrongAnswersLog.length}):*\n`;
+    wrongAnswersLog.slice(0, MAX_MISTAKES_IN_REPORT).forEach(x => {
+      msg += `• [${x.tag}] ${shortQuestion(x.q)} → ${x.user} ✗ (correct: ${x.correct})\n`;
+    });
+    if (wrongAnswersLog.length > MAX_MISTAKES_IN_REPORT) {
+      msg += `… and ${wrongAnswersLog.length - MAX_MISTAKES_IN_REPORT} more\n`;
+    }
+  } else {
+    msg += '🎉 *Perfect score!*';
+  }
+
+  window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`, '_blank');
+}
+
+</script>
+</body>
+</html>

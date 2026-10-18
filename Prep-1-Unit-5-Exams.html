@@ -1,0 +1,2031 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unit 5 Revision | Prep 1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Fredoka:wght@400;600&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--primary:#ff9f43;--secondary:#00b894;--accent:#54a0ff;--dark:#222f3e;--bg:#f7f1e3;--danger:#ff6b6b}
+*{box-sizing:border-box;margin:0;padding:0;font-family:'Nunito','Cairo',sans-serif}body{background:var(--bg);background-image:radial-gradient(#00d2d3 1px,transparent 1px);background-size:20px 20px;color:var(--dark);min-height:100vh;display:flex;flex-direction:column;align-items:center}header{background:#fff;width:100%;padding:20px;text-align:center;box-shadow:0 4px 15px #0001;border-bottom:5px solid var(--primary)}h1{color:#00a8a8;font-family:Fredoka,sans-serif;font-size:2.2rem;text-shadow:2px 2px 0 #222f3e;margin-bottom:5px}h2{color:var(--primary);font-size:1.1rem}.container{width:95%;max-width:850px;margin:20px auto;background:white;border-radius:20px;box-shadow:0 10px 25px #0001;padding:20px;border:3px solid #00d2d3;flex:1}.screen{display:none;animation:fadeIn .4s ease-in-out}.screen.active{display:block}.input-group{margin:20px 0;text-align:center}label{display:block;font-size:1.2rem;margin-bottom:10px;font-weight:bold}input[type=text],input[type=number]{width:80%;padding:14px;font-size:1.1rem;border:3px solid #00d2d3;border-radius:50px;outline:none;text-align:center;background:#f9f9f9}input:focus{border-color:var(--primary);box-shadow:0 0 15px #ff9f434d}.btn{background:var(--primary);color:white;border:0;padding:14px 34px;font-size:1.1rem;border-radius:50px;cursor:pointer;font-weight:bold;box-shadow:0 5px 0 #e58e26;transition:.2s;margin-top:18px;width:100%;max-width:300px}.btn:active{transform:translateY(5px);box-shadow:none}.btn-blue{background:var(--accent);box-shadow:0 5px 0 #2e86de}.btn-whatsapp{background:#25d366;box-shadow:0 5px 0 #128c7e}.nav-tabs{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:20px;padding-top:15px;border-top:2px dashed #eee}.tab-btn{background:#f1f2f6;border:2px solid #dfe4ea;padding:12px 20px;border-radius:15px;cursor:pointer;font-weight:bold;font-size:1.05rem;color:#747d8c;min-width:120px}.tab-btn:hover{background:#fff;border-color:var(--primary);color:var(--primary);transform:translateY(-2px)}.question-card{background:#fff;border:2px solid #f1f2f6;border-left:5px solid var(--accent);padding:18px;margin-bottom:16px;border-radius:15px}.question-text{font-size:1.12rem;font-weight:700;margin-bottom:13px;line-height:1.5}.reading-passage{background:#eef7ff;border:2px solid #b9ddff;border-radius:12px;padding:12px 14px;margin-bottom:12px;color:#24527a;font-size:1rem;line-height:1.65;font-weight:600}.reading-question{background:#fff8e8;border-left:4px solid #ff9f43;border-radius:8px;padding:10px 12px;margin-bottom:13px;color:#9a5b00;font-size:1.08rem;font-weight:700;line-height:1.5}.options-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.option-label{display:flex;align-items:center;background:#f8f9fa;padding:11px;border-radius:10px;border:2px solid #eee;cursor:pointer;font-size:1rem}.option-label:hover{border-color:var(--accent);background:#eef5ff}input[type=radio]{margin-right:10px;width:19px;height:19px;accent-color:var(--primary)}.progress{background:#eee;border-radius:20px;height:12px;margin:10px 0 20px;overflow:hidden}.progress-bar{height:100%;background:var(--secondary);width:0;transition:.3s}.score-circle{width:160px;height:160px;border-radius:50%;background:var(--secondary);color:#fff;display:flex;justify-content:center;align-items:center;font-size:3rem;font-weight:bold;margin:20px auto;border:6px solid #fff;box-shadow:0 0 0 6px var(--secondary)}.message{text-align:center;font-size:1.35rem;color:var(--primary);margin-bottom:25px;font-weight:bold}.report-section{background:#f1f2f6;padding:20px;border-radius:15px;margin-top:20px;text-align:center}.summary{text-align:center;font-weight:bold;color:#555;margin-bottom:8px}.mistakes-section{margin:15px 0;padding:15px;background:#fff5f5;border:2px solid #ffd0d0;border-radius:15px}.mistakes-title{color:#d63031;text-align:center;font-weight:bold;margin-bottom:10px;font-family:Cairo}.mistake-item{padding:9px 0;border-bottom:1px solid #ffdede;line-height:1.5}.mistake-item:last-child{border-bottom:0}.mistake-q{font-weight:bold}.wrong-answer{color:#d63031}.correct-answer{color:#168f62}footer{padding:20px;font-size:1rem;color:#666;text-align:center;font-weight:bold;background:#fff;width:100%;margin-top:20px;border-top:1px solid #eee}.heart{color:red}@keyframes fadeIn{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}@media(max-width:600px){.options-grid{grid-template-columns:1fr}h1{font-size:1.8rem}.score-circle{width:130px;height:130px;font-size:2.5rem}.container{width:100%;border:none;border-radius:0}.tab-btn{width:45%}}
+
+/* ---- additions ---- */
+input[type=tel]{width:80%;padding:14px;font-size:1.1rem;border:3px solid #00d2d3;border-radius:50px;outline:none;text-align:center;background:#f9f9f9}
+.option-label:focus-within{border-color:var(--accent);background:#eef5ff}
+.option-label.selected{border-color:var(--primary);background:#fff4e6}
+.skills-title{text-align:center;font-family:Cairo,sans-serif;font-weight:bold;color:#555;margin:16px 0 8px}
+.skills{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:18px}
+.skill-chip{border:2px solid #dfe4ea;background:#f1f2f6;border-radius:14px;padding:8px 16px;min-width:120px;text-align:center;font-weight:bold}
+.skill-chip small{display:block;font-size:1.05rem;margin-top:2px}
+.skill-chip.good{border-color:#2ed573;background:#eafaf1;color:#168f62}
+.skill-chip.mid{border-color:#ffa502;background:#fff6e5;color:#b36b00}
+.skill-chip.low{border-color:#ff6b6b;background:#fff0f0;color:#d63031}
+.actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:15px}
+.actions .btn{margin-top:0}
+.mistake-item bdi{font-weight:bold}
+@media(prefers-reduced-motion:reduce){.screen{animation:none}.btn,.tab-btn,.progress-bar{transition:none}}
+
+/* ---- additions ---- */
+.options-grid label:last-child:nth-child(odd){grid-column:1/-1}
+/* ---- contact bar ---- */
+.contact-bar{width:100%;background:var(--dark);color:#fff;border-bottom:4px solid var(--primary);padding:10px 12px;display:flex;flex-wrap:wrap;gap:8px 14px;justify-content:center;align-items:center;font-family:'Cairo','Nunito',sans-serif}
+.contact-bar .cb-name{font-family:Fredoka,'Cairo',sans-serif;font-weight:600;font-size:1.05rem;letter-spacing:.3px}
+.contact-bar .cb-links{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.contact-bar a{color:#fff;text-decoration:none;font-weight:bold;font-size:.95rem;padding:6px 16px;border-radius:50px;background:rgba(255,255,255,.14);transition:.2s}
+.contact-bar a:hover{transform:translateY(-2px)}
+.contact-bar a.wa{background:#25d366}
+.contact-bar a.call{background:var(--accent)}
+</style>
+</head>
+<body>
+<div class="contact-bar">
+  <span class="cb-name">Mrs. Eman Koriem</span>
+  <span class="cb-links">
+    <a class="call" href="tel:+201023990505">📞 01023990505</a>
+    <a class="wa" href="https://wa.me/201023990505" target="_blank" rel="noopener" lang="ar" dir="rtl">💬 تواصل عبر الواتس</a>
+  </span>
+</div>
+
+<header><h1>Unit 5 Revision - Prep 1</h1><h2>Vocabulary</h2></header>
+<div class="container">
+
+<section id="welcome-screen" class="screen active">
+  <div class="input-group">
+    <div style="font-size:3rem;margin-bottom:10px">👋</div>
+    <h3 lang="ar" dir="rtl" style="margin-bottom:20px;font-family:Cairo">أهلاً بك يا بطل!</h3>
+    <label for="studentName">Enter Student Name:</label>
+    <input type="text" id="studentName" placeholder="e.g., Ahmed Ali" autocomplete="off">
+  </div>
+  <p lang="ar" dir="rtl" style="text-align:center;color:var(--dark);font-weight:bold;font-family:Cairo;font-size:1.15rem">اختر الموديول لتبدأ الاختبار</p>
+  <div class="nav-tabs" id="model-tabs"></div>
+</section>
+
+<section id="quiz-screen" class="screen">
+  <div style="text-align:center;margin-bottom:15px">
+    <h3 id="model-title" style="color:var(--primary)"></h3>
+    <div id="question-counter" class="summary"></div>
+  </div>
+  <div class="progress"><div id="progress-bar" class="progress-bar"></div></div>
+  <div id="quiz-content"></div>
+  <div style="text-align:center;padding-bottom:20px"><button class="btn" onclick="submitQuiz()">Submit Answers ✅</button></div>
+</section>
+
+<section id="result-screen" class="screen">
+  <div class="score-circle" id="score-display">0/30</div>
+  <div class="message" id="encouragement-msg"></div>
+  <div class="summary" id="result-summary"></div>
+  <div class="skills-title" lang="ar" dir="rtl">مستواك في كل مهارة</div>
+  <div class="skills" id="skills-box"></div>
+  <div id="mistakes-section" class="mistakes-section"></div>
+  <div class="report-section">
+    <h3 lang="ar" dir="rtl" style="margin-bottom:15px;font-family:Cairo">أرسل التقرير للمستر</h3>
+    <div id="teacher-phone-group">
+      <label for="teacherPhone" style="font-size:1rem">Teacher's WhatsApp Number:</label>
+      <input type="tel" id="teacherPhone" placeholder="01xxxxxxxxx" inputmode="numeric" autocomplete="off">
+    </div>
+    <button class="btn btn-whatsapp" onclick="sendWhatsApp()">Send via WhatsApp 💬</button>
+  </div>
+  <div class="actions">
+    <button class="btn" onclick="retryModule()">Retry This Module 🔁</button>
+    <button class="btn btn-blue" onclick="backToModules()">Try Another Module 🔄</button>
+  </div>
+</section>
+
+</div>
+<footer>Made with Love by Mr. Ameen Sharqawy <span class="heart">❤</span></footer>
+
+<script>
+// ============================================================
+//  Settings (تقدر تعدلهم بسهولة)
+// ============================================================
+// Put the teacher's number here (e.g. '01012345678') to hide the phone box from students.
+// Leave it empty '' and the student types it once (it is remembered on that device).
+const TEACHER_PHONE = '';
+const SHUFFLE_QUESTIONS = true;   // random question order every attempt
+const SHUFFLE_OPTIONS   = true;   // random answer order every attempt
+const MAX_MISTAKES_IN_REPORT = 10;
+
+// ============================================================
+//  Questions  (tag = Vocabulary | Grammar | Reading)
+// ============================================================
+const allModels = {
+  "1": [
+    {
+      "q": "I want to find a good ............... after I graduate.",
+      "options": [
+        "skill",
+        "reality",
+        "job",
+        "designer"
+      ],
+      "a": "job",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "What should people do to ............... their goals in the future?",
+      "options": [
+        "score",
+        "achieve",
+        "break",
+        "lose"
+      ],
+      "a": "achieve",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My ............... is to become a doctor and help people.",
+      "options": [
+        "opportunity",
+        "workshop",
+        "dream",
+        "path"
+      ],
+      "a": "dream",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We need to ............... our next steps carefully.",
+      "options": [
+        "lose",
+        "dream",
+        "plan",
+        "forget"
+      ],
+      "a": "plan",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "He has the ............... to travel abroad one day.",
+      "options": [
+        "passion",
+        "profession",
+        "path",
+        "effort"
+      ],
+      "a": "passion",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We need a skillful ............... for our project.",
+      "options": [
+        "plan",
+        "opportunity",
+        "designer",
+        "path"
+      ],
+      "a": "designer",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "This workshop is a great ............... to learn about different careers.",
+      "options": [
+        "ability",
+        "opportunity",
+        "reality",
+        "competition"
+      ],
+      "a": "opportunity",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "He studied chemistry at Ain Shams ............... .",
+      "options": [
+        "University",
+        "Square",
+        "School",
+        "Playground"
+      ],
+      "a": "University",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Don’t wait. Take this ............... now.",
+      "options": [
+        "game",
+        "test",
+        "opportunity",
+        "exam"
+      ],
+      "a": "opportunity",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "It is good to ............... your skills.",
+      "options": [
+        "damage",
+        "hurt",
+        "throw",
+        "develop"
+      ],
+      "a": "develop",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” means trying hard to do something.",
+      "options": [
+        "Effort",
+        "Talent",
+        "Develop",
+        "Opportunity"
+      ],
+      "a": "Effort",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Your ............... is something you want to achieve.",
+      "options": [
+        "tool",
+        "goal",
+        "gift",
+        "wall"
+      ],
+      "a": "goal",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is a natural skill or ability.",
+      "options": [
+        "courage",
+        "talent",
+        "cousin",
+        "teacher"
+      ],
+      "a": "talent",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My ............... is to become a graphic designer.",
+      "options": [
+        "path",
+        "dream",
+        "workshop",
+        "opportunity"
+      ],
+      "a": "dream",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I enjoy ............... and using technology.",
+      "options": [
+        "draw",
+        "draws",
+        "drew",
+        "drawing"
+      ],
+      "a": "drawing",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I have a special ............... for drawing.",
+      "options": [
+        "talent",
+        "play",
+        "dreams",
+        "needs"
+      ],
+      "a": "talent",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The words “interested” and “bored” are ............... .",
+      "options": [
+        "synonyms",
+        "antonyms",
+        "prefixes",
+        "suffixes"
+      ],
+      "a": "antonyms",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To form the adjective from the verb “disappoint”, we add the suffix “...............”.",
+      "options": [
+        "-er",
+        "-ed",
+        "-ly",
+        "-ment"
+      ],
+      "a": "-ed",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” and “real” have the same meaning.",
+      "options": [
+        "Lazy",
+        "Bored",
+        "True",
+        "Helpful"
+      ],
+      "a": "True",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “-er” changes the verb “design” into a/an “...............”.",
+      "options": [
+        "adjective",
+        "noun",
+        "adverb",
+        "verb"
+      ],
+      "a": "noun",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My brother has the ............... to study abroad one day.",
+      "options": [
+        "patient",
+        "passion",
+        "passionate",
+        "pretend"
+      ],
+      "a": "passion",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We are going to have a new project so we need a skillful ............... .",
+      "options": [
+        "design",
+        "designs",
+        "designer",
+        "designing"
+      ],
+      "a": "designer",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Your dream ............... will become a reality if you start planning now.",
+      "options": [
+        "profession",
+        "professional",
+        "professionals",
+        "profile"
+      ],
+      "a": "profession",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “succeed” is the opposite of “...............”.",
+      "options": [
+        "feel",
+        "full",
+        "fail",
+        "fill"
+      ],
+      "a": "fail",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My teacher said I have a real talent, and that gave me more ............... .",
+      "options": [
+        "patience",
+        "confidence",
+        "bravery",
+        "kindness"
+      ],
+      "a": "confidence",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Dr. El-Baz helped the Apollo ............... select safe landing sites on the moon.",
+      "options": [
+        "astronauts",
+        "astronomers",
+        "pilots",
+        "drivers"
+      ],
+      "a": "astronauts",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Dr. El-Baz studied ............... at Ain Shams University in Egypt.",
+      "options": [
+        "medicine",
+        "physics",
+        "geology",
+        "engineering"
+      ],
+      "a": "geology",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To achieve our goals, we need time, ............... , and support from others.",
+      "options": [
+        "effect",
+        "stress",
+        "engines",
+        "effort"
+      ],
+      "a": "effort",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We should ............... every skill we need to succeed.",
+      "options": [
+        "raise",
+        "develop",
+        "reduce",
+        "neglect"
+      ],
+      "a": "develop",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I respect my father as he never gives ............... , even when things are very hard.",
+      "options": [
+        "out",
+        "at",
+        "up",
+        "on"
+      ],
+      "a": "up",
+      "tag": "Vocabulary"
+    }
+  ],
+  "2": [
+    {
+      "q": "His ............... is to study medicine when he leaves school.",
+      "options": [
+        "intention",
+        "extension",
+        "competition",
+        "participation"
+      ],
+      "a": "intention",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "If you work hard and believe ............... yourself, you will reach your goals.",
+      "options": [
+        "of",
+        "in",
+        "at",
+        "on"
+      ],
+      "a": "in",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My teacher said that I have a real ............... , and that gave me more confidence.",
+      "options": [
+        "talent",
+        "place",
+        "step",
+        "hero"
+      ],
+      "a": "talent",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Dr. El-Baz helped the astronauts ............... safe landing sites on the moon.",
+      "options": [
+        "leave",
+        "select",
+        "neglect",
+        "destroy"
+      ],
+      "a": "select",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "If you want to succeed, you need to ............... your next steps carefully.",
+      "options": [
+        "plant",
+        "walk",
+        "plan",
+        "leave"
+      ],
+      "a": "plan",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "If you visit our website, you are going to discover a whole world of ............... with us.",
+      "options": [
+        "hardships",
+        "struggles",
+        "opportunities",
+        "problems"
+      ],
+      "a": "opportunities",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We should develop our ............... to get a good job.",
+      "options": [
+        "skins",
+        "skills",
+        "scales",
+        "scenes"
+      ],
+      "a": "skills",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Something you want to achieve is your ............... .",
+      "options": [
+        "tool",
+        "goal",
+        "gift",
+        "wall"
+      ],
+      "a": "goal",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Last week, I had the ............... to visit the museum.",
+      "options": [
+        "books",
+        "career",
+        "path",
+        "opportunity"
+      ],
+      "a": "opportunity",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My sister has a great ............... for drawing beautiful pictures.",
+      "options": [
+        "challenge",
+        "talent",
+        "problem",
+        "promise"
+      ],
+      "a": "talent",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "She has a great ............... for music; she can play the piano beautifully.",
+      "options": [
+        "talent",
+        "plan",
+        "goal",
+        "path"
+      ],
+      "a": "talent",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "His ............... is to become a famous doctor.",
+      "options": [
+        "designer",
+        "competition",
+        "ambition",
+        "rule"
+      ],
+      "a": "ambition",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Omar wishes to find a profession that ............... his talent.",
+      "options": [
+        "speaks",
+        "watches",
+        "sees",
+        "matches"
+      ],
+      "a": "matches",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Omar wants to study ............... at university. He wants to be a doctor.",
+      "options": [
+        "medicine",
+        "art",
+        "engineering",
+        "education"
+      ],
+      "a": "medicine",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Working hard helps Omar ............... his goals.",
+      "options": [
+        "forget",
+        "read",
+        "learn",
+        "achieve"
+      ],
+      "a": "achieve",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... is to reach something you worked for.",
+      "options": [
+        "read",
+        "achieve",
+        "meet",
+        "stay"
+      ],
+      "a": "achieve",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means a strong hope for something.",
+      "options": [
+        "Test",
+        "Exercise",
+        "Art",
+        "Wish"
+      ],
+      "a": "Wish",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is a natural ability you have.",
+      "options": [
+        "success",
+        "dream",
+        "wish",
+        "talent"
+      ],
+      "a": "talent",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is a place for higher study.",
+      "options": [
+        "store",
+        "university",
+        "mall",
+        "kindergarten"
+      ],
+      "a": "university",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Learning at school or university is called ............... .",
+      "options": [
+        "success",
+        "university",
+        "education",
+        "vacation"
+      ],
+      "a": "education",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I want to study hard so that I can ............... my dream.",
+      "options": [
+        "lose",
+        "career",
+        "reach",
+        "fail"
+      ],
+      "a": "reach",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "You need to train regularly to get the ............... of teamwork and communication.",
+      "options": [
+        "matches",
+        "skills",
+        "game",
+        "career"
+      ],
+      "a": "skills",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My future ............... is to become a doctor one day.",
+      "options": [
+        "skills",
+        "dream",
+        "reach",
+        "matches"
+      ],
+      "a": "dream",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "He chose painting because it ............... his talent.",
+      "options": [
+        "catches",
+        "matches",
+        "thinks",
+        "loses"
+      ],
+      "a": "matches",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "After school, I will go to ............... .",
+      "options": [
+        "university",
+        "tree",
+        "watch",
+        "dress"
+      ],
+      "a": "university",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Doctors look ............... patients.",
+      "options": [
+        "at",
+        "of",
+        "after",
+        "in"
+      ],
+      "a": "after",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I will work hard to ............... my goals.",
+      "options": [
+        "eat",
+        "jump",
+        "achieve",
+        "drop"
+      ],
+      "a": "achieve",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "How can Omar ............... his dream?",
+      "options": [
+        "arrive",
+        "reach",
+        "speak",
+        "listen"
+      ],
+      "a": "reach",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I need training in hospitals so that I can learn how to look after ............... .",
+      "options": [
+        "goals",
+        "patients",
+        "talents",
+        "medicine"
+      ],
+      "a": "patients",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "She has a great cooking ............... . Her food is delicious.",
+      "options": [
+        "skill",
+        "problem",
+        "study",
+        "training"
+      ],
+      "a": "skill",
+      "tag": "Vocabulary"
+    }
+  ],
+  "3": [
+    {
+      "q": "I wish ............... a profession that makes me happy.",
+      "options": [
+        "to find",
+        "find",
+        "finding",
+        "found"
+      ],
+      "a": "to find",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I should work very hard to make my dreams ............... true.",
+      "options": [
+        "come",
+        "find",
+        "go",
+        "feel"
+      ],
+      "a": "come",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Training will help you have the skills you need for success in your ............... .",
+      "options": [
+        "education",
+        "profession",
+        "learning",
+        "studying"
+      ],
+      "a": "profession",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Our dreams will ............... true when we exert more efforts.",
+      "options": [
+        "raise",
+        "come",
+        "leave",
+        "travel"
+      ],
+      "a": "come",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We must choose the profession that ............... our abilities and talents.",
+      "options": [
+        "leaves",
+        "gives",
+        "matches",
+        "contacts"
+      ],
+      "a": "matches",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "When the machine didn’t work perfectly, some members of the team felt ............... .",
+      "options": [
+        "happy",
+        "proud",
+        "discouraged",
+        "shy"
+      ],
+      "a": "discouraged",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Karim made a mistake, but no one ............... him. Instead, they helped him to fix it.",
+      "options": [
+        "blamed",
+        "solved",
+        "passed",
+        "hit"
+      ],
+      "a": "blamed",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Respect, ............... , courage and determination are the values we learned from the story.",
+      "options": [
+        "individual",
+        "teamwork",
+        "double work",
+        "pair work"
+      ],
+      "a": "teamwork",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The children were proud ............... what they built - not just the machine, but the friendship they shared.",
+      "options": [
+        "in",
+        "at",
+        "of",
+        "for"
+      ],
+      "a": "of",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Doctors need training in hospitals so they can learn how to look ............... patients.",
+      "options": [
+        "up",
+        "after",
+        "for",
+        "into"
+      ],
+      "a": "after",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My dream to be a doctor has finally come ............... .",
+      "options": [
+        "right",
+        "out",
+        "true",
+        "early"
+      ],
+      "a": "true",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My dream ............... is to become a vet.",
+      "options": [
+        "car",
+        "job",
+        "pet",
+        "van"
+      ],
+      "a": "job",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A/An ............... is a doctor who treats animals.",
+      "options": [
+        "teacher",
+        "vet",
+        "nurse",
+        "engineer"
+      ],
+      "a": "vet",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I have a strong ............... to become a doctor.",
+      "options": [
+        "ambition",
+        "succeed",
+        "future",
+        "positive"
+      ],
+      "a": "ambition",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "She has a special ............... for music.",
+      "options": [
+        "succeed",
+        "positive",
+        "talent",
+        "work"
+      ],
+      "a": "talent",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "It’s important to make a good ............... for your future.",
+      "options": [
+        "succeed",
+        "positive",
+        "plan",
+        "negative"
+      ],
+      "a": "plan",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "You will ............... if you work hard and stay focused.",
+      "options": [
+        "fail",
+        "positive",
+        "succeed",
+        "eat"
+      ],
+      "a": "succeed",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A vet is a doctor who ............... animals.",
+      "options": [
+        "treats",
+        "eats",
+        "raises",
+        "hates"
+      ],
+      "a": "treats",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... treats sick animals.",
+      "options": [
+        "dentist",
+        "surgeon",
+        "scientist",
+        "vet"
+      ],
+      "a": "vet",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... for sick animals is a good side in working as a vet.",
+      "options": [
+        "Cares",
+        "Caring",
+        "Cared",
+        "Cure"
+      ],
+      "a": "Caring",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Helping animals makes a ............... to them and their owners.",
+      "options": [
+        "different",
+        "differs",
+        "difference",
+        "differently"
+      ],
+      "a": "difference",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "You can make a ............... map to show your future dreams.",
+      "options": [
+        "mind",
+        "road",
+        "traffic",
+        "tourist"
+      ],
+      "a": "mind",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "You will succeed if you work hard and stay ............... .",
+      "options": [
+        "focus",
+        "focused",
+        "focuses",
+        "focusing"
+      ],
+      "a": "focused",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The children were proud ............... what they built.",
+      "options": [
+        "in",
+        "at",
+        "of",
+        "for"
+      ],
+      "a": "of",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“Teach” and “...............” have the same meaning.",
+      "options": [
+        "find",
+        "learn",
+        "educate",
+        "predict"
+      ],
+      "a": "educate",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We can change the verb “create” into an adjective by adding the suffix “...............”.",
+      "options": [
+        "-ment",
+        "-ness",
+        "-ive",
+        "-tion"
+      ],
+      "a": "-ive",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... help sick animals get better.",
+      "options": [
+        "Vets",
+        "Engineers",
+        "Chemists",
+        "Sailors"
+      ],
+      "a": "Vets",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "He always makes new art works which are amazing. He is really ............... .",
+      "options": [
+        "busy",
+        "creative",
+        "free",
+        "nervous"
+      ],
+      "a": "creative",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "As global citizens, we must follow each rule and ............... .",
+      "options": [
+        "tree",
+        "law",
+        "car",
+        "watch"
+      ],
+      "a": "law",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We must ............... our planet.",
+      "options": [
+        "eat",
+        "destroy",
+        "protect",
+        "damage"
+      ],
+      "a": "protect",
+      "tag": "Vocabulary"
+    }
+  ],
+  "4": [
+    {
+      "q": "We must keep our school ............... .",
+      "options": [
+        "ugly",
+        "bad",
+        "dirty",
+        "clean"
+      ],
+      "a": "clean",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We must ............... water and electricity.",
+      "options": [
+        "hurt",
+        "save",
+        "damage",
+        "spoil"
+      ],
+      "a": "save",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We mustn’t ............... rubbish on the ground.",
+      "options": [
+        "throw",
+        "eat",
+        "save",
+        "drink"
+      ],
+      "a": "throw",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We also must ............... students to volunteer to help others in need.",
+      "options": [
+        "encourage",
+        "wash",
+        "read",
+        "watch"
+      ],
+      "a": "encourage",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Being a good global citizen means ............... respect to everyone.",
+      "options": [
+        "showing",
+        "drinking",
+        "jumping",
+        "watering"
+      ],
+      "a": "showing",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "It is important to ............... different cultures, languages, and traditions.",
+      "options": [
+        "learn",
+        "teach",
+        "respect",
+        "wash"
+      ],
+      "a": "respect",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We must remember that even small actions can ............... a big difference.",
+      "options": [
+        "make",
+        "bake",
+        "watch",
+        "wash"
+      ],
+      "a": "make",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We must help others and take ............... of the environment.",
+      "options": [
+        "car",
+        "care",
+        "cat",
+        "cup"
+      ],
+      "a": "care",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To “...............” is to look after or save.",
+      "options": [
+        "appear",
+        "detect",
+        "protect",
+        "fair"
+      ],
+      "a": "protect",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The “...............” means the world around us, like land, air, and water.",
+      "options": [
+        "difference",
+        "responsibility",
+        "environment",
+        "community"
+      ],
+      "a": "environment",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... is to help people do good things.",
+      "options": [
+        "encourage",
+        "watch",
+        "write",
+        "read"
+      ],
+      "a": "encourage",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... means being fair to people from different countries and cultures.",
+      "options": [
+        "global citizen",
+        "tourist",
+        "farmer",
+        "teacher"
+      ],
+      "a": "global citizen",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means not to treat people in an equal way.",
+      "options": [
+        "Slow",
+        "Fast",
+        "Short",
+        "Unfair"
+      ],
+      "a": "Unfair",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... is to give your time to help others without being paid.",
+      "options": [
+        "volunteer",
+        "stay",
+        "play",
+        "jump"
+      ],
+      "a": "volunteer",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means doing your duty and take care of something.",
+      "options": [
+        "Responsibility",
+        "Courage",
+        "Bravery",
+        "Poverty"
+      ],
+      "a": "Responsibility",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "She doesn't encourage her little children; she ............... them.",
+      "options": [
+        "takes care of",
+        "discourages",
+        "plays",
+        "supports"
+      ],
+      "a": "discourages",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... water is a bad habit, you should save it.",
+      "options": [
+        "Keeping",
+        "Wasting",
+        "Drinking",
+        "Boiling"
+      ],
+      "a": "Wasting",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We can get the adjective from the noun “care” by adding the suffix “...............”.",
+      "options": [
+        "-ness",
+        "-ity",
+        "-ful",
+        "-or"
+      ],
+      "a": "-ful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” is the opposite of the word “global”.",
+      "options": [
+        "Universal",
+        "Local",
+        "Peaceful",
+        "Lazy"
+      ],
+      "a": "Local",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Being a global citizen means being ............... to people from different countries and cultures.",
+      "options": [
+        "fair",
+        "unfair",
+        "unkind",
+        "unlike"
+      ],
+      "a": "fair",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... the Earth, we must save water and electricity.",
+      "options": [
+        "spoil",
+        "destroy",
+        "protect",
+        "waste"
+      ],
+      "a": "protect",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Showing respect to everyone and working together in ............... is a quality of a global citizen.",
+      "options": [
+        "pace",
+        "peace",
+        "piece",
+        "path"
+      ],
+      "a": "peace",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The antonym of the word “waste” is ............... .",
+      "options": [
+        "save",
+        "find",
+        "destroy",
+        "follow"
+      ],
+      "a": "save",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "In our schools, students should be young leaders who can change the world by ............... good choices.",
+      "options": [
+        "doing",
+        "looking",
+        "making",
+        "throwing"
+      ],
+      "a": "making",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Global ............... means helping others and taking care of the environment.",
+      "options": [
+        "friendship",
+        "hardship",
+        "citizenship",
+        "championship"
+      ],
+      "a": "citizenship",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "It’s our ............... to do voluntary work to help the environment.",
+      "options": [
+        "responsibility",
+        "capability",
+        "capacity",
+        "ability"
+      ],
+      "a": "responsibility",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Everyone can ............... to a better planet.",
+      "options": [
+        "salute",
+        "contribute",
+        "pollute",
+        "commute"
+      ],
+      "a": "contribute",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Egyptian people mustn’t ............... rubbish in the streets.",
+      "options": [
+        "do",
+        "look",
+        "make",
+        "throw"
+      ],
+      "a": "throw",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “Save” can be the antonym of the word ............... .",
+      "options": [
+        "keep",
+        "remain",
+        "waste",
+        "protect"
+      ],
+      "a": "waste",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We can collect clothes to give to people ............... need.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "for"
+      ],
+      "a": "in",
+      "tag": "Vocabulary"
+    }
+  ],
+  "5": [
+    {
+      "q": "In our schools, we should teach students that even ............... actions can make a big difference.",
+      "options": [
+        "small",
+        "big",
+        "major",
+        "giant"
+      ],
+      "a": "small",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "It’s our responsibility as students to ............... care of the environment.",
+      "options": [
+        "take",
+        "leave",
+        "throw",
+        "read"
+      ],
+      "a": "take",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Treating someone ............... means not to treat them in an equal way.",
+      "options": [
+        "unfairly",
+        "friendly",
+        "kindly",
+        "fairly"
+      ],
+      "a": "unfairly",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Last week, I had the ............... to visit the museum.",
+      "options": [
+        "books",
+        "career",
+        "path",
+        "opportunity"
+      ],
+      "a": "opportunity",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "If you work hard and believe ............... yourself, you will reach your goals.",
+      "options": [
+        "of",
+        "in",
+        "at",
+        "on"
+      ],
+      "a": "in",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... means being fair to people from different countries and cultures.",
+      "options": [
+        "global citizen",
+        "tourist",
+        "farmer",
+        "teacher"
+      ],
+      "a": "global citizen",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “succeed” is the opposite of “...............”.",
+      "options": [
+        "feel",
+        "full",
+        "fail",
+        "fill"
+      ],
+      "a": "fail",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We must ............... our planet.",
+      "options": [
+        "eat",
+        "destroy",
+        "protect",
+        "damage"
+      ],
+      "a": "protect",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The “...............” means the world around us, like land, air, and water.",
+      "options": [
+        "difference",
+        "responsibility",
+        "environment",
+        "community"
+      ],
+      "a": "environment",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “Save” can be the antonym of the word ............... .",
+      "options": [
+        "keep",
+        "remain",
+        "waste",
+        "protect"
+      ],
+      "a": "waste",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” means trying hard to do something.",
+      "options": [
+        "Effort",
+        "Talent",
+        "Develop",
+        "Opportunity"
+      ],
+      "a": "Effort",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I have a strong ............... to become a doctor.",
+      "options": [
+        "ambition",
+        "succeed",
+        "future",
+        "positive"
+      ],
+      "a": "ambition",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We can collect clothes to give to people ............... need.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "for"
+      ],
+      "a": "in",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Respect, ............... , courage and determination are the values we learned from the story.",
+      "options": [
+        "individual",
+        "teamwork",
+        "double work",
+        "pair work"
+      ],
+      "a": "teamwork",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Our dreams will ............... true when we exert more efforts.",
+      "options": [
+        "raise",
+        "come",
+        "leave",
+        "travel"
+      ],
+      "a": "come",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Omar wants to study ............... at university. He wants to be a doctor.",
+      "options": [
+        "medicine",
+        "art",
+        "engineering",
+        "education"
+      ],
+      "a": "medicine",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We also must ............... students to volunteer to help others in need.",
+      "options": [
+        "encourage",
+        "wash",
+        "read",
+        "watch"
+      ],
+      "a": "encourage",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "How can Omar ............... his dream?",
+      "options": [
+        "arrive",
+        "reach",
+        "speak",
+        "listen"
+      ],
+      "a": "reach",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We should develop our ............... to get a good job.",
+      "options": [
+        "skins",
+        "skills",
+        "scales",
+        "scenes"
+      ],
+      "a": "skills",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A vet is a doctor who ............... animals.",
+      "options": [
+        "treats",
+        "eats",
+        "raises",
+        "hates"
+      ],
+      "a": "treats",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "It is good to ............... your skills.",
+      "options": [
+        "damage",
+        "hurt",
+        "throw",
+        "develop"
+      ],
+      "a": "develop",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I have a special ............... for drawing.",
+      "options": [
+        "talent",
+        "play",
+        "dreams",
+        "needs"
+      ],
+      "a": "talent",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "When the machine didn’t work perfectly, some members of the team felt ............... .",
+      "options": [
+        "happy",
+        "proud",
+        "discouraged",
+        "shy"
+      ],
+      "a": "discouraged",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "He chose painting because it ............... his talent.",
+      "options": [
+        "catches",
+        "matches",
+        "thinks",
+        "loses"
+      ],
+      "a": "matches",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We are going to have a new project so we need a skillful ............... .",
+      "options": [
+        "design",
+        "designs",
+        "designer",
+        "designing"
+      ],
+      "a": "designer",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We must remember that even small actions can ............... a big difference.",
+      "options": [
+        "make",
+        "bake",
+        "watch",
+        "wash"
+      ],
+      "a": "make",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We can get the adjective from the noun “care” by adding the suffix “...............”.",
+      "options": [
+        "-ness",
+        "-ity",
+        "-ful",
+        "-or"
+      ],
+      "a": "-ful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “-er” changes the verb “design” into a/an “...............”.",
+      "options": [
+        "adjective",
+        "noun",
+        "adverb",
+        "verb"
+      ],
+      "a": "noun",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Training will help you have the skills you need for success in your ............... .",
+      "options": [
+        "education",
+        "profession",
+        "learning",
+        "studying"
+      ],
+      "a": "profession",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Global ............... means helping others and taking care of the environment.",
+      "options": [
+        "friendship",
+        "hardship",
+        "citizenship",
+        "championship"
+      ],
+      "a": "citizenship",
+      "tag": "Vocabulary"
+    }
+  ]
+};
+
+// ============================================================
+//  App
+// ============================================================
+let currentModel = 1;
+let studentName = '';
+let quiz = [];              // questions of the current attempt (after shuffling)
+let wrongAnswersLog = [];
+let skillStats = {};
+const SKILL_ORDER = ['Vocabulary', 'Grammar', 'Reading', 'Phonics'];
+const skillKeys = () => SKILL_ORDER.filter(k => skillStats[k]).concat(Object.keys(skillStats).filter(k => SKILL_ORDER.indexOf(k) < 0));
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const t = a[i]; a[i] = a[j]; a[j] = t;
+  }
+  return a;
+}
+
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  $(id).classList.add('active');
+  window.scrollTo(0, 0);
+}
+
+window.onload = () => {
+  const tabs = $('model-tabs');
+  for (let i = 1; i <= 5; i++) {
+    const b = document.createElement('button');
+    b.className = 'tab-btn';
+    b.innerText = `Module ${i}`;
+    b.onclick = () => startApp(i);
+    tabs.appendChild(b);
+  }
+  if (TEACHER_PHONE) {
+    $('teacher-phone-group').style.display = 'none';
+  } else {
+    try { $('teacherPhone').value = localStorage.getItem('teacherPhone') || ''; } catch (e) { /* storage not available */ }
+  }
+};
+
+function startApp(id) {
+  const n = $('studentName');
+  if (!n.value.trim()) {
+    alert('Please enter your name first!\nمن فضلك اكتب اسمك يا بطل');
+    n.focus();
+    return;
+  }
+  studentName = n.value.trim();
+  loadModel(id);
+  showScreen('quiz-screen');
+}
+
+function updateProgress() {
+  const done = document.querySelectorAll('#quiz-content input[type=radio]:checked').length;
+  $('progress-bar').style.width = `${done / quiz.length * 100}%`;
+}
+
+function loadModel(id) {
+  currentModel = id;
+  const base = allModels[String(id)].map(x => ({
+    q: x.q, a: x.a, tag: x.tag,
+    options: SHUFFLE_OPTIONS ? shuffle(x.options) : x.options.slice()
+  }));
+  quiz = SHUFFLE_QUESTIONS ? shuffle(base) : base;
+
+  $('model-title').innerText = `📝 Prep 1 - Unit 5 - Module ${id}`;
+  $('question-counter').innerText = `${quiz.length} multiple-choice questions`;
+  $('progress-bar').style.width = '0%';
+
+  const c = $('quiz-content');
+  c.innerHTML = '';
+  quiz.forEach((x, i) => {
+    const card = document.createElement('div');
+    card.className = 'question-card';
+
+    const readingMatch = x.tag === 'Reading' ? x.q.match(/^Read:\s*[“\"]([\s\S]*?)[”\"]\s*(.*)$/) : null;
+    if (readingMatch) {
+      const passage = document.createElement('div');
+      passage.className = 'reading-passage';
+      passage.innerText = `📖 ${readingMatch[1]}`;
+      card.appendChild(passage);
+      const q = document.createElement('div');
+      q.className = 'reading-question';
+      q.innerText = `${i + 1}. ${readingMatch[2]}`;
+      card.appendChild(q);
+    } else {
+      const q = document.createElement('div');
+      q.className = 'question-text';
+      q.innerText = `${i + 1}. ${x.q}`;
+      card.appendChild(q);
+    }
+
+    const g = document.createElement('div');
+    g.className = 'options-grid';
+    x.options.forEach(o => {
+      const l = document.createElement('label');
+      l.className = 'option-label';
+      const r = document.createElement('input');
+      r.type = 'radio';
+      r.name = `q${i}`;
+      r.value = o;
+      r.onchange = () => {
+        g.querySelectorAll('.option-label').forEach(el => el.classList.remove('selected'));
+        l.classList.add('selected');
+        updateProgress();
+      };
+      l.appendChild(r);
+      l.appendChild(document.createTextNode(o));
+      g.appendChild(l);
+    });
+    card.appendChild(g);
+    c.appendChild(card);
+  });
+}
+
+function submitQuiz() {
+  const answered = quiz.filter((_, i) => document.querySelector(`input[name=q${i}]:checked`)).length;
+  const ok = answered < quiz.length
+    ? confirm(`You answered ${answered} of ${quiz.length}. Finish anyway?`)
+    : confirm('Are you sure you want to finish the quiz?');
+  if (ok) gradeQuiz();
+}
+
+function gradeQuiz() {
+  let score = 0;
+  wrongAnswersLog = [];
+  skillStats = {};
+  quiz.forEach((x, i) => {
+    if (!skillStats[x.tag]) skillStats[x.tag] = { correct: 0, total: 0 };
+    const st = skillStats[x.tag];
+    st.total++;
+    const sel = document.querySelector(`input[name=q${i}]:checked`);
+    if (sel && sel.value === x.a) {
+      score++;
+      st.correct++;
+    } else {
+      wrongAnswersLog.push({ n: i + 1, q: x.q, user: sel ? sel.value : 'No Answer', correct: x.a, tag: x.tag });
+    }
+  });
+  showResults(score, quiz.length);
+}
+
+function showResults(score, total) {
+  showScreen('result-screen');
+
+  const s = $('score-display');
+  s.innerText = `${score}/${total}`;
+  const noAnswer = wrongAnswersLog.filter(x => x.user === 'No Answer').length;
+  $('result-summary').innerText = `Answered: ${total - noAnswer}/${total} | Mistakes: ${wrongAnswersLog.length}`;
+
+  // per-skill chips
+  $('skills-box').innerHTML = skillKeys().map(k => {
+    const st = skillStats[k];
+    const p = st.correct / st.total;
+    const cls = p >= 0.8 ? 'good' : p >= 0.5 ? 'mid' : 'low';
+    return `<div class="skill-chip ${cls}">${esc(k)}<small>${st.correct}/${st.total}</small></div>`;
+  }).join('');
+
+  // mistakes review
+  const box = $('mistakes-section');
+  if (wrongAnswersLog.length) {
+    box.innerHTML = '<div class="mistakes-title" lang="ar" dir="rtl">مراجعة الأخطاء</div>' +
+      wrongAnswersLog.map(x => {
+        const user = x.user === 'No Answer' ? 'لم تجب' : x.user;
+        return `<div class="mistake-item">
+          <div class="mistake-q">${x.n}. ${esc(x.q)}</div>
+          <div class="wrong-answer" lang="ar" dir="rtl">❌ إجابتك: <bdi>${esc(user)}</bdi></div>
+          <div class="correct-answer" lang="ar" dir="rtl">✅ الإجابة الصحيحة: <bdi>${esc(x.correct)}</bdi></div>
+        </div>`;
+      }).join('');
+  } else {
+    box.innerHTML = '<div class="mistakes-title" lang="ar" dir="rtl" style="color:#168f62">ممتاز! لا توجد أخطاء 🎉</div>';
+  }
+
+  // encouragement (Arabic, name isolated so it never scrambles the sentence)
+  const p = score / total * 100;
+  const m = $('encouragement-msg');
+  const nm = `<bdi>${esc(studentName)}</bdi>`;
+  m.lang = 'ar'; m.dir = 'rtl';
+  if (p === 100)      { s.style.background = '#2ed573'; m.innerHTML = `ممتاز يا ${nm}! 🏆`; }
+  else if (p >= 80)   { s.style.background = '#1e90ff'; m.innerHTML = `رائع يا ${nm}! 💪`; }
+  else if (p >= 50)   { s.style.background = '#ffa502'; m.innerHTML = `جيد يا ${nm}، راجع أخطاءك 👍`; }
+  else                { s.style.background = '#ff4757'; m.innerHTML = `لا تيأس يا ${nm}، حاول مرة أخرى ❤️`; }
+}
+
+function retryModule() {
+  loadModel(currentModel);
+  showScreen('quiz-screen');
+}
+
+function backToModules() {
+  showScreen('welcome-screen');   // the student name stays filled in
+}
+
+// ---------- WhatsApp report ----------
+function normalizePhone(v) {
+  let d = String(v).replace(/\D/g, '');
+  if (d.indexOf('0020') === 0) d = d.slice(4);                          // 0020 1xx...
+  else if (d.indexOf('20') === 0 && d.length >= 12) d = d.slice(2);     // +20 1xx...
+  if (d.charAt(0) === '0') d = d.slice(1);                              // 01xx...
+  return (d.length === 10 && d.charAt(0) === '1') ? '20' + d : null;
+}
+
+function getTeacherPhone() {
+  const input = TEACHER_PHONE || $('teacherPhone').value;
+  const phone = normalizePhone(input);
+  if (!phone) {
+    alert('Please enter a valid Egyptian mobile number, e.g. 01xxxxxxxxx\nمن فضلك اكتب رقم موبايل مصري صحيح');
+    return null;
+  }
+  if (!TEACHER_PHONE) {
+    try { localStorage.setItem('teacherPhone', $('teacherPhone').value.trim()); } catch (e) { /* ignore */ }
+  }
+  return phone;
+}
+
+// For reading questions, drop the passage and keep only the question itself
+function shortQuestion(q) {
+  const i = q.lastIndexOf('”');
+  return (q.indexOf('Read:') === 0 && i > -1) ? q.slice(i + 1).trim() : q;
+}
+
+function sendWhatsApp() {
+  const phone = getTeacherPhone();
+  if (!phone) return;
+
+  const skills = skillKeys().map(k => `${k} ${skillStats[k].correct}/${skillStats[k].total}`).join(' | ');
+  let msg = `*Unit 5 Revision - Prep 1*\n--------------------\n` +
+            `👤 *Student:* ${studentName}\n` +
+            `📝 *Module:* ${currentModel}\n` +
+            `📊 *Score:* ${$('score-display').innerText}\n` +
+            `🧩 *Skills:* ${skills}\n`;
+
+  if (wrongAnswersLog.length) {
+    msg += `\n*Mistakes (${wrongAnswersLog.length}):*\n`;
+    wrongAnswersLog.slice(0, MAX_MISTAKES_IN_REPORT).forEach(x => {
+      msg += `• [${x.tag}] ${shortQuestion(x.q)} → ${x.user} ✗ (correct: ${x.correct})\n`;
+    });
+    if (wrongAnswersLog.length > MAX_MISTAKES_IN_REPORT) {
+      msg += `… and ${wrongAnswersLog.length - MAX_MISTAKES_IN_REPORT} more\n`;
+    }
+  } else {
+    msg += '🎉 *Perfect score!*';
+  }
+
+  window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`, '_blank');
+}
+
+</script>
+</body>
+</html>

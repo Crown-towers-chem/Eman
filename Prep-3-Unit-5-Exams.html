@@ -1,0 +1,1699 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unit 5 Revision | Prep 3</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Fredoka:wght@400;600&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--primary:#ff9f43;--secondary:#00b894;--accent:#54a0ff;--dark:#222f3e;--bg:#f7f1e3;--danger:#ff6b6b}
+*{box-sizing:border-box;margin:0;padding:0;font-family:'Nunito','Cairo',sans-serif}body{background:var(--bg);background-image:radial-gradient(#00d2d3 1px,transparent 1px);background-size:20px 20px;color:var(--dark);min-height:100vh;display:flex;flex-direction:column;align-items:center}header{background:#fff;width:100%;padding:20px;text-align:center;box-shadow:0 4px 15px #0001;border-bottom:5px solid var(--primary)}h1{color:#00a8a8;font-family:Fredoka,sans-serif;font-size:2.2rem;text-shadow:2px 2px 0 #222f3e;margin-bottom:5px}h2{color:var(--primary);font-size:1.1rem}.container{width:95%;max-width:850px;margin:20px auto;background:white;border-radius:20px;box-shadow:0 10px 25px #0001;padding:20px;border:3px solid #00d2d3;flex:1}.screen{display:none;animation:fadeIn .4s ease-in-out}.screen.active{display:block}.input-group{margin:20px 0;text-align:center}label{display:block;font-size:1.2rem;margin-bottom:10px;font-weight:bold}input[type=text],input[type=number]{width:80%;padding:14px;font-size:1.1rem;border:3px solid #00d2d3;border-radius:50px;outline:none;text-align:center;background:#f9f9f9}input:focus{border-color:var(--primary);box-shadow:0 0 15px #ff9f434d}.btn{background:var(--primary);color:white;border:0;padding:14px 34px;font-size:1.1rem;border-radius:50px;cursor:pointer;font-weight:bold;box-shadow:0 5px 0 #e58e26;transition:.2s;margin-top:18px;width:100%;max-width:300px}.btn:active{transform:translateY(5px);box-shadow:none}.btn-blue{background:var(--accent);box-shadow:0 5px 0 #2e86de}.btn-whatsapp{background:#25d366;box-shadow:0 5px 0 #128c7e}.nav-tabs{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:20px;padding-top:15px;border-top:2px dashed #eee}.tab-btn{background:#f1f2f6;border:2px solid #dfe4ea;padding:12px 20px;border-radius:15px;cursor:pointer;font-weight:bold;font-size:1.05rem;color:#747d8c;min-width:120px}.tab-btn:hover{background:#fff;border-color:var(--primary);color:var(--primary);transform:translateY(-2px)}.question-card{background:#fff;border:2px solid #f1f2f6;border-left:5px solid var(--accent);padding:18px;margin-bottom:16px;border-radius:15px}.question-text{font-size:1.12rem;font-weight:700;margin-bottom:13px;line-height:1.5}.reading-passage{background:#eef7ff;border:2px solid #b9ddff;border-radius:12px;padding:12px 14px;margin-bottom:12px;color:#24527a;font-size:1rem;line-height:1.65;font-weight:600}.reading-question{background:#fff8e8;border-left:4px solid #ff9f43;border-radius:8px;padding:10px 12px;margin-bottom:13px;color:#9a5b00;font-size:1.08rem;font-weight:700;line-height:1.5}.options-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.option-label{display:flex;align-items:center;background:#f8f9fa;padding:11px;border-radius:10px;border:2px solid #eee;cursor:pointer;font-size:1rem}.option-label:hover{border-color:var(--accent);background:#eef5ff}input[type=radio]{margin-right:10px;width:19px;height:19px;accent-color:var(--primary)}.progress{background:#eee;border-radius:20px;height:12px;margin:10px 0 20px;overflow:hidden}.progress-bar{height:100%;background:var(--secondary);width:0;transition:.3s}.score-circle{width:160px;height:160px;border-radius:50%;background:var(--secondary);color:#fff;display:flex;justify-content:center;align-items:center;font-size:3rem;font-weight:bold;margin:20px auto;border:6px solid #fff;box-shadow:0 0 0 6px var(--secondary)}.message{text-align:center;font-size:1.35rem;color:var(--primary);margin-bottom:25px;font-weight:bold}.report-section{background:#f1f2f6;padding:20px;border-radius:15px;margin-top:20px;text-align:center}.summary{text-align:center;font-weight:bold;color:#555;margin-bottom:8px}.mistakes-section{margin:15px 0;padding:15px;background:#fff5f5;border:2px solid #ffd0d0;border-radius:15px}.mistakes-title{color:#d63031;text-align:center;font-weight:bold;margin-bottom:10px;font-family:Cairo}.mistake-item{padding:9px 0;border-bottom:1px solid #ffdede;line-height:1.5}.mistake-item:last-child{border-bottom:0}.mistake-q{font-weight:bold}.wrong-answer{color:#d63031}.correct-answer{color:#168f62}footer{padding:20px;font-size:1rem;color:#666;text-align:center;font-weight:bold;background:#fff;width:100%;margin-top:20px;border-top:1px solid #eee}.heart{color:red}@keyframes fadeIn{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}@media(max-width:600px){.options-grid{grid-template-columns:1fr}h1{font-size:1.8rem}.score-circle{width:130px;height:130px;font-size:2.5rem}.container{width:100%;border:none;border-radius:0}.tab-btn{width:45%}}
+
+/* ---- additions ---- */
+input[type=tel]{width:80%;padding:14px;font-size:1.1rem;border:3px solid #00d2d3;border-radius:50px;outline:none;text-align:center;background:#f9f9f9}
+.option-label:focus-within{border-color:var(--accent);background:#eef5ff}
+.option-label.selected{border-color:var(--primary);background:#fff4e6}
+.skills-title{text-align:center;font-family:Cairo,sans-serif;font-weight:bold;color:#555;margin:16px 0 8px}
+.skills{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:18px}
+.skill-chip{border:2px solid #dfe4ea;background:#f1f2f6;border-radius:14px;padding:8px 16px;min-width:120px;text-align:center;font-weight:bold}
+.skill-chip small{display:block;font-size:1.05rem;margin-top:2px}
+.skill-chip.good{border-color:#2ed573;background:#eafaf1;color:#168f62}
+.skill-chip.mid{border-color:#ffa502;background:#fff6e5;color:#b36b00}
+.skill-chip.low{border-color:#ff6b6b;background:#fff0f0;color:#d63031}
+.actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:15px}
+.actions .btn{margin-top:0}
+.mistake-item bdi{font-weight:bold}
+@media(prefers-reduced-motion:reduce){.screen{animation:none}.btn,.tab-btn,.progress-bar{transition:none}}
+
+/* ---- additions ---- */
+.options-grid label:last-child:nth-child(odd){grid-column:1/-1}
+/* ---- contact bar ---- */
+.contact-bar{width:100%;background:var(--dark);color:#fff;border-bottom:4px solid var(--primary);padding:10px 12px;display:flex;flex-wrap:wrap;gap:8px 14px;justify-content:center;align-items:center;font-family:'Cairo','Nunito',sans-serif}
+.contact-bar .cb-name{font-family:Fredoka,'Cairo',sans-serif;font-weight:600;font-size:1.05rem;letter-spacing:.3px}
+.contact-bar .cb-links{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.contact-bar a{color:#fff;text-decoration:none;font-weight:bold;font-size:.95rem;padding:6px 16px;border-radius:50px;background:rgba(255,255,255,.14);transition:.2s}
+.contact-bar a:hover{transform:translateY(-2px)}
+.contact-bar a.wa{background:#25d366}
+.contact-bar a.call{background:var(--accent)}
+</style>
+</head>
+<body>
+<div class="contact-bar">
+  <span class="cb-name">Mrs. Eman Koriem</span>
+  <span class="cb-links">
+    <a class="call" href="tel:+201023990505">📞 01023990505</a>
+    <a class="wa" href="https://wa.me/201023990505" target="_blank" rel="noopener" lang="ar" dir="rtl">💬 تواصل عبر الواتس</a>
+  </span>
+</div>
+
+<header><h1>Unit 5 Revision - Prep 3</h1><h2>Vocabulary</h2></header>
+<div class="container">
+
+<section id="welcome-screen" class="screen active">
+  <div class="input-group">
+    <div style="font-size:3rem;margin-bottom:10px">👋</div>
+    <h3 lang="ar" dir="rtl" style="margin-bottom:20px;font-family:Cairo">أهلاً بك يا بطل!</h3>
+    <label for="studentName">Enter Student Name:</label>
+    <input type="text" id="studentName" placeholder="e.g., Ahmed Ali" autocomplete="off">
+  </div>
+  <p lang="ar" dir="rtl" style="text-align:center;color:var(--dark);font-weight:bold;font-family:Cairo;font-size:1.15rem">اختر الموديول لتبدأ الاختبار</p>
+  <div class="nav-tabs" id="model-tabs"></div>
+</section>
+
+<section id="quiz-screen" class="screen">
+  <div style="text-align:center;margin-bottom:15px">
+    <h3 id="model-title" style="color:var(--primary)"></h3>
+    <div id="question-counter" class="summary"></div>
+  </div>
+  <div class="progress"><div id="progress-bar" class="progress-bar"></div></div>
+  <div id="quiz-content"></div>
+  <div style="text-align:center;padding-bottom:20px"><button class="btn" onclick="submitQuiz()">Submit Answers ✅</button></div>
+</section>
+
+<section id="result-screen" class="screen">
+  <div class="score-circle" id="score-display">0/30</div>
+  <div class="message" id="encouragement-msg"></div>
+  <div class="summary" id="result-summary"></div>
+  <div class="skills-title" lang="ar" dir="rtl">مستواك في كل مهارة</div>
+  <div class="skills" id="skills-box"></div>
+  <div id="mistakes-section" class="mistakes-section"></div>
+  <div class="report-section">
+    <h3 lang="ar" dir="rtl" style="margin-bottom:15px;font-family:Cairo">أرسل التقرير للمستر</h3>
+    <div id="teacher-phone-group">
+      <label for="teacherPhone" style="font-size:1rem">Teacher's WhatsApp Number:</label>
+      <input type="tel" id="teacherPhone" placeholder="01xxxxxxxxx" inputmode="numeric" autocomplete="off">
+    </div>
+    <button class="btn btn-whatsapp" onclick="sendWhatsApp()">Send via WhatsApp 💬</button>
+  </div>
+  <div class="actions">
+    <button class="btn" onclick="retryModule()">Retry This Module 🔁</button>
+    <button class="btn btn-blue" onclick="backToModules()">Try Another Module 🔄</button>
+  </div>
+</section>
+
+</div>
+<footer>Made with Love by Mr. Ameen Sharqawy <span class="heart">❤</span></footer>
+
+<script>
+// ============================================================
+//  Settings (تقدر تعدلهم بسهولة)
+// ============================================================
+// Put the teacher's number here (e.g. '01012345678') to hide the phone box from students.
+// Leave it empty '' and the student types it once (it is remembered on that device).
+const TEACHER_PHONE = '';
+const SHUFFLE_QUESTIONS = true;   // random question order every attempt
+const SHUFFLE_OPTIONS   = true;   // random answer order every attempt
+const MAX_MISTAKES_IN_REPORT = 10;
+
+// ============================================================
+//  Questions  (tag = Vocabulary | Grammar | Reading)
+// ============================================================
+const allModels = {
+  "1": [
+    {
+      "q": "............... means attractive in a fashionable way.",
+      "options": [
+        "Useful",
+        "Unusual",
+        "Stylish",
+        "Productive"
+      ],
+      "a": "Stylish",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... is the ability to make new ideas.",
+      "options": [
+        "Bravery",
+        "Creativity",
+        "Courage",
+        "Poverty"
+      ],
+      "a": "Creativity",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... is a way of looking at something.",
+      "options": [
+        "Monorail",
+        "Screen time",
+        "Point of view",
+        "Train"
+      ],
+      "a": "Point of view",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... is a simple model of a design.",
+      "options": [
+        "Production",
+        "Help",
+        "Distraction",
+        "Prototype"
+      ],
+      "a": "Prototype",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... is a way to solve a problem.",
+      "options": [
+        "Solution",
+        "Health",
+        "Kindness",
+        "Unkindness"
+      ],
+      "a": "Solution",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... is a process of solving complex problems.",
+      "options": [
+        "Bravery",
+        "Sprint",
+        "Courage",
+        "Poverty"
+      ],
+      "a": "Sprint",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means brainstorming or coming up with ideas.",
+      "options": [
+        "Monorail",
+        "Screen time",
+        "Point of view",
+        "Ideation"
+      ],
+      "a": "Ideation",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means very unusual.",
+      "options": [
+        "Ordinary",
+        "Normal",
+        "Usual",
+        "Crazy"
+      ],
+      "a": "Crazy",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means effective or suitable.",
+      "options": [
+        "Old",
+        "Modern",
+        "Kind",
+        "Practical"
+      ],
+      "a": "Practical",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is a list of planned activities.",
+      "options": [
+        "tea",
+        "schedule",
+        "water",
+        "juice"
+      ],
+      "a": "schedule",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I value a strong ............... with my family.",
+      "options": [
+        "conflict",
+        "clash",
+        "relationship",
+        "design"
+      ],
+      "a": "relationship",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Great designers explore ideas from different ............... .",
+      "options": [
+        "books",
+        "rooms",
+        "points of view",
+        "schools"
+      ],
+      "a": "points of view",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Her new outfit was very ............... and comfortable.",
+      "options": [
+        "ugly",
+        "unsuitable",
+        "stylish",
+        "bad"
+      ],
+      "a": "stylish",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Design thinking means caring about people and ............... better solutions.",
+      "options": [
+        "damaging",
+        "eating",
+        "caring",
+        "imagining"
+      ],
+      "a": "imagining",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "He had a strong ............... to learn.",
+      "options": [
+        "need",
+        "style",
+        "size",
+        "solution"
+      ],
+      "a": "need",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “solution” is the antonym of “...............”.",
+      "options": [
+        "answer",
+        "problem",
+        "result",
+        "key"
+      ],
+      "a": "problem",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “practical” means “...............”.",
+      "options": [
+        "impractical",
+        "realistic",
+        "imaginary",
+        "unrealistic"
+      ],
+      "a": "realistic",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The synonym of “stylish” is “...............”.",
+      "options": [
+        "plain",
+        "simple",
+        "fashionable",
+        "ugly"
+      ],
+      "a": "fashionable",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“Complex” is the antonym of “...............”.",
+      "options": [
+        "difficult",
+        "complicated",
+        "hard",
+        "simple"
+      ],
+      "a": "simple",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “-ish” turns the word “style” into a/an “...............”.",
+      "options": [
+        "adjective",
+        "verb",
+        "noun",
+        "preposition"
+      ],
+      "a": "adjective",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To get the noun from the verb “design”, we add the suffix “...............”.",
+      "options": [
+        "-er",
+        "-al",
+        "-ity",
+        "-able"
+      ],
+      "a": "-er",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The prefix “im-” in the word “impossible” gives the “...............”.",
+      "options": [
+        "opposite",
+        "synonym",
+        "noun",
+        "adverb"
+      ],
+      "a": "opposite",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Is it possible to get tickets for the game? ............... is the synonym of possible.",
+      "options": [
+        "Impossible",
+        "Improbable",
+        "Likely",
+        "Lovely"
+      ],
+      "a": "Likely",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My solution is different from yours. The synonym of solution is ............... .",
+      "options": [
+        "problem",
+        "answer",
+        "comfort",
+        "question"
+      ],
+      "a": "answer",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "That test was very hard. The antonym of hard is ............... .",
+      "options": [
+        "difficult",
+        "different",
+        "simple",
+        "same"
+      ],
+      "a": "simple",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A fashion ............... always works hard to produce new clothes that people love to wear.",
+      "options": [
+        "designer",
+        "doctor",
+        "farmer",
+        "driver"
+      ],
+      "a": "designer",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Engineers usually make several ............... before building the final version of a new product.",
+      "options": [
+        "prototypes",
+        "mistakes",
+        "answers",
+        "problems"
+      ],
+      "a": "prototypes",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A truly ............... person always helps others and shows kindness to everyone.",
+      "options": [
+        "caring",
+        "selfish",
+        "rude",
+        "careless"
+      ],
+      "a": "caring",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Creative people can ............... amazing ideas from simple materials like paper, wood, or plastic.",
+      "options": [
+        "create",
+        "break",
+        "waste",
+        "forget"
+      ],
+      "a": "create",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Scientists will ............... the space in the future to discover new planets and stars.",
+      "options": [
+        "explore",
+        "close",
+        "ignore",
+        "forget"
+      ],
+      "a": "explore",
+      "tag": "Vocabulary"
+    }
+  ],
+  "2": [
+    {
+      "q": "I always carry my books, laptop, and water bottle inside a big ............... .",
+      "options": [
+        "pocket",
+        "basket",
+        "backpack",
+        "shelf"
+      ],
+      "a": "backpack",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The hotel looks very ............... with its modern design, large garden, and bright colors.",
+      "options": [
+        "ugly",
+        "dirty",
+        "boring",
+        "attractive"
+      ],
+      "a": "attractive",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Every student has the ............... to learn new skills if they work hard enough.",
+      "options": [
+        "mistake",
+        "failure",
+        "problem",
+        "ability"
+      ],
+      "a": "ability",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The teacher ............... a special trip for the class to visit the science museum.",
+      "options": [
+        "planned",
+        "forgot",
+        "missed",
+        "lost"
+      ],
+      "a": "planned",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The passengers should check the train ............... before they leave.",
+      "options": [
+        "table",
+        "schedule",
+        "goals",
+        "bags"
+      ],
+      "a": "schedule",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Farida’s outfit was very ............... . We all liked it.",
+      "options": [
+        "relationship",
+        "bad",
+        "stylish",
+        "dirty"
+      ],
+      "a": "stylish",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "One of the most ............... ways to save money is to plan your shopping carefully.",
+      "options": [
+        "useful",
+        "noisy",
+        "careless",
+        "strange"
+      ],
+      "a": "useful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“Mad” gives the same meaning as ............... .",
+      "options": [
+        "bad",
+        "good",
+        "creative",
+        "crazy"
+      ],
+      "a": "crazy",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The mechanic gave me a very ............... solution to fix my car using simple tools.",
+      "options": [
+        "weak",
+        "lazy",
+        "careless",
+        "practical"
+      ],
+      "a": "practical",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Every scientist must clearly ............... important terms so that others can understand their research easily.",
+      "options": [
+        "explain",
+        "hide",
+        "ignore",
+        "destroy"
+      ],
+      "a": "explain",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The hotel offers a wonderful sea ............... from every balcony, which attracts many tourists.",
+      "options": [
+        "rule",
+        "mistake",
+        "problem",
+        "view"
+      ],
+      "a": "view",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A close friend who helps you is a ............... .",
+      "options": [
+        "newcomer",
+        "user",
+        "buddy",
+        "student"
+      ],
+      "a": "buddy",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To understand how someone else feels, you need to understand their ............... .",
+      "options": [
+        "designs",
+        "feelings",
+        "maps",
+        "ideas"
+      ],
+      "a": "feelings",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "When you arrive at a new place, you are a ............... .",
+      "options": [
+        "buddy",
+        "student",
+        "newcomer",
+        "teacher"
+      ],
+      "a": "newcomer",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The group decided to ............... new ideas for their project.",
+      "options": [
+        "feel",
+        "welcome",
+        "confuse",
+        "brainstorm"
+      ],
+      "a": "brainstorm",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A “challenge” is something new and ............... that requires effort.",
+      "options": [
+        "easy",
+        "simple",
+        "difficult",
+        "boring"
+      ],
+      "a": "difficult",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To “...............” ideas is to come up with creative ideas.",
+      "options": [
+        "point",
+        "remind",
+        "read",
+        "brainstorm"
+      ],
+      "a": "brainstorm",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A task or situation that tests someone's abilities is a ............... .",
+      "options": [
+        "solution",
+        "feeling",
+        "challenge",
+        "design"
+      ],
+      "a": "challenge",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I welcomed my friend Adel at home. This means I ............... him.",
+      "options": [
+        "greeted",
+        "created",
+        "acted",
+        "relaxed"
+      ],
+      "a": "greeted",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “buddy” has the same meaning as “...............”.",
+      "options": [
+        "enemy",
+        "opponent",
+        "brother",
+        "friend"
+      ],
+      "a": "friend",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “-ous” makes a/an ............... from the word “nerve”.",
+      "options": [
+        "noun",
+        "adjective",
+        "adverb",
+        "preposition"
+      ],
+      "a": "adjective",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Climbing the high mountain was a big ............... but the team finally succeeded together.",
+      "options": [
+        "game",
+        "holiday",
+        "challenge",
+        "mistake"
+      ],
+      "a": "challenge",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The teacher asked the students to look ............... at the map to find the hidden details.",
+      "options": [
+        "loudly",
+        "quickly",
+        "lazily",
+        "closely"
+      ],
+      "a": "closely",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The train passes ............... the tunnel before arriving at the next busy station.",
+      "options": [
+        "through",
+        "over",
+        "under",
+        "across"
+      ],
+      "a": "through",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "She opened her ............... widely in surprise when she heard the unexpected news.",
+      "options": [
+        "feet",
+        "ears",
+        "hands",
+        "eyes"
+      ],
+      "a": "eyes",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The student felt ............... after reading the difficult question and didn’t know what to do.",
+      "options": [
+        "excited",
+        "happy",
+        "confused",
+        "relaxed"
+      ],
+      "a": "confused",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Before the interview, he was very ............... because he worried about the difficult questions.",
+      "options": [
+        "nervous",
+        "calm",
+        "cheerful",
+        "strong"
+      ],
+      "a": "nervous",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The teacher asked the group to ............... ideas together before starting the new project.",
+      "options": [
+        "brainstorm",
+        "forget",
+        "delete",
+        "waste"
+      ],
+      "a": "brainstorm",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "People should always try to ............... good decisions that help them succeed in life.",
+      "options": [
+        "make",
+        "lose",
+        "do",
+        "destroy"
+      ],
+      "a": "make",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “-ity” turns the word “creative” into a/an ............... .",
+      "options": [
+        "noun",
+        "verb",
+        "adjective",
+        "adverb"
+      ],
+      "a": "noun",
+      "tag": "Vocabulary"
+    }
+  ],
+  "3": [
+    {
+      "q": "To solve a problem, we should think of better ............... .",
+      "options": [
+        "screens",
+        "solutions",
+        "cars",
+        "food"
+      ],
+      "a": "solutions",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We add the suffix ............... to make the adjective from “understand”.",
+      "options": [
+        "-ing",
+        "-ed",
+        "-ful",
+        "-ness"
+      ],
+      "a": "-ing",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "There are attractive buildings and lots of gardens. The word “attractive” means ............... .",
+      "options": [
+        "ugly",
+        "beautiful",
+        "dirty",
+        "noisy"
+      ],
+      "a": "beautiful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To form the adjective from the word “nerve”, we add the suffix “...............”.",
+      "options": [
+        "-al",
+        "-ive",
+        "-ful",
+        "-ous"
+      ],
+      "a": "-ous",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To “...............” is to generate ideas.",
+      "options": [
+        "value",
+        "edit",
+        "brainstorm",
+        "eat"
+      ],
+      "a": "brainstorm",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is a series of steps or actions taken to achieve something.",
+      "options": [
+        "process",
+        "trip",
+        "journey",
+        "stop"
+      ],
+      "a": "process",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” means logically correct; easy to understand.",
+      "options": [
+        "Look after",
+        "Make sense",
+        "Care about",
+        "Look at"
+      ],
+      "a": "Make sense",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... is to invent or think of an idea or plan.",
+      "options": [
+        "come up with",
+        "sleep with",
+        "read with",
+        "write with"
+      ],
+      "a": "come up with",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A “...............” is a new or difficult task that tests somebody's ability and skill.",
+      "options": [
+        "monorail",
+        "screen time",
+        "challenge",
+        "train"
+      ],
+      "a": "challenge",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” means as good as possible; ideal.",
+      "options": [
+        "Short",
+        "Fat",
+        "Perfect",
+        "Slow"
+      ],
+      "a": "Perfect",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” is a way to solve problems by doing some steps.",
+      "options": [
+        "Design thinking",
+        "Drinking",
+        "Watching",
+        "Dreaming"
+      ],
+      "a": "Design thinking",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To “...............” means to clearly state the problem you want to solve.",
+      "options": [
+        "wash",
+        "define",
+        "stay",
+        "eat"
+      ],
+      "a": "define",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Magdy learns that it’s okay if the first ............... is not perfect. It’s still a simple model.",
+      "options": [
+        "view",
+        "prototype",
+        "operation",
+        "process"
+      ],
+      "a": "prototype",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To keep the talk flowing, we ask questions like “What’s ............... ?”",
+      "options": [
+        "first",
+        "last",
+        "next",
+        "before"
+      ],
+      "a": "next",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "It is important to find a ............... to every problem.",
+      "options": [
+        "solution",
+        "user",
+        "challenge",
+        "view"
+      ],
+      "a": "solution",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "In my point of ............... , Egypt is the best.",
+      "options": [
+        "view",
+        "new",
+        "few",
+        "a few"
+      ],
+      "a": "view",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Ali’s solutions were ............... . He could solve the problem.",
+      "options": [
+        "bad",
+        "practical",
+        "sad",
+        "mad"
+      ],
+      "a": "practical",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The synonym of “perfect” is “...............”.",
+      "options": [
+        "theoretical",
+        "unrealistic",
+        "ideal",
+        "impossible"
+      ],
+      "a": "ideal",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “proto” in “prototype” means ............... .",
+      "options": [
+        "first",
+        "final",
+        "again",
+        "opposite"
+      ],
+      "a": "first",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The verb “act” can be an adjective by adding the suffix “...............”.",
+      "options": [
+        "-ness",
+        "-ity",
+        "-ive",
+        "-al"
+      ],
+      "a": "-ive",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“Enjoyment” and “boredom” are “...............”.",
+      "options": [
+        "synonyms",
+        "nouns",
+        "verbs",
+        "antonyms"
+      ],
+      "a": "antonyms",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “-ly” in “closely” makes it a/an ............... .",
+      "options": [
+        "noun",
+        "adjective",
+        "adverb",
+        "preposition"
+      ],
+      "a": "adverb",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“Fix” and “damage” are ............... .",
+      "options": [
+        "nouns",
+        "adjectives",
+        "antonyms",
+        "synonyms"
+      ],
+      "a": "antonyms",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“Simple” is the opposite of ............... .",
+      "options": [
+        "easy",
+        "difficult",
+        "fat",
+        "good"
+      ],
+      "a": "difficult",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Farmers work in the field of ............... to grow food.",
+      "options": [
+        "agriculture",
+        "industry",
+        "trade",
+        "design"
+      ],
+      "a": "agriculture",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "After a long day’s work, he decided to ............... the job and find another one.",
+      "options": [
+        "join",
+        "quit",
+        "enjoy",
+        "build"
+      ],
+      "a": "quit",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "She is ............... to her studies and does her homework on time.",
+      "options": [
+        "lazy",
+        "late",
+        "angry",
+        "dedicated"
+      ],
+      "a": "dedicated",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A truly ............... student can think of new ideas and solve problems in unique ways.",
+      "options": [
+        "creative",
+        "lazy",
+        "boring",
+        "weak"
+      ],
+      "a": "creative",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "It is very ............... to eat healthy food every day to stay strong and active.",
+      "options": [
+        "wrong",
+        "useless",
+        "strange",
+        "important"
+      ],
+      "a": "important",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The engineer showed us a small ............... of the building before the construction began.",
+      "options": [
+        "model",
+        "mistake",
+        "problem",
+        "rule"
+      ],
+      "a": "model",
+      "tag": "Vocabulary"
+    }
+  ],
+  "4": [
+    {
+      "q": "Her ............... of the garden was so beautiful that everyone wanted to hang it on the wall.",
+      "options": [
+        "eating",
+        "running",
+        "drawing",
+        "cooking"
+      ],
+      "a": "drawing",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Teachers are always ............... when students need advice about studying or personal problems.",
+      "options": [
+        "rude",
+        "careless",
+        "helpful",
+        "selfish"
+      ],
+      "a": "helpful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The performance was ............... because every student worked hard and gave their best effort.",
+      "options": [
+        "perfect",
+        "broken",
+        "weak",
+        "noisy"
+      ],
+      "a": "perfect",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "From the top of the mountain, we enjoyed a beautiful ............... of the entire city.",
+      "options": [
+        "road",
+        "problem",
+        "answer",
+        "view"
+      ],
+      "a": "view",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The teacher asked the students to ............... the word “energy” in their own sentences.",
+      "options": [
+        "define",
+        "forget",
+        "break",
+        "confuse"
+      ],
+      "a": "define",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Reading can help students to ............... their language and communication skills quickly.",
+      "options": [
+        "improve",
+        "put",
+        "damage",
+        "lose"
+      ],
+      "a": "improve",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "What you said doesn't ............... sense.",
+      "options": [
+        "do",
+        "take",
+        "sound",
+        "make"
+      ],
+      "a": "make",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Being honest with others and with yourself helps people ............... you.",
+      "options": [
+        "confuse",
+        "doubts",
+        "trust",
+        "disagree"
+      ],
+      "a": "trust",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“Simple” is the antonym of the word “...............”.",
+      "options": [
+        "complex",
+        "weak",
+        "strong",
+        "cheap"
+      ],
+      "a": "complex",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Never ............... smoking. It's harmful.",
+      "options": [
+        "try",
+        "tries",
+        "tried",
+        "trying"
+      ],
+      "a": "try",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... hesitate. Trust your abilities.",
+      "options": [
+        "Aren't",
+        "Doesn't",
+        "Isn't",
+        "Don't"
+      ],
+      "a": "Don't",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “solution” is the antonym of “...............”.",
+      "options": [
+        "answer",
+        "problem",
+        "result",
+        "key"
+      ],
+      "a": "problem",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... is a way of looking at something.",
+      "options": [
+        "Monorail",
+        "Screen time",
+        "Point of view",
+        "Train"
+      ],
+      "a": "Point of view",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "People should always try to ............... good decisions that help them succeed in life.",
+      "options": [
+        "make",
+        "lose",
+        "do",
+        "destroy"
+      ],
+      "a": "make",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To get the noun from the verb “design”, we add the suffix “...............”.",
+      "options": [
+        "-er",
+        "-al",
+        "-ity",
+        "-able"
+      ],
+      "a": "-er",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” is a way to solve problems by doing some steps.",
+      "options": [
+        "Design thinking",
+        "Drinking",
+        "Watching",
+        "Dreaming"
+      ],
+      "a": "Design thinking",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "When you arrive at a new place, you are a ............... .",
+      "options": [
+        "buddy",
+        "student",
+        "newcomer",
+        "teacher"
+      ],
+      "a": "newcomer",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Climbing the high mountain was a big ............... but the team finally succeeded together.",
+      "options": [
+        "game",
+        "holiday",
+        "challenge",
+        "mistake"
+      ],
+      "a": "challenge",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "There are attractive buildings and lots of gardens. The word “attractive” means ............... .",
+      "options": [
+        "ugly",
+        "beautiful",
+        "dirty",
+        "noisy"
+      ],
+      "a": "beautiful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “-ish” turns the word “style” into a/an “...............”.",
+      "options": [
+        "adjective",
+        "verb",
+        "noun",
+        "preposition"
+      ],
+      "a": "adjective",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My solution is different from yours. The synonym of solution is ............... .",
+      "options": [
+        "problem",
+        "answer",
+        "comfort",
+        "question"
+      ],
+      "a": "answer",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "After a long day’s work, he decided to ............... the job and find another one.",
+      "options": [
+        "join",
+        "quit",
+        "enjoy",
+        "build"
+      ],
+      "a": "quit",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... is a way to solve a problem.",
+      "options": [
+        "Solution",
+        "Health",
+        "Kindness",
+        "Unkindness"
+      ],
+      "a": "Solution",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To solve a problem, we should think of better ............... .",
+      "options": [
+        "screens",
+        "solutions",
+        "cars",
+        "food"
+      ],
+      "a": "solutions",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I always carry my books, laptop, and water bottle inside a big ............... .",
+      "options": [
+        "pocket",
+        "basket",
+        "backpack",
+        "shelf"
+      ],
+      "a": "backpack",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is a list of planned activities.",
+      "options": [
+        "tea",
+        "schedule",
+        "water",
+        "juice"
+      ],
+      "a": "schedule",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A fashion ............... always works hard to produce new clothes that people love to wear.",
+      "options": [
+        "designer",
+        "doctor",
+        "farmer",
+        "driver"
+      ],
+      "a": "designer",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Engineers usually make several ............... before building the final version of a new product.",
+      "options": [
+        "prototypes",
+        "mistakes",
+        "answers",
+        "problems"
+      ],
+      "a": "prototypes",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "She is ............... to her studies and does her homework on time.",
+      "options": [
+        "lazy",
+        "late",
+        "angry",
+        "dedicated"
+      ],
+      "a": "dedicated",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Farmers work in the field of ............... to grow food.",
+      "options": [
+        "agriculture",
+        "industry",
+        "trade",
+        "design"
+      ],
+      "a": "agriculture",
+      "tag": "Vocabulary"
+    }
+  ]
+};
+
+// ============================================================
+//  App
+// ============================================================
+let currentModel = 1;
+let studentName = '';
+let quiz = [];              // questions of the current attempt (after shuffling)
+let wrongAnswersLog = [];
+let skillStats = {};
+const SKILL_ORDER = ['Vocabulary', 'Grammar', 'Reading', 'Phonics'];
+const skillKeys = () => SKILL_ORDER.filter(k => skillStats[k]).concat(Object.keys(skillStats).filter(k => SKILL_ORDER.indexOf(k) < 0));
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const t = a[i]; a[i] = a[j]; a[j] = t;
+  }
+  return a;
+}
+
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  $(id).classList.add('active');
+  window.scrollTo(0, 0);
+}
+
+window.onload = () => {
+  const tabs = $('model-tabs');
+  for (let i = 1; i <= 4; i++) {
+    const b = document.createElement('button');
+    b.className = 'tab-btn';
+    b.innerText = `Module ${i}`;
+    b.onclick = () => startApp(i);
+    tabs.appendChild(b);
+  }
+  if (TEACHER_PHONE) {
+    $('teacher-phone-group').style.display = 'none';
+  } else {
+    try { $('teacherPhone').value = localStorage.getItem('teacherPhone') || ''; } catch (e) { /* storage not available */ }
+  }
+};
+
+function startApp(id) {
+  const n = $('studentName');
+  if (!n.value.trim()) {
+    alert('Please enter your name first!\nمن فضلك اكتب اسمك يا بطل');
+    n.focus();
+    return;
+  }
+  studentName = n.value.trim();
+  loadModel(id);
+  showScreen('quiz-screen');
+}
+
+function updateProgress() {
+  const done = document.querySelectorAll('#quiz-content input[type=radio]:checked').length;
+  $('progress-bar').style.width = `${done / quiz.length * 100}%`;
+}
+
+function loadModel(id) {
+  currentModel = id;
+  const base = allModels[String(id)].map(x => ({
+    q: x.q, a: x.a, tag: x.tag,
+    options: SHUFFLE_OPTIONS ? shuffle(x.options) : x.options.slice()
+  }));
+  quiz = SHUFFLE_QUESTIONS ? shuffle(base) : base;
+
+  $('model-title').innerText = `📝 Prep 3 - Unit 5 - Module ${id}`;
+  $('question-counter').innerText = `${quiz.length} multiple-choice questions`;
+  $('progress-bar').style.width = '0%';
+
+  const c = $('quiz-content');
+  c.innerHTML = '';
+  quiz.forEach((x, i) => {
+    const card = document.createElement('div');
+    card.className = 'question-card';
+
+    const readingMatch = x.tag === 'Reading' ? x.q.match(/^Read:\s*[“\"]([\s\S]*?)[”\"]\s*(.*)$/) : null;
+    if (readingMatch) {
+      const passage = document.createElement('div');
+      passage.className = 'reading-passage';
+      passage.innerText = `📖 ${readingMatch[1]}`;
+      card.appendChild(passage);
+      const q = document.createElement('div');
+      q.className = 'reading-question';
+      q.innerText = `${i + 1}. ${readingMatch[2]}`;
+      card.appendChild(q);
+    } else {
+      const q = document.createElement('div');
+      q.className = 'question-text';
+      q.innerText = `${i + 1}. ${x.q}`;
+      card.appendChild(q);
+    }
+
+    const g = document.createElement('div');
+    g.className = 'options-grid';
+    x.options.forEach(o => {
+      const l = document.createElement('label');
+      l.className = 'option-label';
+      const r = document.createElement('input');
+      r.type = 'radio';
+      r.name = `q${i}`;
+      r.value = o;
+      r.onchange = () => {
+        g.querySelectorAll('.option-label').forEach(el => el.classList.remove('selected'));
+        l.classList.add('selected');
+        updateProgress();
+      };
+      l.appendChild(r);
+      l.appendChild(document.createTextNode(o));
+      g.appendChild(l);
+    });
+    card.appendChild(g);
+    c.appendChild(card);
+  });
+}
+
+function submitQuiz() {
+  const answered = quiz.filter((_, i) => document.querySelector(`input[name=q${i}]:checked`)).length;
+  const ok = answered < quiz.length
+    ? confirm(`You answered ${answered} of ${quiz.length}. Finish anyway?`)
+    : confirm('Are you sure you want to finish the quiz?');
+  if (ok) gradeQuiz();
+}
+
+function gradeQuiz() {
+  let score = 0;
+  wrongAnswersLog = [];
+  skillStats = {};
+  quiz.forEach((x, i) => {
+    if (!skillStats[x.tag]) skillStats[x.tag] = { correct: 0, total: 0 };
+    const st = skillStats[x.tag];
+    st.total++;
+    const sel = document.querySelector(`input[name=q${i}]:checked`);
+    if (sel && sel.value === x.a) {
+      score++;
+      st.correct++;
+    } else {
+      wrongAnswersLog.push({ n: i + 1, q: x.q, user: sel ? sel.value : 'No Answer', correct: x.a, tag: x.tag });
+    }
+  });
+  showResults(score, quiz.length);
+}
+
+function showResults(score, total) {
+  showScreen('result-screen');
+
+  const s = $('score-display');
+  s.innerText = `${score}/${total}`;
+  const noAnswer = wrongAnswersLog.filter(x => x.user === 'No Answer').length;
+  $('result-summary').innerText = `Answered: ${total - noAnswer}/${total} | Mistakes: ${wrongAnswersLog.length}`;
+
+  // per-skill chips
+  $('skills-box').innerHTML = skillKeys().map(k => {
+    const st = skillStats[k];
+    const p = st.correct / st.total;
+    const cls = p >= 0.8 ? 'good' : p >= 0.5 ? 'mid' : 'low';
+    return `<div class="skill-chip ${cls}">${esc(k)}<small>${st.correct}/${st.total}</small></div>`;
+  }).join('');
+
+  // mistakes review
+  const box = $('mistakes-section');
+  if (wrongAnswersLog.length) {
+    box.innerHTML = '<div class="mistakes-title" lang="ar" dir="rtl">مراجعة الأخطاء</div>' +
+      wrongAnswersLog.map(x => {
+        const user = x.user === 'No Answer' ? 'لم تجب' : x.user;
+        return `<div class="mistake-item">
+          <div class="mistake-q">${x.n}. ${esc(x.q)}</div>
+          <div class="wrong-answer" lang="ar" dir="rtl">❌ إجابتك: <bdi>${esc(user)}</bdi></div>
+          <div class="correct-answer" lang="ar" dir="rtl">✅ الإجابة الصحيحة: <bdi>${esc(x.correct)}</bdi></div>
+        </div>`;
+      }).join('');
+  } else {
+    box.innerHTML = '<div class="mistakes-title" lang="ar" dir="rtl" style="color:#168f62">ممتاز! لا توجد أخطاء 🎉</div>';
+  }
+
+  // encouragement (Arabic, name isolated so it never scrambles the sentence)
+  const p = score / total * 100;
+  const m = $('encouragement-msg');
+  const nm = `<bdi>${esc(studentName)}</bdi>`;
+  m.lang = 'ar'; m.dir = 'rtl';
+  if (p === 100)      { s.style.background = '#2ed573'; m.innerHTML = `ممتاز يا ${nm}! 🏆`; }
+  else if (p >= 80)   { s.style.background = '#1e90ff'; m.innerHTML = `رائع يا ${nm}! 💪`; }
+  else if (p >= 50)   { s.style.background = '#ffa502'; m.innerHTML = `جيد يا ${nm}، راجع أخطاءك 👍`; }
+  else                { s.style.background = '#ff4757'; m.innerHTML = `لا تيأس يا ${nm}، حاول مرة أخرى ❤️`; }
+}
+
+function retryModule() {
+  loadModel(currentModel);
+  showScreen('quiz-screen');
+}
+
+function backToModules() {
+  showScreen('welcome-screen');   // the student name stays filled in
+}
+
+// ---------- WhatsApp report ----------
+function normalizePhone(v) {
+  let d = String(v).replace(/\D/g, '');
+  if (d.indexOf('0020') === 0) d = d.slice(4);                          // 0020 1xx...
+  else if (d.indexOf('20') === 0 && d.length >= 12) d = d.slice(2);     // +20 1xx...
+  if (d.charAt(0) === '0') d = d.slice(1);                              // 01xx...
+  return (d.length === 10 && d.charAt(0) === '1') ? '20' + d : null;
+}
+
+function getTeacherPhone() {
+  const input = TEACHER_PHONE || $('teacherPhone').value;
+  const phone = normalizePhone(input);
+  if (!phone) {
+    alert('Please enter a valid Egyptian mobile number, e.g. 01xxxxxxxxx\nمن فضلك اكتب رقم موبايل مصري صحيح');
+    return null;
+  }
+  if (!TEACHER_PHONE) {
+    try { localStorage.setItem('teacherPhone', $('teacherPhone').value.trim()); } catch (e) { /* ignore */ }
+  }
+  return phone;
+}
+
+// For reading questions, drop the passage and keep only the question itself
+function shortQuestion(q) {
+  const i = q.lastIndexOf('”');
+  return (q.indexOf('Read:') === 0 && i > -1) ? q.slice(i + 1).trim() : q;
+}
+
+function sendWhatsApp() {
+  const phone = getTeacherPhone();
+  if (!phone) return;
+
+  const skills = skillKeys().map(k => `${k} ${skillStats[k].correct}/${skillStats[k].total}`).join(' | ');
+  let msg = `*Unit 5 Revision - Prep 3*\n--------------------\n` +
+            `👤 *Student:* ${studentName}\n` +
+            `📝 *Module:* ${currentModel}\n` +
+            `📊 *Score:* ${$('score-display').innerText}\n` +
+            `🧩 *Skills:* ${skills}\n`;
+
+  if (wrongAnswersLog.length) {
+    msg += `\n*Mistakes (${wrongAnswersLog.length}):*\n`;
+    wrongAnswersLog.slice(0, MAX_MISTAKES_IN_REPORT).forEach(x => {
+      msg += `• [${x.tag}] ${shortQuestion(x.q)} → ${x.user} ✗ (correct: ${x.correct})\n`;
+    });
+    if (wrongAnswersLog.length > MAX_MISTAKES_IN_REPORT) {
+      msg += `… and ${wrongAnswersLog.length - MAX_MISTAKES_IN_REPORT} more\n`;
+    }
+  } else {
+    msg += '🎉 *Perfect score!*';
+  }
+
+  window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`, '_blank');
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,3359 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Units 1-3 Revision | Prep 1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Fredoka:wght@400;600&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--primary:#ff9f43;--secondary:#00b894;--accent:#54a0ff;--dark:#222f3e;--bg:#f7f1e3;--danger:#ff6b6b}
+*{box-sizing:border-box;margin:0;padding:0;font-family:'Nunito','Cairo',sans-serif}body{background:var(--bg);background-image:radial-gradient(#00d2d3 1px,transparent 1px);background-size:20px 20px;color:var(--dark);min-height:100vh;display:flex;flex-direction:column;align-items:center}header{background:#fff;width:100%;padding:20px;text-align:center;box-shadow:0 4px 15px #0001;border-bottom:5px solid var(--primary)}h1{color:#00a8a8;font-family:Fredoka,sans-serif;font-size:2.2rem;text-shadow:2px 2px 0 #222f3e;margin-bottom:5px}h2{color:var(--primary);font-size:1.1rem}.container{width:95%;max-width:850px;margin:20px auto;background:white;border-radius:20px;box-shadow:0 10px 25px #0001;padding:20px;border:3px solid #00d2d3;flex:1}.screen{display:none;animation:fadeIn .4s ease-in-out}.screen.active{display:block}.input-group{margin:20px 0;text-align:center}label{display:block;font-size:1.2rem;margin-bottom:10px;font-weight:bold}input[type=text],input[type=number]{width:80%;padding:14px;font-size:1.1rem;border:3px solid #00d2d3;border-radius:50px;outline:none;text-align:center;background:#f9f9f9}input:focus{border-color:var(--primary);box-shadow:0 0 15px #ff9f434d}.btn{background:var(--primary);color:white;border:0;padding:14px 34px;font-size:1.1rem;border-radius:50px;cursor:pointer;font-weight:bold;box-shadow:0 5px 0 #e58e26;transition:.2s;margin-top:18px;width:100%;max-width:300px}.btn:active{transform:translateY(5px);box-shadow:none}.btn-blue{background:var(--accent);box-shadow:0 5px 0 #2e86de}.btn-whatsapp{background:#25d366;box-shadow:0 5px 0 #128c7e}.nav-tabs{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:20px;padding-top:15px;border-top:2px dashed #eee}.tab-btn{background:#f1f2f6;border:2px solid #dfe4ea;padding:12px 20px;border-radius:15px;cursor:pointer;font-weight:bold;font-size:1.05rem;color:#747d8c;min-width:120px}.tab-btn:hover{background:#fff;border-color:var(--primary);color:var(--primary);transform:translateY(-2px)}.question-card{background:#fff;border:2px solid #f1f2f6;border-left:5px solid var(--accent);padding:18px;margin-bottom:16px;border-radius:15px}.question-text{font-size:1.12rem;font-weight:700;margin-bottom:13px;line-height:1.5}.reading-passage{background:#eef7ff;border:2px solid #b9ddff;border-radius:12px;padding:12px 14px;margin-bottom:12px;color:#24527a;font-size:1rem;line-height:1.65;font-weight:600}.reading-question{background:#fff8e8;border-left:4px solid #ff9f43;border-radius:8px;padding:10px 12px;margin-bottom:13px;color:#9a5b00;font-size:1.08rem;font-weight:700;line-height:1.5}.options-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.option-label{display:flex;align-items:center;background:#f8f9fa;padding:11px;border-radius:10px;border:2px solid #eee;cursor:pointer;font-size:1rem}.option-label:hover{border-color:var(--accent);background:#eef5ff}input[type=radio]{margin-right:10px;width:19px;height:19px;accent-color:var(--primary)}.progress{background:#eee;border-radius:20px;height:12px;margin:10px 0 20px;overflow:hidden}.progress-bar{height:100%;background:var(--secondary);width:0;transition:.3s}.score-circle{width:160px;height:160px;border-radius:50%;background:var(--secondary);color:#fff;display:flex;justify-content:center;align-items:center;font-size:3rem;font-weight:bold;margin:20px auto;border:6px solid #fff;box-shadow:0 0 0 6px var(--secondary)}.message{text-align:center;font-size:1.35rem;color:var(--primary);margin-bottom:25px;font-weight:bold}.report-section{background:#f1f2f6;padding:20px;border-radius:15px;margin-top:20px;text-align:center}.summary{text-align:center;font-weight:bold;color:#555;margin-bottom:8px}.mistakes-section{margin:15px 0;padding:15px;background:#fff5f5;border:2px solid #ffd0d0;border-radius:15px}.mistakes-title{color:#d63031;text-align:center;font-weight:bold;margin-bottom:10px;font-family:Cairo}.mistake-item{padding:9px 0;border-bottom:1px solid #ffdede;line-height:1.5}.mistake-item:last-child{border-bottom:0}.mistake-q{font-weight:bold}.wrong-answer{color:#d63031}.correct-answer{color:#168f62}footer{padding:20px;font-size:1rem;color:#666;text-align:center;font-weight:bold;background:#fff;width:100%;margin-top:20px;border-top:1px solid #eee}.heart{color:red}@keyframes fadeIn{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}@media(max-width:600px){.options-grid{grid-template-columns:1fr}h1{font-size:1.8rem}.score-circle{width:130px;height:130px;font-size:2.5rem}.container{width:100%;border:none;border-radius:0}.tab-btn{width:45%}}
+
+/* ---- additions ---- */
+input[type=tel]{width:80%;padding:14px;font-size:1.1rem;border:3px solid #00d2d3;border-radius:50px;outline:none;text-align:center;background:#f9f9f9}
+.option-label:focus-within{border-color:var(--accent);background:#eef5ff}
+.option-label.selected{border-color:var(--primary);background:#fff4e6}
+.skills-title{text-align:center;font-family:Cairo,sans-serif;font-weight:bold;color:#555;margin:16px 0 8px}
+.skills{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:18px}
+.skill-chip{border:2px solid #dfe4ea;background:#f1f2f6;border-radius:14px;padding:8px 16px;min-width:120px;text-align:center;font-weight:bold}
+.skill-chip small{display:block;font-size:1.05rem;margin-top:2px}
+.skill-chip.good{border-color:#2ed573;background:#eafaf1;color:#168f62}
+.skill-chip.mid{border-color:#ffa502;background:#fff6e5;color:#b36b00}
+.skill-chip.low{border-color:#ff6b6b;background:#fff0f0;color:#d63031}
+.actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:15px}
+.actions .btn{margin-top:0}
+.mistake-item bdi{font-weight:bold}
+@media(prefers-reduced-motion:reduce){.screen{animation:none}.btn,.tab-btn,.progress-bar{transition:none}}
+
+/* ---- additions ---- */
+.options-grid label:last-child:nth-child(odd){grid-column:1/-1}
+/* ---- contact bar ---- */
+.contact-bar{width:100%;background:var(--dark);color:#fff;border-bottom:4px solid var(--primary);padding:10px 12px;display:flex;flex-wrap:wrap;gap:8px 14px;justify-content:center;align-items:center;font-family:'Cairo','Nunito',sans-serif}
+.contact-bar .cb-name{font-family:Fredoka,'Cairo',sans-serif;font-weight:600;font-size:1.05rem;letter-spacing:.3px}
+.contact-bar .cb-links{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.contact-bar a{color:#fff;text-decoration:none;font-weight:bold;font-size:.95rem;padding:6px 16px;border-radius:50px;background:rgba(255,255,255,.14);transition:.2s}
+.contact-bar a:hover{transform:translateY(-2px)}
+.contact-bar a.wa{background:#25d366}
+.contact-bar a.call{background:var(--accent)}
+</style>
+</head>
+<body>
+<div class="contact-bar">
+  <span class="cb-name">Mrs. Eman Koriem</span>
+  <span class="cb-links">
+    <a class="call" href="tel:+201023990505">📞 01023990505</a>
+    <a class="wa" href="https://wa.me/201023990505" target="_blank" rel="noopener" lang="ar" dir="rtl">💬 تواصل عبر الواتس</a>
+  </span>
+</div>
+
+<header><h1>Units 1-3 Revision - Prep 1</h1><h2>Vocabulary</h2></header>
+<div class="container">
+
+<section id="welcome-screen" class="screen active">
+  <div class="input-group">
+    <div style="font-size:3rem;margin-bottom:10px">👋</div>
+    <h3 lang="ar" dir="rtl" style="margin-bottom:20px;font-family:Cairo">أهلاً بك يا بطل!</h3>
+    <label for="studentName">Enter Student Name:</label>
+    <input type="text" id="studentName" placeholder="e.g., Ahmed Ali" autocomplete="off">
+  </div>
+  <p lang="ar" dir="rtl" style="text-align:center;color:var(--dark);font-weight:bold;font-family:Cairo;font-size:1.15rem">اختر الموديول لتبدأ الاختبار</p>
+  <div class="nav-tabs" id="model-tabs"></div>
+</section>
+
+<section id="quiz-screen" class="screen">
+  <div style="text-align:center;margin-bottom:15px">
+    <h3 id="model-title" style="color:var(--primary)"></h3>
+    <div id="question-counter" class="summary"></div>
+  </div>
+  <div class="progress"><div id="progress-bar" class="progress-bar"></div></div>
+  <div id="quiz-content"></div>
+  <div style="text-align:center;padding-bottom:20px"><button class="btn" onclick="submitQuiz()">Submit Answers ✅</button></div>
+</section>
+
+<section id="result-screen" class="screen">
+  <div class="score-circle" id="score-display">0/30</div>
+  <div class="message" id="encouragement-msg"></div>
+  <div class="summary" id="result-summary"></div>
+  <div class="skills-title" lang="ar" dir="rtl">مستواك في كل مهارة</div>
+  <div class="skills" id="skills-box"></div>
+  <div id="mistakes-section" class="mistakes-section"></div>
+  <div class="report-section">
+    <h3 lang="ar" dir="rtl" style="margin-bottom:15px;font-family:Cairo">أرسل التقرير للمستر</h3>
+    <div id="teacher-phone-group">
+      <label for="teacherPhone" style="font-size:1rem">Teacher's WhatsApp Number:</label>
+      <input type="tel" id="teacherPhone" placeholder="01xxxxxxxxx" inputmode="numeric" autocomplete="off">
+    </div>
+    <button class="btn btn-whatsapp" onclick="sendWhatsApp()">Send via WhatsApp 💬</button>
+  </div>
+  <div class="actions">
+    <button class="btn" onclick="retryModule()">Retry This Module 🔁</button>
+    <button class="btn btn-blue" onclick="backToModules()">Try Another Module 🔄</button>
+  </div>
+</section>
+
+</div>
+<footer>Made with Love by Mr. Ameen Sharqawy <span class="heart">❤</span></footer>
+
+<script>
+// ============================================================
+//  Settings (تقدر تعدلهم بسهولة)
+// ============================================================
+// Put the teacher's number here (e.g. '01012345678') to hide the phone box from students.
+// Leave it empty '' and the student types it once (it is remembered on that device).
+const TEACHER_PHONE = '';
+const SHUFFLE_QUESTIONS = true;   // random question order every attempt
+const SHUFFLE_OPTIONS   = true;   // random answer order every attempt
+const MAX_MISTAKES_IN_REPORT = 10;
+
+// ============================================================
+//  Questions  (tag = Vocabulary | Grammar | Reading)
+// ============================================================
+const allModels = {
+  "1": [
+    {
+      "q": "Dr. Samira Moussa was a true ............... who still inspires people today.",
+      "options": [
+        "zero",
+        "hero",
+        "peace",
+        "champion"
+      ],
+      "a": "hero",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” means something related to sight and seeing.",
+      "options": [
+        "Colorful",
+        "Kinesthetic",
+        "Auditory",
+        "Visual"
+      ],
+      "a": "Visual",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The ............... is a darker screen setting to protect your eyes in low light.",
+      "options": [
+        "evening",
+        "night mode",
+        "afternoon",
+        "morning mode"
+      ],
+      "a": "night mode",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” means something related to hearing things.",
+      "options": [
+        "Colorful",
+        "Kinesthetic",
+        "Auditory",
+        "Visual"
+      ],
+      "a": "Auditory",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A/An ............... is a page on the internet that gives information or lets you do things online.",
+      "options": [
+        "tablet",
+        "app",
+        "website",
+        "radio station"
+      ],
+      "a": "website",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Dr. Samira was ............... and always wanted to help her community.",
+      "options": [
+        "cruel",
+        "unkind",
+        "greedy",
+        "kind"
+      ],
+      "a": "kind",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” means something related to hands-on activities and physical involvement.",
+      "options": [
+        "Visual",
+        "Auditory",
+        "Kinesthetic",
+        "Colorful"
+      ],
+      "a": "Kinesthetic",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Her ............... in science made her a symbol of hope for many Egyptian girls.",
+      "options": [
+        "achievement",
+        "agreement",
+        "statement",
+        "equipment"
+      ],
+      "a": "achievement",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is a portable computer.",
+      "options": [
+        "laptop",
+        "website",
+        "smartboard",
+        "screen"
+      ],
+      "a": "laptop",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Dr. Samira died in a car ............... .",
+      "options": [
+        "achievement",
+        "discovery",
+        "accident",
+        "victory"
+      ],
+      "a": "accident",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A/An ............... is an electronic book you can read on a screen instead of on paper.",
+      "options": [
+        "notebook",
+        "pencil",
+        "pen",
+        "ebook"
+      ],
+      "a": "ebook",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... is to arrange or put things in a particular order or a neat way.",
+      "options": [
+        "learn",
+        "understand",
+        "organize",
+        "succeed"
+      ],
+      "a": "organize",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My mother takes ............... of the family.",
+      "options": [
+        "car",
+        "care",
+        "cup",
+        "drop"
+      ],
+      "a": "care",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is an interactive board used in classrooms for teaching lessons.",
+      "options": [
+        "whiteboard",
+        "tablet",
+        "smartboard",
+        "blackboard"
+      ],
+      "a": "smartboard",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is a visual tool used to organize information.",
+      "options": [
+        "student",
+        "school",
+        "mind map",
+        "car"
+      ],
+      "a": "mind map",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... are special methods or ways of doing something.",
+      "options": [
+        "Brushes",
+        "Watches",
+        "Schools",
+        "Techniques"
+      ],
+      "a": "Techniques",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Ahmed El-Mansy was a/an ............... in the Egyptian army.",
+      "options": [
+        "farmer",
+        "teacher",
+        "officer",
+        "nurse"
+      ],
+      "a": "officer",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A/An ............... is a flat surface on which pictures or words are shown.",
+      "options": [
+        "ebook",
+        "screen",
+        "smartboard",
+        "blackboard"
+      ],
+      "a": "screen",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Ahmed El-Mansy fought ............... and protected our country.",
+      "options": [
+        "friends",
+        "partners",
+        "terrorists",
+        "tourists"
+      ],
+      "a": "terrorists",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” means achieving what you wanted to do.",
+      "options": [
+        "Successful",
+        "Helpful",
+        "Kind",
+        "Fast"
+      ],
+      "a": "Successful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The soldier defended the ............... bravely and didn’t give up during the attack.",
+      "options": [
+        "courage",
+        "camp",
+        "bravery",
+        "care"
+      ],
+      "a": "camp",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... is the time you spend using devices like phones or computers.",
+      "options": [
+        "TV time",
+        "Screen time",
+        "Net time",
+        "Spare time"
+      ],
+      "a": "Screen time",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... is to make something better.",
+      "options": [
+        "eat",
+        "watch",
+        "improve",
+        "breathe"
+      ],
+      "a": "improve",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Something ............... means using computer technology or electronic devices.",
+      "options": [
+        "digital",
+        "normal",
+        "original",
+        "usual"
+      ],
+      "a": "digital",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Dr. Samira Moussa was a/an ............... of hope for many Egyptian girls.",
+      "options": [
+        "age",
+        "temple",
+        "symbol",
+        "ruler"
+      ],
+      "a": "symbol",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... are online platforms where people connect and share content.",
+      "options": [
+        "Keyboards",
+        "Printers",
+        "Social media",
+        "Ebooks"
+      ],
+      "a": "Social media",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A/An ............... is a person who does great things for others.",
+      "options": [
+        "school",
+        "selfish",
+        "spirit",
+        "hero"
+      ],
+      "a": "hero",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” means doing something often at the same times.",
+      "options": [
+        "Successfully",
+        "Regularly",
+        "Poorly",
+        "Rarely"
+      ],
+      "a": "Regularly",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“Amazing” and “...............” have the same meaning.",
+      "options": [
+        "local",
+        "digital",
+        "fantastic",
+        "dark"
+      ],
+      "a": "fantastic",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... is to motivate or encourage.",
+      "options": [
+        "inspire",
+        "stay",
+        "touch",
+        "watch"
+      ],
+      "a": "inspire",
+      "tag": "Vocabulary"
+    }
+  ],
+  "2": [
+    {
+      "q": "............... learners learn best by seeing information.",
+      "options": [
+        "Colorful",
+        "Kinesthetic",
+        "Auditory",
+        "Visual"
+      ],
+      "a": "Visual",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "What ............... devices do you use when you go online?",
+      "options": [
+        "handmade",
+        "plastic",
+        "digital",
+        "wooden"
+      ],
+      "a": "digital",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means friendly and caring.",
+      "options": [
+        "Kind",
+        "Thin",
+        "Sad",
+        "Bad"
+      ],
+      "a": "Kind",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... learners like to read books, look at pictures, and use colorful notes.",
+      "options": [
+        "Visual",
+        "Auditory",
+        "Colorful",
+        "Kinesthetic"
+      ],
+      "a": "Visual",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means not giving up easily.",
+      "options": [
+        "Fat",
+        "Slow",
+        "Fast",
+        "Determined"
+      ],
+      "a": "Determined",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Egypt has ............... the first hybrid bus in Aswan.",
+      "options": [
+        "closed",
+        "launched",
+        "damaged",
+        "painted"
+      ],
+      "a": "launched",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... learners often make maps and charts to organize information.",
+      "options": [
+        "Kinesthetic",
+        "Visual",
+        "Auditory",
+        "Colorful"
+      ],
+      "a": "Visual",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I always use the “...............” so the screen doesn't hurt my eyes.",
+      "options": [
+        "night moon",
+        "night mode",
+        "night calm",
+        "night owl"
+      ],
+      "a": "night mode",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means success in reaching a goal.",
+      "options": [
+        "Poverty",
+        "Treatment",
+        "Courage",
+        "Achievement"
+      ],
+      "a": "Achievement",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... learners learn best by hearing information.",
+      "options": [
+        "Colorful",
+        "Auditory",
+        "Visual",
+        "Kinesthetic"
+      ],
+      "a": "Auditory",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... is to feel admiration for someone.",
+      "options": [
+        "respect",
+        "spell",
+        "write",
+        "read"
+      ],
+      "a": "respect",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My favorite ............... has lots of useful information for students.",
+      "options": [
+        "website",
+        "car",
+        "park",
+        "pavement"
+      ],
+      "a": "website",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We use ............... devices like tablets and smartboards at school.",
+      "options": [
+        "digital",
+        "heavy",
+        "old",
+        "ancient"
+      ],
+      "a": "digital",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... learners like to listen to music while studying.",
+      "options": [
+        "Kinesthetic",
+        "Visual",
+        "Auditory",
+        "Colorful"
+      ],
+      "a": "Auditory",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is someone you admire and try to be like.",
+      "options": [
+        "bank",
+        "school",
+        "role model",
+        "university"
+      ],
+      "a": "role model",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... learners often repeat information out loud to remember it.",
+      "options": [
+        "Colorful",
+        "Kinesthetic",
+        "Visual",
+        "Auditory"
+      ],
+      "a": "Auditory",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Who is your ............... model in life?",
+      "options": [
+        "roll",
+        "rule",
+        "rail",
+        "role"
+      ],
+      "a": "role",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... learners learn best by moving and touching.",
+      "options": [
+        "Auditory",
+        "Visual",
+        "Kinesthetic",
+        "Colorful"
+      ],
+      "a": "Kinesthetic",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I usually use my tablet to ............... for news every morning.",
+      "options": [
+        "find",
+        "get",
+        "see",
+        "search"
+      ],
+      "a": "search",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Patients feel better after taking the ............... regularly.",
+      "options": [
+        "knowledge",
+        "accidents",
+        "treatment",
+        "researches"
+      ],
+      "a": "treatment",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Too much ............... can hurt your eyes and make you tired.",
+      "options": [
+        "bedtime",
+        "spare time",
+        "free time",
+        "screen time"
+      ],
+      "a": "screen time",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My mother is my ............... because she works hard and always encourages her students.",
+      "options": [
+        "role model",
+        "achievement",
+        "thinker",
+        "medal"
+      ],
+      "a": "role model",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... learners like to do experiments and build models.",
+      "options": [
+        "Colorful",
+        "Kinesthetic",
+        "Visual",
+        "Auditory"
+      ],
+      "a": "Kinesthetic",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Some students spend many hours on ............... like Facebook instead of studying.",
+      "options": [
+        "online games",
+        "school",
+        "social media",
+        "TV news"
+      ],
+      "a": "social media",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We all ............... Malak for working hard and never giving up on her goals.",
+      "options": [
+        "admire",
+        "determine",
+        "agree",
+        "appear"
+      ],
+      "a": "admire",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... learners often use their hands to help them think.",
+      "options": [
+        "Auditory",
+        "Visual",
+        "Kinesthetic",
+        "Colorful"
+      ],
+      "a": "Kinesthetic",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "You should use your phone ............... so you don't waste your time.",
+      "options": [
+        "wisely",
+        "loudly",
+        "widely",
+        "badly"
+      ],
+      "a": "wisely",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Understanding your learning ............... helps you study better.",
+      "options": [
+        "style",
+        "smile",
+        "stop",
+        "drop"
+      ],
+      "a": "style",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Winning the gold medal was a big ............... for our team.",
+      "options": [
+        "example",
+        "achievement",
+        "heart",
+        "community"
+      ],
+      "a": "achievement",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... uses electricity and fuel to help protect the environment.",
+      "options": [
+        "sports car",
+        "train",
+        "hybrid bus",
+        "bicycle"
+      ],
+      "a": "hybrid bus",
+      "tag": "Vocabulary"
+    }
+  ],
+  "3": [
+    {
+      "q": "You shouldn't disappoint your children. You should encourage and ............... them.",
+      "options": [
+        "hurt",
+        "kill",
+        "inspire",
+        "discover"
+      ],
+      "a": "inspire",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I learn best when my study space is ............... .",
+      "options": [
+        "physical",
+        "messy",
+        "organized",
+        "boring"
+      ],
+      "a": "organized",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The synonym of the word “reduce” is “...............”.",
+      "options": [
+        "increase",
+        "rise",
+        "decrease",
+        "meet"
+      ],
+      "a": "decrease",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“Brave” and “...............” have the same meaning.",
+      "options": [
+        "kind",
+        "courageous",
+        "known",
+        "cowardly"
+      ],
+      "a": "courageous",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I learn best when I ............... activities with my hands.",
+      "options": [
+        "do",
+        "make",
+        "have",
+        "forget"
+      ],
+      "a": "do",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We add the suffix “...............” to form the adjective from the word “digit”.",
+      "options": [
+        "-ment",
+        "-ance",
+        "-al",
+        "-ion"
+      ],
+      "a": "-al",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “...............” forms the noun of the verb “treat”.",
+      "options": [
+        "-ous",
+        "-ment",
+        "-tion",
+        "-ness"
+      ],
+      "a": "-ment",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My father is the most ............... person in my life.",
+      "options": [
+        "inspire",
+        "inspires",
+        "inspiring",
+        "inspired"
+      ],
+      "a": "inspiring",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We add the suffix “...............” to form the adjective from the word “help”.",
+      "options": [
+        "-ness",
+        "-ful",
+        "-ing",
+        "-ed"
+      ],
+      "a": "-ful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "When I study, I need to take short ............... to move my body.",
+      "options": [
+        "distractions",
+        "breaks",
+        "expressions",
+        "methods"
+      ],
+      "a": "breaks",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "You should ............... your time to succeed.",
+      "options": [
+        "dry",
+        "organize",
+        "develop",
+        "waste"
+      ],
+      "a": "organize",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... is one of the qualities a scientist needs to help their community.",
+      "options": [
+        "Determination",
+        "Determine",
+        "Determines",
+        "Determined"
+      ],
+      "a": "Determination",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The synonym of the word “educate” is “...............”.",
+      "options": [
+        "increase",
+        "protect",
+        "decrease",
+        "teach"
+      ],
+      "a": "teach",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Eating while looking at something on my ............... is a bad habit.",
+      "options": [
+        "oven",
+        "table",
+        "screen",
+        "school"
+      ],
+      "a": "screen",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Hassan isn't messy. He is very clean and “...............”.",
+      "options": [
+        "general",
+        "noisy",
+        "neat",
+        "plain"
+      ],
+      "a": "neat",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Dr. Samira Moussa showed a great love for science ............... an early age.",
+      "options": [
+        "for",
+        "from",
+        "on",
+        "of"
+      ],
+      "a": "from",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "In the evening, I sometimes play online ............... with my friend.",
+      "options": [
+        "tablets",
+        "games",
+        "boards",
+        "books"
+      ],
+      "a": "games",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” is the opposite of “noisy”.",
+      "options": [
+        "Lazy",
+        "Happy",
+        "Colorful",
+        "Quiet"
+      ],
+      "a": "Quiet",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Dr. Samira’s achievement in science made her a symbol of ............... for many Egyptian girls.",
+      "options": [
+        "happiness",
+        "hope",
+        "sadness",
+        "failure"
+      ],
+      "a": "hope",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... , my grandfather died in a car accident last year.",
+      "options": [
+        "Sad",
+        "Sadness",
+        "Sadly",
+        "Sadder"
+      ],
+      "a": "Sadly",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Our teachers show us amazing videos about planets and animals using the ............... in our class.",
+      "options": [
+        "ebook",
+        "book",
+        "smartboard",
+        "website"
+      ],
+      "a": "smartboard",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “...............” changes the verb “distract” into a noun.",
+      "options": [
+        "-ment",
+        "-ion",
+        "-able",
+        "-er"
+      ],
+      "a": "-ion",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I respect my mother as she never gives ............... in any situation.",
+      "options": [
+        "up",
+        "of",
+        "out",
+        "on"
+      ],
+      "a": "up",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My parents want me to ............... my screen time because it affects my sleep.",
+      "options": [
+        "increase",
+        "higher",
+        "reduce",
+        "repeat"
+      ],
+      "a": "reduce",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The words “inspire” and “encourage” are ............... .",
+      "options": [
+        "synonyms",
+        "adverbs",
+        "antonyms",
+        "adjectives"
+      ],
+      "a": "synonyms",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We can form the adjective from the verb “enjoy” by adding the suffix “...............”.",
+      "options": [
+        "-able",
+        "-er",
+        "-tion",
+        "-est"
+      ],
+      "a": "-able",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Digital devices are great, but I think we need to ............... them with outdoor activities.",
+      "options": [
+        "play",
+        "balance",
+        "spend",
+        "decrease"
+      ],
+      "a": "balance",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Visual learners often make maps and charts to ............... information.",
+      "options": [
+        "choose",
+        "organize",
+        "know",
+        "take"
+      ],
+      "a": "organize",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I respect my father as he never gives ............... even when things are hard.",
+      "options": [
+        "up",
+        "on",
+        "out",
+        "at"
+      ],
+      "a": "up",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The hybrid bus ............... on both electricity and diesel.",
+      "options": [
+        "plays",
+        "runs",
+        "walks",
+        "does"
+      ],
+      "a": "runs",
+      "tag": "Vocabulary"
+    }
+  ],
+  "4": [
+    {
+      "q": "Auditory learners like to listen to music, discuss topics, and hear ............... .",
+      "options": [
+        "experiments",
+        "sites",
+        "explanations",
+        "models"
+      ],
+      "a": "explanations",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Ahmed El-Mansy worked for the Egyptian army. This means he was a ............... .",
+      "options": [
+        "teacher",
+        "soldier",
+        "dentist",
+        "pilot"
+      ],
+      "a": "soldier",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "When you know how you learn best, you can choose the right ............... for yourself.",
+      "options": [
+        "map",
+        "chart",
+        "method",
+        "note"
+      ],
+      "a": "method",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The hybrid bus helps ............... pollution and protect the environment.",
+      "options": [
+        "low",
+        "reduce",
+        "increase",
+        "worsen"
+      ],
+      "a": "reduce",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Winning the first prize was a big ............... for our team.",
+      "options": [
+        "community",
+        "example",
+        "achievement",
+        "treatment"
+      ],
+      "a": "achievement",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Can you remind me of the deadline of the interview? The word “remind” here is a/an ............... .",
+      "options": [
+        "verb",
+        "adverb",
+        "adjective",
+        "noun"
+      ],
+      "a": "verb",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We form the noun from the adjective “kind” by adding the suffix “...............”.",
+      "options": [
+        "-ful",
+        "-ment",
+        "-ness",
+        "-ion"
+      ],
+      "a": "-ness",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "People who learn by doing activities prefer ............... learning.",
+      "options": [
+        "kinesthetic",
+        "distant",
+        "visual",
+        "auditory"
+      ],
+      "a": "kinesthetic",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Our teacher showed us amazing videos about animals. The word “amazing” here is a/an ............... .",
+      "options": [
+        "verb",
+        "noun",
+        "adjective",
+        "adverb"
+      ],
+      "a": "adjective",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Samira Moussa was a great scientist who made a big ............... in physics.",
+      "options": [
+        "achievement",
+        "website",
+        "problem",
+        "community"
+      ],
+      "a": "achievement",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "You should ............... your time before exams.",
+      "options": [
+        "develop",
+        "waste",
+        "organize",
+        "think"
+      ],
+      "a": "organize",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "When you get enough sleep, you stay ............... .",
+      "options": [
+        "distracted",
+        "focused",
+        "lazy",
+        "careless"
+      ],
+      "a": "focused",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "What technology do you use every day? The word “technology” here is a/an ............... .",
+      "options": [
+        "verb",
+        "adverb",
+        "adjective",
+        "noun"
+      ],
+      "a": "noun",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The synonym of the word “brave” is ............... .",
+      "options": [
+        "careful",
+        "courageous",
+        "messy",
+        "noisy"
+      ],
+      "a": "courageous",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I often read my ............... on my tablet.",
+      "options": [
+        "books",
+        "photos",
+        "images",
+        "ebooks"
+      ],
+      "a": "ebooks",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My father is the person who helps me all the time. he is my ............... model.",
+      "options": [
+        "Rule",
+        "Roll",
+        "Role",
+        "Real"
+      ],
+      "a": "Role",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Mind maps are visual tools used to ............... information.",
+      "options": [
+        "forget",
+        "organize",
+        "lose",
+        "hide"
+      ],
+      "a": "organize",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... your score, you should study hard.",
+      "options": [
+        "distract",
+        "sleep",
+        "improve",
+        "move"
+      ],
+      "a": "improve",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I want to ............... my digital day with you.",
+      "options": [
+        "draw",
+        "share",
+        "listen",
+        "watch"
+      ],
+      "a": "share",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Dr. Gamal Hemdan got his PhD from a ............... in England.",
+      "options": [
+        "university",
+        "school",
+        "hotel",
+        "bank"
+      ],
+      "a": "university",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Dr. Hemdan won many ............... , including the State Appreciation Award in 1986.",
+      "options": [
+        "awards",
+        "titles",
+        "books",
+        "rewards"
+      ],
+      "a": "awards",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The antonym of the word “useful” is “...............”.",
+      "options": [
+        "useless",
+        "helpful",
+        "correct",
+        "quiet"
+      ],
+      "a": "useless",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Good study habits are important for ............... .",
+      "options": [
+        "success",
+        "sadness",
+        "farming",
+        "playing"
+      ],
+      "a": "success",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Too much screen time might ............... your eyes.",
+      "options": [
+        "explore",
+        "receive",
+        "affect",
+        "save"
+      ],
+      "a": "affect",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Dr. Hemdan was not only a scientist, but also a deep ............... .",
+      "options": [
+        "player",
+        "trader",
+        "thinker",
+        "sinker"
+      ],
+      "a": "thinker",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The children promised to use the ............... they learned in their life.",
+      "options": [
+        "money",
+        "pounds",
+        "values",
+        "cats"
+      ],
+      "a": "values",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “neat” is the opposite of ............... .",
+      "options": [
+        "organized",
+        "messy",
+        "arranged",
+        "tidy"
+      ],
+      "a": "messy",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Students should ............... their screen time.",
+      "options": [
+        "ignore",
+        "balance",
+        "extend",
+        "forget"
+      ],
+      "a": "balance",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Dr. Gamal Hemdan was a famous Egyptian ............... and writer.",
+      "options": [
+        "mechanic",
+        "geographer",
+        "dentist",
+        "farmer"
+      ],
+      "a": "geographer",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Learning a new language is always a ............... , but it's very useful.",
+      "options": [
+        "challenge",
+        "gift",
+        "promise",
+        "mistake"
+      ],
+      "a": "challenge",
+      "tag": "Vocabulary"
+    }
+  ],
+  "5": [
+    {
+      "q": "The opposite of the word “protect” is ............... .",
+      "options": [
+        "teach",
+        "connect",
+        "learn",
+        "harm"
+      ],
+      "a": "harm",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “visual” means someone who learns best by ............... .",
+      "options": [
+        "watching",
+        "running",
+        "listening",
+        "reading aloud"
+      ],
+      "a": "watching",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Social media is a great ............... to bring people together.",
+      "options": [
+        "machine",
+        "tool",
+        "road",
+        "street"
+      ],
+      "a": "tool",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I prefer using ............... mode to protect my eyes in low light.",
+      "options": [
+        "morning",
+        "night",
+        "evening",
+        "mid-night"
+      ],
+      "a": "night",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Dr. Gamal Hemdan wrote about ............... land.",
+      "options": [
+        "Egypts’",
+        "Egypt’s",
+        "Egypts",
+        "Egypt"
+      ],
+      "a": "Egypt’s",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Learning in groups has more ............... than learning alone.",
+      "options": [
+        "benefits",
+        "trees",
+        "dresses",
+        "skirts"
+      ],
+      "a": "benefits",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Digital ............... help students to achieve their daily tasks.",
+      "options": [
+        "hooks",
+        "devices",
+        "clicks",
+        "games"
+      ],
+      "a": "devices",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "When students work in large or small groups, they ............... opinions.",
+      "options": [
+        "share",
+        "clean",
+        "sweep",
+        "sleep"
+      ],
+      "a": "share",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Dr. Hemdan ............... many awards.",
+      "options": [
+        "studied",
+        "won",
+        "read",
+        "ate"
+      ],
+      "a": "won",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Try to ............... the amount of plastic you use.",
+      "options": [
+        "respect",
+        "reduce",
+        "enjoy",
+        "prefer"
+      ],
+      "a": "reduce",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Tarek is a famous ............... . He is interested in geography.",
+      "options": [
+        "geologist",
+        "actor",
+        "geographer",
+        "dentist"
+      ],
+      "a": "geographer",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I often use my ............... to search for news.",
+      "options": [
+        "fridge",
+        "oven",
+        "tablet",
+        "bed"
+      ],
+      "a": "tablet",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Teamwork helps students ............... their skills and be confident.",
+      "options": [
+        "develop",
+        "hurt",
+        "damage",
+        "destroy"
+      ],
+      "a": "develop",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Dr. Hemdan believed Egypt’s location makes it ............... .",
+      "options": [
+        "locked",
+        "unknown",
+        "powerful",
+        "soft"
+      ],
+      "a": "powerful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “useless” is the opposite of “...............”.",
+      "options": [
+        "useful",
+        "essential",
+        "necessary",
+        "use"
+      ],
+      "a": "useful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Teamwork helps students communicate ............... others.",
+      "options": [
+        "to",
+        "with",
+        "of",
+        "at"
+      ],
+      "a": "with",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is someone who visits another country for fun.",
+      "options": [
+        "student",
+        "tourist",
+        "teacher",
+        "worker"
+      ],
+      "a": "tourist",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Teamwork teaches students ............... and leadership.",
+      "options": [
+        "stomach",
+        "heart",
+        "breath",
+        "cooperation"
+      ],
+      "a": "cooperation",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The antonym of the word “reduce” is “...............”.",
+      "options": [
+        "open",
+        "increase",
+        "support",
+        "decrease"
+      ],
+      "a": "increase",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The antonym of the word “afraid” is “...............”.",
+      "options": [
+        "weak",
+        "brave",
+        "scared",
+        "special"
+      ],
+      "a": "brave",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Teamwork helps students to be ............... thinkers.",
+      "options": [
+        "creative",
+        "sad",
+        "terrible",
+        "bad"
+      ],
+      "a": "creative",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To change the word “use” into an adjective, we add the suffix “...............”.",
+      "options": [
+        "-ive",
+        "-ful",
+        "-al",
+        "-ous"
+      ],
+      "a": "-ful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The words “...............” and \"strong\" have the same meaning.",
+      "options": [
+        "sad",
+        "powerful",
+        "rich",
+        "lazy"
+      ],
+      "a": "powerful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Learning with others helps students to ............... new friends.",
+      "options": [
+        "make",
+        "awake",
+        "sleep",
+        "do"
+      ],
+      "a": "make",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We use the prefix ............... to get the opposite of the word “regular”.",
+      "options": [
+        "ir-",
+        "il-",
+        "dis-",
+        "un-"
+      ],
+      "a": "ir-",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "E-books are easy to read. The letter \"e\" in e-books refers to ............... .",
+      "options": [
+        "electricity",
+        "electric",
+        "electronic",
+        "element"
+      ],
+      "a": "electronic",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We ............... experiments in the science lab.",
+      "options": [
+        "drink",
+        "leave",
+        "make",
+        "do"
+      ],
+      "a": "do",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The noun from the verb “agree” is ............... .",
+      "options": [
+        "agreed",
+        "agreement",
+        "agree less",
+        "agrees"
+      ],
+      "a": "agreement",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I use the ............... to write my assignments.",
+      "options": [
+        "keyboard",
+        "printer",
+        "mouse",
+        "webcam"
+      ],
+      "a": "keyboard",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Respect means we listen and ............... for each other.",
+      "options": [
+        "sleep",
+        "take",
+        "care",
+        "say"
+      ],
+      "a": "care",
+      "tag": "Vocabulary"
+    }
+  ],
+  "6": [
+    {
+      "q": "The prefix “...............” can form the antonym of the word “responsible”.",
+      "options": [
+        "im-",
+        "ir-",
+        "dis-",
+        "un-"
+      ],
+      "a": "ir-",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I use the ............... to move around the screen and click on things.",
+      "options": [
+        "webcam",
+        "mouse",
+        "printer",
+        "keyboard"
+      ],
+      "a": "mouse",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “apps” most likely means ............... .",
+      "options": [
+        "tools and devices",
+        "food and drinks",
+        "advertisements",
+        "computer programs"
+      ],
+      "a": "computer programs",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "When I watch videos or listen to music, I use my ............... or speakers.",
+      "options": [
+        "webcams",
+        "headphones",
+        "printers",
+        "keyboards"
+      ],
+      "a": "headphones",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Dr. Gamal Hemdan ............... the State Appreciation Award in 1986.",
+      "options": [
+        "won",
+        "lost",
+        "destroyed",
+        "forgot"
+      ],
+      "a": "won",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Let's ............... together.",
+      "options": [
+        "sing",
+        "sang",
+        "sings",
+        "singing"
+      ],
+      "a": "sing",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "If I want to make a video call with my friends online, I use the ............... .",
+      "options": [
+        "webcam",
+        "mouse",
+        "printer",
+        "keyboard"
+      ],
+      "a": "webcam",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Determination means not giving up, even when things are ............... .",
+      "options": [
+        "easy",
+        "clear",
+        "simple",
+        "hard"
+      ],
+      "a": "hard",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The children ............... every problem by working together.",
+      "options": [
+        "showed",
+        "had",
+        "made",
+        "solved"
+      ],
+      "a": "solved",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Sometimes, I have to record a presentation for class, so I use the ............... .",
+      "options": [
+        "webcam",
+        "mouse",
+        "microphone",
+        "printer"
+      ],
+      "a": "microphone",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I always ............... my lessons before an exam.",
+      "options": [
+        "try",
+        "review",
+        "find",
+        "avoid"
+      ],
+      "a": "review",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Teachers have a strong ............... skill to organize work in classrooms.",
+      "options": [
+        "science",
+        "digital",
+        "art",
+        "leadership"
+      ],
+      "a": "leadership",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "At school, my teacher uses a ............... to show us pictures, videos, and notes.",
+      "options": [
+        "webcam",
+        "smartboard",
+        "microphone",
+        "printer"
+      ],
+      "a": "smartboard",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We should always show ............... - doing the right thing even when no one was watching.",
+      "options": [
+        "change",
+        "cunning",
+        "curiosity",
+        "honesty"
+      ],
+      "a": "honesty",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I print my homework using the ............... .",
+      "options": [
+        "smartboard",
+        "printer",
+        "microphone",
+        "webcam"
+      ],
+      "a": "printer",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Respect, teamwork, courage and determination are the ............... we learned from the story.",
+      "options": [
+        "words",
+        "nouns",
+        "values",
+        "puzzles"
+      ],
+      "a": "values",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To think ............... means to think in a new and unusual way.",
+      "options": [
+        "loudly",
+        "quietly",
+        "creatively",
+        "simply"
+      ],
+      "a": "creatively",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Mustafa didn't succeed in the exam. He ............... it.",
+      "options": [
+        "refused",
+        "passed",
+        "accepted",
+        "failed"
+      ],
+      "a": "failed",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The prefix “...............” gives the opposite of “like”.",
+      "options": [
+        "in-",
+        "dis-",
+        "ir-",
+        "im-"
+      ],
+      "a": "dis-",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I forgot my ............... , so I couldn't listen to music.",
+      "options": [
+        "printer",
+        "smartboard",
+        "board",
+        "headphones"
+      ],
+      "a": "headphones",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We can get the opposite of the word “regular” by adding the prefix ............... .",
+      "options": [
+        "dis-",
+        "il-",
+        "ir-",
+        "im-"
+      ],
+      "a": "ir-",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “...............” changes the noun \"leader\" into another noun.",
+      "options": [
+        "-ment",
+        "-ship",
+        "-ive",
+        "-er"
+      ],
+      "a": "-ship",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Zahraa was late ............... school yesterday. Her teacher was so angry.",
+      "options": [
+        "at",
+        "for",
+        "in",
+        "to"
+      ],
+      "a": "for",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The synonym of the word “famous” is ............... .",
+      "options": [
+        "unknown",
+        "infamous",
+        "unfamous",
+        "well-known"
+      ],
+      "a": "well-known",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is used for writing and typing words and sentences on the computer.",
+      "options": [
+        "plane",
+        "keyboard",
+        "bus",
+        "car"
+      ],
+      "a": "keyboard",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “-ion” changes the verb “communicate” into a/an “...............”.",
+      "options": [
+        "noun",
+        "verb",
+        "adjective",
+        "adverb"
+      ],
+      "a": "noun",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Dr. Ghoniem worked hard to help people with kidney ............... .",
+      "options": [
+        "heroes",
+        "achievements",
+        "diseases",
+        "facts"
+      ],
+      "a": "diseases",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Learning with others has many ............... .",
+      "options": [
+        "apps",
+        "benefits",
+        "breaks",
+        "mistakes"
+      ],
+      "a": "benefits",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is a group of words that may share a common root word.",
+      "options": [
+        "notebook",
+        "workbook",
+        "word family",
+        "book"
+      ],
+      "a": "word family",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A/An ............... is a difficult task that tests your ability and strength.",
+      "options": [
+        "difference",
+        "achievement",
+        "team",
+        "challenge"
+      ],
+      "a": "challenge",
+      "tag": "Vocabulary"
+    }
+  ],
+  "7": [
+    {
+      "q": "Teamwork helps students to be ............... .",
+      "options": [
+        "invisible",
+        "difficult",
+        "creative",
+        "distracted"
+      ],
+      "a": "creative",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“Achieve” and “...............” are synonyms.",
+      "options": [
+        "succeed",
+        "fail",
+        "lose",
+        "throw"
+      ],
+      "a": "succeed",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is someone who leads a team.",
+      "options": [
+        "leader",
+        "doctor",
+        "student",
+        "patient"
+      ],
+      "a": "leader",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "You need to develop your skills to be ............... .",
+      "options": [
+        "confident",
+        "enjoyable",
+        "alone",
+        "free"
+      ],
+      "a": "confident",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To succeed in dealing with difficult problems means to ............... them.",
+      "options": [
+        "cause",
+        "overcome",
+        "start",
+        "create"
+      ],
+      "a": "overcome",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To form the noun of the verb “assign”, we add the suffix “...............”.",
+      "options": [
+        "-tion",
+        "-ous",
+        "-er",
+        "-ment"
+      ],
+      "a": "-ment",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Dr. Ghoniem developed new ............... for kidney transplants.",
+      "options": [
+        "rest",
+        "methods",
+        "Olympics",
+        "leader"
+      ],
+      "a": "methods",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We can change the verb “record” into a noun by adding the suffix “...............”.",
+      "options": [
+        "-ment",
+        "-er",
+        "-able",
+        "-ive"
+      ],
+      "a": "-er",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... makes learning easier.",
+      "options": [
+        "Cleaning",
+        "Painting",
+        "Cooperation",
+        "Drawing"
+      ],
+      "a": "Cooperation",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "He always does his homework ............... the computer.",
+      "options": [
+        "at",
+        "of",
+        "in",
+        "on"
+      ],
+      "a": "on",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I read a ............... about Dr. Ghoniem’s life.",
+      "options": [
+        "biography",
+        "geography",
+        "recipe",
+        "meal"
+      ],
+      "a": "biography",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Teamwork helps my friend to be ............... .",
+      "options": [
+        "unhappy",
+        "uncomfortable",
+        "shy",
+        "confident"
+      ],
+      "a": "confident",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "In kindergarten, children loved ............... new things.",
+      "options": [
+        "discovering",
+        "sending",
+        "paying",
+        "looking"
+      ],
+      "a": "discovering",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Dr. Ghoniem ............... young doctors to become better doctors.",
+      "options": [
+        "inspires",
+        "kills",
+        "discourages",
+        "stops"
+      ],
+      "a": "inspires",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "You can find ............... to your problems together.",
+      "options": [
+        "smartphones",
+        "solutions",
+        "benefits",
+        "tools"
+      ],
+      "a": "solutions",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Dr. Ghoniem is a ............... to many people.",
+      "options": [
+        "killer",
+        "hero",
+        "tree",
+        "liar"
+      ],
+      "a": "hero",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is a device used for printing texts or images on paper.",
+      "options": [
+        "keyboard",
+        "printer",
+        "mouse",
+        "webcam"
+      ],
+      "a": "printer",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "True heroes can make their community stronger and ............... .",
+      "options": [
+        "weaker",
+        "healthier",
+        "worse",
+        "fatter"
+      ],
+      "a": "healthier",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is a device that produces sound from a computer, phone, or music player.",
+      "options": [
+        "keyboard",
+        "printer",
+        "mouse",
+        "speaker"
+      ],
+      "a": "speaker",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "If you work hard and believe ............... yourself, you will reach your goals.",
+      "options": [
+        "of",
+        "in",
+        "at",
+        "on"
+      ],
+      "a": "in",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "It is important to ............... your skills.",
+      "options": [
+        "throw",
+        "hurt",
+        "develop",
+        "damage"
+      ],
+      "a": "develop",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A true hero can make a big ............... in their community.",
+      "options": [
+        "question",
+        "problem",
+        "difficult",
+        "difference"
+      ],
+      "a": "difference",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is a device used to type letters, numbers, and commands into a computer.",
+      "options": [
+        "webcam",
+        "keyboard",
+        "printer",
+        "mouse"
+      ],
+      "a": "keyboard",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is the people living in one particular area.",
+      "options": [
+        "community",
+        "café",
+        "dentist",
+        "teacher"
+      ],
+      "a": "community",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To have an unusual way of thinking is to think ............... .",
+      "options": [
+        "traditionally",
+        "creatively",
+        "carelessly",
+        "hard"
+      ],
+      "a": "creatively",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The teacher was ............... our performance during the experiment.",
+      "options": [
+        "doing",
+        "seeing",
+        "monitoring",
+        "ignoring"
+      ],
+      "a": "monitoring",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Working hard helps Ali ............... his goals.",
+      "options": [
+        "achieve",
+        "learn",
+        "read",
+        "forget"
+      ],
+      "a": "achieve",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is a person who is admired for having done something very brave.",
+      "options": [
+        "woman",
+        "girl",
+        "boy",
+        "hero"
+      ],
+      "a": "hero",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "You need strong internet if you want to ............... a video call.",
+      "options": [
+        "do",
+        "make",
+        "design",
+        "treat"
+      ],
+      "a": "make",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “...............” means courageous and not afraid.",
+      "options": [
+        "brave",
+        "fit",
+        "small",
+        "fast"
+      ],
+      "a": "brave",
+      "tag": "Vocabulary"
+    }
+  ],
+  "8": [
+    {
+      "q": "“...............” is the opposite of the word “succeed”.",
+      "options": [
+        "Feel",
+        "Full",
+        "Fail",
+        "Fill"
+      ],
+      "a": "Fail",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... is to help someone feel strong or hopeful.",
+      "options": [
+        "run",
+        "inspire",
+        "tell",
+        "say"
+      ],
+      "a": "inspire",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “important” is the opposite of “...............”.",
+      "options": [
+        "useful",
+        "essential",
+        "necessary",
+        "useless"
+      ],
+      "a": "useless",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... my English, I use learning styles when I study at home and at school.",
+      "options": [
+        "vote",
+        "improve",
+        "jump",
+        "dream"
+      ],
+      "a": "improve",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We use the prefix ............... to get the opposite of the word “correct”.",
+      "options": [
+        "ir-",
+        "dis-",
+        "un-",
+        "in-"
+      ],
+      "a": "in-",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "In English class, I try to ............... at the front to see the board clearly.",
+      "options": [
+        "set",
+        "sit",
+        "get",
+        "record"
+      ],
+      "a": "sit",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A/An ............... is something important you did after hard work.",
+      "options": [
+        "health",
+        "breath",
+        "weakness",
+        "achievement"
+      ],
+      "a": "achievement",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "When I get up, I always ............... my phone.",
+      "options": [
+        "wash",
+        "check",
+        "eat",
+        "drink"
+      ],
+      "a": "check",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... is to think someone is great or special.",
+      "options": [
+        "read",
+        "dislike",
+        "admire",
+        "hate"
+      ],
+      "a": "admire",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Plan how to ............... a better learner.",
+      "options": [
+        "record",
+        "share",
+        "become",
+        "take"
+      ],
+      "a": "become",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Ahmed doesn't feel ill today; he's ............... .",
+      "options": [
+        "lazy",
+        "healthy",
+        "little",
+        "kind"
+      ],
+      "a": "healthy",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I read messages from my friends and ............... to them.",
+      "options": [
+        "reply",
+        "jump",
+        "stay",
+        "remain"
+      ],
+      "a": "reply",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I use my tablet to search ............... the latest news.",
+      "options": [
+        "on",
+        "in",
+        "for",
+        "at"
+      ],
+      "a": "for",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I always ............... to my friends in English.",
+      "options": [
+        "take",
+        "stick",
+        "talk",
+        "draw"
+      ],
+      "a": "talk",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The words “love” and “...............” have the same meaning.",
+      "options": [
+        "like",
+        "hate",
+        "dislike",
+        "develop"
+      ],
+      "a": "like",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We like to draw ............... to remind us.",
+      "options": [
+        "communication",
+        "journal",
+        "diagrams",
+        "advice"
+      ],
+      "a": "diagrams",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We can get the noun from the verb “mark” by adding the suffix “...............”.",
+      "options": [
+        "-es",
+        "-er",
+        "-ly",
+        "-ive"
+      ],
+      "a": "-er",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We always use computers in the ............... class.",
+      "options": [
+        "AI",
+        "ICT",
+        "BC",
+        "BE"
+      ],
+      "a": "ICT",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I sometimes ............... online games with my friends.",
+      "options": [
+        "stay",
+        "play",
+        "wash",
+        "drop"
+      ],
+      "a": "play",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... is exchanging information through speaking, writing, or using other signals.",
+      "options": [
+        "Leadership",
+        "Distraction",
+        "Communication",
+        "Dictation"
+      ],
+      "a": "Communication",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“Destroy” is the opposite of the word “...............”.",
+      "options": [
+        "build",
+        "explain",
+        "like",
+        "ignore"
+      ],
+      "a": "build",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... a difference is a quality of inspiring persons.",
+      "options": [
+        "Doing",
+        "Making",
+        "Taking",
+        "Approving"
+      ],
+      "a": "Making",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I never read ebooks on my tablet. I think they are ............... .",
+      "options": [
+        "boring",
+        "good",
+        "fantastic",
+        "beautiful"
+      ],
+      "a": "boring",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "You should ............... the language to speak well.",
+      "options": [
+        "take",
+        "listen",
+        "practice",
+        "organize"
+      ],
+      "a": "practice",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... help me organize and memorize information.",
+      "options": [
+        "Styles",
+        "Pronunciation",
+        "Vocabulary",
+        "Mind maps"
+      ],
+      "a": "Mind maps",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "My morning ............... starts with checking my phone.",
+      "options": [
+        "test",
+        "routine",
+        "study",
+        "exam"
+      ],
+      "a": "routine",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "When we write about our role models, we should write 3-4 ............... or good qualities they have.",
+      "options": [
+        "strong",
+        "strengths",
+        "strings",
+        "stop"
+      ],
+      "a": "strengths",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I always ............... ideas with my friends to help each other.",
+      "options": [
+        "practice",
+        "try",
+        "help",
+        "share"
+      ],
+      "a": "share",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Dr. Ghoniem worked hard to help people with ............... diseases.",
+      "options": [
+        "kidney",
+        "heart",
+        "stomach",
+        "lung"
+      ],
+      "a": "kidney",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The question was easy. It’s ............... .",
+      "options": [
+        "complex",
+        "difficult",
+        "simple",
+        "daily"
+      ],
+      "a": "simple",
+      "tag": "Vocabulary"
+    }
+  ],
+  "9": [
+    {
+      "q": "Dr. Ghoniem developed new methods for kidney ............... .",
+      "options": [
+        "translations",
+        "transforms",
+        "transplants",
+        "transfers"
+      ],
+      "a": "transplants",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We can ............... our emails with a phrase like: Write back soon!",
+      "options": [
+        "start",
+        "end",
+        "pause",
+        "continue"
+      ],
+      "a": "end",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "You can record your pronunciation to ............... your language.",
+      "options": [
+        "organize",
+        "improve",
+        "remind",
+        "see"
+      ],
+      "a": "improve",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "One person can ............... a big difference when they care about and love their work.",
+      "options": [
+        "make",
+        "do",
+        "take",
+        "leave"
+      ],
+      "a": "make",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "You should be kind and ............... when you sit in a roundtable.",
+      "options": [
+        "respect",
+        "respected",
+        "respectful",
+        "respects"
+      ],
+      "a": "respectful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Pollution has a very dangerous ............... on the environment.",
+      "options": [
+        "impact",
+        "gloves",
+        "respect",
+        "rules"
+      ],
+      "a": "impact",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I use ............... styles when I study at school.",
+      "options": [
+        "learning",
+        "studying",
+        "recording",
+        "practicing"
+      ],
+      "a": "learning",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We all ............... Adel as he works hard and never gives up on his study.",
+      "options": [
+        "disappear",
+        "hate",
+        "admire",
+        "leave"
+      ],
+      "a": "admire",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The opposite of “difficult” is ............... .",
+      "options": [
+        "hard",
+        "complex",
+        "easy",
+        "happy"
+      ],
+      "a": "easy",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Students work together to design an ............... poster that teaches others how to stay safe online.",
+      "options": [
+        "eye-catching",
+        "eye-catcher",
+        "eye-caught",
+        "eye-catch"
+      ],
+      "a": "eye-catching",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The prefix “...............” can form the antonym of the word “kind”.",
+      "options": [
+        "un-",
+        "im-",
+        "ir-",
+        "dis-"
+      ],
+      "a": "un-",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “...............” changes the verb enjoy into an adjective.",
+      "options": [
+        "-er",
+        "-ive",
+        "-able",
+        "-ion"
+      ],
+      "a": "-able",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "After school, I often go ............... searching for the information for my homework.",
+      "options": [
+        "offline",
+        "online",
+        "inline",
+        "in a line"
+      ],
+      "a": "online",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To be keen to learn or know more about something means ............... .",
+      "options": [
+        "thin",
+        "fat",
+        "fast",
+        "curious"
+      ],
+      "a": "curious",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "You can make something better by ............... it.",
+      "options": [
+        "improving",
+        "cutting",
+        "helping",
+        "feeding"
+      ],
+      "a": "improving",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I am writing this email to tell you about my ............... day.",
+      "options": [
+        "digit",
+        "digital",
+        "digits",
+        "digestible"
+      ],
+      "a": "digital",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The word “succeed” is the opposite of “...............”.",
+      "options": [
+        "feel",
+        "full",
+        "fill",
+        "fail"
+      ],
+      "a": "fail",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... means to move the head up and down to show agreement.",
+      "options": [
+        "Nod",
+        "Offer",
+        "Support",
+        "Disagree"
+      ],
+      "a": "Nod",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A speaker is a device that ............... .",
+      "options": [
+        "types letters",
+        "prints paper",
+        "takes photos",
+        "produces sound"
+      ],
+      "a": "produces sound",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We can get the noun from the verb “speak” by adding the suffix “...............”.",
+      "options": [
+        "-ion",
+        "-er",
+        "-ment",
+        "-ly"
+      ],
+      "a": "-er",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "If you think carefully before you decide, you will ............... problems.",
+      "options": [
+        "affect",
+        "avoid",
+        "join",
+        "encourage"
+      ],
+      "a": "avoid",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix ............... can form the noun from the verb \"treat\".",
+      "options": [
+        "-ment",
+        "-able",
+        "-ily",
+        "-ness"
+      ],
+      "a": "-ment",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "E-books are easy to read. The letter \"e\" in e-books refers to ............... .",
+      "options": [
+        "electricity",
+        "electric",
+        "electronic",
+        "element"
+      ],
+      "a": "electronic",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I prefer using ............... mode to protect my eyes in low light.",
+      "options": [
+        "morning",
+        "night",
+        "evening",
+        "mid-night"
+      ],
+      "a": "night",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I always use the “...............” so the screen doesn't hurt my eyes.",
+      "options": [
+        "night moon",
+        "night mode",
+        "night calm",
+        "night owl"
+      ],
+      "a": "night mode",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I usually use my tablet to ............... for news every morning.",
+      "options": [
+        "find",
+        "get",
+        "see",
+        "search"
+      ],
+      "a": "search",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... learners learn best by moving and touching.",
+      "options": [
+        "Auditory",
+        "Visual",
+        "Kinesthetic",
+        "Colorful"
+      ],
+      "a": "Kinesthetic",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... is to motivate or encourage.",
+      "options": [
+        "inspire",
+        "stay",
+        "touch",
+        "watch"
+      ],
+      "a": "inspire",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... learners like to do experiments and build models.",
+      "options": [
+        "Colorful",
+        "Kinesthetic",
+        "Visual",
+        "Auditory"
+      ],
+      "a": "Kinesthetic",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is someone you admire and try to be like.",
+      "options": [
+        "bank",
+        "school",
+        "role model",
+        "university"
+      ],
+      "a": "role model",
+      "tag": "Vocabulary"
+    }
+  ]
+};
+
+// ============================================================
+//  App
+// ============================================================
+let currentModel = 1;
+let studentName = '';
+let quiz = [];              // questions of the current attempt (after shuffling)
+let wrongAnswersLog = [];
+let skillStats = {};
+const SKILL_ORDER = ['Vocabulary', 'Grammar', 'Reading', 'Phonics'];
+const skillKeys = () => SKILL_ORDER.filter(k => skillStats[k]).concat(Object.keys(skillStats).filter(k => SKILL_ORDER.indexOf(k) < 0));
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const t = a[i]; a[i] = a[j]; a[j] = t;
+  }
+  return a;
+}
+
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  $(id).classList.add('active');
+  window.scrollTo(0, 0);
+}
+
+window.onload = () => {
+  const tabs = $('model-tabs');
+  for (let i = 1; i <= 9; i++) {
+    const b = document.createElement('button');
+    b.className = 'tab-btn';
+    b.innerText = `Module ${i}`;
+    b.onclick = () => startApp(i);
+    tabs.appendChild(b);
+  }
+  if (TEACHER_PHONE) {
+    $('teacher-phone-group').style.display = 'none';
+  } else {
+    try { $('teacherPhone').value = localStorage.getItem('teacherPhone') || ''; } catch (e) { /* storage not available */ }
+  }
+};
+
+function startApp(id) {
+  const n = $('studentName');
+  if (!n.value.trim()) {
+    alert('Please enter your name first!\nمن فضلك اكتب اسمك يا بطل');
+    n.focus();
+    return;
+  }
+  studentName = n.value.trim();
+  loadModel(id);
+  showScreen('quiz-screen');
+}
+
+function updateProgress() {
+  const done = document.querySelectorAll('#quiz-content input[type=radio]:checked').length;
+  $('progress-bar').style.width = `${done / quiz.length * 100}%`;
+}
+
+function loadModel(id) {
+  currentModel = id;
+  const base = allModels[String(id)].map(x => ({
+    q: x.q, a: x.a, tag: x.tag,
+    options: SHUFFLE_OPTIONS ? shuffle(x.options) : x.options.slice()
+  }));
+  quiz = SHUFFLE_QUESTIONS ? shuffle(base) : base;
+
+  $('model-title').innerText = `📝 Prep 1 - Units 1-3 - Module ${id}`;
+  $('question-counter').innerText = `${quiz.length} multiple-choice questions`;
+  $('progress-bar').style.width = '0%';
+
+  const c = $('quiz-content');
+  c.innerHTML = '';
+  quiz.forEach((x, i) => {
+    const card = document.createElement('div');
+    card.className = 'question-card';
+
+    const readingMatch = x.tag === 'Reading' ? x.q.match(/^Read:\s*[“\"]([\s\S]*?)[”\"]\s*(.*)$/) : null;
+    if (readingMatch) {
+      const passage = document.createElement('div');
+      passage.className = 'reading-passage';
+      passage.innerText = `📖 ${readingMatch[1]}`;
+      card.appendChild(passage);
+      const q = document.createElement('div');
+      q.className = 'reading-question';
+      q.innerText = `${i + 1}. ${readingMatch[2]}`;
+      card.appendChild(q);
+    } else {
+      const q = document.createElement('div');
+      q.className = 'question-text';
+      q.innerText = `${i + 1}. ${x.q}`;
+      card.appendChild(q);
+    }
+
+    const g = document.createElement('div');
+    g.className = 'options-grid';
+    x.options.forEach(o => {
+      const l = document.createElement('label');
+      l.className = 'option-label';
+      const r = document.createElement('input');
+      r.type = 'radio';
+      r.name = `q${i}`;
+      r.value = o;
+      r.onchange = () => {
+        g.querySelectorAll('.option-label').forEach(el => el.classList.remove('selected'));
+        l.classList.add('selected');
+        updateProgress();
+      };
+      l.appendChild(r);
+      l.appendChild(document.createTextNode(o));
+      g.appendChild(l);
+    });
+    card.appendChild(g);
+    c.appendChild(card);
+  });
+}
+
+function submitQuiz() {
+  const answered = quiz.filter((_, i) => document.querySelector(`input[name=q${i}]:checked`)).length;
+  const ok = answered < quiz.length
+    ? confirm(`You answered ${answered} of ${quiz.length}. Finish anyway?`)
+    : confirm('Are you sure you want to finish the quiz?');
+  if (ok) gradeQuiz();
+}
+
+function gradeQuiz() {
+  let score = 0;
+  wrongAnswersLog = [];
+  skillStats = {};
+  quiz.forEach((x, i) => {
+    if (!skillStats[x.tag]) skillStats[x.tag] = { correct: 0, total: 0 };
+    const st = skillStats[x.tag];
+    st.total++;
+    const sel = document.querySelector(`input[name=q${i}]:checked`);
+    if (sel && sel.value === x.a) {
+      score++;
+      st.correct++;
+    } else {
+      wrongAnswersLog.push({ n: i + 1, q: x.q, user: sel ? sel.value : 'No Answer', correct: x.a, tag: x.tag });
+    }
+  });
+  showResults(score, quiz.length);
+}
+
+function showResults(score, total) {
+  showScreen('result-screen');
+
+  const s = $('score-display');
+  s.innerText = `${score}/${total}`;
+  const noAnswer = wrongAnswersLog.filter(x => x.user === 'No Answer').length;
+  $('result-summary').innerText = `Answered: ${total - noAnswer}/${total} | Mistakes: ${wrongAnswersLog.length}`;
+
+  // per-skill chips
+  $('skills-box').innerHTML = skillKeys().map(k => {
+    const st = skillStats[k];
+    const p = st.correct / st.total;
+    const cls = p >= 0.8 ? 'good' : p >= 0.5 ? 'mid' : 'low';
+    return `<div class="skill-chip ${cls}">${esc(k)}<small>${st.correct}/${st.total}</small></div>`;
+  }).join('');
+
+  // mistakes review
+  const box = $('mistakes-section');
+  if (wrongAnswersLog.length) {
+    box.innerHTML = '<div class="mistakes-title" lang="ar" dir="rtl">مراجعة الأخطاء</div>' +
+      wrongAnswersLog.map(x => {
+        const user = x.user === 'No Answer' ? 'لم تجب' : x.user;
+        return `<div class="mistake-item">
+          <div class="mistake-q">${x.n}. ${esc(x.q)}</div>
+          <div class="wrong-answer" lang="ar" dir="rtl">❌ إجابتك: <bdi>${esc(user)}</bdi></div>
+          <div class="correct-answer" lang="ar" dir="rtl">✅ الإجابة الصحيحة: <bdi>${esc(x.correct)}</bdi></div>
+        </div>`;
+      }).join('');
+  } else {
+    box.innerHTML = '<div class="mistakes-title" lang="ar" dir="rtl" style="color:#168f62">ممتاز! لا توجد أخطاء 🎉</div>';
+  }
+
+  // encouragement (Arabic, name isolated so it never scrambles the sentence)
+  const p = score / total * 100;
+  const m = $('encouragement-msg');
+  const nm = `<bdi>${esc(studentName)}</bdi>`;
+  m.lang = 'ar'; m.dir = 'rtl';
+  if (p === 100)      { s.style.background = '#2ed573'; m.innerHTML = `ممتاز يا ${nm}! 🏆`; }
+  else if (p >= 80)   { s.style.background = '#1e90ff'; m.innerHTML = `رائع يا ${nm}! 💪`; }
+  else if (p >= 50)   { s.style.background = '#ffa502'; m.innerHTML = `جيد يا ${nm}، راجع أخطاءك 👍`; }
+  else                { s.style.background = '#ff4757'; m.innerHTML = `لا تيأس يا ${nm}، حاول مرة أخرى ❤️`; }
+}
+
+function retryModule() {
+  loadModel(currentModel);
+  showScreen('quiz-screen');
+}
+
+function backToModules() {
+  showScreen('welcome-screen');   // the student name stays filled in
+}
+
+// ---------- WhatsApp report ----------
+function normalizePhone(v) {
+  let d = String(v).replace(/\D/g, '');
+  if (d.indexOf('0020') === 0) d = d.slice(4);                          // 0020 1xx...
+  else if (d.indexOf('20') === 0 && d.length >= 12) d = d.slice(2);     // +20 1xx...
+  if (d.charAt(0) === '0') d = d.slice(1);                              // 01xx...
+  return (d.length === 10 && d.charAt(0) === '1') ? '20' + d : null;
+}
+
+function getTeacherPhone() {
+  const input = TEACHER_PHONE || $('teacherPhone').value;
+  const phone = normalizePhone(input);
+  if (!phone) {
+    alert('Please enter a valid Egyptian mobile number, e.g. 01xxxxxxxxx\nمن فضلك اكتب رقم موبايل مصري صحيح');
+    return null;
+  }
+  if (!TEACHER_PHONE) {
+    try { localStorage.setItem('teacherPhone', $('teacherPhone').value.trim()); } catch (e) { /* ignore */ }
+  }
+  return phone;
+}
+
+// For reading questions, drop the passage and keep only the question itself
+function shortQuestion(q) {
+  const i = q.lastIndexOf('”');
+  return (q.indexOf('Read:') === 0 && i > -1) ? q.slice(i + 1).trim() : q;
+}
+
+function sendWhatsApp() {
+  const phone = getTeacherPhone();
+  if (!phone) return;
+
+  const skills = skillKeys().map(k => `${k} ${skillStats[k].correct}/${skillStats[k].total}`).join(' | ');
+  let msg = `*Units 1-3 Revision - Prep 1*\n--------------------\n` +
+            `👤 *Student:* ${studentName}\n` +
+            `📝 *Module:* ${currentModel}\n` +
+            `📊 *Score:* ${$('score-display').innerText}\n` +
+            `🧩 *Skills:* ${skills}\n`;
+
+  if (wrongAnswersLog.length) {
+    msg += `\n*Mistakes (${wrongAnswersLog.length}):*\n`;
+    wrongAnswersLog.slice(0, MAX_MISTAKES_IN_REPORT).forEach(x => {
+      msg += `• [${x.tag}] ${shortQuestion(x.q)} → ${x.user} ✗ (correct: ${x.correct})\n`;
+    });
+    if (wrongAnswersLog.length > MAX_MISTAKES_IN_REPORT) {
+      msg += `… and ${wrongAnswersLog.length - MAX_MISTAKES_IN_REPORT} more\n`;
+    }
+  } else {
+    msg += '🎉 *Perfect score!*';
+  }
+
+  window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`, '_blank');
+}
+
+</script>
+</body>
+</html>

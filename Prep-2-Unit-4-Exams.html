@@ -1,0 +1,1699 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unit 4 Revision | Prep 2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Fredoka:wght@400;600&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--primary:#ff9f43;--secondary:#00b894;--accent:#54a0ff;--dark:#222f3e;--bg:#f7f1e3;--danger:#ff6b6b}
+*{box-sizing:border-box;margin:0;padding:0;font-family:'Nunito','Cairo',sans-serif}body{background:var(--bg);background-image:radial-gradient(#00d2d3 1px,transparent 1px);background-size:20px 20px;color:var(--dark);min-height:100vh;display:flex;flex-direction:column;align-items:center}header{background:#fff;width:100%;padding:20px;text-align:center;box-shadow:0 4px 15px #0001;border-bottom:5px solid var(--primary)}h1{color:#00a8a8;font-family:Fredoka,sans-serif;font-size:2.2rem;text-shadow:2px 2px 0 #222f3e;margin-bottom:5px}h2{color:var(--primary);font-size:1.1rem}.container{width:95%;max-width:850px;margin:20px auto;background:white;border-radius:20px;box-shadow:0 10px 25px #0001;padding:20px;border:3px solid #00d2d3;flex:1}.screen{display:none;animation:fadeIn .4s ease-in-out}.screen.active{display:block}.input-group{margin:20px 0;text-align:center}label{display:block;font-size:1.2rem;margin-bottom:10px;font-weight:bold}input[type=text],input[type=number]{width:80%;padding:14px;font-size:1.1rem;border:3px solid #00d2d3;border-radius:50px;outline:none;text-align:center;background:#f9f9f9}input:focus{border-color:var(--primary);box-shadow:0 0 15px #ff9f434d}.btn{background:var(--primary);color:white;border:0;padding:14px 34px;font-size:1.1rem;border-radius:50px;cursor:pointer;font-weight:bold;box-shadow:0 5px 0 #e58e26;transition:.2s;margin-top:18px;width:100%;max-width:300px}.btn:active{transform:translateY(5px);box-shadow:none}.btn-blue{background:var(--accent);box-shadow:0 5px 0 #2e86de}.btn-whatsapp{background:#25d366;box-shadow:0 5px 0 #128c7e}.nav-tabs{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:20px;padding-top:15px;border-top:2px dashed #eee}.tab-btn{background:#f1f2f6;border:2px solid #dfe4ea;padding:12px 20px;border-radius:15px;cursor:pointer;font-weight:bold;font-size:1.05rem;color:#747d8c;min-width:120px}.tab-btn:hover{background:#fff;border-color:var(--primary);color:var(--primary);transform:translateY(-2px)}.question-card{background:#fff;border:2px solid #f1f2f6;border-left:5px solid var(--accent);padding:18px;margin-bottom:16px;border-radius:15px}.question-text{font-size:1.12rem;font-weight:700;margin-bottom:13px;line-height:1.5}.reading-passage{background:#eef7ff;border:2px solid #b9ddff;border-radius:12px;padding:12px 14px;margin-bottom:12px;color:#24527a;font-size:1rem;line-height:1.65;font-weight:600}.reading-question{background:#fff8e8;border-left:4px solid #ff9f43;border-radius:8px;padding:10px 12px;margin-bottom:13px;color:#9a5b00;font-size:1.08rem;font-weight:700;line-height:1.5}.options-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.option-label{display:flex;align-items:center;background:#f8f9fa;padding:11px;border-radius:10px;border:2px solid #eee;cursor:pointer;font-size:1rem}.option-label:hover{border-color:var(--accent);background:#eef5ff}input[type=radio]{margin-right:10px;width:19px;height:19px;accent-color:var(--primary)}.progress{background:#eee;border-radius:20px;height:12px;margin:10px 0 20px;overflow:hidden}.progress-bar{height:100%;background:var(--secondary);width:0;transition:.3s}.score-circle{width:160px;height:160px;border-radius:50%;background:var(--secondary);color:#fff;display:flex;justify-content:center;align-items:center;font-size:3rem;font-weight:bold;margin:20px auto;border:6px solid #fff;box-shadow:0 0 0 6px var(--secondary)}.message{text-align:center;font-size:1.35rem;color:var(--primary);margin-bottom:25px;font-weight:bold}.report-section{background:#f1f2f6;padding:20px;border-radius:15px;margin-top:20px;text-align:center}.summary{text-align:center;font-weight:bold;color:#555;margin-bottom:8px}.mistakes-section{margin:15px 0;padding:15px;background:#fff5f5;border:2px solid #ffd0d0;border-radius:15px}.mistakes-title{color:#d63031;text-align:center;font-weight:bold;margin-bottom:10px;font-family:Cairo}.mistake-item{padding:9px 0;border-bottom:1px solid #ffdede;line-height:1.5}.mistake-item:last-child{border-bottom:0}.mistake-q{font-weight:bold}.wrong-answer{color:#d63031}.correct-answer{color:#168f62}footer{padding:20px;font-size:1rem;color:#666;text-align:center;font-weight:bold;background:#fff;width:100%;margin-top:20px;border-top:1px solid #eee}.heart{color:red}@keyframes fadeIn{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}@media(max-width:600px){.options-grid{grid-template-columns:1fr}h1{font-size:1.8rem}.score-circle{width:130px;height:130px;font-size:2.5rem}.container{width:100%;border:none;border-radius:0}.tab-btn{width:45%}}
+
+/* ---- additions ---- */
+input[type=tel]{width:80%;padding:14px;font-size:1.1rem;border:3px solid #00d2d3;border-radius:50px;outline:none;text-align:center;background:#f9f9f9}
+.option-label:focus-within{border-color:var(--accent);background:#eef5ff}
+.option-label.selected{border-color:var(--primary);background:#fff4e6}
+.skills-title{text-align:center;font-family:Cairo,sans-serif;font-weight:bold;color:#555;margin:16px 0 8px}
+.skills{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:18px}
+.skill-chip{border:2px solid #dfe4ea;background:#f1f2f6;border-radius:14px;padding:8px 16px;min-width:120px;text-align:center;font-weight:bold}
+.skill-chip small{display:block;font-size:1.05rem;margin-top:2px}
+.skill-chip.good{border-color:#2ed573;background:#eafaf1;color:#168f62}
+.skill-chip.mid{border-color:#ffa502;background:#fff6e5;color:#b36b00}
+.skill-chip.low{border-color:#ff6b6b;background:#fff0f0;color:#d63031}
+.actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:15px}
+.actions .btn{margin-top:0}
+.mistake-item bdi{font-weight:bold}
+@media(prefers-reduced-motion:reduce){.screen{animation:none}.btn,.tab-btn,.progress-bar{transition:none}}
+
+/* ---- additions ---- */
+.options-grid label:last-child:nth-child(odd){grid-column:1/-1}
+/* ---- contact bar ---- */
+.contact-bar{width:100%;background:var(--dark);color:#fff;border-bottom:4px solid var(--primary);padding:10px 12px;display:flex;flex-wrap:wrap;gap:8px 14px;justify-content:center;align-items:center;font-family:'Cairo','Nunito',sans-serif}
+.contact-bar .cb-name{font-family:Fredoka,'Cairo',sans-serif;font-weight:600;font-size:1.05rem;letter-spacing:.3px}
+.contact-bar .cb-links{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.contact-bar a{color:#fff;text-decoration:none;font-weight:bold;font-size:.95rem;padding:6px 16px;border-radius:50px;background:rgba(255,255,255,.14);transition:.2s}
+.contact-bar a:hover{transform:translateY(-2px)}
+.contact-bar a.wa{background:#25d366}
+.contact-bar a.call{background:var(--accent)}
+</style>
+</head>
+<body>
+<div class="contact-bar">
+  <span class="cb-name">Mrs. Eman Koriem</span>
+  <span class="cb-links">
+    <a class="call" href="tel:+201023990505">📞 01023990505</a>
+    <a class="wa" href="https://wa.me/201023990505" target="_blank" rel="noopener" lang="ar" dir="rtl">💬 تواصل عبر الواتس</a>
+  </span>
+</div>
+
+<header><h1>Unit 4 Revision - Prep 2</h1><h2>Vocabulary</h2></header>
+<div class="container">
+
+<section id="welcome-screen" class="screen active">
+  <div class="input-group">
+    <div style="font-size:3rem;margin-bottom:10px">👋</div>
+    <h3 lang="ar" dir="rtl" style="margin-bottom:20px;font-family:Cairo">أهلاً بك يا بطل!</h3>
+    <label for="studentName">Enter Student Name:</label>
+    <input type="text" id="studentName" placeholder="e.g., Ahmed Ali" autocomplete="off">
+  </div>
+  <p lang="ar" dir="rtl" style="text-align:center;color:var(--dark);font-weight:bold;font-family:Cairo;font-size:1.15rem">اختر الموديول لتبدأ الاختبار</p>
+  <div class="nav-tabs" id="model-tabs"></div>
+</section>
+
+<section id="quiz-screen" class="screen">
+  <div style="text-align:center;margin-bottom:15px">
+    <h3 id="model-title" style="color:var(--primary)"></h3>
+    <div id="question-counter" class="summary"></div>
+  </div>
+  <div class="progress"><div id="progress-bar" class="progress-bar"></div></div>
+  <div id="quiz-content"></div>
+  <div style="text-align:center;padding-bottom:20px"><button class="btn" onclick="submitQuiz()">Submit Answers ✅</button></div>
+</section>
+
+<section id="result-screen" class="screen">
+  <div class="score-circle" id="score-display">0/30</div>
+  <div class="message" id="encouragement-msg"></div>
+  <div class="summary" id="result-summary"></div>
+  <div class="skills-title" lang="ar" dir="rtl">مستواك في كل مهارة</div>
+  <div class="skills" id="skills-box"></div>
+  <div id="mistakes-section" class="mistakes-section"></div>
+  <div class="report-section">
+    <h3 lang="ar" dir="rtl" style="margin-bottom:15px;font-family:Cairo">أرسل التقرير للمستر</h3>
+    <div id="teacher-phone-group">
+      <label for="teacherPhone" style="font-size:1rem">Teacher's WhatsApp Number:</label>
+      <input type="tel" id="teacherPhone" placeholder="01xxxxxxxxx" inputmode="numeric" autocomplete="off">
+    </div>
+    <button class="btn btn-whatsapp" onclick="sendWhatsApp()">Send via WhatsApp 💬</button>
+  </div>
+  <div class="actions">
+    <button class="btn" onclick="retryModule()">Retry This Module 🔁</button>
+    <button class="btn btn-blue" onclick="backToModules()">Try Another Module 🔄</button>
+  </div>
+</section>
+
+</div>
+<footer>Made with Love by Mr. Ameen Sharqawy <span class="heart">❤</span></footer>
+
+<script>
+// ============================================================
+//  Settings (تقدر تعدلهم بسهولة)
+// ============================================================
+// Put the teacher's number here (e.g. '01012345678') to hide the phone box from students.
+// Leave it empty '' and the student types it once (it is remembered on that device).
+const TEACHER_PHONE = '';
+const SHUFFLE_QUESTIONS = true;   // random question order every attempt
+const SHUFFLE_OPTIONS   = true;   // random answer order every attempt
+const MAX_MISTAKES_IN_REPORT = 10;
+
+// ============================================================
+//  Questions  (tag = Vocabulary | Grammar | Reading)
+// ============================================================
+const allModels = {
+  "1": [
+    {
+      "q": "“...............” is a piece of creative work.",
+      "options": [
+        "Courage",
+        "Artwork",
+        "Self-discovery",
+        "Love"
+      ],
+      "a": "Artwork",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” is an object made by shaping materials like stone, wood, etc.",
+      "options": [
+        "Meme",
+        "Health",
+        "Sculpture",
+        "Tree"
+      ],
+      "a": "Sculpture",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” is a material used for making pottery and sculptures.",
+      "options": [
+        "Personality",
+        "Clay",
+        "Parent",
+        "Emotion"
+      ],
+      "a": "Clay",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” means allowing people to take part or respond directly.",
+      "options": [
+        "True",
+        "Special",
+        "Interactive",
+        "Bad"
+      ],
+      "a": "Interactive",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” means very hard to believe; amazing.",
+      "options": [
+        "True",
+        "Fake",
+        "Incredible",
+        "Tall"
+      ],
+      "a": "Incredible",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” means more important than usual.",
+      "options": [
+        "Fat",
+        "Small",
+        "Smart",
+        "Special"
+      ],
+      "a": "Special",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” means to be worth a lot of money.",
+      "options": [
+        "Terrible",
+        "Bad",
+        "Brave",
+        "Valuable"
+      ],
+      "a": "Valuable",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” means made up of many bright or different colors.",
+      "options": [
+        "Colorful",
+        "Stupid",
+        "Courageous",
+        "Safe"
+      ],
+      "a": "Colorful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To “...............” is to take part in something or become involved.",
+      "options": [
+        "engage with",
+        "drive",
+        "ride",
+        "write"
+      ],
+      "a": "engage with",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A “...............” is the information that you send to or receive from someone.",
+      "options": [
+        "balance",
+        "message",
+        "start",
+        "generation"
+      ],
+      "a": "message",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” means the first copy of its kind.",
+      "options": [
+        "Original",
+        "Formal",
+        "Incredible",
+        "Tall"
+      ],
+      "a": "Original",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The painting is so ............... and colorful.",
+      "options": [
+        "imagination",
+        "gallery",
+        "amazing",
+        "materials"
+      ],
+      "a": "amazing",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Artists can use different ............... in their artwork.",
+      "options": [
+        "imagination",
+        "gallery",
+        "amazing",
+        "materials"
+      ],
+      "a": "materials",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We went to the art ............... to see the new paintings.",
+      "options": [
+        "imagination",
+        "gallery",
+        "amazing",
+        "materials"
+      ],
+      "a": "gallery",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "With a little ............... , you can change simple ideas into amazing works of art.",
+      "options": [
+        "imagination",
+        "gallery",
+        "amazing",
+        "materials"
+      ],
+      "a": "imagination",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A/An ............... is anything an artist makes to express their ideas and feelings.",
+      "options": [
+        "experiment",
+        "artwork",
+        "discovery",
+        "tradition"
+      ],
+      "a": "artwork",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Creativity is a valuable life ............... .",
+      "options": [
+        "feeling",
+        "vision",
+        "skill",
+        "metal"
+      ],
+      "a": "skill",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Some galleries are filled with amazing ............... .",
+      "options": [
+        "subjects",
+        "crops",
+        "liquids",
+        "paintings"
+      ],
+      "a": "paintings",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I truly believe that art should actively connect and really ............... with people.",
+      "options": [
+        "engage",
+        "hide",
+        "discover",
+        "feel"
+      ],
+      "a": "engage",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A place where you can go to see paintings and sculptures is called a ............... .",
+      "options": [
+        "museum",
+        "cinema",
+        "library",
+        "stadium"
+      ],
+      "a": "museum",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The artist used different ............... , like stone and wood for his sculpture.",
+      "options": [
+        "materials",
+        "ideas",
+        "emotions",
+        "galleries"
+      ],
+      "a": "materials",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is a place where you can see stunning pieces of art.",
+      "options": [
+        "workshop",
+        "theater",
+        "sitting room",
+        "gallery"
+      ],
+      "a": "gallery",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... with an activity is to take part in such activity or become involved in it.",
+      "options": [
+        "engage",
+        "enter",
+        "capture",
+        "include"
+      ],
+      "a": "engage",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “-ful” in “colorful” turns a noun into a/an ............... .",
+      "options": [
+        "adverb",
+        "adjective",
+        "verb",
+        "noun"
+      ],
+      "a": "adjective",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“Incredible” and “amazing” are ............... .",
+      "options": [
+        "opposites",
+        "antonyms",
+        "verbs",
+        "synonyms"
+      ],
+      "a": "synonyms",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The opposite of the word “hidden” is ............... .",
+      "options": [
+        "secret",
+        "covered",
+        "unseen",
+        "visible"
+      ],
+      "a": "visible",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The synonym of the word “valuable” is ............... .",
+      "options": [
+        "hidden",
+        "precious",
+        "harmful",
+        "cheap"
+      ],
+      "a": "precious",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We add the suffix “...............” to form the adjective from the noun “emotion”.",
+      "options": [
+        "-ly",
+        "-able",
+        "-ic",
+        "-al"
+      ],
+      "a": "-al",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To form the adjective from the word “artist”, we add the suffix “...............”.",
+      "options": [
+        "-ment",
+        "-ly",
+        "-tion",
+        "-ic"
+      ],
+      "a": "-ic",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "You can see many different ............... in a gallery.",
+      "options": [
+        "valuable",
+        "hidden",
+        "artworks",
+        "imagination"
+      ],
+      "a": "artworks",
+      "tag": "Vocabulary"
+    }
+  ],
+  "2": [
+    {
+      "q": "Every artwork has a powerful ............... .",
+      "options": [
+        "sculpture",
+        "hidden",
+        "message",
+        "words"
+      ],
+      "a": "message",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Artists use different materials to create ............... .",
+      "options": [
+        "way",
+        "hidden",
+        "ways",
+        "sculptures"
+      ],
+      "a": "sculptures",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... is a very important life skill.",
+      "options": [
+        "Paintings",
+        "Creativity",
+        "Feelings",
+        "Artists"
+      ],
+      "a": "Creativity",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The opposite of \"imagination\" is ............... .",
+      "options": [
+        "local",
+        "reality",
+        "creativity",
+        "international"
+      ],
+      "a": "reality",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The gallery is filled with amazing ............... of artwork.",
+      "options": [
+        "colorful",
+        "pieces",
+        "element",
+        "incredible"
+      ],
+      "a": "pieces",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The artist used ............... for making this amazing statue.",
+      "options": [
+        "incredible",
+        "clay",
+        "paintings",
+        "message"
+      ],
+      "a": "clay",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Every artwork expresses the artist's thoughts and ............... .",
+      "options": [
+        "colorful",
+        "installations",
+        "feelings",
+        "clay"
+      ],
+      "a": "feelings",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Our school encourages students to participate in the annual art exhibition to promote ............... and imagination.",
+      "options": [
+        "amazing",
+        "creativity",
+        "art",
+        "hidden"
+      ],
+      "a": "creativity",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "This gallery is filled with ............... artworks.",
+      "options": [
+        "create",
+        "imagination",
+        "valuable",
+        "feelings"
+      ],
+      "a": "valuable",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The prefix we add to “credible” to get the opposite is “...............”.",
+      "options": [
+        "in-",
+        "un-",
+        "im-",
+        "dis-"
+      ],
+      "a": "in-",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We should all take ............... in finding a solution to the problem of pollution.",
+      "options": [
+        "port",
+        "part",
+        "party",
+        "medicine"
+      ],
+      "a": "part",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The museum has original treasures. This means the treasures are ............... .",
+      "options": [
+        "untrue",
+        "cheap",
+        "false",
+        "real"
+      ],
+      "a": "real",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The antonym of the word “famous” is ............... .",
+      "options": [
+        "well-known",
+        "popular",
+        "unknown",
+        "ancient"
+      ],
+      "a": "unknown",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We add the suffix “...............” to get the noun from “imagine”.",
+      "options": [
+        "-ation",
+        "-ed",
+        "-est",
+        "-ily"
+      ],
+      "a": "-ation",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "This necklace is ............... . It is not fake.",
+      "options": [
+        "unreal",
+        "wrong",
+        "original",
+        "false"
+      ],
+      "a": "original",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Incredible and unbelievable are ............... .",
+      "options": [
+        "antonyms",
+        "verbs",
+        "nouns",
+        "synonyms"
+      ],
+      "a": "synonyms",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is a custom that people do regularly.",
+      "options": [
+        "step",
+        "tradition",
+        "building",
+        "tomb"
+      ],
+      "a": "tradition",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The museum held national art ............... to celebrate young artists.",
+      "options": [
+        "market",
+        "competition",
+        "map",
+        "lab"
+      ],
+      "a": "competition",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Many students ............... in the school’s art fair by painting, drawing, and showing their creative projects.",
+      "options": [
+        "take place",
+        "participate",
+        "celebrate",
+        "know"
+      ],
+      "a": "participate",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The artist received ............... for his work after it was displayed in a famous gallery.",
+      "options": [
+        "price",
+        "share",
+        "recognition",
+        "introduction"
+      ],
+      "a": "recognition",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Mahmoud Mokhtar’s most famous ............... is Nahdat Misr Statue.",
+      "options": [
+        "tea",
+        "water",
+        "work",
+        "adverb"
+      ],
+      "a": "work",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Mahmoud Mokhtar was one of the famous Egyptian ............... .",
+      "options": [
+        "sculptors",
+        "teachers",
+        "farmers",
+        "nurses"
+      ],
+      "a": "sculptors",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The ............... used clay to create a statue that showed the life of ordinary people.",
+      "options": [
+        "writer",
+        "musician",
+        "teacher",
+        "sculptor"
+      ],
+      "a": "sculptor",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "You can ............... knowledge by reading many different kinds of books.",
+      "options": [
+        "gain",
+        "lose",
+        "buy",
+        "sell"
+      ],
+      "a": "gain",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Mokhtar's art played a big ............... in modern Egyptian art history.",
+      "options": [
+        "port",
+        "part",
+        "profile",
+        "statue"
+      ],
+      "a": "part",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Mokhtar ............... international recognition by exhibiting his work in Paris.",
+      "options": [
+        "gained",
+        "forgot",
+        "dropped",
+        "lost"
+      ],
+      "a": "gained",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The school organized an exhibition to ............... creativity and teamwork among students.",
+      "options": [
+        "drive",
+        "mix",
+        "promote",
+        "fight"
+      ],
+      "a": "promote",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We ............... knowledge and experience when we visit new places.",
+      "options": [
+        "draw",
+        "buy",
+        "gain",
+        "sail"
+      ],
+      "a": "gain",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "He received international ............... for his amazing art.",
+      "options": [
+        "inventions",
+        "recognition",
+        "movements",
+        "identity"
+      ],
+      "a": "recognition",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A person who makes statues from stone or clay is a ............... .",
+      "options": [
+        "painter",
+        "hero",
+        "musician",
+        "sculptor"
+      ],
+      "a": "sculptor",
+      "tag": "Vocabulary"
+    }
+  ],
+  "3": [
+    {
+      "q": "Mahmoud Mokhtar ............... old Egyptian art with new European styles.",
+      "options": [
+        "baked",
+        "poured",
+        "started",
+        "mixed"
+      ],
+      "a": "mixed",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "When I went to the museum, I saw many ............... .",
+      "options": [
+        "statues",
+        "plants",
+        "rivers",
+        "trees"
+      ],
+      "a": "statues",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The ancient Egyptians developed new methods for ............... in the fertile Nile Valley.",
+      "options": [
+        "innovation",
+        "agriculture",
+        "tradition",
+        "recognition"
+      ],
+      "a": "agriculture",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “...............” changes the word “nation” into an adjective.",
+      "options": [
+        "-al",
+        "-ul",
+        "-ed",
+        "-or"
+      ],
+      "a": "-al",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To change the verb “appreciate” into a noun, we add the suffix “...............”.",
+      "options": [
+        "-ize",
+        "-al",
+        "-ion",
+        "-ist"
+      ],
+      "a": "-ion",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The synonym of the word “support” is “...............”.",
+      "options": [
+        "oppose",
+        "discourage",
+        "encourage",
+        "ignore"
+      ],
+      "a": "encourage",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” is the opposite of “ancient”.",
+      "options": [
+        "Old",
+        "Modern",
+        "Happy",
+        "Lazy"
+      ],
+      "a": "Modern",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "After he died, he gained ............... for his work.",
+      "options": [
+        "meaningful",
+        "message",
+        "recognition",
+        "special"
+      ],
+      "a": "recognition",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Everyone liked the sculpture he made. It's an ............... statue.",
+      "options": [
+        "paintings",
+        "amazing",
+        "imagination",
+        "creativity"
+      ],
+      "a": "amazing",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Next time, I will exhibit more ............... artworks.",
+      "options": [
+        "elements",
+        "interactive",
+        "engage",
+        "paintings"
+      ],
+      "a": "interactive",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Mahmoud Mokhtar is well known as a very creative ............... .",
+      "options": [
+        "painting",
+        "clay",
+        "teacher",
+        "sculptor"
+      ],
+      "a": "sculptor",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Amir used to ............... when he was young. He made an amazing sculpture.",
+      "options": [
+        "teach",
+        "cook",
+        "sculpt",
+        "sing"
+      ],
+      "a": "sculpt",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The gallery held a ............... competition among artists every year.",
+      "options": [
+        "recognition",
+        "national",
+        "sculpture",
+        "artworks"
+      ],
+      "a": "national",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I always include ............... in my big installations.",
+      "options": [
+        "interactive",
+        "sculpt",
+        "elements",
+        "awards"
+      ],
+      "a": "elements",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A famous sculptor received ............... for his pieces of artistic work which were displayed in the gallery.",
+      "options": [
+        "punishment",
+        "bad treatment",
+        "recognition",
+        "threat"
+      ],
+      "a": "recognition",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "His work is full of creativity and ............... .",
+      "options": [
+        "boring",
+        "active",
+        "imagination",
+        "perfect"
+      ],
+      "a": "imagination",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Winning the gold medal was a big ............... for our team.",
+      "options": [
+        "example",
+        "achievement",
+        "community",
+        "determination"
+      ],
+      "a": "achievement",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is a person who makes figures from stone, etc.",
+      "options": [
+        "sculptor",
+        "farmer",
+        "vet",
+        "pilot"
+      ],
+      "a": "sculptor",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The ............... has the body of a lion and the head of a king.",
+      "options": [
+        "pyramid",
+        "mummy",
+        "man",
+        "Sphinx"
+      ],
+      "a": "Sphinx",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To get the nationality from the word “Egypt”, we add the suffix “...............”.",
+      "options": [
+        "-ian",
+        "-ment",
+        "-ily",
+        "-ing"
+      ],
+      "a": "-ian",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "This visit really made me think about art in a new ............... .",
+      "options": [
+        "way",
+        "actress",
+        "material",
+        "original"
+      ],
+      "a": "way",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The clever students ............... a plan for the school project.",
+      "options": [
+        "make",
+        "throw",
+        "point",
+        "neglect"
+      ],
+      "a": "make",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Rodyna can ............... her thoughts through writing stories.",
+      "options": [
+        "finish",
+        "paint",
+        "damage",
+        "express"
+      ],
+      "a": "express",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Children have strong ............... to create stories.",
+      "options": [
+        "imagination",
+        "bag",
+        "pencil",
+        "picture"
+      ],
+      "a": "imagination",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Their ............... allows them to invent new things.",
+      "options": [
+        "model",
+        "laziness",
+        "routine",
+        "creativity"
+      ],
+      "a": "creativity",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The painting was so ............... that everyone loved it.",
+      "options": [
+        "amazing",
+        "boring",
+        "bad",
+        "terrible"
+      ],
+      "a": "amazing",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The gallery was full of ............... artwork.",
+      "options": [
+        "creative",
+        "success",
+        "determination",
+        "joy"
+      ],
+      "a": "creative",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "I love how the artist used bright red and blue to make her painting ............... .",
+      "options": [
+        "bad",
+        "terrible",
+        "sad",
+        "colorful"
+      ],
+      "a": "colorful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The special ability to make new and original things or ideas is called ............... .",
+      "options": [
+        "connecting",
+        "creativity",
+        "traveling",
+        "artwork"
+      ],
+      "a": "creativity",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The sculptor used various ............... including wood, stone, and metal to create his artwork.",
+      "options": [
+        "materials",
+        "messages",
+        "styles",
+        "symbols"
+      ],
+      "a": "materials",
+      "tag": "Vocabulary"
+    }
+  ],
+  "4": [
+    {
+      "q": "Amina Rizk was a famous Egyptian ............... known for her strong role in the theater.",
+      "options": [
+        "engineer",
+        "actress",
+        "waiter",
+        "journalist"
+      ],
+      "a": "actress",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A/An ............... can be a painter, a musician, a writer or even an actor.",
+      "options": [
+        "lesson",
+        "section",
+        "symbol",
+        "artist"
+      ],
+      "a": "artist",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The ability to create new ideas and pictures in your mind is called ............... .",
+      "options": [
+        "tool",
+        "message",
+        "imagination",
+        "article"
+      ],
+      "a": "imagination",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A ............... is a type of artwork made by shaping materials like stone, clay, or metal.",
+      "options": [
+        "painting",
+        "sculpture",
+        "gallery",
+        "symbol"
+      ],
+      "a": "sculpture",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To ............... is to make something new, like a drawing or painting.",
+      "options": [
+        "create",
+        "throw",
+        "damage",
+        "cut"
+      ],
+      "a": "create",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The exhibition was amazing. The synonym of “amazing” is “...............”.",
+      "options": [
+        "ordinary",
+        "wonderful",
+        "original",
+        "ugly"
+      ],
+      "a": "wonderful",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To turn the verb “act” into a noun, we add the suffix “...............”.",
+      "options": [
+        "-ment",
+        "-ian",
+        "-or",
+        "-er"
+      ],
+      "a": "-or",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“Glad” and “pleased” are ............... .",
+      "options": [
+        "synonyms",
+        "antonyms",
+        "opposites",
+        "nouns"
+      ],
+      "a": "synonyms",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The antonym of “rich” is ............... .",
+      "options": [
+        "weak",
+        "strong",
+        "wealthy",
+        "poor"
+      ],
+      "a": "poor",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To come up with new ideas means ............... .",
+      "options": [
+        "respect",
+        "collaboration",
+        "museum",
+        "creativity"
+      ],
+      "a": "creativity",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Every piece of any artwork should be ............... .",
+      "options": [
+        "original",
+        "imagination",
+        "materials",
+        "boring"
+      ],
+      "a": "original",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The opposite of “national” is ............... .",
+      "options": [
+        "local",
+        "private",
+        "international",
+        "collaboration"
+      ],
+      "a": "international",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Many African countries export raw ............... .",
+      "options": [
+        "jobs",
+        "hobbies",
+        "materials",
+        "activities"
+      ],
+      "a": "materials",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "This painting is meaningful. It really makes ............... .",
+      "options": [
+        "battle",
+        "sense",
+        "role",
+        "prototype"
+      ],
+      "a": "sense",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Many people in Egypt work in ............... . They grow crops.",
+      "options": [
+        "tourism",
+        "education",
+        "agriculture",
+        "industry"
+      ],
+      "a": "agriculture",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "............... are objects made by shaping materials like stone, wood, etc.",
+      "options": [
+        "Performances",
+        "Exhibitions",
+        "Sculptures",
+        "Emotions"
+      ],
+      "a": "Sculptures",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The synonym of the word “public” is “...............”.",
+      "options": [
+        "common",
+        "pleased",
+        "private",
+        "unknown"
+      ],
+      "a": "common",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "To turn the adjective “creative” into a noun, we add the suffix “...............”.",
+      "options": [
+        "-ity",
+        "-ly",
+        "-y",
+        "-ment"
+      ],
+      "a": "-ity",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The artist used different ............... , like stone and wood for his sculpture.",
+      "options": [
+        "materials",
+        "ideas",
+        "emotions",
+        "galleries"
+      ],
+      "a": "materials",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Mahmoud Mokhtar is well known as a very creative ............... .",
+      "options": [
+        "painting",
+        "clay",
+        "teacher",
+        "sculptor"
+      ],
+      "a": "sculptor",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "We add the suffix “...............” to get the noun from “imagine”.",
+      "options": [
+        "-ation",
+        "-ed",
+        "-est",
+        "-ily"
+      ],
+      "a": "-ation",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Mahmoud Mokhtar was one of the famous Egyptian ............... .",
+      "options": [
+        "sculptors",
+        "teachers",
+        "farmers",
+        "nurses"
+      ],
+      "a": "sculptors",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The ancient Egyptians developed new methods for ............... in the fertile Nile Valley.",
+      "options": [
+        "innovation",
+        "agriculture",
+        "tradition",
+        "recognition"
+      ],
+      "a": "agriculture",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A place where you can go to see paintings and sculptures is called a ............... .",
+      "options": [
+        "museum",
+        "cinema",
+        "library",
+        "stadium"
+      ],
+      "a": "museum",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The suffix “-ful” in “colorful” turns a noun into a/an ............... .",
+      "options": [
+        "adverb",
+        "adjective",
+        "verb",
+        "noun"
+      ],
+      "a": "adjective",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "The painting was so ............... that everyone loved it.",
+      "options": [
+        "amazing",
+        "boring",
+        "bad",
+        "terrible"
+      ],
+      "a": "amazing",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "“...............” means very hard to believe; amazing.",
+      "options": [
+        "True",
+        "Fake",
+        "Incredible",
+        "Tall"
+      ],
+      "a": "Incredible",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Mahmoud Mokhtar ............... old Egyptian art with new European styles.",
+      "options": [
+        "baked",
+        "poured",
+        "started",
+        "mixed"
+      ],
+      "a": "mixed",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "Every artwork has a powerful ............... .",
+      "options": [
+        "sculpture",
+        "hidden",
+        "message",
+        "words"
+      ],
+      "a": "message",
+      "tag": "Vocabulary"
+    },
+    {
+      "q": "A “...............” is the information that you send to or receive from someone.",
+      "options": [
+        "balance",
+        "message",
+        "start",
+        "generation"
+      ],
+      "a": "message",
+      "tag": "Vocabulary"
+    }
+  ]
+};
+
+// ============================================================
+//  App
+// ============================================================
+let currentModel = 1;
+let studentName = '';
+let quiz = [];              // questions of the current attempt (after shuffling)
+let wrongAnswersLog = [];
+let skillStats = {};
+const SKILL_ORDER = ['Vocabulary', 'Grammar', 'Reading', 'Phonics'];
+const skillKeys = () => SKILL_ORDER.filter(k => skillStats[k]).concat(Object.keys(skillStats).filter(k => SKILL_ORDER.indexOf(k) < 0));
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const t = a[i]; a[i] = a[j]; a[j] = t;
+  }
+  return a;
+}
+
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  $(id).classList.add('active');
+  window.scrollTo(0, 0);
+}
+
+window.onload = () => {
+  const tabs = $('model-tabs');
+  for (let i = 1; i <= 4; i++) {
+    const b = document.createElement('button');
+    b.className = 'tab-btn';
+    b.innerText = `Module ${i}`;
+    b.onclick = () => startApp(i);
+    tabs.appendChild(b);
+  }
+  if (TEACHER_PHONE) {
+    $('teacher-phone-group').style.display = 'none';
+  } else {
+    try { $('teacherPhone').value = localStorage.getItem('teacherPhone') || ''; } catch (e) { /* storage not available */ }
+  }
+};
+
+function startApp(id) {
+  const n = $('studentName');
+  if (!n.value.trim()) {
+    alert('Please enter your name first!\nمن فضلك اكتب اسمك يا بطل');
+    n.focus();
+    return;
+  }
+  studentName = n.value.trim();
+  loadModel(id);
+  showScreen('quiz-screen');
+}
+
+function updateProgress() {
+  const done = document.querySelectorAll('#quiz-content input[type=radio]:checked').length;
+  $('progress-bar').style.width = `${done / quiz.length * 100}%`;
+}
+
+function loadModel(id) {
+  currentModel = id;
+  const base = allModels[String(id)].map(x => ({
+    q: x.q, a: x.a, tag: x.tag,
+    options: SHUFFLE_OPTIONS ? shuffle(x.options) : x.options.slice()
+  }));
+  quiz = SHUFFLE_QUESTIONS ? shuffle(base) : base;
+
+  $('model-title').innerText = `📝 Prep 2 - Unit 4 - Module ${id}`;
+  $('question-counter').innerText = `${quiz.length} multiple-choice questions`;
+  $('progress-bar').style.width = '0%';
+
+  const c = $('quiz-content');
+  c.innerHTML = '';
+  quiz.forEach((x, i) => {
+    const card = document.createElement('div');
+    card.className = 'question-card';
+
+    const readingMatch = x.tag === 'Reading' ? x.q.match(/^Read:\s*[“\"]([\s\S]*?)[”\"]\s*(.*)$/) : null;
+    if (readingMatch) {
+      const passage = document.createElement('div');
+      passage.className = 'reading-passage';
+      passage.innerText = `📖 ${readingMatch[1]}`;
+      card.appendChild(passage);
+      const q = document.createElement('div');
+      q.className = 'reading-question';
+      q.innerText = `${i + 1}. ${readingMatch[2]}`;
+      card.appendChild(q);
+    } else {
+      const q = document.createElement('div');
+      q.className = 'question-text';
+      q.innerText = `${i + 1}. ${x.q}`;
+      card.appendChild(q);
+    }
+
+    const g = document.createElement('div');
+    g.className = 'options-grid';
+    x.options.forEach(o => {
+      const l = document.createElement('label');
+      l.className = 'option-label';
+      const r = document.createElement('input');
+      r.type = 'radio';
+      r.name = `q${i}`;
+      r.value = o;
+      r.onchange = () => {
+        g.querySelectorAll('.option-label').forEach(el => el.classList.remove('selected'));
+        l.classList.add('selected');
+        updateProgress();
+      };
+      l.appendChild(r);
+      l.appendChild(document.createTextNode(o));
+      g.appendChild(l);
+    });
+    card.appendChild(g);
+    c.appendChild(card);
+  });
+}
+
+function submitQuiz() {
+  const answered = quiz.filter((_, i) => document.querySelector(`input[name=q${i}]:checked`)).length;
+  const ok = answered < quiz.length
+    ? confirm(`You answered ${answered} of ${quiz.length}. Finish anyway?`)
+    : confirm('Are you sure you want to finish the quiz?');
+  if (ok) gradeQuiz();
+}
+
+function gradeQuiz() {
+  let score = 0;
+  wrongAnswersLog = [];
+  skillStats = {};
+  quiz.forEach((x, i) => {
+    if (!skillStats[x.tag]) skillStats[x.tag] = { correct: 0, total: 0 };
+    const st = skillStats[x.tag];
+    st.total++;
+    const sel = document.querySelector(`input[name=q${i}]:checked`);
+    if (sel && sel.value === x.a) {
+      score++;
+      st.correct++;
+    } else {
+      wrongAnswersLog.push({ n: i + 1, q: x.q, user: sel ? sel.value : 'No Answer', correct: x.a, tag: x.tag });
+    }
+  });
+  showResults(score, quiz.length);
+}
+
+function showResults(score, total) {
+  showScreen('result-screen');
+
+  const s = $('score-display');
+  s.innerText = `${score}/${total}`;
+  const noAnswer = wrongAnswersLog.filter(x => x.user === 'No Answer').length;
+  $('result-summary').innerText = `Answered: ${total - noAnswer}/${total} | Mistakes: ${wrongAnswersLog.length}`;
+
+  // per-skill chips
+  $('skills-box').innerHTML = skillKeys().map(k => {
+    const st = skillStats[k];
+    const p = st.correct / st.total;
+    const cls = p >= 0.8 ? 'good' : p >= 0.5 ? 'mid' : 'low';
+    return `<div class="skill-chip ${cls}">${esc(k)}<small>${st.correct}/${st.total}</small></div>`;
+  }).join('');
+
+  // mistakes review
+  const box = $('mistakes-section');
+  if (wrongAnswersLog.length) {
+    box.innerHTML = '<div class="mistakes-title" lang="ar" dir="rtl">مراجعة الأخطاء</div>' +
+      wrongAnswersLog.map(x => {
+        const user = x.user === 'No Answer' ? 'لم تجب' : x.user;
+        return `<div class="mistake-item">
+          <div class="mistake-q">${x.n}. ${esc(x.q)}</div>
+          <div class="wrong-answer" lang="ar" dir="rtl">❌ إجابتك: <bdi>${esc(user)}</bdi></div>
+          <div class="correct-answer" lang="ar" dir="rtl">✅ الإجابة الصحيحة: <bdi>${esc(x.correct)}</bdi></div>
+        </div>`;
+      }).join('');
+  } else {
+    box.innerHTML = '<div class="mistakes-title" lang="ar" dir="rtl" style="color:#168f62">ممتاز! لا توجد أخطاء 🎉</div>';
+  }
+
+  // encouragement (Arabic, name isolated so it never scrambles the sentence)
+  const p = score / total * 100;
+  const m = $('encouragement-msg');
+  const nm = `<bdi>${esc(studentName)}</bdi>`;
+  m.lang = 'ar'; m.dir = 'rtl';
+  if (p === 100)      { s.style.background = '#2ed573'; m.innerHTML = `ممتاز يا ${nm}! 🏆`; }
+  else if (p >= 80)   { s.style.background = '#1e90ff'; m.innerHTML = `رائع يا ${nm}! 💪`; }
+  else if (p >= 50)   { s.style.background = '#ffa502'; m.innerHTML = `جيد يا ${nm}، راجع أخطاءك 👍`; }
+  else                { s.style.background = '#ff4757'; m.innerHTML = `لا تيأس يا ${nm}، حاول مرة أخرى ❤️`; }
+}
+
+function retryModule() {
+  loadModel(currentModel);
+  showScreen('quiz-screen');
+}
+
+function backToModules() {
+  showScreen('welcome-screen');   // the student name stays filled in
+}
+
+// ---------- WhatsApp report ----------
+function normalizePhone(v) {
+  let d = String(v).replace(/\D/g, '');
+  if (d.indexOf('0020') === 0) d = d.slice(4);                          // 0020 1xx...
+  else if (d.indexOf('20') === 0 && d.length >= 12) d = d.slice(2);     // +20 1xx...
+  if (d.charAt(0) === '0') d = d.slice(1);                              // 01xx...
+  return (d.length === 10 && d.charAt(0) === '1') ? '20' + d : null;
+}
+
+function getTeacherPhone() {
+  const input = TEACHER_PHONE || $('teacherPhone').value;
+  const phone = normalizePhone(input);
+  if (!phone) {
+    alert('Please enter a valid Egyptian mobile number, e.g. 01xxxxxxxxx\nمن فضلك اكتب رقم موبايل مصري صحيح');
+    return null;
+  }
+  if (!TEACHER_PHONE) {
+    try { localStorage.setItem('teacherPhone', $('teacherPhone').value.trim()); } catch (e) { /* ignore */ }
+  }
+  return phone;
+}
+
+// For reading questions, drop the passage and keep only the question itself
+function shortQuestion(q) {
+  const i = q.lastIndexOf('”');
+  return (q.indexOf('Read:') === 0 && i > -1) ? q.slice(i + 1).trim() : q;
+}
+
+function sendWhatsApp() {
+  const phone = getTeacherPhone();
+  if (!phone) return;
+
+  const skills = skillKeys().map(k => `${k} ${skillStats[k].correct}/${skillStats[k].total}`).join(' | ');
+  let msg = `*Unit 4 Revision - Prep 2*\n--------------------\n` +
+            `👤 *Student:* ${studentName}\n` +
+            `📝 *Module:* ${currentModel}\n` +
+            `📊 *Score:* ${$('score-display').innerText}\n` +
+            `🧩 *Skills:* ${skills}\n`;
+
+  if (wrongAnswersLog.length) {
+    msg += `\n*Mistakes (${wrongAnswersLog.length}):*\n`;
+    wrongAnswersLog.slice(0, MAX_MISTAKES_IN_REPORT).forEach(x => {
+      msg += `• [${x.tag}] ${shortQuestion(x.q)} → ${x.user} ✗ (correct: ${x.correct})\n`;
+    });
+    if (wrongAnswersLog.length > MAX_MISTAKES_IN_REPORT) {
+      msg += `… and ${wrongAnswersLog.length - MAX_MISTAKES_IN_REPORT} more\n`;
+    }
+  } else {
+    msg += '🎉 *Perfect score!*';
+  }
+
+  window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`, '_blank');
+}
+
+</script>
+</body>
+</html>
